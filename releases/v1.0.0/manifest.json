@@ -25,8 +25,8 @@
       "sha256": "cbd7918427ab95ee00f3ed76108ad402507f0b7c7b23b28becb9b34abf5529ab"
     },
     "README.md": {
-      "bytes": 1989,
-      "sha256": "d7d36ea64a842e5cf25a747e6c18c3ae987a4a6f81721b46ac56b29d8b8236c1"
+      "bytes": 4689,
+      "sha256": "67e15ede86e5776c8b067b5fcdfcf8360900dfbafda06630271f2929ed4887c9"
     },
     "docs/art-direction/current-completion-state.json": {
       "bytes": 12281,
@@ -67,6 +67,10 @@
     "docs/release/packed-scene-audit.json": {
       "bytes": 6362,
       "sha256": "da5eb0a72a8374e071e8a0f8d7452ec84ad942725cd8b492251b1f25f9a7dc51"
+    },
+    "docs/release/scene-preview.jpg": {
+      "bytes": 392710,
+      "sha256": "5559db08d6f7cd28805cf57707b0a357b0a8836ef0ef7b139dc9a7b63661240d"
     },
     "docs/release/source-scene-audit.json": {
       "bytes": 10268,
