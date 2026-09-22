@@ -1,0 +1,321 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "build_hash": "9e2066aef7ef",
+  "platform": "macOS-26.5-arm64-arm-64bit-Mach-O",
+  "python": "3.13.13 (main, Apr 25 2025, 12:39:20) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "images": [
+    {
+      "name": "133 Native layered arch-pigment",
+      "source": "FILE",
+      "users": 2,
+      "size": [
+        2232,
+        459
+      ],
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/clouds-133/assets/arch-pigment.exr",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/clouds-133/assets/arch-pigment.exr",
+      "exists": true,
+      "packed": true
+    },
+    {
+      "name": "133 Native layered shoulder-pigment",
+      "source": "FILE",
+      "users": 3,
+      "size": [
+        2676,
+        474
+      ],
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/clouds-133/assets/shoulder-pigment.exr",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/clouds-133/assets/shoulder-pigment.exr",
+      "exists": true,
+      "packed": true
+    },
+    {
+      "name": "133 Native layered wisp-pigment",
+      "source": "FILE",
+      "users": 1,
+      "size": [
+        2523,
+        225
+      ],
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/clouds-133/assets/wisp-pigment.exr",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/clouds-133/assets/wisp-pigment.exr",
+      "exists": true,
+      "packed": true
+    },
+    {
+      "name": "133 Native layered wisp2-pigment",
+      "source": "FILE",
+      "users": 2,
+      "size": [
+        2361,
+        258
+      ],
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/clouds-133/assets/wisp2-pigment.exr",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/clouds-133/assets/wisp2-pigment.exr",
+      "exists": true,
+      "packed": true
+    },
+    {
+      "name": "199 Native subtle cloud arch-pigment",
+      "source": "FILE",
+      "users": 2,
+      "size": [
+        2976,
+        612
+      ],
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/clouds-199/assets/arch-pigment.exr",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/clouds-199/assets/arch-pigment.exr",
+      "exists": true,
+      "packed": true
+    },
+    {
+      "name": "199 Native subtle cloud shoulder-pigment",
+      "source": "FILE",
+      "users": 3,
+      "size": [
+        3568,
+        632
+      ],
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/clouds-199/assets/shoulder-pigment.exr",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/clouds-199/assets/shoulder-pigment.exr",
+      "exists": true,
+      "packed": true
+    },
+    {
+      "name": "199 Native subtle cloud wisp-pigment",
+      "source": "FILE",
+      "users": 1,
+      "size": [
+        3364,
+        300
+      ],
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/clouds-199/assets/wisp-pigment.exr",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/clouds-199/assets/wisp-pigment.exr",
+      "exists": true,
+      "packed": true
+    },
+    {
+      "name": "199 Native subtle cloud wisp2-pigment",
+      "source": "FILE",
+      "users": 2,
+      "size": [
+        3148,
+        344
+      ],
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/clouds-199/assets/wisp2-pigment.exr",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/clouds-199/assets/wisp2-pigment.exr",
+      "exists": true,
+      "packed": true
+    },
+    {
+      "name": "217 airam selected214pixel art",
+      "source": "FILE",
+      "users": 1,
+      "size": [
+        3840,
+        2885
+      ],
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/pixel-characters-217/airam-placed-4k.png",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/pixel-characters-217/airam-placed-4k.png",
+      "exists": true,
+      "packed": true
+    },
+    {
+      "name": "217 miranda selected214pixel art",
+      "source": "FILE",
+      "users": 1,
+      "size": [
+        3840,
+        2885
+      ],
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/pixel-characters-217/miranda-placed-4k.png",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/pixel-characters-217/miranda-placed-4k.png",
+      "exists": true,
+      "packed": true
+    },
+    {
+      "name": "217 SOURCE airam-98h-24c.png",
+      "source": "FILE",
+      "users": 2,
+      "size": [
+        49,
+        100
+      ],
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/characters-spacesuit-214/pixel/airam-98h-24c.png",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/characters-spacesuit-214/pixel/airam-98h-24c.png",
+      "exists": true,
+      "packed": true
+    },
+    {
+      "name": "217 SOURCE miranda-94h-24c.png",
+      "source": "FILE",
+      "users": 2,
+      "size": [
+        41,
+        96
+      ],
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/characters-spacesuit-214/pixel/miranda-94h-24c.png",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/characters-spacesuit-214/pixel/miranda-94h-24c.png",
+      "exists": true,
+      "packed": true
+    },
+    {
+      "name": "arch-pigment.png",
+      "source": "FILE",
+      "users": 2,
+      "size": [
+        744,
+        153
+      ],
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/cloud-082/assets/arch-pigment.png",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/cloud-082/assets/arch-pigment.png",
+      "exists": true,
+      "packed": true
+    },
+    {
+      "name": "pigment-C.png.001",
+      "source": "FILE",
+      "users": 11,
+      "size": [
+        1400,
+        3600
+      ],
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/soil-094/pigment-C.png",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/soil-094/pigment-C.png",
+      "exists": true,
+      "packed": true
+    },
+    {
+      "name": "Render Result",
+      "source": "VIEWER",
+      "users": 0,
+      "size": [
+        0,
+        0
+      ],
+      "path": "",
+      "absolute": "",
+      "exists": false,
+      "packed": false
+    },
+    {
+      "name": "shoulder-pigment.png",
+      "source": "FILE",
+      "users": 3,
+      "size": [
+        892,
+        158
+      ],
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/cloud-082/assets/shoulder-pigment.png",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/cloud-082/assets/shoulder-pigment.png",
+      "exists": true,
+      "packed": true
+    },
+    {
+      "name": "wisp-pigment.png",
+      "source": "FILE",
+      "users": 1,
+      "size": [
+        841,
+        75
+      ],
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/cloud-082/assets/wisp-pigment.png",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/cloud-082/assets/wisp-pigment.png",
+      "exists": true,
+      "packed": true
+    },
+    {
+      "name": "wisp2-pigment.png",
+      "source": "FILE",
+      "users": 2,
+      "size": [
+        787,
+        86
+      ],
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/cloud-082/assets/wisp2-pigment.png",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/cloud-082/assets/wisp2-pigment.png",
+      "exists": true,
+      "packed": true
+    }
+  ],
+  "libraries": [],
+  "fonts": [],
+  "texts": [
+    {
+      "name": "149 Native fascia visibility guard.py",
+      "autoexec": true,
+      "path": ""
+    },
+    {
+      "name": "156 Proven foreground occlusion guard.py",
+      "autoexec": true,
+      "path": ""
+    },
+    {
+      "name": "161 Proven fascia occlusion guard.py",
+      "autoexec": true,
+      "path": ""
+    },
+    {
+      "name": "192 Proven side-return occlusion guard.py",
+      "autoexec": true,
+      "path": ""
+    },
+    {
+      "name": "205 Proven lower-return occlusion guard.py",
+      "autoexec": true,
+      "path": ""
+    },
+    {
+      "name": "207 Proven upper-return occlusion guard.py",
+      "autoexec": true,
+      "path": ""
+    },
+    {
+      "name": "244 Footing soil visibility.py",
+      "autoexec": true,
+      "path": ""
+    }
+  ],
+  "engine": "BLENDER_EEVEE",
+  "resolution": [
+    3840,
+    2885,
+    100
+  ],
+  "border": [
+    false,
+    false
+  ],
+  "compositor_nodes": [
+    {
+      "name": "Group Output",
+      "type": "NodeGroupOutput"
+    },
+    {
+      "name": "Render Layers",
+      "type": "CompositorNodeRLayers"
+    },
+    {
+      "name": "Render Layers.001",
+      "type": "CompositorNodeRLayers"
+    },
+    {
+      "name": "Alpha Over",
+      "type": "CompositorNodeAlphaOver"
+    },
+    {
+      "name": "Group",
+      "type": "CompositorNodeGroup"
+    },
+    {
+      "name": "215 Dedicated distant native ink",
+      "type": "CompositorNodeRLayers"
+    },
+    {
+      "name": "215 Native distant architecture ink over environment",
+      "type": "CompositorNodeAlphaOver"
+    }
+  ]
+}

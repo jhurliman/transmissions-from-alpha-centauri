@@ -1,0 +1,13 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "build_hash": "9e2066aef7ef",
+  "executable_sha256": "ea651e507c6b197df0e234bfa04e5ed43e7f4d498267a7df93fcb38f21928a5c",
+  "application_archive": "blender-5.2.1-9e2066aef7ef-macos-arm64.zip",
+  "application_archive_sha256": "2a2e496e83ee9f0eef1a18a51a89e7fda5993c6acfe31f9645fb8b1a0d48e8f5",
+  "platform": "macOS 26.5 ARM64",
+  "cpu": "Apple M2 Max, 12 cores",
+  "gpu": "Apple M2 Max, 38 cores",
+  "memory_gib": 32,
+  "archive_location": "Local archives/v1.0.0; excluded from Git",
+  "os_and_driver_archived": false
+}

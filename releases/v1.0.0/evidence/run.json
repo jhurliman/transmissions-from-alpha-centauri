@@ -1,0 +1,14 @@
+{
+  "blender": "5.2.1 LTS",
+  "build_hash": "9e2066aef7ef",
+  "platform": "macOS-26.5-arm64-arm-64bit-Mach-O",
+  "scene_sha256": "6a33ba4b34cfc68e7cb2f2c429ccff4bac2dee4f56079ae12374bd1d1c8e8a63",
+  "resolution": [
+    3840,
+    2885
+  ],
+  "packed_file_images": 17,
+  "check_only": false,
+  "seconds": 517.3327589035034,
+  "image_sha256": "5c3f964fe62956d4ee1eece3681d121c4ea8140d21f7c2adb6cc1df5fd7fdfeb"
+}

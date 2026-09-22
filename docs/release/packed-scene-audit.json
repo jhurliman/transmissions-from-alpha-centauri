@@ -1,0 +1,288 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "build_hash": "9e2066aef7ef",
+  "platform": "macOS-26.5-arm64-arm-64bit-Mach-O",
+  "python": "3.13.13 (main, Apr 25 2025, 12:39:20) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "images": [
+    {
+      "name": "133 Native layered arch-pigment",
+      "source": "FILE",
+      "users": 2,
+      "size": [
+        2232,
+        459
+      ],
+      "path": "//../../art/studies/crack-lift-258/packed/arch-pigment.exr",
+      "packed": true
+    },
+    {
+      "name": "133 Native layered shoulder-pigment",
+      "source": "FILE",
+      "users": 3,
+      "size": [
+        2676,
+        474
+      ],
+      "path": "//../../art/studies/crack-lift-258/packed/shoulder-pigment.exr",
+      "packed": true
+    },
+    {
+      "name": "133 Native layered wisp-pigment",
+      "source": "FILE",
+      "users": 1,
+      "size": [
+        2523,
+        225
+      ],
+      "path": "//../../art/studies/crack-lift-258/packed/wisp-pigment.exr",
+      "packed": true
+    },
+    {
+      "name": "133 Native layered wisp2-pigment",
+      "source": "FILE",
+      "users": 2,
+      "size": [
+        2361,
+        258
+      ],
+      "path": "//../../art/studies/crack-lift-258/packed/wisp2-pigment.exr",
+      "packed": true
+    },
+    {
+      "name": "199 Native subtle cloud arch-pigment",
+      "source": "FILE",
+      "users": 2,
+      "size": [
+        2976,
+        612
+      ],
+      "path": "//../../art/studies/crack-lift-258/packed/arch-pigment.exr",
+      "packed": true
+    },
+    {
+      "name": "199 Native subtle cloud shoulder-pigment",
+      "source": "FILE",
+      "users": 3,
+      "size": [
+        3568,
+        632
+      ],
+      "path": "//../../art/studies/crack-lift-258/packed/shoulder-pigment.exr",
+      "packed": true
+    },
+    {
+      "name": "199 Native subtle cloud wisp-pigment",
+      "source": "FILE",
+      "users": 1,
+      "size": [
+        3364,
+        300
+      ],
+      "path": "//../../art/studies/crack-lift-258/packed/wisp-pigment.exr",
+      "packed": true
+    },
+    {
+      "name": "199 Native subtle cloud wisp2-pigment",
+      "source": "FILE",
+      "users": 2,
+      "size": [
+        3148,
+        344
+      ],
+      "path": "//../../art/studies/crack-lift-258/packed/wisp2-pigment.exr",
+      "packed": true
+    },
+    {
+      "name": "217 airam selected214pixel art",
+      "source": "FILE",
+      "users": 1,
+      "size": [
+        3840,
+        2885
+      ],
+      "path": "//../../art/studies/crack-lift-258/packed/airam-placed-4k.png",
+      "packed": true
+    },
+    {
+      "name": "217 miranda selected214pixel art",
+      "source": "FILE",
+      "users": 1,
+      "size": [
+        3840,
+        2885
+      ],
+      "path": "//../../art/studies/crack-lift-258/packed/miranda-placed-4k.png",
+      "packed": true
+    },
+    {
+      "name": "217 SOURCE airam-98h-24c.png",
+      "source": "FILE",
+      "users": 2,
+      "size": [
+        49,
+        100
+      ],
+      "path": "//../../art/studies/crack-lift-258/packed/airam-98h-24c.png",
+      "packed": true
+    },
+    {
+      "name": "217 SOURCE miranda-94h-24c.png",
+      "source": "FILE",
+      "users": 2,
+      "size": [
+        41,
+        96
+      ],
+      "path": "//../../art/studies/crack-lift-258/packed/miranda-94h-24c.png",
+      "packed": true
+    },
+    {
+      "name": "arch-pigment.png",
+      "source": "FILE",
+      "users": 2,
+      "size": [
+        744,
+        153
+      ],
+      "path": "//../../art/studies/crack-lift-258/packed/arch-pigment.png",
+      "packed": true
+    },
+    {
+      "name": "pigment-C.png.001",
+      "source": "FILE",
+      "users": 11,
+      "size": [
+        1400,
+        3600
+      ],
+      "path": "//../../art/studies/crack-lift-258/packed/pigment-C.png",
+      "packed": true
+    },
+    {
+      "name": "shoulder-pigment.png",
+      "source": "FILE",
+      "users": 3,
+      "size": [
+        892,
+        158
+      ],
+      "path": "//../../art/studies/crack-lift-258/packed/shoulder-pigment.png",
+      "packed": true
+    },
+    {
+      "name": "wisp-pigment.png",
+      "source": "FILE",
+      "users": 1,
+      "size": [
+        841,
+        75
+      ],
+      "path": "//../../art/studies/crack-lift-258/packed/wisp-pigment.png",
+      "packed": true
+    },
+    {
+      "name": "wisp2-pigment.png",
+      "source": "FILE",
+      "users": 2,
+      "size": [
+        787,
+        86
+      ],
+      "path": "//../../art/studies/crack-lift-258/packed/wisp2-pigment.png",
+      "packed": true
+    }
+  ],
+  "libraries": [],
+  "fonts": [],
+  "texts": [
+    {
+      "name": "149 Native fascia visibility guard.py",
+      "autoexec": false,
+      "path": ""
+    },
+    {
+      "name": "156 Proven foreground occlusion guard.py",
+      "autoexec": false,
+      "path": ""
+    },
+    {
+      "name": "161 Proven fascia occlusion guard.py",
+      "autoexec": false,
+      "path": ""
+    },
+    {
+      "name": "192 Proven side-return occlusion guard.py",
+      "autoexec": false,
+      "path": ""
+    },
+    {
+      "name": "205 Proven lower-return occlusion guard.py",
+      "autoexec": false,
+      "path": ""
+    },
+    {
+      "name": "207 Proven upper-return occlusion guard.py",
+      "autoexec": false,
+      "path": ""
+    },
+    {
+      "name": "244 Footing soil visibility.py",
+      "autoexec": false,
+      "path": ""
+    }
+  ],
+  "external_categories": {
+    "cache_files": [],
+    "movieclips": [],
+    "sounds": [],
+    "volumes": []
+  },
+  "simulation_modifiers": [],
+  "engine": "BLENDER_EEVEE",
+  "resolution": [
+    3840,
+    2885,
+    100
+  ],
+  "border": [
+    false,
+    false
+  ],
+  "color_management": {
+    "display": "sRGB",
+    "view": "Standard",
+    "look": "None",
+    "exposure": 0.0,
+    "gamma": 1.0
+  },
+  "compositor_nodes": [
+    {
+      "name": "Group Output",
+      "type": "NodeGroupOutput"
+    },
+    {
+      "name": "Render Layers",
+      "type": "CompositorNodeRLayers"
+    },
+    {
+      "name": "Render Layers.001",
+      "type": "CompositorNodeRLayers"
+    },
+    {
+      "name": "Alpha Over",
+      "type": "CompositorNodeAlphaOver"
+    },
+    {
+      "name": "Group",
+      "type": "CompositorNodeGroup"
+    },
+    {
+      "name": "215 Dedicated distant native ink",
+      "type": "CompositorNodeRLayers"
+    },
+    {
+      "name": "215 Native distant architecture ink over environment",
+      "type": "CompositorNodeAlphaOver"
+    }
+  ]
+}

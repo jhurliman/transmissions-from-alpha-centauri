@@ -1,0 +1,212 @@
+{
+  "version": "v1.0.0",
+  "approved_date": "2026-09-21",
+  "approval_quote": "we did it! we're done. v1.0.",
+  "source_iteration": 258,
+  "scope": "Approved illustration; frozen-state reproduction, not a game release",
+  "blender_version": "5.2.1 LTS",
+  "blender_build_hash": "9e2066aef7ef",
+  "authoritative_image": "releases/v1.0.0/main-4k.png",
+  "resolution": [
+    3840,
+    2885
+  ],
+  "files": {
+    ".gitattributes": {
+      "bytes": 123,
+      "sha256": "5629a48cc34cb64dea2ce06650ae05cb06b02b0eacac1981ce29ab192196e7e7"
+    },
+    ".gitignore": {
+      "bytes": 624,
+      "sha256": "6e1c12e1ff1028d5e05ba3f811da9fd05d5f88236a2e0d90b4f17efec1382287"
+    },
+    "AGENTS.md": {
+      "bytes": 20554,
+      "sha256": "cbd7918427ab95ee00f3ed76108ad402507f0b7c7b23b28becb9b34abf5529ab"
+    },
+    "README.md": {
+      "bytes": 1989,
+      "sha256": "d7d36ea64a842e5cf25a747e6c18c3ae987a4a6f81721b46ac56b29d8b8236c1"
+    },
+    "docs/art-direction/current-completion-state.json": {
+      "bytes": 12281,
+      "sha256": "7387771d73977ef7077c60ed8b20c53f22fff62b9b88172fa17ec453c57af172"
+    },
+    "docs/art-direction/freestyle-performance-257.md": {
+      "bytes": 3099,
+      "sha256": "7914e4f4b3ec223f67646e84efa11c1389cd6be424be2df837346393b51aab13"
+    },
+    "docs/art-direction/remaining-scene-roadmap.md": {
+      "bytes": 70220,
+      "sha256": "76ebcd4d5007bedf654221ba5ce578982a327fa60602a2bd65487a8a2777fca4"
+    },
+    "docs/art-direction/render-cache-workflow.md": {
+      "bytes": 1183,
+      "sha256": "05f656c49cc2394c61e550f6c14f8c7499df453de5f1ae59c3fb96ed81bfe892"
+    },
+    "docs/project-brief.md": {
+      "bytes": 2764,
+      "sha256": "7add21a60beb5f985f49607e22697dac5b069214257ac000573e6f9e7eef3246"
+    },
+    "docs/release/PROVENANCE.md": {
+      "bytes": 2367,
+      "sha256": "41cc537b5174ed3d46fe0e6301a32f1adca705e312d92fb5100ecdcc54705513"
+    },
+    "docs/release/REPRODUCING.md": {
+      "bytes": 5053,
+      "sha256": "6f27e09d93f7023d6c0440b4a446cfec13d45e29c4173d8ae59cd7757ce4ecf8"
+    },
+    "docs/release/REVIEW.md": {
+      "bytes": 4989,
+      "sha256": "78f7afccff8394f87ba6089ded2e395e77447f9a48660245945ffab4414483b7"
+    },
+    "docs/release/environment.json": {
+      "bytes": 556,
+      "sha256": "bdb3de2ff033fbbbc3bc9536f7d3884ec2b4fb8dc08e1c0d3f4f4faf371be2c7"
+    },
+    "docs/release/packed-scene-audit.json": {
+      "bytes": 6362,
+      "sha256": "da5eb0a72a8374e071e8a0f8d7452ec84ad942725cd8b492251b1f25f9a7dc51"
+    },
+    "docs/release/source-scene-audit.json": {
+      "bytes": 10268,
+      "sha256": "e0f46728a9fbd47280e25eae5cf3917eb71deb2c8d208b3e285a48386c7e37dd"
+    },
+    "docs/release/validation.json": {
+      "bytes": 2144,
+      "sha256": "392c1cdea3c45a672b75d287d03e48466dc2f197df65329acedf617ca98a7b28"
+    },
+    "docs/rights-and-provenance.md": {
+      "bytes": 2581,
+      "sha256": "75534fabc625fd36864c02c173b4d8a8a07382f561f423645397ca6e01643c56"
+    },
+    "docs/verification.md": {
+      "bytes": 1211,
+      "sha256": "f6f3289e41b626d6fe075020d61cfe00a041d0a77cf6b5cfbb39cf3b531d6395"
+    },
+    "releases/v1.0.0/evidence/207-guard-proof.json": {
+      "bytes": 41311,
+      "sha256": "564bfc9932075b2c8c4b02910d5f6ca0e7532a413a17f3805dc0a7691e6a3a73"
+    },
+    "releases/v1.0.0/evidence/airam-98h-24c.png": {
+      "bytes": 2781,
+      "sha256": "01e049fdd5ed8b7a4a5f17bc2d4764cab80c3d022f374a4d2a9615acdea0bb3b"
+    },
+    "releases/v1.0.0/evidence/airam-placed-4k.png": {
+      "bytes": 56760,
+      "sha256": "644873f4fb9056d69cb3af92bc4c56b04b57975ec9d91563c4f9ccbeba5293e6"
+    },
+    "releases/v1.0.0/evidence/approval.json": {
+      "bytes": 749,
+      "sha256": "6cd5bcc271cbdd8669f91e9d2c92dd3ff031bbccf16149e1e206460027434227"
+    },
+    "releases/v1.0.0/evidence/approved-detail.png": {
+      "bytes": 225837,
+      "sha256": "d547c1e4662ae8376c31fb4604d18fb5a6c035450cef64d0d63cb99de3e827b4"
+    },
+    "releases/v1.0.0/evidence/character-provenance.json": {
+      "bytes": 1818,
+      "sha256": "a79b59a5de05ca3bb1e7ed7d71670db4000012dc1b4f36e44a1a9df4a092e0c0"
+    },
+    "releases/v1.0.0/evidence/characters.json": {
+      "bytes": 1448,
+      "sha256": "8ba64c517e8ce1f81fc80ec38911fa9428ca120ac367d75726b33b7c903b9e27"
+    },
+    "releases/v1.0.0/evidence/coliseum-provenance.json": {
+      "bytes": 696,
+      "sha256": "b89be446054ea16d3924ba2b73c0f1cd98ccaa3ff97e1096fb29565d0afaa41b"
+    },
+    "releases/v1.0.0/evidence/far-guard-audit.json": {
+      "bytes": 102,
+      "sha256": "5e05af1315ea72a9e8afe6eaed8e9ea91f28e355d2a84da4ead8ab6acb0a55e2"
+    },
+    "releases/v1.0.0/evidence/far-line-count.json": {
+      "bytes": 60314,
+      "sha256": "7b282977f7d9a5f4d2f3c62ded5e2d627e65a6ffa894e256cd1e8e57d1c6d7e8"
+    },
+    "releases/v1.0.0/evidence/miranda-94h-24c.png": {
+      "bytes": 2289,
+      "sha256": "309c9e48ea9fcd3f114de4ecd1de161e7a4c2c4ef39d5c16c9eb8a5c2f93ea43"
+    },
+    "releases/v1.0.0/evidence/miranda-placed-4k.png": {
+      "bytes": 53506,
+      "sha256": "4bd760b0ac06048a721884cd62ca8d51018e555604fe75ceedadf0d67907e791"
+    },
+    "releases/v1.0.0/evidence/run.json": {
+      "bytes": 408,
+      "sha256": "23687e6adc33c56fa51fbd90027a8ca056d9d280010d79d13caded01ecf3953c"
+    },
+    "releases/v1.0.0/index.html": {
+      "bytes": 879,
+      "sha256": "4708af994c535657a2ebd8dded09d867f93673ddbeed67e0be0d8aa2fcb8cd2c"
+    },
+    "releases/v1.0.0/main-4k.png": {
+      "bytes": 15562512,
+      "sha256": "5c3f964fe62956d4ee1eece3681d121c4ea8140d21f7c2adb6cc1df5fd7fdfeb"
+    },
+    "releases/v1.0.0/render.py": {
+      "bytes": 3958,
+      "sha256": "0e23450449f0ecc2e015ee71e4d5172c7e67ef07ee989768a7d04fa84f790fa1"
+    },
+    "releases/v1.0.0/runtime/alley_repeat_212.py": {
+      "bytes": 11120,
+      "sha256": "86becdcf2201333942033ca765e2a48bb227f1634546aaadaeef8d298453e2aa"
+    },
+    "releases/v1.0.0/runtime/alley_roof_seating_215.py": {
+      "bytes": 3453,
+      "sha256": "3d89abe2baabfa7b517fff329ce2cf022802449446a3aa8ac44a271f858b3384"
+    },
+    "releases/v1.0.0/runtime/architecture_ink_visibility_192.py": {
+      "bytes": 3920,
+      "sha256": "db619c65194db9ccbfc14990ded12124ed6ea3a236311defacc67248268e583e"
+    },
+    "releases/v1.0.0/runtime/architecture_ink_visibility_205.py": {
+      "bytes": 3958,
+      "sha256": "fc7a327412cbb59827abc346cb500fb3a2fa48c794d5c9d59262b0acca16ddc6"
+    },
+    "releases/v1.0.0/runtime/architecture_ink_visibility_207.py": {
+      "bytes": 3973,
+      "sha256": "ab4d4e8f70daed3e7d72958ca4116e4493090cd8e2a945e2caf2e6103c08dcef"
+    },
+    "releases/v1.0.0/runtime/coliseum_foreground_visibility_156.py": {
+      "bytes": 3177,
+      "sha256": "6e58b35790b3b9659dfea519935add4bc5fffcfc59d83214300885a002541b27"
+    },
+    "releases/v1.0.0/runtime/coliseum_foreground_visibility_161.py": {
+      "bytes": 3047,
+      "sha256": "243d0a1e9b5e876471a38275bc5de9f5feeaf9c9fc3fb22fe806e069200a20c6"
+    },
+    "releases/v1.0.0/runtime/coliseum_ink_regression_149.py": {
+      "bytes": 8429,
+      "sha256": "98a5826c0c8e7cca2e95c7ada0907b052fe298b7ace302b02ab1d2830054b6a6"
+    },
+    "releases/v1.0.0/runtime/footing_ground_guard_244.py": {
+      "bytes": 1911,
+      "sha256": "01027a724e11d2dba8295c88c16996f02c542b3d96b74aea5182e4a7ef83f1a3"
+    },
+    "releases/v1.0.0/scene.blend": {
+      "bytes": 249967215,
+      "sha256": "6a33ba4b34cfc68e7cb2f2c429ccff4bac2dee4f56079ae12374bd1d1c8e8a63"
+    },
+    "tools/release/audit_scene.py": {
+      "bytes": 1990,
+      "sha256": "f38e59c36721883a14a151daf8e8d8cd62957626478d860c4487d37ab0a802e5"
+    },
+    "tools/release/capture_manifest.py": {
+      "bytes": 1222,
+      "sha256": "45d32a360590f2619342e55880d76a34d32019996f389a0b559bfb92cd46fd96"
+    },
+    "tools/release/freeze_scene.py": {
+      "bytes": 801,
+      "sha256": "6467954ec7854b4de668b7748390d0744bb1c3e5202a8dfc3a534f0c4e38e7c0"
+    },
+    "tools/release/package.py": {
+      "bytes": 986,
+      "sha256": "6aaeb572cbc207b4c86a0f48a940d20463ca096b7e5ad2fc5804950654e877a1"
+    },
+    "tools/release/verify.py": {
+      "bytes": 2655,
+      "sha256": "c7c245f018ae244f2fe360245236fdad296185be7892f6d37018d158b1364e9b"
+    }
+  }
+}

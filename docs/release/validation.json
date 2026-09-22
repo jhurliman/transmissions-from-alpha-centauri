@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-21",
+  "test": "Full render from fresh local Git clone, with Git LFS data, cwd /tmp",
+  "checkout": "/tmp/tfac-v1-clean-checkout",
+  "source_commit": "cd1125e",
+  "output_size": [
+    3840,
+    2885
+  ],
+  "runtime": {
+    "blender": "5.2.1 LTS",
+    "build_hash": "9e2066aef7ef",
+    "platform": "macOS-26.5-arm64-arm-64bit-Mach-O",
+    "scene_sha256": "6a33ba4b34cfc68e7cb2f2c429ccff4bac2dee4f56079ae12374bd1d1c8e8a63",
+    "resolution": [
+      3840,
+      2885
+    ],
+    "packed_file_images": 17,
+    "check_only": false,
+    "seconds": 517.3327589035034,
+    "image_sha256": "5c3f964fe62956d4ee1eece3681d121c4ea8140d21f7c2adb6cc1df5fd7fdfeb"
+  },
+  "character_checks": {
+    "airam": {
+      "opaque_pixels": 89790,
+      "exact_rgb": true
+    },
+    "miranda": {
+      "opaque_pixels": 69450,
+      "exact_rgb": true
+    }
+  },
+  "approved_detail_comparison": {
+    "box": [
+      50,
+      1120,
+      330,
+      1660
+    ],
+    "mean_absolute_channel_error": 1.3388955026455027,
+    "max_channel_error": 63,
+    "exact_pixels_percent": 10.408730158730158
+  },
+  "note": "Crop and full-frame Freestyle renders may differ at boundaries. Whole-frame visual inspection required; no bit-exact future GPU reproduction claim.",
+  "visual_review": {
+    "full_frame": "Pass; retained camera, blue/warm palette, haze, ink, terrain and selected characters",
+    "approved_detail": "Pass; raised crack and unchanged spall agree visually; crop/full renders are not byte identical",
+    "previous_full_frame_outside_changed_region": {
+      "mean_absolute_channel_error": 0.007568210193889542,
+      "pixels_with_any_channel_difference_over_8_percent": 0.04414842831962397
+    },
+    "render_warnings": "Inherited degenerate-triangle/intersection warnings observed in Freestyle; render completed, no globally clean-topology claim"
+  },
+  "release_verifier_checks": [
+    "Complete required-file inventory passes",
+    "Missing required-file inventory rejected",
+    "Git LFS pointer substituted for scene rejected",
+    "All preserved runtime/scene bytes identical to clean-render checkout",
+    "Python sources compile"
+  ]
+}

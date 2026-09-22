@@ -10,6 +10,9 @@
 !/docs/
 /docs/*
 !/docs/release/
+!/docs/verification.md
+!/docs/project-brief.md
+!/docs/rights-and-provenance.md
 !/docs/art-direction/
 /docs/art-direction/*
 !/docs/art-direction/current-completion-state.json
