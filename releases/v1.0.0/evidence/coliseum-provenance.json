@@ -1,0 +1,16 @@
+[
+  {
+    "id": "OA-COL-001",
+    "title": "Coliseum scene \u2014 original project artwork",
+    "file": "coliseum/coliseum.png",
+    "creator": "Project creator (user)",
+    "creation_tool": "ChatGPT Images 2.5",
+    "classification": "original_project_artwork",
+    "source": "Created by the project creator; supplied from ~/Downloads/coliseum.png",
+    "provenance_confirmation": "User confirmed authorship and creation tool on 2026-09-15",
+    "rights": "Original project artwork; user-authorized project asset",
+    "sha256": "0fbca620db41d3e4b8c44e00fc1e541838fd4b894798f204be36f0983b47d079",
+    "reference_id": "UCL-01",
+    "reference_copy": "references/user-coliseum/coliseum.png"
+  }
+]

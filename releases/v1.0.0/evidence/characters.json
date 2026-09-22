@@ -1,0 +1,62 @@
+[
+  {
+    "name": "airam",
+    "source_sprite": "art/studies/characters-spacesuit-214/pixel/airam-98h-24c.png",
+    "source_sha256": "01e049fdd5ed8b7a4a5f17bc2d4764cab80c3d022f374a4d2a9615acdea0bb3b",
+    "placed_canvas": "art/studies/pixel-characters-217/airam-placed-4k.png",
+    "canvas_sha256": "644873f4fb9056d69cb3af92bc4c56b04b57975ec9d91563c4f9ccbeba5293e6",
+    "body_bbox": [
+      1698,
+      1787,
+      1933,
+      2375
+    ],
+    "grid_body_height": 98,
+    "integer_scale": [
+      5,
+      6
+    ],
+    "dos_pixel_aspect": 1.2,
+    "palette_colors": 24,
+    "alpha": [
+      0,
+      255
+    ],
+    "world_foot_assumption": [
+      -0.3,
+      -6.5,
+      0.005
+    ],
+    "height_assumption_m": 1.72
+  },
+  {
+    "name": "miranda",
+    "source_sprite": "art/studies/characters-spacesuit-214/pixel/miranda-94h-24c.png",
+    "source_sha256": "309c9e48ea9fcd3f114de4ecd1de161e7a4c2c4ef39d5c16c9eb8a5c2f93ea43",
+    "placed_canvas": "art/studies/pixel-characters-217/miranda-placed-4k.png",
+    "canvas_sha256": "4bd760b0ac06048a721884cd62ca8d51018e555604fe75ceedadf0d67907e791",
+    "body_bbox": [
+      2013,
+      1811,
+      2208,
+      2375
+    ],
+    "grid_body_height": 94,
+    "integer_scale": [
+      5,
+      6
+    ],
+    "dos_pixel_aspect": 1.2,
+    "palette_colors": 24,
+    "alpha": [
+      0,
+      255
+    ],
+    "world_foot_assumption": [
+      0.55,
+      -6.5,
+      0.005
+    ],
+    "height_assumption_m": 1.65
+  }
+]

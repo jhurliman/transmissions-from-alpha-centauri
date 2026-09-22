@@ -1,0 +1,6 @@
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.png binary
+*.exr binary
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf

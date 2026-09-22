@@ -1,0 +1,25 @@
+# Preserve only the explicit v1 release allowlist. Research stays local.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/AGENTS.md
+!/releases/
+/releases/*
+!/releases/v1.0.0/
+!/docs/
+/docs/*
+!/docs/release/
+!/docs/art-direction/
+/docs/art-direction/*
+!/docs/art-direction/current-completion-state.json
+!/docs/art-direction/remaining-scene-roadmap.md
+!/docs/art-direction/render-cache-workflow.md
+!/docs/art-direction/freestyle-performance-257.md
+!/tools/
+/tools/*
+!/tools/release/
+**/__pycache__/
+**/*.blend1
+**/.DS_Store
+/releases/v1.0.0/output/
