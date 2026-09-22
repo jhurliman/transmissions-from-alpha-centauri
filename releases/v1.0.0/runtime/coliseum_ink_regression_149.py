@@ -1,3 +1,13 @@
+# SPDX-FileCopyrightText: 2026 John Hurliman and contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+# This program is free software: you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the
+# Free Software Foundation, either version 3 of the License, or (at your
+# option) any later version. This program is distributed WITHOUT ANY WARRANTY;
+# without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See LICENSES/GPL-3.0-or-later.txt for the full terms.
+#
 """Native diagnosis and geometry-based correction of149's hidden-edge leak.
 
 Diagnostic helpers are read-only or modify temporary ink selection. The apply()

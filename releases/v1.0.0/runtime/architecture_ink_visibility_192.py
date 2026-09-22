@@ -1,3 +1,13 @@
+# SPDX-FileCopyrightText: 2026 John Hurliman and contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+# This program is free software: you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the
+# Free Software Foundation, either version 3 of the License, or (at your
+# option) any later version. This program is distributed WITHOUT ANY WARRANTY;
+# without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See LICENSES/GPL-3.0-or-later.txt for the full terms.
+#
 """Suppress proven hidden edges behind the left building return, preserving exposed ink.
 Source ownership is captured in plate-runoff-192/ink-diagnostic/native-upper-strokes.json.
 No screen-space trimming, geometry mutation or global line-width change.

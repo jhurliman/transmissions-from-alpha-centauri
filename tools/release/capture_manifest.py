@@ -1,3 +1,13 @@
+# SPDX-FileCopyrightText: 2026 John Hurliman and contributors
+# SPDX-License-Identifier: GPL-3.0-or-later
+#
+# This program is free software: you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the
+# Free Software Foundation, either version 3 of the License, or (at your
+# option) any later version. This program is distributed WITHOUT ANY WARRANTY;
+# without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See LICENSES/GPL-3.0-or-later.txt for the full terms.
+#
 """Maintainer-only release capture: hash the explicit Git index allowlist.
 Run after staging the intended release files and before final commit/tag.
 """
@@ -20,6 +30,7 @@ manifest={
     'approved_date':'2026-09-21',
     'approval_quote':"we did it! we're done. v1.0.",
     'source_iteration':258,
+    'licenses':{'software':'GPL-3.0-or-later','artwork_and_documentation':'CC-BY-SA-4.0','scope':'LICENSE'},
     'scope':'Approved illustration; frozen-state reproduction, not a game release',
     'blender_version':'5.2.1 LTS',
     'blender_build_hash':'9e2066aef7ef',

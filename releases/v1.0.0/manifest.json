@@ -3,6 +3,11 @@
   "approved_date": "2026-09-21",
   "approval_quote": "we did it! we're done. v1.0.",
   "source_iteration": 258,
+  "licenses": {
+    "software": "GPL-3.0-or-later",
+    "artwork_and_documentation": "CC-BY-SA-4.0",
+    "scope": "LICENSE"
+  },
   "scope": "Approved illustration; frozen-state reproduction, not a game release",
   "blender_version": "5.2.1 LTS",
   "blender_build_hash": "9e2066aef7ef",
@@ -17,16 +22,28 @@
       "sha256": "5629a48cc34cb64dea2ce06650ae05cb06b02b0eacac1981ce29ab192196e7e7"
     },
     ".gitignore": {
-      "bytes": 624,
-      "sha256": "6e1c12e1ff1028d5e05ba3f811da9fd05d5f88236a2e0d90b4f17efec1382287"
+      "bytes": 646,
+      "sha256": "5ef4af0d7c17ce2c60e7c092becf8cf6ac2e4785c71ae4797d2c48b528afc032"
     },
     "AGENTS.md": {
       "bytes": 20554,
       "sha256": "cbd7918427ab95ee00f3ed76108ad402507f0b7c7b23b28becb9b34abf5529ab"
     },
+    "LICENSE": {
+      "bytes": 3392,
+      "sha256": "48253ebbafe3b679bf32bf816a1bd0c769abd8346311cbfd3fdd149126a9cf89"
+    },
+    "LICENSES/CC-BY-SA-4.0.txt": {
+      "bytes": 20138,
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    },
+    "LICENSES/GPL-3.0-or-later.txt": {
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
     "README.md": {
-      "bytes": 4689,
-      "sha256": "67e15ede86e5776c8b067b5fcdfcf8360900dfbafda06630271f2929ed4887c9"
+      "bytes": 4605,
+      "sha256": "a962482debb3aae6e748ed6aa4c162652f5164e2899fcbb2d29f07d213c9e27f"
     },
     "docs/art-direction/current-completion-state.json": {
       "bytes": 12281,
@@ -49,8 +66,8 @@
       "sha256": "7add21a60beb5f985f49607e22697dac5b069214257ac000573e6f9e7eef3246"
     },
     "docs/release/PROVENANCE.md": {
-      "bytes": 2367,
-      "sha256": "41cc537b5174ed3d46fe0e6301a32f1adca705e312d92fb5100ecdcc54705513"
+      "bytes": 2503,
+      "sha256": "7593eb60de1b95e90d7c19ba16e499f9c21935b9635a144754e62acc807336b8"
     },
     "docs/release/REPRODUCING.md": {
       "bytes": 5053,
@@ -141,76 +158,76 @@
       "sha256": "23687e6adc33c56fa51fbd90027a8ca056d9d280010d79d13caded01ecf3953c"
     },
     "releases/v1.0.0/index.html": {
-      "bytes": 879,
-      "sha256": "4708af994c535657a2ebd8dded09d867f93673ddbeed67e0be0d8aa2fcb8cd2c"
+      "bytes": 1044,
+      "sha256": "dae756215f12fb6343e047bb1e10a989fda5a93a0017935664699c44363e8d50"
     },
     "releases/v1.0.0/main-4k.png": {
       "bytes": 15562512,
       "sha256": "5c3f964fe62956d4ee1eece3681d121c4ea8140d21f7c2adb6cc1df5fd7fdfeb"
     },
     "releases/v1.0.0/render.py": {
-      "bytes": 3958,
-      "sha256": "0e23450449f0ecc2e015ee71e4d5172c7e67ef07ee989768a7d04fa84f790fa1"
+      "bytes": 4514,
+      "sha256": "066c23ebbeb0a26e0ede0cf01a79d080be3d1969c1e506eea943e487a2387aa9"
     },
     "releases/v1.0.0/runtime/alley_repeat_212.py": {
-      "bytes": 11120,
-      "sha256": "86becdcf2201333942033ca765e2a48bb227f1634546aaadaeef8d298453e2aa"
+      "bytes": 11676,
+      "sha256": "8c2de6796254c00be68f853868f25e2cfdc378a5e72f93664b56157792db75f4"
     },
     "releases/v1.0.0/runtime/alley_roof_seating_215.py": {
-      "bytes": 3453,
-      "sha256": "3d89abe2baabfa7b517fff329ce2cf022802449446a3aa8ac44a271f858b3384"
+      "bytes": 4009,
+      "sha256": "73df79633b9dc3151dc210956612e7526ceef6fe2051a14fd2c5d9ffc06c9d46"
     },
     "releases/v1.0.0/runtime/architecture_ink_visibility_192.py": {
-      "bytes": 3920,
-      "sha256": "db619c65194db9ccbfc14990ded12124ed6ea3a236311defacc67248268e583e"
+      "bytes": 4476,
+      "sha256": "d7dd7712a26cd914d23d79f5e4648b6c5cc5200d126284f1adf8fccd4f4a8e40"
     },
     "releases/v1.0.0/runtime/architecture_ink_visibility_205.py": {
-      "bytes": 3958,
-      "sha256": "fc7a327412cbb59827abc346cb500fb3a2fa48c794d5c9d59262b0acca16ddc6"
+      "bytes": 4514,
+      "sha256": "feab3b7f24a469c1b72883bf64faa441bc1edc603b090f7fd8356d341d768913"
     },
     "releases/v1.0.0/runtime/architecture_ink_visibility_207.py": {
-      "bytes": 3973,
-      "sha256": "ab4d4e8f70daed3e7d72958ca4116e4493090cd8e2a945e2caf2e6103c08dcef"
+      "bytes": 4529,
+      "sha256": "20547bff9274426fb308ea8a97feb1a420105287885fbd935c964cb988cbdf25"
     },
     "releases/v1.0.0/runtime/coliseum_foreground_visibility_156.py": {
-      "bytes": 3177,
-      "sha256": "6e58b35790b3b9659dfea519935add4bc5fffcfc59d83214300885a002541b27"
+      "bytes": 3733,
+      "sha256": "6c0f705665d3b9a941ac2e695ce3ee5e4c00ac1881bdffd2675a16c8aaef6e49"
     },
     "releases/v1.0.0/runtime/coliseum_foreground_visibility_161.py": {
-      "bytes": 3047,
-      "sha256": "243d0a1e9b5e876471a38275bc5de9f5feeaf9c9fc3fb22fe806e069200a20c6"
+      "bytes": 3603,
+      "sha256": "c8450f207431c229bc3fbf1716543e1a16c1fc78c24b0aa50a6676951f64f4ba"
     },
     "releases/v1.0.0/runtime/coliseum_ink_regression_149.py": {
-      "bytes": 8429,
-      "sha256": "98a5826c0c8e7cca2e95c7ada0907b052fe298b7ace302b02ab1d2830054b6a6"
+      "bytes": 8985,
+      "sha256": "0de4add0bf2a6cfcdbfd474da069a2fc60f8505f55841e07de635e29a5062fa7"
     },
     "releases/v1.0.0/runtime/footing_ground_guard_244.py": {
-      "bytes": 1911,
-      "sha256": "01027a724e11d2dba8295c88c16996f02c542b3d96b74aea5182e4a7ef83f1a3"
+      "bytes": 2467,
+      "sha256": "2287f2b39cc52daed26a7de5e3ed4e470345b740ee2bc233dab2f2751a8e485c"
     },
     "releases/v1.0.0/scene.blend": {
       "bytes": 249967215,
       "sha256": "6a33ba4b34cfc68e7cb2f2c429ccff4bac2dee4f56079ae12374bd1d1c8e8a63"
     },
     "tools/release/audit_scene.py": {
-      "bytes": 1990,
-      "sha256": "f38e59c36721883a14a151daf8e8d8cd62957626478d860c4487d37ab0a802e5"
+      "bytes": 2546,
+      "sha256": "4aafa11462c179700bb00aaf26dfb490cffd270c922afc1c12f4825484a6a4d6"
     },
     "tools/release/capture_manifest.py": {
-      "bytes": 1222,
-      "sha256": "45d32a360590f2619342e55880d76a34d32019996f389a0b559bfb92cd46fd96"
+      "bytes": 1887,
+      "sha256": "1b2812d3cadb23e1dd992796d2f51be452b73a3f7e9995079cd75a925ae3ac4d"
     },
     "tools/release/freeze_scene.py": {
-      "bytes": 801,
-      "sha256": "6467954ec7854b4de668b7748390d0744bb1c3e5202a8dfc3a534f0c4e38e7c0"
+      "bytes": 1357,
+      "sha256": "20a1739128400c9d58128b2548c458ed2aedee893716a8dbbbfcc02a48e2a9bf"
     },
     "tools/release/package.py": {
-      "bytes": 986,
-      "sha256": "6aaeb572cbc207b4c86a0f48a940d20463ca096b7e5ad2fc5804950654e877a1"
+      "bytes": 1542,
+      "sha256": "6f6b598bdd27dbb606c3984a46f77c5ec43ec300778f4dc433e3af915d40f153"
     },
     "tools/release/verify.py": {
-      "bytes": 2655,
-      "sha256": "c7c245f018ae244f2fe360245236fdad296185be7892f6d37018d158b1364e9b"
+      "bytes": 3211,
+      "sha256": "96f1afd8194c06288bc43ef1c475f2987e37f02dbbf27dba40476c58b174326b"
     }
   }
 }

@@ -1,0 +1,66 @@
+Transmissions from Alpha Centauri
+Copyright (C) 2026 John Hurliman and the respective contributors.
+
+This project uses different licenses for software and creative assets.
+These grants cover the project-owned material in this repository and the
+project-owned v1.0.0 tag and released project artifacts, including copies
+published before this license notice was added.
+
+1. Software: GNU General Public License, version 3 or later
+   SPDX-License-Identifier: GPL-3.0-or-later
+
+   Project-authored Python, HTML/CSS/JavaScript, build/configuration code,
+   and executable scripts are free software: you may redistribute and/or
+   modify them under the GNU General Public License as published by the
+   Free Software Foundation, either version 3, or (at your option) any
+   later version. This includes Python text blocks embedded in .blend
+   files; storing code inside an artwork file does not change its license.
+
+   Full terms: LICENSES/GPL-3.0-or-later.txt
+   https://www.gnu.org/licenses/gpl-3.0.html
+
+2. Artwork, scene assets and documentation: CC BY-SA 4.0 International
+   SPDX-License-Identifier: CC-BY-SA-4.0
+
+   Except for software covered above and third-party material below,
+   project-owned renders, image previews, sprites, textures, models,
+   .blend scene data (including geometry, materials and node graphs),
+   creative assets, written documentation and descriptive metadata are
+   licensed under Creative Commons Attribution-ShareAlike 4.0 International.
+
+   Full terms: LICENSES/CC-BY-SA-4.0.txt
+   https://creativecommons.org/licenses/by-sa/4.0/
+
+   Suggested attribution:
+   "Transmissions from Alpha Centauri" by John Hurliman, CC BY-SA 4.0.
+   https://github.com/jhurliman/transmissions-from-alpha-centauri
+
+   Include the license link and indicate your changes where applicable.
+   Attribution may be provided in any reasonable manner allowed by the
+   license; the suggested wording is not an additional requirement.
+
+Both licenses permit commercial use, including selling copies and adaptations,
+subject to their respective conditions. Neither imposes a noncommercial term.
+The software license does not automatically apply to independently created
+artwork merely because these tools were used to create it. Reuse or adaptation
+of the included creative assets remains subject to their CC BY-SA terms.
+CC BY-SA does not require delivery of editable source files; GPL's source
+requirements apply to the covered software.
+
+3. Third-party material and rights
+
+Blender and its bundled libraries, third-party license texts, and any other
+material bearing separate notices retain their respective licenses. They are
+not relicensed by this file. The archived Blender application is a third-party
+distribution, not project-owned software. Private source photographs,
+purchased game data and third-party reference collections are not included
+in this repository or granted rights by this notice.
+
+These licenses apply only to rights the licensors can grant. They do not
+create copyright in otherwise uncopyrightable material or grant trademark,
+privacy, publicity or other rights outside their terms. Existing exceptions
+and limitations to copyright remain available. See the asset provenance
+record in docs/release/PROVENANCE.md.
+
+The software and assets are supplied without warranty, as detailed in the
+applicable license texts. This scope notice does not alter those texts.
