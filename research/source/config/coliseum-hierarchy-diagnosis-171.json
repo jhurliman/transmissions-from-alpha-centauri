@@ -1,0 +1,46 @@
+{
+  "source": "art/studies/coliseum-168/scene.blend",
+  "references": {
+    "UCL-01": "Broad warm surviving masonry and cooler exposed/sheltered areas outweigh small trim marks",
+    "UCL-02": "Unequal plane values and selective strong contacts around actual losses",
+    "DP-03": "Large quiet architectural planes with subordinate repeated edge detail"
+  },
+  "hypothesis": "The remaining broad painted-integration gap may be dominated by explicit lines, local ambient shade, or stacked painted deposits. Isolate those current native contributions before editing any retained material.",
+  "fixed": [
+    "Current 168 geometry, transforms, camera, lights, and exposure",
+    "No edits to retained files or approved environment",
+    "Current 165 core response and 162 age composition retained except intentional diagnostic bypass"
+  ],
+  "changed_in_diagnostic_only": [
+    "Disable Freestyle and temporarily hide only explicit landmark ink objects, including scene-root contact GP",
+    "Independently bypass AO while retaining painted deposits",
+    "Independently bypass dark painted deposits and composed age while retaining AO, lighting palette and highlight catches"
+  ],
+  "native_crop": [
+    1665,
+    435,
+    2330,
+    900
+  ],
+  "regions": {
+    "broad_faces": [
+      1665,
+      500,
+      2085,
+      850
+    ],
+    "contacts": [
+      2080,
+      540,
+      2330,
+      810
+    ]
+  },
+  "criteria": [
+    "Identify dominant source of excessive repeated trim contrast in actual current scene",
+    "Preserve all geometry and real joint requirements in any subsequent candidate",
+    "Select one coherent broad multi-face change rather than additional marks or core-strength increments"
+  ],
+  "status": "Diagnostic only, not an art candidate",
+  "previous_goal_turn": "progress: retained 168 damage improvement, certified scoped ink, completed 170 feasibility which parks small crown carving."
+}

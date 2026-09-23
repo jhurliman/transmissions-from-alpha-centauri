@@ -1,0 +1,26 @@
+{
+  "references": [
+    "UP-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "hypothesis": "A side-wall service route avoids window conflicts; integral column returns remove false panel outlines.",
+  "changed": [
+    "gusset material",
+    "round pipe relocation",
+    "short fitted mounts",
+    "integral window column returns"
+  ],
+  "fixed": [
+    "camera",
+    "palette",
+    "cracks",
+    "other services"
+  ],
+  "review_criteria": [
+    "no window mounts",
+    "tight wall clearance",
+    "continuous column finish",
+    "diagonal kick contact seam"
+  ]
+}

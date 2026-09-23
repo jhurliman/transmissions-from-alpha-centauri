@@ -1,0 +1,27 @@
+{
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "UCL-11",
+    "DP-03"
+  ],
+  "hypothesis": "Attached mineral pigment and finite architecture-fed staining improve exposed fracture and ledge readability without changing accepted broad lighting or palette.",
+  "fixed": [
+    "130 camera",
+    "geometry",
+    "rim ink",
+    "tunnels",
+    "128 broad lighting and base palette"
+  ],
+  "changed": [
+    "core mineral matrix pigment",
+    "four finite runoff regions"
+  ],
+  "criteria": [
+    "visible at native 4K",
+    "no blanket noise",
+    "quiet returns",
+    "preserved source materials and geometry"
+  ],
+  "status": "study"
+}

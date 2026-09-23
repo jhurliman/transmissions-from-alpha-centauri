@@ -1,0 +1,35 @@
+{
+  "references": [
+    "UC-01",
+    "UC-02",
+    "DP-08"
+  ],
+  "hypothesis": "Connected cloudbanks with rounded upper lobes, flatter underbellies and independently smoother darker insets reproduce the supplied silhouette language.",
+  "seed": 80021,
+  "contour_frequency": 20,
+  "per_cloud_frequency_jitter": 0.14,
+  "inset_frequency_ratio": 0.42,
+  "large_cloud_inset_threshold": 0.045,
+  "rare_color_chance": 0.1,
+  "outer_color": "#cc533e",
+  "inner_color": "#c54d3a",
+  "fixed": [
+    "camera",
+    "all architecture",
+    "sky gradient",
+    "sun",
+    "non-camera lighting"
+  ],
+  "variation_policy": "Seeded per-cloud frequencies establish coherent painted shape variation. World-depth projection handles apparent scale; no distance-driven jitter or texture LOD.",
+  "review_criteria": [
+    "connected horizontal banks",
+    "rounded lobes not cotton ellipses",
+    "flatter lower edge",
+    "broad sky gaps",
+    "insets always lower-frequency than outer contours",
+    "subtle paired palette"
+  ],
+  "macro_body_count": 4,
+  "vertical_scale": 1.0,
+  "description": "Seeded native contour meshes: stable asymmetric macro masses, rounded per-cloud contour frequency, smooth lower-frequency internal cloud shadow, and rare small-cloud hue."
+}

@@ -1,0 +1,34 @@
+{
+  "id": "facade-kit-001",
+  "status": "native geometry proofs",
+  "hypothesis": "Layered bays with shared cross-sections, actual opening depth and explicit panel terminations will close the medium-scale architectural fidelity gap.",
+  "reference_properties": {
+    "DP-04": "Density concentrated at functional junctions and machinery interfaces",
+    "HM-03": "Layered painted urban facade construction",
+    "AF-06": "Controlled architectural planes and strong graphic perspective"
+  },
+  "selected_target": "art/reviews/xenon-001/selected-third.png",
+  "changed": [
+    "Reusable folded panels, corner cap, access insert, layered window, channel and floor band",
+    "Isolated panel-corner and complete-window proofs"
+  ],
+  "fixed": [
+    "Whole-scene geometry, camera and materials",
+    "Accepted alley/dome spacing and dome size",
+    "Saved pipe and duct kits",
+    "Proof camera and studio shared between material and clay renders"
+  ],
+  "next_proofs": [
+    "Layered panel corner",
+    "Complete window bay"
+  ],
+  "review_axes": [
+    "Silhouette and proportions",
+    "Depth and layering",
+    "Panel and opening rhythm",
+    "Joint and edge construction",
+    "Detail density at game scale",
+    "Component compatibility"
+  ],
+  "approval": "Not submitted as finished geometry"
+}

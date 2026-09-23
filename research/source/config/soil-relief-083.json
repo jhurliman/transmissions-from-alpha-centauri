@@ -1,0 +1,74 @@
+{
+  "references": [
+    "US-01",
+    "DP-08",
+    "BR-01"
+  ],
+  "hypothesis": "Road pigment variation can arise from real small-scale surface relief under a restrained illustrated lighting ramp, rather than painted color noise.",
+  "seed": 83017,
+  "patch_width_m": 3.8,
+  "grid": 900,
+  "macro_height_m": 0.012,
+  "ridge_height_m": 0.003,
+  "micro_height_m": 0.008,
+  "fixed": [
+    "081 measured brown palette",
+    "all scene architecture and scattered rocks",
+    "no reference projection"
+  ],
+  "review": [
+    "light A/B must move tonal detail",
+    "clay must prove actual surface relief",
+    "quiet compacted patches between clod clusters",
+    "no uniform embossed Perlin rug"
+  ],
+  "clod_radius_m": [
+    0.006,
+    0.01,
+    0.017
+  ],
+  "clod_height_m": [
+    0.0006,
+    0.003
+  ],
+  "ridge_system": "13 finite short ridges with varied orientation, length, height and endpoint taper; no periodic wave field",
+  "scene_diagnostic": "packed native-mesh-derived procedural height EXR drives bump, with periodic blend and warped/rotated world-coordinate sampling",
+  "scene_irradiance_map": {
+    "multiply": 3.2,
+    "add": -2.34
+  },
+  "palette_contrast_about_rgb_79_57_47": 1.5,
+  "scene_shadow_floor_rgb": [
+    68,
+    48,
+    41
+  ],
+  "scene_shadow_ambient": {
+    "normal_direction": [
+      0.2,
+      -0.5,
+      0.842615
+    ],
+    "normal_dot_range": [
+      0.79,
+      0.89
+    ],
+    "rgb_range": [
+      [
+        64,
+        46,
+        39
+      ],
+      [
+        82,
+        60,
+        49
+      ]
+    ],
+    "direct_irradiance_blend": [
+      0.75,
+      0.95
+    ],
+    "interpolation": "linear; direct lighting retains quantized palette"
+  }
+}

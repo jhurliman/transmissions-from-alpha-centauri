@@ -1,0 +1,49 @@
+{
+  "iteration": 225,
+  "source": "art/studies/ground-floor-kit-222/scene.blend",
+  "integrates": [
+    221,
+    222,
+    223,
+    224,
+    225
+  ],
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Warm layered atmosphere and readable open arcade depth"
+    },
+    {
+      "id": "DP-08",
+      "property": "Practical layered industrial architecture"
+    },
+    {
+      "id": "UP-03",
+      "property": "Weathered material interiors"
+    }
+  ],
+  "changed_variables": [
+    "Closed blue-frontage garage and recessed gated pedestrian passage",
+    "Pale soil replaces right side-alley plate; sparse small rocks",
+    "Pale-soil deposit preserves foundation-stone colors",
+    "Ground-level arcade sills removed; tunnel floors refitted to foundation"
+  ],
+  "fixed": [
+    "Camera and framing",
+    "Selected characters and landmark scale",
+    "Upper arcade sill geometry",
+    "Colosseum tunnel route lengths and slopes",
+    "Foreground supports and services",
+    "Main road and junk pile"
+  ],
+  "review_criteria": [
+    "Garage and gate read clearly from actual camera",
+    "No floating facade or sill ink",
+    "Dust retains stone identity",
+    "Right alley reads continuous soil not a plate",
+    "Ground entrances usable; upper sills preserved",
+    "Selected character pixels unchanged"
+  ],
+  "status": "Complete finalV2, native render and independent ink recheck passed; integrated226",
+  "user_approved": false
+}

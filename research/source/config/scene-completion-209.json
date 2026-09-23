@@ -1,0 +1,26 @@
+{
+  "study": 209,
+  "source_scene": "art/studies/scene-completion-205/scene.blend",
+  "purpose": "Combine user-corrected upper corner ink visibility and lighter, rougher physically recessed wall cores.",
+  "references": [
+    "UP-03",
+    "DP-08",
+    "UCL-01"
+  ],
+  "changed_variables": [
+    "207 native uppercourse occlusion guard",
+    "208 exposed substrate palette/flecks and thin concave-edge ink"
+  ],
+  "fixed": [
+    "All geometry coordinates/topology/normals",
+    "Camera/lighting/sky/road/pipes/beam finish",
+    "192 and205 lower/middle visibility fixes"
+  ],
+  "review_criteria": [
+    "All three courses stop at actualbuildingcorner",
+    "Pits read as shallow recesses, notbrownpaint",
+    "Roughmineralflecks andthininterioredgesvisible",
+    "No changesoutsideauthorizedmaterialbindings/linestyle/markbits"
+  ],
+  "user_approved": false
+}

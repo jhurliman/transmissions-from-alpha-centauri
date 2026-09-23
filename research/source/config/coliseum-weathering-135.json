@@ -1,0 +1,92 @@
+{
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "One broken cornice feeds finite uneven deposits and interrupted exposed-stone catches across actual adjoining faces",
+  "source_scene": "134 scene",
+  "anchor_pixel": [
+    1936,
+    585
+  ],
+  "anchor_object": "COL110 T2 band08 profile2",
+  "anchor_original_world": [
+    -2.9515345096588135,
+    190.8153533935547,
+    41.186553955078125
+  ],
+  "right_original_world": [
+    0.9985,
+    -0.05472,
+    -0.00191
+  ],
+  "up_original_world": [
+    0,
+    -0.03489949670250097,
+    0.9993908270190958
+  ],
+  "width": 1.65,
+  "length": 4.5,
+  "lip_levels": [
+    0,
+    0.48,
+    0.92
+  ],
+  "objects": [
+    "COL127 T2 continuous arcade wall",
+    "COL124 T2 B08 engaged round column",
+    "COL110 T2 band08 profile1",
+    "COL110 T2 band09 profile1",
+    "COL110 T2 band08 profile0",
+    "COL110 T2 band09 profile3",
+    "COL110 T2 band08 profile2",
+    "COL110 T2 band08 profile3",
+    "COL110 T2 B09 archivolt1 stone07",
+    "COL110 T2 band09 profile0",
+    "COL110 T2 B08 archivolt1 stone01",
+    "COL110 T2 B08 archivolt1 stone02",
+    "COL110 T2 B08 archivolt1 stone04",
+    "COL110 T2 B08 archivolt1 stone05",
+    "COL110 T2 B08 archivolt1 stone07",
+    "COL110 T2 band09 profile2",
+    "COL120 bay9 arcade2 dentil01",
+    "COL120 bay9 arcade2 dentil03",
+    "COL110 T2 B08 archivolt0 stone02",
+    "COL110 T2 B08 archivolt0 stone03",
+    "COL110 T2 B08 archivolt0 stone04",
+    "COL110 T2 B08 archivolt0 stone08",
+    "COL110 T2 B08 archivolt1 stone03",
+    "COL110 T2 B09 archivolt0 stone08",
+    "COL110 T2 B09 archivolt0 stone11",
+    "COL110 T2 B09 archivolt1 stone10",
+    "COL110 T2 B09 archivolt1 stone11",
+    "COL120 bay8 arcade2 dentil03",
+    "COL120 bay8 arcade2 dentil04",
+    "COL120 bay8 arcade2 dentil05",
+    "COL120 bay8 arcade2 dentil06",
+    "COL120 bay9 arcade2 dentil02",
+    "COL110 T2 B08 archivolt0 stone00",
+    "COL110 T2 B08 archivolt0 stone01",
+    "COL110 T2 B08 archivolt0 stone05",
+    "COL110 T2 B08 archivolt0 stone06",
+    "COL110 T2 B08 archivolt0 stone07",
+    "COL110 T2 B08 archivolt1 stone00",
+    "COL110 T2 B08 archivolt1 stone06",
+    "COL110 T2 B09 archivolt0 stone07",
+    "COL110 T2 B09 archivolt0 stone09",
+    "COL110 T2 B09 archivolt0 stone10",
+    "COL110 T2 B09 archivolt1 stone08",
+    "COL110 T2 B09 archivolt1 stone09",
+    "COL110 T2 B09 archivolt1 stone12"
+  ],
+  "fixed": [
+    "Camera, geometry, ink, accepted palette and nonlandmark systems"
+  ],
+  "criteria": [
+    "Finite connected age group tied to real ledge",
+    "No new black knot",
+    "Short warm catches not blanket brightening",
+    "Visually legible at final4K and camera size"
+  ]
+}

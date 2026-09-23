@@ -1,0 +1,83 @@
+{
+  "references": [
+    {
+      "id": "US-01",
+      "property": "fine painted soil grain"
+    },
+    {
+      "id": "US-02",
+      "property": "selective pigment texture"
+    },
+    {
+      "id": "DP-08",
+      "property": "camera-scale density"
+    }
+  ],
+  "base": "093C",
+  "fixed": [
+    "all existing093C pigment and sponge texture",
+    "geometry",
+    "rocks",
+    "camera",
+    "lighting"
+  ],
+  "changed": "additional scattered pigment flecks only, nested deterministic marks",
+  "variants": {
+    "A": {
+      "total_flecks": 110000,
+      "label": "A bit more"
+    },
+    "B": {
+      "total_flecks": 170000,
+      "label": "Moderately more"
+    },
+    "C": {
+      "total_flecks": 340000,
+      "label": "Way more"
+    }
+  },
+  "comparison": "093A had85000 flecks;093C had42000 flecks plus1400 sponge dabs",
+  "status": "user selected C; soil surface locked",
+  "audit": {
+    "A": {
+      "marked_texel_fraction": 0.12487123015873015,
+      "additional_flecks": 68000,
+      "total_flecks": 110000,
+      "relative_to_093A": 1.2941176470588236,
+      "fixed_sponge_dabs": 1400,
+      "sponge_dabs": 0,
+      "mean_rgb_delta": [
+        0.28661502567703434,
+        0.2808059430439031,
+        0.1700471101773802
+      ]
+    },
+    "B": {
+      "marked_texel_fraction": 0.2199236111111111,
+      "additional_flecks": 128000,
+      "total_flecks": 170000,
+      "relative_to_093A": 2.0,
+      "fixed_sponge_dabs": 1400,
+      "sponge_dabs": 0,
+      "mean_rgb_delta": [
+        0.5066922657947996,
+        0.5007227404295608,
+        0.30309927248683644
+      ]
+    },
+    "C": {
+      "marked_texel_fraction": 0.4300359126984127,
+      "additional_flecks": 298000,
+      "total_flecks": 340000,
+      "relative_to_093A": 4.0,
+      "fixed_sponge_dabs": 1400,
+      "sponge_dabs": 0,
+      "mean_rgb_delta": [
+        1.0415282345154966,
+        1.0535106893876358,
+        0.6487111749142577
+      ]
+    }
+  },
+  "selected": "C"
+}

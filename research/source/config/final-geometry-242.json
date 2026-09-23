@@ -1,0 +1,35 @@
+{
+  "iteration": 242,
+  "source": "art/studies/hybrid-finish-241/scene.blend",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Fine chipped recess and broken roof contours"
+    },
+    {
+      "id": "DP-08",
+      "property": "Plausible pipe mounting clearances and supported terminals"
+    },
+    {
+      "id": "UP-03",
+      "property": "Quiet mineral surface detail"
+    }
+  ],
+  "changes": [
+    "refine facade break edge detail",
+    "refine broken Colosseum roofline",
+    "repair three intersecting supports",
+    "shared concrete service footing",
+    "trim pipe protruding from service box"
+  ],
+  "fixed": [
+    "camera",
+    "sun",
+    "accepted blue palette",
+    "hybrid lighting",
+    "fog241",
+    "characters",
+    "road texture"
+  ],
+  "approved": false
+}

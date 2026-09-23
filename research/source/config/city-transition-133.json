@@ -1,0 +1,27 @@
+{
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "Partial ruined building shells with varied height and connected floor remnants bridge the16m bare ground gap between approved alley blocks and distant city; maintain open central road.",
+  "primary_reference_crop": "art/studies/city-transition-133/UCL01-transition-whole.png",
+  "fixed": [
+    "131 camera",
+    "all source geometry/materials",
+    "city layout",
+    "road surface",
+    "landmark"
+  ],
+  "changed": [
+    "new native partial buildings on both sides y32\u201352m"
+  ],
+  "validation": [
+    "actual connected wall/floor structure",
+    "native beforeafter crop",
+    "no road blockage",
+    "support/contact",
+    "no source mutations"
+  ],
+  "status": "unapproved separate prototype"
+}

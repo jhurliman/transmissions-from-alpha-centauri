@@ -1,0 +1,24 @@
+{
+  "iteration": "xenon-002",
+  "status": "camera and major-mass blockout",
+  "reference_ids": [
+    "DP-04",
+    "DP-05",
+    "HM-03",
+    "AF-06"
+  ],
+  "selected_target": "art/reviews/xenon-001/selected-third.png",
+  "hypothesis": "Perspective camera, five major scene masses and a 1.8m figure can reproduce C's composition before surface detail.",
+  "resolution": [
+    1440,
+    1080
+  ],
+  "changed_variables": [
+    "new perspective camera",
+    "new geometry",
+    "flat illustrated material masses"
+  ],
+  "reviewer_decision": null,
+  "selected_study": "art/reviews/xenon-001/selected-third.png",
+  "selection_correction": "User chose third image in completion/display order, whose original internal filename is B-industrial.png. Use selected-third.png as authoritative target; prior C-graphic selection was a labeling error."
+}

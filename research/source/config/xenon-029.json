@@ -1,0 +1,35 @@
+{
+  "iteration": "029",
+  "reference_ids": [
+    "DP-04",
+    "DP-05",
+    "HM-03",
+    "AF-06"
+  ],
+  "visual_properties": {
+    "DP-04": "Layered service machinery and connected fittings",
+    "DP-05": "Large distant structure",
+    "HM-03": "Weathered facade construction",
+    "AF-06": "Readable architectural planes"
+  },
+  "target": "art/reviews/xenon-001/selected-third.png",
+  "hypothesis": "A person-scale trunk and larger housing deep in the alley create size contrast with thinner nearer services and communicate monumental infrastructure.",
+  "fixed": [
+    "Camera and lens",
+    "Actor",
+    "Ground and rubble",
+    "Long ruined city and dome",
+    "Accepted 6:1 depth"
+  ],
+  "changed": [
+    "1.8 m diameter trunk and 2.6 m housing at alley y24.2",
+    "0.6 m companion and 1.4 x 1.0 m duct farther back",
+    "Explicit wall, receiver, plinth and vent terminations",
+    "Stagger duct, companion and primary along depth to keep all three visible"
+  ],
+  "acceptance": "Native geometry-only; no projected finish",
+  "user_approval": "Assembly authorized; render pending review",
+  "reference_observations": {
+    "selected-third": "User identifies single-Y structures, two paneled columns, a service opening, bottom U pipe and staggered building fronts. Garage and side-road functions are inferred; visible gaps are evidence."
+  }
+}

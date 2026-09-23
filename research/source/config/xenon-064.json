@@ -1,0 +1,25 @@
+{
+  "references": [
+    "UP-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "supersedes": "Unreviewed 063 neutral material lightening",
+  "hypothesis": "Projecting the original final surface shading into the recess preserves pigment and wear continuity instead of introducing separate fill material.",
+  "fixed": [
+    "061 crack geometry",
+    "Camera",
+    "Other surfaces"
+  ],
+  "changes": [
+    "Project world, anchored-object, and generated weathering coordinates to original host face",
+    "Freeze pigment-selection normals to original face; retain actual crack normals for diffuse lighting",
+    "Replace additive reflection with restrained physical mouth-only reflection"
+  ],
+  "review_criteria": [
+    "Finish continuity across crack mouth",
+    "No beige or gray substitute fill",
+    "Preserve variable-depth cut geometry",
+    "Check native support and column views plus alley camera"
+  ]
+}

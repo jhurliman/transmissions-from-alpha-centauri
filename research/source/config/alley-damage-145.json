@@ -1,0 +1,24 @@
+{
+  "iteration": 145,
+  "references": [
+    "UCL-01",
+    "UP-03",
+    "DP-08",
+    "User detail 2a96883e"
+  ],
+  "hypothesis": "Real missing facing, unequal recessed pits and irregular impact entry create readable depth while retaining quiet enamel areas.",
+  "dimensions_m": {
+    "width": 1.12,
+    "height": 1.42,
+    "sheet_thickness": 0.024,
+    "fold_depth": 0.07
+  },
+  "source_scene": "art/studies/alley-rust-143/scene.blend",
+  "fixed": "Separate kit only; production scene unchanged.",
+  "user_reference": {
+    "source": "/PATH/TO/LOCAL_REFERENCE.png",
+    "sha256": "5c1aacc2f130256a5605edce5058431999dfe109994dfe016ebe15bfe79f01e2",
+    "provenance": "User supplied original-art detail; used as reference only, never projected."
+  },
+  "review": "Native clay and painted depth, no floating flakes, manifold sheet variants, clean editable master retained."
+}

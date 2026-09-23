@@ -1,0 +1,56 @@
+{
+  "references": [
+    {
+      "id": "US-01",
+      "property": "road stone spacing and soil-relative palette"
+    },
+    {
+      "id": "US-02",
+      "property": "small directional rock highlights and contact shadows"
+    },
+    {
+      "id": "DP-08",
+      "property": "foundation slab clustering and size hierarchy"
+    },
+    {
+      "id": "UR-01",
+      "property": "sampled warm top #997260, flank #403233 and contact #201717"
+    }
+  ],
+  "additional_reference": "references/user-rock-study/rock-face-style.png",
+  "hypothesis": "Visible-count targets and irregular foundation groups, combined with warm broken top lighting, purple-brown side facets and dark contact accents, match the reference better than uniform raw object counts and normal-only flat colors.",
+  "fixed": [
+    "soil089 geometry",
+    "rock090 masters",
+    "camera",
+    "architecture",
+    "sky",
+    "scrap",
+    "landmark"
+  ],
+  "changed": [
+    "rock distribution and sizes",
+    "rock materials",
+    "local contact accents"
+  ],
+  "status": "rendered candidate pending user review",
+  "targets": {
+    "road": 120,
+    "bank": 240
+  },
+  "road_depth_quotas_far_mid_near": [
+    20,
+    48,
+    52
+  ],
+  "bank_depth_quotas_far_mid_near": [
+    85,
+    147,
+    8
+  ],
+  "bank_quota_note": "Adapted to narrow visible apron; foreground count constrained by footprints and frame",
+  "actual_placement": {
+    "road": 120,
+    "bank": 238
+  }
+}

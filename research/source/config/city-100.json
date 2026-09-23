@@ -1,0 +1,29 @@
+{
+  "references": [
+    {
+      "id": "DP-08",
+      "property": "continuous receding street fronts"
+    },
+    {
+      "id": "DP-01",
+      "property": "dense distant architecture"
+    },
+    {
+      "id": "HM-01",
+      "property": "layered city scale"
+    }
+  ],
+  "hypothesis": "Rotate streetfront facades inward and align them outside a consistent-width continuation of the alley; perspective closes the road rather than buildings obstructing it.",
+  "fixed": [
+    "099 approved rocks",
+    "097 darkroad",
+    "sky",
+    "near alley",
+    "landmark"
+  ],
+  "changed": [
+    "all distanttower placements andstreetfrontorientation"
+  ],
+  "status": "ready for review",
+  "scene": "art/studies/city-100/scene.blend"
+}

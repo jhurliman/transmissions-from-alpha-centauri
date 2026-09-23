@@ -1,0 +1,12 @@
+from pathlib import Path
+from PIL import Image
+R=Path(__file__).resolve().parents[1];O=R/'art/studies/scene-completion-209';B=R/'art/studies/scene-completion-205';frames={'corner':[300,0,620,800],'facade':[0,810,760,1950],'recess-detail':[0,1230,450,1950]}
+for title,folder in [('before',B),('after',O)]:
+ im=Image.open(folder/'main-4k.png')
+ im.resize((1800,round(im.height*1800/im.width)),Image.Resampling.LANCZOS).save(O/f'{title}-display.png')
+ for key,box in frames.items():im.crop(box).save(O/f'{title}-{key}.png')
+base='/art/studies/scene-completion-209';parts=[]
+for key,title,note in [('corner','All three corner courses','The upper line now stops at the actual side-wall boundary. The middle and lower corrections are retained.'),('facade','Lighter mineral recesses','Shallow damage receives thin inner edges, a lighter substrate and irregular fine mineral flecks.'),('recess-detail','Recess detail','Exposed sides and floor remain native geometry; their finish carries the depth instead of a heavy brown fill.')]:
+ parts.append(f'<section id="{key}"><h2>{title}</h2><p>{note}</p><div class="pair"><figure><img src="{base}/before-{key}.png"><figcaption>Before · 205</figcaption></figure><figure><img src="{base}/after-{key}.png"><figcaption>After · 209</figcaption></figure></div></section>')
+html='''<!doctype html><html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>209 · Recesses and corner ink</title><style>body{max-width:1800px;margin:24px auto;padding:0 20px;background:#211f26;color:#eee6de;font:16px/1.5 system-ui}a{color:#efb38f}img{max-width:100%;display:block}nav{position:sticky;top:0;background:#211f26ef;padding:12px 0;z-index:1;display:flex;gap:20px;flex-wrap:wrap}section{border-top:1px solid #554b50;padding:25px 0;scroll-margin-top:90px}.pair{display:flex;gap:24px;align-items:flex-start;justify-content:center}figure{margin:0;max-width:49%}figcaption{padding:12px 0;color:#c0aca2}p{max-width:1000px;color:#d0beb3}h1{margin-bottom:8px}</style><h1>Wall recesses and corner ink</h1><p>The upper course is corrected, and the eroded wall areas now use a lighter, rougher finish with thin interior outlines.</p><nav><a href="#corner">Corner ink</a><a href="#facade">First facade</a><a href="#recess-detail">Recess detail</a><a href="BASE/main-4k.png">Full 4K image</a></nav><img src="BASE/after-display.png">PARTS</html>'''.replace('BASE',base).replace('PARTS',''.join(parts))
+(R/'prototype/review-209.html').write_text(html)

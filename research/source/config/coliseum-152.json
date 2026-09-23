@@ -1,0 +1,42 @@
+{
+  "source": "150 scene.blend",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "Combining meaningful native crown thickness and facade-scale age improves the building-level damage and painted organization more than isolated microdetails.",
+  "changed_variables": [
+    "151V3 bounded subtractiveU4R/U5Lcrown geometry",
+    "151 scopedwarm-violetcore",
+    "152 two unequal continuousfacade-age fields"
+  ],
+  "fixed": [
+    "Macrocomposition,openings,framing,camera,lighting",
+    "All150othermaterials andnewvisibilityguard",
+    "Alllatestalleyweathering3xbottomsplatter,sky,city,ground,services"
+  ],
+  "criteria": [
+    "Substantialattachedmasonryplanes remainclear inwholeframe",
+    "Agegroups detectableat1800displaywidth",
+    "No regressionsonacceptedunrelatedsystems",
+    "Coordinatededge audit153addressescause, notblindoutlinechanges"
+  ],
+  "scope_caveat": "151actualreturn61x37pixels,beloworiginal90target; noall95claim",
+  "status": "Native4K rendered, published and independently retained",
+  "user_approved": false,
+  "scores": {
+    "silhouette_scale": 95,
+    "structural_depth": 95,
+    "damage_plausibility": 92,
+    "surface_richness": 93,
+    "painted_integration": 93,
+    "linework": 94
+  },
+  "validation": {
+    "render_seconds": 123.17486691474915,
+    "compared_objects": 20490,
+    "outside_landmark_max_rgb_delta": 2,
+    "outside_landmark_pixels_over4": 0
+  }
+}

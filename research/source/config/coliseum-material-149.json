@@ -1,0 +1,25 @@
+{
+  "source": "art/studies/coliseum-148/scene.blend",
+  "references": {
+    "UCL-01": "Exposed crown thickness and warm stone with violet sheltered returns",
+    "UCL-02": "Deposits originate at genuine broken surfaces and extend into adjacent facing",
+    "DP-03": "Broad quiet structural planes with selected attached loss and short edge catches"
+  },
+  "hypothesis": "A warmer, slightly darker exposed-core treatment derived from the adjacent stone light response makes the new inward crown loss part of the same masonry, with finite deposits fed by its real fracture edge.",
+  "scope": "Pending validated149 crown geometry on COL110 U9 fractured upper wall L; preserve accepted silhouette and niche framing.",
+  "changed_variables": [
+    "Scoped new exposed-core material and finite neighboring fracture-fed deposit"
+  ],
+  "fixed": [
+    "All148 geometry outside approved149 crown target",
+    "Existing148 weathering andall latest147 alley materials",
+    "Scene lighting,camera,sky,haze,ground,city andservices"
+  ],
+  "criteria": [
+    "Material reinforces geometry visible in clay",
+    "Warm/violet family retained; no olive putty or pale repair labels",
+    "Quiet broad core plane and unequal short returns",
+    "Native camera readability without closed black paint borders"
+  ],
+  "status": "Native local material independently retained and integrated; core scope verified24newfaces only"
+}

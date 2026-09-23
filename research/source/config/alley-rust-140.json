@@ -1,0 +1,40 @@
+{
+  "source": "art/studies/scene-details-138/scene.blend",
+  "references": [
+    "UCL-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "hypothesis": "Consistent steel response across both Y assemblies removes the near-arm color mismatch; irregular single-pigment splotches replace evenly spaced seam marks on the left assembly.",
+  "changed_variables": [
+    "Y beam steel shader response on both assemblies",
+    "Left Y beam dispersed binary oxide coverage targeting approximately25percent"
+  ],
+  "fixed": [
+    "Geometry and normals",
+    "Camera and lights",
+    "Bolt corrosion and ledge rain trails",
+    "Other services and approved near scrap",
+    "Coliseum and haze"
+  ],
+  "review_criteria": [
+    "Near diagonal matches far diagonal and stem base family",
+    "No three repeated elongated marks",
+    "Dispersed smaller rust islands with one color rather than concentric layered colors",
+    "Approximately25percent coverage, checked on exposed visible surfaces",
+    "Native4K before/after both supports"
+  ],
+  "selected_parameters": {
+    "noise_scale": 5.2,
+    "detail": 3,
+    "roughness": 0.72,
+    "distortion": 0.22,
+    "binary_threshold": 0.546,
+    "single_pigment_linear": [
+      0.17,
+      0.063,
+      0.033
+    ],
+    "estimated_surface_coverage": 0.239990234375
+  }
+}

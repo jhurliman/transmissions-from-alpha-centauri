@@ -1,0 +1,30 @@
+{
+  "references": [
+    {
+      "id": "DP-08",
+      "property": "contact ink across infrastructure"
+    },
+    {
+      "id": "US-02",
+      "property": "soil-object separation"
+    },
+    {
+      "id": "UR-01",
+      "property": "small debris contact definition"
+    }
+  ],
+  "hypothesis": "Scene-wide native face-intersection lines plus approved geometric damage boundary lines improve consistent grounding.",
+  "fixed": [
+    "094C soil",
+    "all geometry, materials, layout and camera",
+    "locked sky and reserved landmark"
+  ],
+  "approved_source": "095 user approves all additional ink",
+  "variables": [
+    "full coverage of scene contacts",
+    "all geometric damage hosts"
+  ],
+  "status": "complete",
+  "review": "art/studies/lines-096/review.json",
+  "scene": "art/studies/lines-096/scene.blend"
+}

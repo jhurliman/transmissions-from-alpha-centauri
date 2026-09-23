@@ -1,0 +1,27 @@
+{
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "Clean volumetric solid supports actual clustered convex negative cuts without inherited crown-fold problems.",
+  "changed_variables": [
+    "bounded convex crown cutouts",
+    "sparse broad-core pits"
+  ],
+  "fixed": [
+    "125 camera",
+    "all other geometry and palette",
+    "accepted arch proportions",
+    "accepted rods"
+  ],
+  "review_criteria": [
+    "closed positive solid",
+    "zero proper triangle crossings",
+    "outside cutter displacement <=2mm",
+    "actual main4K visible negative damage",
+    "preserved broad silhouette and cavity",
+    "compare clay and projected materials"
+  ],
+  "status": "study"
+}

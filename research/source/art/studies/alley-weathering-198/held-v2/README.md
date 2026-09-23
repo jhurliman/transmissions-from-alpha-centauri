@@ -1,0 +1,1 @@
+V2 CPU candidate before explicit side-edge chunk additions. No separate V2 render was made. The medium-scale facade finish, unequal primary recesses, right-side rollout and post-lightening were carried forward intoV3.

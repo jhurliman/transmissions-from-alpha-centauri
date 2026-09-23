@@ -1,0 +1,32 @@
+{
+  "references": [
+    {
+      "id": "DP-08",
+      "property": "Clearly connected service supports and layered infrastructure"
+    },
+    {
+      "id": "UCL-01",
+      "property": "Existing graphic line weight and service silhouette clarity"
+    },
+    {
+      "id": "UCL-02",
+      "property": "Retain local painted palette during native fit correction"
+    }
+  ],
+  "hypothesis": "Offset wall brackets clear adjacent duct and a terminated pier removes accidental receiver roof protrusion",
+  "changed_variables": [
+    "Four native bracket meshes and wall plate lateral positions",
+    "One structural pier height"
+  ],
+  "fixed": [
+    "Camera",
+    "All materials",
+    "Service pipe and duct routes"
+  ],
+  "review_criteria": [
+    "No bracket/duct intersection",
+    "Continuous pipe to wall load path",
+    "Receiver roof clear",
+    "No ghost contact ink"
+  ]
+}

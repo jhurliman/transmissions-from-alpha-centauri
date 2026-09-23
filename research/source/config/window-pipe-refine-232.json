@@ -1,0 +1,9 @@
+{
+ "study":232,
+ "source":"art/studies/midground-damage-232/walls-roofs.blend",
+ "references":[{"id":"DP-08","property":"Compact wall-hugging services and native receiver interfaces"},{"id":"DP-04","property":"Contrasting rectangular and round service silhouettes"},{"id":"HM-03","property":"Aligned facade aperture rhythms with restrained local variation"}],
+ "user_direction":"Two distinct realistic broken panes, two visible C pipes replaced by closer-wall native service designs, regular groups of2–3 windows rather than isolated windows",
+ "changes":["Asymmetric large partial sheet and mostly-cleared pane, each attached to real frame rebates","32 additional full-bay windows in30 aligned groups with actual return backing cuts","Leftstep83 nativeL880x600 duct route; rightstep89 native600mm barrels and low1000mm housing with vertical receiver docks, both on inter-bay piers"],
+ "fixed":["All new232 rooftops","Existing roof slabs and ladders","Original native asset meshes and materials","Foreground services","Building placements and camera","Only two broken window instances"],
+ "status":"CPU assembly; actual native perspective proof required"
+}

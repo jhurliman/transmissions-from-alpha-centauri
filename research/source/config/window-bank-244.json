@@ -1,0 +1,75 @@
+{
+  "study": 244,
+  "subtask": "Rear right 5x2 window weathering",
+  "hypothesis": "Scene-readable tapered rain channels, uneven bottom deposits, and broad restrained mineral-light stains with independent seeds give ten windows cohesive wear without repeated patterns.",
+  "scope": "right_horizontal_utility only; warm building windows excluded",
+  "fixed": [
+    "camera",
+    "layout",
+    "geometry",
+    "lighting",
+    "all existing material node graphs"
+  ],
+  "references": [
+    {
+      "group": "darius-puia",
+      "image_url": "https://inspgr.id/app/uploads/2024/08/illustration-darius-puia-04.jpg",
+      "title": "Industrial vertical city",
+      "source_page": "https://theinspirationgrid.com/imaginative-sci-fi-illustrations-by-darius-puia/",
+      "creator": "Darius Puia / BakaArts",
+      "period": "Published in 2024 feature; individual artwork dates not verified",
+      "file": "darius-puia/DP-03-industrial-vertical-city.jpg",
+      "width": 1680,
+      "height": 2100,
+      "sha256": "d9ac1c314a8b0f9d40f2e32d1a1212db45378172463644f300e4f825166a6838",
+      "rights": "Reference only; no redistribution or game-asset license acquired",
+      "retrieved": "2026-09-09",
+      "id": "DP-03",
+      "source_title": "Published study 04",
+      "direction_note": "Use a few enormous structural masses against fine repeated service detail.",
+      "avoid": "Do not reproduce the specific composition, character, vehicle, or signature design.",
+      "title_status": "Descriptive curatorial label, not a claimed original artwork title",
+      "property_studied": "scene-scale hierarchy of industrial surface detail"
+    },
+    {
+      "id": "UP-03",
+      "group": "user-pipe-surface-study",
+      "file": "user-pipe-surface-study/pipe-detail-fine-geometry-and-weathering.png",
+      "title": "Illustrative fine detail and weathering study",
+      "creator": "User-supplied; creator not independently established",
+      "source_page": null,
+      "source_file": "/PATH/TO/LOCAL_ASSET",
+      "width": 1150,
+      "height": 1368,
+      "sha256": "27058e11686f1f748f8a6c0ebafa6fabe76b9ed9c7415e8dbd0e92386d81df06",
+      "rights": "Private reference only; no asset redistribution license established",
+      "retrieved": "2026-09-10",
+      "direction_note": "Primary surface-treatment target: overlapping tonal islands, mottled highlights, medium-scale coverage and smaller accents.",
+      "reference_set": "UP-01 through UP-03; compare as a linked set",
+      "avoid": "Do not present illustrative reference images as native scene renders or bake the finished image onto geometry.",
+      "property_studied": "connected multi-scale interior surface detail"
+    },
+    {
+      "id": "UCL-01",
+      "title": "Selected coliseum centerpiece",
+      "creator": "Project creator (user)",
+      "file": "user-coliseum/coliseum.png",
+      "source_page": "Created by the project creator using ChatGPT Images 2.5; supplied from ~/Downloads/coliseum.png",
+      "rights": "Original project artwork; user-authorized project asset",
+      "sha256": "0fbca620db41d3e4b8c44e00fc1e541838fd4b894798f204be36f0983b47d079",
+      "direction_note": "Three deep arcade levels, projecting towers, upper wall and broken crown; warm masonry and violet recesses.",
+      "creation_tool": "ChatGPT Images 2.5",
+      "classification": "original_project_artwork",
+      "original_asset": "art/original/coliseum/coliseum.png",
+      "provenance_confirmation": "User confirmed UCL-01 authorship and creation tool on 2026-09-15",
+      "property_studied": "unequal fine runoff and quiet weathered fields"
+    }
+  ],
+  "review_criteria": [
+    "Ten window assemblies share a moderate severity range",
+    "Different runoff and lower residue masks for every pane",
+    "Warm building unchanged",
+    "Original geometry and Freestyle memberships preserved"
+  ],
+  "approved": false
+}

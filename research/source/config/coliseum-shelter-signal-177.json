@@ -1,0 +1,30 @@
+{
+  "source": "art/studies/coliseum-173/scene.blend",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "Existing 0.7 m crevice AO cannot organize broad sheltered faces. Measure native geometry occlusion at 0.7, 6 and 18 m before considering any broad shelter treatment.",
+  "changed_for_diagnosis_only": [
+    "Private masonry materials output the three AO distance signals directly to emission"
+  ],
+  "fixed": [
+    "Geometry, camera, light positions and powers, world, retained volume, native ink",
+    "No saved art scene or material candidate"
+  ],
+  "crop": [
+    1665,
+    435,
+    2330,
+    900
+  ],
+  "criteria": [
+    "Identify broad contiguous face signals, rather than a wider repeated trim halo",
+    "Preserve the distinction between measurement and an aesthetic improvement",
+    "Do not interpret post-volume channels as exact unattenuated raw AO"
+  ],
+  "status": "Closed after root and independent diagnostic review: no useful unequal broad shelter mass, no art candidate.",
+  "measurement_correction": "Three matched achromatic scalar probes replace cross-channel RGB comparisons for final interpretation.",
+  "independent_disposition": "art/studies/coliseum-177/diagnosis/independent-disposition.json"
+}

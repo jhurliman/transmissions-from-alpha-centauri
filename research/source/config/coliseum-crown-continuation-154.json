@@ -1,0 +1,63 @@
+{
+  "source": "art/studies/coliseum-152/scene.blend",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Broad connected wall loss with retained masonry thickness; original user artwork, ChatGPT Images 2.5"
+    },
+    {
+      "id": "UCL-02",
+      "property": "Unequal broken-cap descents with architectural framing retained"
+    },
+    {
+      "id": "DP-03",
+      "property": "Few legible angular planes against quiet structural surfaces; not its composition"
+    }
+  ],
+  "hypothesis": "Retaining the existing left cap split/ridge while removing adjacent near skin with two differently oriented planes should reveal thickness rather than planing off the whole facade.",
+  "fixed": [
+    "camera",
+    "lighting",
+    "source materials except newly exposed faces",
+    "151 primary damage",
+    "towers",
+    "openings",
+    "niche moldings",
+    "all unrelated geometry"
+  ],
+  "targets": [
+    "COL110 U9 fractured upper wall L",
+    "COL110 U9 aperture head",
+    "COL110 U9 fractured upper wall R"
+  ],
+  "changed_variables": [
+    "left cut starts farther right to retain a substantial existing front ridge",
+    "two connected oblique core planes meet at an unequal shoulder, not a single parallel floor",
+    "unequal cut descents above protected niche framing"
+  ],
+  "candidate_native_span_estimate_px": 94,
+  "review_window_4k": [
+    1930,
+    435,
+    2085,
+    605
+  ],
+  "geometry_method": "Exact source tessellation frozen, closed DIFFERENCE cutter. R upper shell isolated above world Z48.15, with source lower triangles retained and native reattachment. No remesh. Source/candidate intersections compared using float64 and the identical original world matrix.",
+  "palette": "Reuse existing151 Warm violet exposed masonry core only on new faces.",
+  "review_criteria": [
+    "Readable retained thickness in native clay and painted camera",
+    "No new boxed recess",
+    "No unsupported molding or changed aperture",
+    "No source-envelope additions",
+    "Primary151 event unchanged",
+    "Meaningful at1800 full-frame display, not crop-only"
+  ],
+  "status": "V2 isolated construction; V1 archived and rejected",
+  "numeric_preservation_budget": {
+    "world_m": 0.0005,
+    "native_pixel": 0.02,
+    "rationale": "Submillimeter solver retessellation is judged simultaneously in world and camera space; no architectural change or meaningful outward mass permitted."
+  },
+  "geometry_caveat": "R source contains five inherited float64 crossing pairs despite legacy float32 count0; require exact pair-coordinate identity and zero new pairs, plus closedness and reduced volume. L/head require zero.",
+  "variant": "V2 unequal retained ridge and two oblique core planes"
+}

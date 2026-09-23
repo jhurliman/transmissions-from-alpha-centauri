@@ -1,0 +1,44 @@
+{
+  "iteration": 249,
+  "source": "art/studies/ruin-ink-248/scene.blend",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Weathered masonry palette and visible damage hierarchy"
+    },
+    {
+      "id": "UP-03",
+      "property": "Connected multiscale surface wear"
+    },
+    {
+      "id": "DP-08",
+      "property": "Plausible weathered built surfaces"
+    }
+  ],
+  "hypothesis": "Unequal native stain islands and branching fractures make the five steps read as aged stone; localized central column weathering adds wear visible through accepted haze.",
+  "variables": [
+    "five step material overlays",
+    "central ground arcade column private weathering",
+    "sparse native crack paths fitted to step surfaces with thin muted ink"
+  ],
+  "fixed": [
+    "248 accepted scene",
+    "haze/sun/camera",
+    "step geometry",
+    "all other columns and materials",
+    "characters"
+  ],
+  "approved": true,
+  "local_trials": [
+    {
+      "file": "probe-subtle.png",
+      "observation": "Column staining reads, step stains and fractures too faint through haze."
+    },
+    {
+      "file": "probe.png",
+      "observation": "Broader darker stain islands retained; adding sparse native crack-line accents for visibility."
+    }
+  ],
+  "user_approved": true,
+  "approval_note": "User: good; moves on to vent runoff."
+}

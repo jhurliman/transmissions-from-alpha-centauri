@@ -1,0 +1,54 @@
+{
+  "source": "art/studies/coliseum-131/scene.blend",
+  "references": [
+    "UCL-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "direct_user_authorization": "Missing-wall-panel prefab exposing pipes and electrical cables; more severe native wall damage; strong rust on steel Y and rusty weathering on its ledge.",
+  "hypothesis": "A genuine recessed service cavity with connected conduits and hanging terminated cables, plus localized multiscale oxidation, adds the reference's layered decay without blanket wall noise.",
+  "changed_variables": [
+    "One upper cladding panel on front-left section",
+    "Private rust material overrides for left Y support and ledge",
+    "Only stale baked ink points on removed panel"
+  ],
+  "preserved": [
+    "Y/ledge dimensions and placement",
+    "All other services and wall components",
+    "Camera",
+    "Coliseum",
+    "City",
+    "Road",
+    "Clouds and sky",
+    "Rubble"
+  ],
+  "prefab_contract": {
+    "outward": "local -Y",
+    "up": "+Z",
+    "mount_plane": "Y=0",
+    "backing_depth_m": 0.6,
+    "ports": "Two horizontal wall-to-wall conduits, one lower riser turning into right chase, five top-chase-to-junction-box cables"
+  },
+  "deterministic_seed": 133,
+  "proof_pipeline": "Matched native4K region with Freestyle disabled; full scene1440 native Freestyle. Frozen128 foreground compositor disabled for study because removed-panel ink is stale; new native baseline required at integration.",
+  "review_criteria": [
+    "Visible cavity depth and real missing panel",
+    "Every service has fitted endpoints/supports",
+    "Broken cladding rim has thickness and no floating flakes",
+    "Rust varies at broad/medium/fine scales",
+    "Runoff follows vertical gravity",
+    "Camera-scale readability without oversized wires"
+  ],
+  "status": "Isolated prototype; not user-approved",
+  "weathering_scales_m": {
+    "macro": 1.25,
+    "medium": 0.222,
+    "fine": 0.01
+  },
+  "rust_mask_thresholds": [
+    0.465,
+    0.49
+  ],
+  "extra_flange_foot_coverage_threshold_offset": -0.065,
+  "final_close_proof": "art/studies/alley-damage-133/after-close-world-final.png"
+}

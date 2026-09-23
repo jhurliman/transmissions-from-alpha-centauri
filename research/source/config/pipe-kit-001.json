@@ -1,0 +1,31 @@
+{
+  "reference_ids": [
+    "DP-04",
+    "DP-05",
+    "HM-03",
+    "AF-06"
+  ],
+  "visual_properties": {
+    "DP-04": "Connection-rich service assemblies",
+    "DP-05": "Scale hierarchy",
+    "HM-03": "Layered inhabited infrastructure",
+    "AF-06": "Clear architectural silhouette"
+  },
+  "selected_detail": "Left pipework of selected-third.png",
+  "hypothesis": "A finite library of dimensioned reusable parts and compatible ports gives stronger architectural construction than ad hoc cylinders and wires.",
+  "fixed": [
+    "Existing alley scene and accepted scale"
+  ],
+  "changed": [
+    "New isolated pipe component library and demonstration assembly"
+  ],
+  "review_criteria": [
+    "Part silhouette",
+    "Joint construction",
+    "Bend continuity",
+    "Diameter hierarchy",
+    "Material separation",
+    "Assembly readability"
+  ],
+  "scope": "Native geometry, no damage until construction is reviewed"
+}

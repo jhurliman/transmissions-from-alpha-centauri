@@ -1,0 +1,12 @@
+"""Independent world-space verification of source116 versus shared/GN candidate."""
+import bpy,json,math,os,time
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];O=R/'art/studies/coliseum-116/linked';audit=json.loads((O/'audit-all.json').read_text());names={r['object']for r in audit['records']if r['accepted']};bpy.ops.wm.open_mainfile(filepath=str(R/'art/studies/coliseum-116/scene.blend'));old={}
+for name in names:
+ o=bpy.data.objects[name];M=o.matrix_world;N=M.to_3x3().inverted().transposed();old[name]={'world':[M@v.co for v in o.data.vertices],'normals':[(N@p.normal).normalized()for p in o.data.polygons],'areas':[p.area for p in o.data.polygons],'loops':[tuple(p.vertices)for p in o.data.polygons]}
+bpy.ops.wm.open_mainfile(filepath=str(O/'scene.blend'));deps=bpy.context.evaluated_depsgraph_get();records=[]
+for name in names:
+ o=bpy.data.objects[name];ev=o.evaluated_get(deps);me=ev.to_mesh();base=old[name];M=o.matrix_world;N=M.to_3x3().inverted().transposed();err=max((M@v.co-p).length for v,p in zip(me.vertices,base['world']));angles=[math.degrees((N@p.normal).normalized().angle(n,0))for p,n,a in zip(me.polygons,base['normals'],base['areas'])if a>1e-6];topology=base['loops']==[tuple(p.vertices)for p in me.polygons];ev.to_mesh_clear();records.append({'object':name,'world_vertex_max_error_m':err,'world_normal_max_angle_degrees':max(angles,default=0),'face_topology_match':topology})
+C=bpy.data.collections['110 Coliseum detailed front ruin'];meshes=[o for o in C.objects if o.type=='MESH'];result={'objects':len(meshes),'unique_mesh_datablocks':len({o.data.as_pointer()for o in meshes}),'shared_deformed_instances':len(names),'maximum_world_vertex_error_m':max(r['world_vertex_max_error_m']for r in records),'maximum_normal_angle_degrees':max(r['world_normal_max_angle_degrees']for r in records),'all_face_topology_match':all(r['face_topology_match']for r in records),'records':records};(O/'world-verification.json').write_text(json.dumps(result,indent=2));print(json.dumps({k:v for k,v in result.items()if k!='records'}))
+if os.environ.get('LINK_RENDER')=='1':
+ s=bpy.context.scene;s.render.resolution_x=3840;s.render.resolution_y=2885;s.render.resolution_percentage=100;s.render.line_thickness=3840/1440;s.render.filepath=str(O/'main-4k.png');t=time.time();bpy.ops.render.render(write_still=True);(O/'render-performance.json').write_text(json.dumps({'seconds':time.time()-t,'resolution':[3840,2885]},indent=2))

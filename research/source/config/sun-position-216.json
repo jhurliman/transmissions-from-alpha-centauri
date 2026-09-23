@@ -1,0 +1,15 @@
+{
+  "iteration":216,
+  "hypothesis":"Moving the visible sun exactly one apparent horizontal diameter right can separate it from the selected enlarged Colosseum while retaining the accepted lighting and sky.",
+  "references":[
+    {"id":"UCL-01","property":"Warm sun against architectural silhouette; original user-created ChatGPT Images 2.5 artwork."},
+    {"id":"DP-05","property":"Architectural mass and surrounding negative space; Darius Puia / BakaArts."},
+    {"id":"HM-03","property":"Distant architectural silhouette within a painted future street; Heavy Metal (1981)."}
+  ],
+  "changed_variables":["Visible camera-only world sun branch: exact rightward screen translation by its full horizontal apparent diameter"],
+  "fixed":["Camera and all object transforms","Selected 70% sky-gap landmark scale","Sun shape, apparent size, vertical position, color and angular threshold","Clouds and sky color branches","Non-camera world illumination and every scene light"],
+  "variants":["Original position, partly hidden behind pillar","Right by exactly one full apparent horizontal diameter"],
+  "native_representation":"Existing sun is a procedural world-shader disc at infinity, not a finite-depth mesh; preserve its native representation. No reference projection or raster edit.",
+  "review_criteria":["Native analytic projected offset equals original full horizontal diameter","Apparent bounding-box dimensions and vertical center unchanged","Only original versus moved sun differs between matched final renders","Inspect actual integrated street scene before presenting"],
+  "approved":false
+}

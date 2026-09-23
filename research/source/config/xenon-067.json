@@ -1,0 +1,34 @@
+{
+  "references": [
+    "UP-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "hypothesis": "Higher mouth darkening strengthens the full crack while retaining the selected 100% depth maximum.",
+  "variants": {
+    "A": [
+      20,
+      100
+    ],
+    "B": [
+      40,
+      100
+    ],
+    "C": [
+      60,
+      100
+    ]
+  },
+  "units": "Percent linear-color attenuation from mouth to specimen maximum geometric depth",
+  "fixed": [
+    "064 weathering projection",
+    "061 geometry",
+    "Camera and lighting",
+    "Physical lip reflection"
+  ],
+  "review_criteria": [
+    "Matched panel/support and alley cameras",
+    "Preserved pigment continuity",
+    "Increasing depth legibility without beige fill"
+  ]
+}

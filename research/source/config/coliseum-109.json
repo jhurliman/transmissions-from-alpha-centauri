@@ -1,0 +1,27 @@
+{
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Selected structure and framing"
+    },
+    {
+      "id": "UX-03",
+      "property": "Distant value restraint"
+    },
+    {
+      "id": "DP-03",
+      "property": "Monumental layered depth"
+    }
+  ],
+  "phase": "Scale selection before detailing",
+  "fixed": "scene108 camera and all nonlandmark systems",
+  "variants": [
+    "Reference framing",
+    "Mountainous scale"
+  ],
+  "review_gate": "User selects A or B before detailed kit construction",
+  "untextured": true,
+  "status": "A reference framing selected by user",
+  "review": "prototype/review-109.html",
+  "next": "Detailed front-half ruin with reference-informed convergence"
+}

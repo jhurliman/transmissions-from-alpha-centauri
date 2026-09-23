@@ -1,0 +1,33 @@
+{
+  "hypothesis": "Approved 088 packed-soil relief will add convincing connected ground detail at the alley camera when integrated as geometry.",
+  "references": [
+    {
+      "id": "US-01",
+      "property": "packed-soil body"
+    },
+    {
+      "id": "US-02",
+      "property": "structural breaks and gritty relief"
+    },
+    {
+      "id": "DP-08",
+      "property": "camera-scale ground hierarchy"
+    }
+  ],
+  "fixed": [
+    "sky084",
+    "buildings074",
+    "C macro shape with A mean",
+    "road cracks",
+    "hidden separate road rocks"
+  ],
+  "change": "Native terrain refinement and approved soil relief across near, middle and far road",
+  "review_criteria": [
+    "visible texture at main camera",
+    "no obvious tile seams/repetition",
+    "mean height preserved",
+    "cracks remain open",
+    "supports not raised/buried"
+  ],
+  "status": "integrated native render ready for review"
+}

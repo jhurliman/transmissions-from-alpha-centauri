@@ -1,0 +1,1 @@
+185 is a held, unintegrated fixed-shape diagnostic. See review.json, audit.json, source-crossings.json and the painted/clay comparisons. No candidate.blend or reusable apply is offered until native gates and the visual gate pass. All five cuts were built only in HELD-diagnostic.blend; retained173 is untouched. Parent owns later contact-support validation.

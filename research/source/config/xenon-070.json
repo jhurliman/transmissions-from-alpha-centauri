@@ -1,0 +1,28 @@
+{
+  "references": [
+    "UP-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "reference_regions": [
+    "L3-lower-panels",
+    "R1-front-column",
+    "R3-mid-wall"
+  ],
+  "hypothesis": "Sparse irregular edge losses at existing crack endpoints improve fractured silhouettes and damage scale variation",
+  "fixed": [
+    "55 to 100 interior material",
+    "069 crack placements",
+    "Services and camera"
+  ],
+  "changes": [
+    "Closed convex wedge cutters at selected boundary endpoints",
+    "Depth limited by component thickness"
+  ],
+  "review_criteria": [
+    "Local edge loss instead of floating pits",
+    "Native scene-scale readability",
+    "Closed manifold outputs",
+    "Retain quiet surfaces"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "iteration": "038",
+  "reference_ids": [
+    "DP-08",
+    "HM-03",
+    "AF-06"
+  ],
+  "hypothesis": "Compensating the sky for atmospheric color shift and grouping painted surface tones by world-space normals improves the reference palette and graphic shading.",
+  "changed": [
+    "Sky emission calibration",
+    "Three bounded orientation-based albedo bands on painted surfaces",
+    "Native silhouette width .65 to .85 pixels; opacity .68 to .80"
+  ],
+  "fixed": [
+    "Geometry",
+    "Camera",
+    "Light positions",
+    "Material family palette"
+  ],
+  "user_direction": "Right side geometry pretty good after this removal."
+}

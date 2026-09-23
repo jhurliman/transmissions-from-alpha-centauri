@@ -1,0 +1,32 @@
+{
+  "references": [
+    {
+      "id": "UX-01",
+      "property": "Selected original mass layout with user-directed cleanup"
+    },
+    {
+      "id": "UX-03",
+      "property": "Accepted quiet facade style preserved"
+    },
+    {
+      "id": "DP-03",
+      "property": "Readable architectural mass hierarchy"
+    }
+  ],
+  "hypothesis": "Removing the one-story frontage row and moving the rear brown tower from left roadway to right pale ground opens the desired route.",
+  "fixed": [
+    "camera",
+    "all materials",
+    "remaining tower silhouettes and positions",
+    "approved foreground",
+    "sky",
+    "landmark"
+  ],
+  "changes": [
+    "Hide13 one-story masses",
+    "Translate L06 to x9.5 at the same depth156.43"
+  ],
+  "user_direction": "Explicit cleanup of selected102 skyline; section considered done for now after edits.",
+  "status": "Requested cleanup complete; checkpoint saved",
+  "review": "art/studies/city-103/review.json"
+}

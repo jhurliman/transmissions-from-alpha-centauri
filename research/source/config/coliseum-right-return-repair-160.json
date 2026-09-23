@@ -1,0 +1,18 @@
+{
+  "source": "corrected156",
+  "target": "COL110 U15 fractured upper wall R",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "Extend U10L clean profile-strip method to U15R while preserving all clean front/back/bottom surfaces.",
+  "fixed": [
+    "source156 scene",
+    "U10L finalized candidate",
+    "all non-target geometry/materials",
+    "protected U15R surface positions"
+  ],
+  "result": "Held before candidate construction: protected front skin contains14 crossings and boundary branches on both skins.",
+  "next_scope": "Narrow explicit front/back corner-fan reconstruction before return closure; requires separate authorization from parent and preservation proof."
+}

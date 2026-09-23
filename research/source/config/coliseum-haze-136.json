@@ -1,0 +1,33 @@
+{
+  "hypothesis": "Reference requires orange atmospheric radiance behind violet city silhouettes, not increased beige scattering alone.",
+  "references": [
+    "UCL-01",
+    "UCL-136",
+    "DP-01",
+    "DP-03"
+  ],
+  "properties": {
+    "UCL-01": "Orange street glow fades before second arcade; cool building silhouettes remain",
+    "DP-01": "Foreground silhouette separation from luminous atmospheric depth",
+    "DP-03": "Restrained blue foreground versus warm depth accents"
+  },
+  "changed": [
+    "haze scattering strength and tint",
+    "native depth and height gated atmospheric emission"
+  ],
+  "fixed": [
+    "all geometry",
+    "camera",
+    "lights",
+    "sky colors",
+    "clouds",
+    "surface materials"
+  ],
+  "criteria": [
+    "Orange rather than beige far arcade atmosphere",
+    "Nearest skyscrapers remain cool and readable",
+    "Smooth fade toward second arcade",
+    "No sky color changes",
+    "Actual native render, no overlay"
+  ]
+}

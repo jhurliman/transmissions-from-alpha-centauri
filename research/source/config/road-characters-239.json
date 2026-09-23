@@ -1,0 +1,37 @@
+{
+  "iteration": 239,
+  "source": "rubble-variation-237",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Painted ground value hierarchy and integrated figures"
+    },
+    {
+      "id": "DP-03",
+      "property": "Broad restrained soil patches"
+    },
+    {
+      "id": "DP-08",
+      "property": "Contact and directional shadows"
+    }
+  ],
+  "requested": [
+    "Preserve exact character art; add cast shadows",
+    "Make dark soil road feel deliberately painted",
+    "Align actual scene lighting to final visible sun"
+  ],
+  "fixed": [
+    "selected sprite source and compositor",
+    "architecture",
+    "geometrycracksrocks",
+    "Final visible world sun position; actual light direction intentionally changed"
+  ],
+  "status": "Native4K rendered; root review retained for comparison",
+  "user_approved": false,
+  "sun_ray": [
+    -0.10937281698,
+    -0.95029807091,
+    -0.2914981842
+  ],
+  "shadow_note": "In current geometry characters are shaded bylandmark;nativecasters plus soft contact supplement, no longvisible directsunshadows"
+}

@@ -1,0 +1,33 @@
+{
+  "reference_ids": [
+    "DP-04",
+    "DP-05",
+    "HM-03",
+    "AF-06"
+  ],
+  "properties": [
+    "Service joint density",
+    "Scale hierarchy",
+    "Folded industrial surfaces",
+    "Clear architectural sections"
+  ],
+  "iteration": "service-kit-002",
+  "hypothesis": "A few optional pipe detail modules plus three rectangular section sizes and explicit cross-family adapters form a reusable service catalogue.",
+  "fixed": [
+    "Alley scene",
+    "Existing pipe kit v001"
+  ],
+  "changed": [
+    "New duct family",
+    "Pipe detail attachments",
+    "Profile-aware connector rules"
+  ],
+  "review": [
+    "Hollow bores",
+    "Section size consistency",
+    "Rectangular clocking",
+    "Round/rect compatibility",
+    "Mixed assembly readability"
+  ],
+  "evidence": "Ducts are original design extensions guided by the established reference language, not claimed literal extractions from the pipe crop."
+}

@@ -1,0 +1,30 @@
+{
+  "source": "art/studies/coliseum-168/scene.blend",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "The broad plane/value hierarchy may be limited by the retained facade material weighting of geometric orientation versus actual diffuse illumination. Measure current native diffuse variation and existing palette input on primary outward receivers before proposing any change.",
+  "fixed": [
+    "Current geometry, normals, camera, lights, shadows and palette parameters",
+    "No retained scene/material changes",
+    "172 chroma is separate and leaves these underlying signals unchanged"
+  ],
+  "diagnostic_only": [
+    "Private signal materials output actual diffuse as R, existing palette input as G, primary receiving-face mask as B to a linear EXR"
+  ],
+  "crop": [
+    1665,
+    435,
+    2085,
+    850
+  ],
+  "criteria": [
+    "Compare exact visible receiver faces with current first-hit mapping",
+    "Distinguish actual light variability from theoretical node weights",
+    "Do not reintroduce global edge-to-center brightness falloff; no core-strength change"
+  ],
+  "status": "Diagnosis complete; tested bypass falsified; direct diffuse-weighting candidate not supported",
+  "evidence": "art/studies/coliseum-175/diagnosis/review.json"
+}

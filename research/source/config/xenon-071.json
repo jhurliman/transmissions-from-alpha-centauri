@@ -1,0 +1,24 @@
+{
+  "references": [
+    "UP-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "hypothesis": "Camera-visible edge losses and coherent per-building palettes break uniform half-blue/half-rust repetition",
+  "fixed": [
+    "55 to 100 crack depth",
+    "Approved geometry and services",
+    "Camera"
+  ],
+  "changes": [
+    "Larger sparse boundary cuts replacing subtle070",
+    "Per-building base/weather1/weather2/spec transform",
+    "Retain 039 front-left split palette"
+  ],
+  "review_criteria": [
+    "Damage-only comparison proves visible change",
+    "Neighboring building palettes distinct",
+    "Projected crack materials share host palette",
+    "No new global texture overlay"
+  ]
+}

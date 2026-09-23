@@ -1,0 +1,26 @@
+{
+  "iteration": 237,
+  "source": "rubble-transition-236",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Unequal debris silhouettes"
+    },
+    {
+      "id": "DP-03",
+      "property": "Low grounded structural scrap"
+    },
+    {
+      "id": "DP-08",
+      "property": "Nonrepeating structural angles"
+    }
+  ],
+  "hypothesis": "Retain one strong raised beam; lay two repeated silhouettes into rubble at different bearings.",
+  "fixed": [
+    "all materials",
+    "camera",
+    "front beam",
+    "all unrelated geometry"
+  ],
+  "user_approved": false
+}

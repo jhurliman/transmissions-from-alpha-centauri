@@ -1,0 +1,32 @@
+{
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Connected dark runoff clusters, violet arch depth, articulated crowns and towers"
+    },
+    {
+      "id": "UX-03",
+      "property": "Quiet broad painted masonry regions"
+    },
+    {
+      "id": "DP-03",
+      "property": "Layered monumental architectural hierarchy"
+    }
+  ],
+  "hypothesis": "A distinct partial tower collapse and deeper connected arch-shoulder failure establish major damage hierarchy; sharper mineral crust boundaries replace soft mottling.",
+  "fixed": [
+    "109A projected framing",
+    "all nonlandmark geometry and materials",
+    "existing atmosphere pending user decision"
+  ],
+  "changed": [
+    "One tower termination and linked arch/cornice failure",
+    "Weathering boundary sharpness, preserving quiet shadow family and coverage"
+  ],
+  "review_criteria": [
+    "all six critic axes >=90 based on final renders",
+    "native editable geometry and materials only",
+    "user acceptance remains pending"
+  ],
+  "status": "in progress"
+}

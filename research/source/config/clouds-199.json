@@ -1,0 +1,28 @@
+{
+  "seed": 199031,
+  "references": [
+    "UC-01",
+    "UC-04",
+    "DP-08"
+  ],
+  "hypothesis": "Retain calm bodies while selectively restoring unequal upper shoulders and peaks, with soft elongated overlapping interior veils preferentially near native contours.",
+  "fixed": [
+    "197 camera",
+    "all native cloud plate placements and geometry",
+    "world sky gradient #e35635/#ec633f and roofline midpoint",
+    "all other scene assets"
+  ],
+  "changed": [
+    "owned082 native derivative edge frequency distribution",
+    "continuous interior pigment layer weights"
+  ],
+  "review_criteria": [
+    "Subtle layered bodies without cel bands or cloudy noise spots",
+    "Fine unequal edge billows with quiet intervals",
+    "No material sky RGB change in unchanged-silhouette pixels",
+    "Accepted133 cloud area preserved to quantization tolerance; native silhouette centroids audited",
+    "Actual locked full camera native render inspected"
+  ],
+  "status": "V2 CPU revision after V1 too-flat critique",
+  "revision": 2
+}

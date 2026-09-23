@@ -1,0 +1,8 @@
+{
+  "references": ["UCL-01", "UCL-02", "DP-03"],
+  "hypothesis": "Recovering the clean arch mesh before unrestricted fracture displacement, then replaying the accepted shoulder cavity and native seam assembly, removes inherited folded faces while retaining the approved architectural shape.",
+  "changed_variables": ["B10 upper-tier arch source mesh", "submillimetre interface weld"],
+  "fixed": ["127 main camera", "127 group spacing", "all material datablocks", "all non-B10 geometry outside interface weld tolerance"],
+  "review_criteria": ["zero strict triangle crossings", "closed single wall", "no visible broad silhouette/cavity regression", "actual native painted and clay crops"],
+  "status": "isolated candidate; not user-approved or integrated"
+}

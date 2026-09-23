@@ -1,0 +1,22 @@
+{
+  "iteration": "045",
+  "reference_ids": [
+    "DP-08",
+    "HM-03",
+    "AF-06"
+  ],
+  "hypothesis": "Short conditioned random-walk fractures anchored at real boundaries plus deterministic severity variants provide a controllable damage family. Independent joint-fed runoff and localized metal wear test other damage processes.",
+  "changed": [
+    "Anchored high-frequency cracks",
+    "Additional corner-wrapping chip",
+    "Zero/low/medium/high controls",
+    "Separate runoff and metal wear specimens"
+  ],
+  "fixed": [
+    "Camera",
+    "Lighting",
+    "Approved spalls at medium severity",
+    "Remaining architectural geometry"
+  ],
+  "user_direction": "Right side geometry pretty good after this removal."
+}

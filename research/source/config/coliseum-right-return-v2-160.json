@@ -1,0 +1,37 @@
+{
+  "source": "corrected156",
+  "target": "COL110 U15 fractured upper wall R",
+  "refs": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "Repair enumerated folded corner fans, then exact-boundary ruled-return construction.",
+  "result": "Held: closed manifold but38 new/remaining crossings.",
+  "source_corner_fan_faces": [
+    18,
+    731,
+    733,
+    734,
+    736,
+    737,
+    791,
+    792,
+    793,
+    794,
+    795,
+    2253,
+    2267
+  ],
+  "protected_faces": 1120,
+  "protected_triangle_loss": 0,
+  "new_surface_max_deviation_m": 0.14254702627658844,
+  "crossing_projection_box": [
+    2351.9110107421875,
+    685.5672207474709,
+    2404.5211029052734,
+    731.1754965782166
+  ],
+  "next_method": "Concave step-domain partition with exact step-corner correspondence rather than whole-profile arclength mapping.",
+  "rendered": false
+}

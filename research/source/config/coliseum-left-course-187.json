@@ -1,0 +1,67 @@
+{
+  "source": "art/studies/coliseum-173/scene.blend",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "reference_property": "Unequal attached facing/core/return ends, with broad form first",
+  "hypothesis": "Allowing the actual left sill and lip endpoints to retreat together can remove the dominant interlocking cluster that185 incorrectly protected.",
+  "targets": [
+    "COL110 T2 band10 profile0",
+    "COL110 T2 band10 profile1",
+    "COL110 T2 band10 profile2",
+    "COL110 T2 band10 profile3",
+    "COL110 T2 band10 profile4",
+    "COL110 U10 sill wall"
+  ],
+  "conditional_target": "COL120 bay10 arcade2 dentil03 only if its bearing enters the same cut",
+  "fixed": [
+    "Band11 and right ends",
+    "Near Tower10 rib/shoulder",
+    "Niche upperbearing above z43.15",
+    "Arches,130 rim,131 supported walljoint, columns and bases",
+    "All light/materialgraphs/AO/age",
+    "Source173, no174 orheld185 geometry"
+  ],
+  "cut": {
+    "left_x_at_y202_z41": 16.6,
+    "left_dx_dy": 0.28,
+    "left_dx_dz": 0.1,
+    "right_x": 21.3,
+    "back_y_at_x18_z41": 212.4,
+    "back_dy_dx": 0.35,
+    "back_dy_dz": 0.05,
+    "front_y": 195,
+    "z_range": [
+      39.75,
+      43.15
+    ],
+    "layer_left_offsets": {
+      "profile0": 0.35,
+      "profile3": 0.12,
+      "sill": 0.18,
+      "others": 0
+    }
+  },
+  "review_window": [
+    2135,
+    600,
+    2170,
+    645
+  ],
+  "proof_crop": [
+    2080,
+    545,
+    2310,
+    775
+  ],
+  "gates": [
+    "No new robustcrossings; exact inherited pairs classified",
+    "Closednativegeometry/subtractivevolume/sourcecontainment",
+    "Protected surfaces and material/attribute/normalcorrespondence",
+    "Actual mainleftclusterchange, not secondaryright slab",
+    "Conditional dentil support and nativeink comparison beforeintegration"
+  ],
+  "status": "One isolated fixedshape; earlyheldproof beforetechnicalrepair"
+}

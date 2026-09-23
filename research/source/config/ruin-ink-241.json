@@ -1,0 +1,14 @@
+{
+  "iteration": 241,
+  "hypothesis": "Matching the two nearest broken building assemblies to adjacent foreground rubble outlines will connect their visual depth while retaining softer rear ruins.",
+  "references": [
+    {"id":"UCL-01","property":"Near masonry contour hierarchy against atmospheric distant structure"},
+    {"id":"UCL-02","property":"Visible fractured masonry contours, with quieter interior marks"},
+    {"id":"DP-03","property":"Construction silhouette and depth-separated detail density"}
+  ],
+  "source":"art/studies/hybrid-atmosphere-240/scene.blend",
+  "changed_variables":["L0 and R3 native outer boundary weight/color now match foreground pile","Exclusive stroke ownership for those two assemblies"],
+  "fixed":["camera","layout","geometry","materials","fog","all farther ruined-building ink styles"],
+  "review_criteria":["Nearest left/right ruin silhouettes read continuously with adjacent pile","No duplicated lines","Farther ruins remain thin and subdued"],
+  "status":"Native helper verified; parent combined render pending"
+}

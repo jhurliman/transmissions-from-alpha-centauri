@@ -1,0 +1,45 @@
+{
+  "source": "art/studies/coliseum-168/scene.blend",
+  "references": {
+    "UCL-01": "Cool sheltered masonry spans broad faces beside warm surviving facing",
+    "UCL-02": "Quiet violet-gray midtones preserve material unity through damage",
+    "DP-03": "Unequal broad color families remain larger than local edge detail"
+  },
+  "hypothesis": "The existing primary age field is mostly a darkened version of warm facing. Reusing its exact mask as a hue correction toward sheltered masonry can establish a broad cool body while preserving its existing linear luminance and all geometric depth cues.",
+  "fixed": [
+    "All geometry, attributes, normals, camera, lights, structural ink and existing material/group graphs",
+    "162 primary coverage, strength, grain and polygon composition",
+    "Existing 158 secondary receiver surfaces, including their color composition",
+    "165 core response and all nonlandmark systems"
+  ],
+  "changed": [
+    "Private copy of current 162 group adds one final color correction using the existing primary deposit factor, excluding secondary receiver faces",
+    "Hue target normalized from #3d353f sheltered-pier sample; original per-pixel Rec.709 linear luminance retained"
+  ],
+  "target_chroma_srgb": "3d353f",
+  "luminance_weights": [
+    0.2126,
+    0.7152,
+    0.0722
+  ],
+  "primary_attribute": "162 primary facade receiver",
+  "group_name": "162 Unequal broad facade age",
+  "primary_mix_label": "152 primary connected sheltered deposit",
+  "crop": [
+    1665,
+    435,
+    2330,
+    900
+  ],
+  "criteria": [
+    "A coherent cooler body appears beside warm quiet faces at whole-scene viewing scale",
+    "No purple paint label, glow, new darkening, added mask/noise or lost joints",
+    "Native output linear luminance preserved by construction; rendered pixel error measured separately",
+    "Independent local review before full-scene integration"
+  ],
+  "limits": [
+    "This isolates chromatic integration; it cannot establish improved grayscale depth or solve the separate right contact knot."
+  ],
+  "status": "Independently retained for one full-scene test; no saturation increase before full review.",
+  "user_approved": false
+}

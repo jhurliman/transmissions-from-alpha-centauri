@@ -1,0 +1,28 @@
+{
+  "references": [
+    "DP-08",
+    "DP-01",
+    "HM-01"
+  ],
+  "properties": [
+    "Large slab/cantilever/service hierarchy",
+    "Simple shaded masses with sparse outlined apertures",
+    "Restrained detail in dark middle values"
+  ],
+  "hypothesis": "Numerous narrow, tall silhouettes retain the user-directed faraway vertical city; approved facade finish binds the nearer layers to the alley while detail diminishes with depth.",
+  "fixed": [
+    "074 alley geometry/materials",
+    "camera",
+    "landmark",
+    "world and volume"
+  ],
+  "changed": [
+    "Distant remnant architecture only"
+  ],
+  "review_criteria": [
+    "Depth and scale",
+    "Silhouette family variety",
+    "Alley language continuity",
+    "No tiny-detail visual noise"
+  ]
+}

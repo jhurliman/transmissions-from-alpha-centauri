@@ -1,0 +1,73 @@
+{
+  "iteration": 219,
+  "hypothesis": "Restrained world-space density variation can give the warm depth haze faint internal billows without making separate cloud blobs or flattening building surfaces.",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Faint irregular warm atmosphere at the landmark base; original user-created ChatGPT Images2.5 artwork.",
+      "crop": "art/studies/coliseum-136/haze/reference-street.png"
+    },
+    {
+      "id": "DP-05",
+      "property": "Large-scale separation of distant architectural mass from foreground, without a surface-colored veil."
+    },
+    {
+      "id": "HM-03",
+      "property": "Painterly low-contrast atmospheric depth in a future street."
+    }
+  ],
+  "source": "art/studies/scene-direction-218/current-sun/scene.blend",
+  "changed_variables": [
+    "One multiplicative world-space density field shared by existing scatter and orange radiance"
+  ],
+  "broad_noise": {
+    "spatial_scales_m": [
+      12,
+      120,
+      5.5
+    ],
+    "detail": 2.0,
+    "roughness": 0.5,
+    "centered_amplitude": 0.9
+  },
+  "fine_noise": {
+    "spatial_scales_m": [
+      3,
+      40,
+      1.75
+    ],
+    "detail": 1.0,
+    "roughness": 0.5,
+    "centered_amplitude": 0.3
+  },
+  "density_multiplier": {
+    "nominal_mean": 1.0,
+    "theoretical_bounds": [
+      0.4,
+      1.6
+    ],
+    "onset_world_y_m": [
+      48,
+      78
+    ]
+  },
+  "fixed": [
+    "Original near-clear/far5x depth and height envelopes",
+    "202 low source rise/taper",
+    "Haze color and volume bounds",
+    "All geometry/lights/camera/sky/sun",
+    "All existing ink passes including215 fog exclusion",
+    "217 selected character pixels and compositor"
+  ],
+  "review_criteria": [
+    "Actual native original/candidate at identical settings",
+    "Faint broad billows and subordinate fine variation, no obvious separate cloud forms",
+    "Overall haze brightness/color stays close to baseline",
+    "Near buildings remain clear, far depth stays strong",
+    "No new ink disappearance or change to character pixels"
+  ],
+  "mean_note": "Noise factors are centered around1 rather than increasing haze strength. Finite camera-view mean requires actual native comparison; no exact rendered-mean claim is made from shader parameters.",
+  "approved": false,
+  "revision": 2,
+  "revision_reason": "V1 actual warm-bank centered red standard deviation1.17/255 was visually too weak. Strengthen spatial variance and halve cross-street/vertical feature scales, with no uniform density boost."
+}

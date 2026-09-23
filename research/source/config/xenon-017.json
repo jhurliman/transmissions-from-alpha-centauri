@@ -1,0 +1,29 @@
+{
+  "iteration": "017",
+  "reference_ids": [
+    "DP-04",
+    "DP-05",
+    "HM-03",
+    "AF-06"
+  ],
+  "visual_properties": {
+    "DP-04": "Layered service machinery and connected fittings",
+    "DP-05": "Large distant structure",
+    "HM-03": "Weathered facade construction",
+    "AF-06": "Readable architectural planes"
+  },
+  "target": "art/reviews/xenon-001/selected-third.png",
+  "hypothesis": "Keep user-accepted six-alley gap, enlarge dome 50%, add real openings, wall internals, fasteners, flanged supports and routed services.",
+  "fixed": [
+    "Camera",
+    "Actor",
+    "Alley extent",
+    "240-unit gap"
+  ],
+  "changed": [
+    "Dome size",
+    "Alley construction detail"
+  ],
+  "acceptance": "Native geometry-only; no projected finish",
+  "user_approval": "016 scale direction accepted; 017 pending"
+}

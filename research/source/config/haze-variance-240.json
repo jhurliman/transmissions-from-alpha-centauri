@@ -1,0 +1,14 @@
+{
+ "iteration":240,
+ "source":"art/studies/road-characters-239/scene.blend",
+ "hypothesis":"Higher contrast in the existing spatial density field creates alternating dense opaque pockets and thin openings at the lower arcade, without uniformly boosting fog or making it white.",
+ "references":[{"id":"UCL-01","property":"Orange lower atmospheric pockets flatten selected ground-level architectural detail; user original ChatGPT Images2.5 art","crop":"art/studies/coliseum-136/haze/reference-street.png"},{"id":"DP-05","property":"Depth separation with retained large architectural silhouettes"},{"id":"HM-03","property":"Warm atmosphere with quiet uneven interior density"}],
+ "centered_contrast":7.5,
+ "symmetric_amplitude":0.94,
+ "upper_fade_world_z_m":[12,25],
+ "dense_pigment_blend":0.18,
+ "dense_pigment_linear":[0.68,0.20,0.07],
+ "fixed":["239 sun and upper-landmark improvement","existing global scatter density gain2.8","original depth envelope near-clear to far5x","noise scales/seeds","orange radiance field","all geometry/materials outside haze","all ink and compositor"],
+ "review_criteria":["Dense low pockets visibly flatten facade detail while thin pockets preserve it","No bright white emission or uniform veil","Upper landmark and nearest buildings preserve239light","Native actual render and scoped ink review required"],
+ "approved":false
+}

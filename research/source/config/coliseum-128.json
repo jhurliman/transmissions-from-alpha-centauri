@@ -1,0 +1,39 @@
+{
+  "source": "127 integrated scene",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-02",
+    "UCL-19",
+    "DP-03"
+  ],
+  "hypothesis": "Compensating broad cylindrical orientation in the native masonry light response and warming/lifting its palette will match the reference better while preserving local normal, crevice and specular response.",
+  "fixed": [
+    "Accepted pose, camera, sky/cloud palette",
+    "127 equal clearances and continuous wall joins",
+    "66% receiver depth and unchanged pipe bore",
+    "All other locked surroundings",
+    "All127 geometry and ink; unchanged real scene lights, sky, world and haze"
+  ],
+  "studies": [
+    "Native facade-relative lighting and dusty rose palette against unchanged127 geometry",
+    "Repair inherited B10 folded source geometry",
+    "One connected cornice/arch/tower damage site",
+    "Localized runoff from architectural ledges with quiet intact regions",
+    "Contain outer arch joint endpoints"
+  ],
+  "review_criteria": [
+    "Real improvement at native 4K scene scale",
+    "Credible supported mass and exposed wall thickness",
+    "Closed meshes with no newly introduced intersections",
+    "No false module seams",
+    "Weathering follows plausible ledge and recess paths",
+    "No global palette or pose regression",
+    "Reference-consistent facade color across left, center and right, without washing out local depth"
+  ],
+  "status": "Native palette and light revision selected for128 review; geometry studies remain separate; not user approved",
+  "latest_user_priority": "Match reference: broadly even facade illumination, lighter and redder masonry, retain local specular highlights, shadow and ink",
+  "selected_for_review": "B: .90 broad orientation compensation; .69 linear palette gain; small dusty red/mauve shift",
+  "integration_scope": [
+    "Landmark object-linked material graphs only"
+  ]
+}

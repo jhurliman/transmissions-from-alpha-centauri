@@ -1,0 +1,48 @@
+{
+  "iteration": 248,
+  "source": "art/studies/soil-length-247/scene.blend",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Thin contours and internal damage marks on distant broken architecture"
+    },
+    {
+      "id": "UP-03",
+      "property": "Selective interior damage accents"
+    },
+    {
+      "id": "DP-08",
+      "property": "Depth and edge hierarchy"
+    }
+  ],
+  "hypothesis": "Thin visible contours plus restrained native damage creases connect farther ruins to the surrounding inked scene.",
+  "variables": [
+    "farther ruin ink eligibility and widths",
+    "selected damage creases"
+  ],
+  "fixed": [
+    "heavy nearest ruin outlines",
+    "haze/materials/lighting",
+    "all geometry",
+    "shortened247tracks",
+    "exact characters"
+  ],
+  "approved": true,
+  "ink": {
+    "exterior_width_px": 0.95,
+    "interior_width_px": 0.52,
+    "exterior_color": [
+      0.012,
+      0.013,
+      0.023
+    ],
+    "interior_color": [
+      0.034,
+      0.03,
+      0.049
+    ],
+    "scope": "four farther assemblies; nearL0/R3 preserved"
+  },
+  "diagnostic_note": "Prior far styles were enabled; partial ownership and low ink/surface contrast investigated. Isolated counter proof failed and is not acceptance evidence; use integrated248actual render.",
+  "approval_note": "User: yes love this, before requesting249base weathering."
+}

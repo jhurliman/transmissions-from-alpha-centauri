@@ -1,0 +1,128 @@
+{
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "A medium-scale sheltered ledge shoulder connects two unequal mineral/remnant zones with runoff; preserves quiet spans and existing light",
+  "source_scene": "scene-details-138",
+  "anchor_pixel": [
+    1936,
+    585
+  ],
+  "anchor_object": "COL110 T2 band08 profile2",
+  "anchor_original_world": [
+    -2.9515345096588135,
+    190.8153533935547,
+    41.186553955078125
+  ],
+  "right_original_world": [
+    0.9985,
+    -0.05472,
+    -0.00191
+  ],
+  "up_original_world": [
+    0,
+    -0.03489949670250097,
+    0.9993908270190958
+  ],
+  "width": 1.65,
+  "length": 4.5,
+  "lip_levels": [
+    0,
+    0.48,
+    0.92
+  ],
+  "fixed": [
+    "All geometry/normals/camera/lights",
+    "black ink",
+    "accepted broad palette",
+    "all unrelated systems"
+  ],
+  "criteria": [
+    "Finite connected age group tied to real ledge",
+    "No new black knot",
+    "Short warm catches not blanket brightening",
+    "Visually legible at final4K and camera size"
+  ],
+  "crop": [
+    1750,
+    525,
+    2085,
+    795
+  ],
+  "span_original_u": [
+    -11,
+    8.6
+  ],
+  "runoff_sources": [
+    [
+      -6,
+      2.4,
+      6.1
+    ],
+    [
+      2.7,
+      1.75,
+      4.8
+    ]
+  ],
+  "strength": 1.0,
+  "changed": [
+    "Finite medium-scale pigment field over T2band07\u201309/upperwallU7\u20139 and attached arcade pieces"
+  ],
+  "reference_properties": {
+    "UCL-01": "Connected age along ledges across neighboring structural planes",
+    "UCL-02": "Unequal plaster loss and sheltered deep violet recess deposits",
+    "DP-03": "Large quiet structural surfaces contrasted with localized intermediate-scale wear"
+  },
+  "revision": 3,
+  "mineral_remnant": {
+    "source": "Untouched original lit base, separate from dark deposit result",
+    "multiplier": [
+      1.55,
+      1.6,
+      1.65
+    ],
+    "blend_strength": 0.88,
+    "shapes": "two unequal bounded broken patches"
+  },
+  "integration_source": "scene-details-143 or later; local138 landmark remains identical except pending141spall",
+  "fields": [
+    {
+      "object": "COL110 U7 sill wall",
+      "polygon": 38,
+      "center_original_world": [
+        -11.070284843444824,
+        192.72900390625,
+        43.356712341308594
+      ],
+      "half_width": 1.8,
+      "half_height": 1.3,
+      "pigment_multiplier": [
+        2.12,
+        2.04,
+        1.89,
+        1
+      ]
+    },
+    {
+      "object": "COL110 U9 sill wall",
+      "polygon": 34,
+      "center_original_world": [
+        2.224346876144409,
+        191.6316375732422,
+        43.23252868652344
+      ],
+      "half_width": 1.05,
+      "half_height": 0.82,
+      "pigment_multiplier": [
+        1.94,
+        1.94,
+        1.84,
+        1
+      ]
+    }
+  ],
+  "scope": "Flat upper masonry U7\u20139 only; ledge materials and darkest shelter unchanged; majority quiet"
+}

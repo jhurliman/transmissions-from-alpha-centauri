@@ -1,0 +1,49 @@
+{
+  "references": [
+    {
+      "id": "UX-01",
+      "property": "Layered urban masses and dense low skyline"
+    },
+    {
+      "id": "UX-03",
+      "property": "Painted rectangular accents with quieter edges"
+    },
+    {
+      "id": "DP-03",
+      "property": "Overlapping urban depth and continuous street sides"
+    }
+  ],
+  "user_edits": [
+    "Move L04/L05 together onto the right building side of L06, behind all other city buildings but in front of L06",
+    "New front outer-left/right masses to bridge near/far joins",
+    "Magenta diagnostic with sky/landmark hidden",
+    "2x,4x and near old window-coverage brush density; feather one axis"
+  ],
+  "fixed": [
+    "near alley",
+    "ground and rocks",
+    "scrap105",
+    "production sky and landmark",
+    "brush palette and size across variants"
+  ],
+  "status": "ready for review; density choice pending",
+  "latest_user_correction": "Pair goes on right building side of brown, behind all other city buildings but in front of brown. Earlier near-street placement discarded.",
+  "pair_depths": [
+    117.84242248535156,
+    121.79800415039062
+  ],
+  "brown_depth": 156.43258666992188,
+  "variants": {
+    "A": {
+      "brush_multiplier": 2
+    },
+    "B": {
+      "brush_multiplier": 4
+    },
+    "C": {
+      "brush_multiplier": 8,
+      "purpose": "approximate earlier dense window coverage using strokes"
+    }
+  },
+  "review": "prototype/review-106.html"
+}

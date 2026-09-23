@@ -1,0 +1,30 @@
+{
+  "references": [
+    {
+      "id": "UM-01",
+      "property": "Connected slate-blue coating, rust islands, fine chipped edges"
+    },
+    {
+      "id": "UP-03",
+      "property": "Multiscale metal surface weathering"
+    },
+    {
+      "id": "DP-08",
+      "property": "Industrial material and highlight hierarchy"
+    }
+  ],
+  "fixed": [
+    "geometry",
+    "camera",
+    "all non-near-scrap materials",
+    "city103"
+  ],
+  "changed": [
+    "Actual diffuse illumination mapped to warm rust in light and dark steel-blue in shade",
+    "Fine pits, same-color grime and abrasion",
+    "Interrupted light-responsive rim highlights"
+  ],
+  "status": "ready for user review",
+  "user_correction": "Warm/cool division must be lighting driven, not patches of rust coating. Prior coating alternatives discarded.",
+  "review": "art/studies/scrap-104/review.json"
+}

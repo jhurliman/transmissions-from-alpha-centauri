@@ -1,0 +1,18 @@
+{
+  "iteration": "036",
+  "reference_ids": [
+    "DP-08",
+    "HM-03",
+    "AF-06"
+  ],
+  "hypothesis": "Removing the rear pipe gives the rear building a cleaner silhouette and establishes the right-side geometry checkpoint.",
+  "changed": [
+    "Entire right pipe at y=23 and all its supports and roof penetration removed"
+  ],
+  "fixed": [
+    "All other geometry",
+    "Camera",
+    "Lighting and materials"
+  ],
+  "user_direction": "Right side geometry pretty good after this removal."
+}

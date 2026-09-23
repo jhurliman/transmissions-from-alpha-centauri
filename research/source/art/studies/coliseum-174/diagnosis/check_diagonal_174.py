@@ -1,0 +1,12 @@
+"""Numeric arrays only: test an alternative diagonal, no Blender mesh creation/mutation."""
+import json,sys,types,collections
+from pathlib import Path
+from mathutils import Vector,Matrix,geometry
+from mathutils.bvhtree import BVHTree
+R=Path(__file__).resolve().parents[4];sys.path.insert(0,str(R/'tools'));from coliseum_crown_continuation_154 import robust_crossings
+O=R/'art/studies/coliseum-174/diagnosis';d=json.load(open(O/'head-domain.json'));vv=[Vector(v)for v in d['mesh_vertices_local']];old=[tuple(t['vertices'])for t in d['render_triangles']];new=old.copy();new[711]=(1263,82,83);new[4612]=(1263,304,82);M=Matrix(d['matrix_world'])
+def proxy(fs):return types.SimpleNamespace(data=types.SimpleNamespace(vertices=[types.SimpleNamespace(co=v)for v in vv],loop_triangles=[types.SimpleNamespace(vertices=f)for f in fs],calc_loop_triangles=lambda:None),matrix_world=M)
+def edges(fs):return collections.Counter(tuple(sorted((f[i],f[(i+1)%3])))for f in fs for i in range(3))
+def volume(fs):return sum(vv[f[0]].dot(vv[f[1]].cross(vv[f[2]]))/6 for f in fs)
+a=robust_crossings(proxy(old),True);b=robust_crossings(proxy(new),True);olde=edges(old);newe=edges(new);tree=BVHTree.FromPolygons([M@v for v in vv],old,all_triangles=True)
+results={'scope':'Read-only numeric triangle arrays; no Blender mesh or scene mutation','old_crossings':a,'alternate_crossings':b,'old_faces':{str(i):old[i]for i in [711,4612]},'alternate_faces':{str(i):new[i]for i in [711,4612]},'all_other_triangles_exact':all(x==y for i,(x,y)in enumerate(zip(old,new))if i not in [711,4612]),'all_vertex_coordinates_exact':True,'old_non2_edge_count':sum(v!=2 for v in olde.values()),'new_non2_edge_count':sum(v!=2 for v in newe.values()),'removed_diagonal':[304,83],'new_diagonal':[1263,82],'unchanged_patch_boundary':'1263→304→82→83→1263','signed_native_volume_delta':volume(new)-volume(old),'new_centroid_distance_to_old_world_surface_m':[tree.find_nearest(sum((M@vv[j]for j in new[i]),Vector())/3)[3]for i in [711,4612]],'caution':'This verifies crossing/edge incidence for numeric connectivity only. A future native candidate must additionally preserve all unaffected polygon order, normals, attributes, and exact current evaluated transform; then rerun checks. No acceptance of carving or render equivalence.'};(O/'diagonal-feasibility.json').write_text(json.dumps(results,indent=2));print({k:v for k,v in results.items()if k not in ['old_crossings','alternate_crossings']});print('crossings',len(a),len(b))

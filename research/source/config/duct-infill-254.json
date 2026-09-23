@@ -1,0 +1,31 @@
+{
+  "iteration": 254,
+  "source": "art/studies/duct-mounts-253/scene.blend",
+  "references": [
+    {
+      "id": "DP-08",
+      "property": "Plausible service anchors and wall relationships"
+    },
+    {
+      "id": "UP-03",
+      "property": "Weathered fitted metal connections"
+    },
+    {
+      "id": "UCL-01",
+      "property": "Preserve established scene contrast and palette"
+    }
+  ],
+  "hypothesis": "Bring infill forward55cm to make solid replacement legible.",
+  "variables": [
+    "Infill depth",
+    "Collar seating"
+  ],
+  "fixed": [
+    "All four brackets",
+    "Bottom mount",
+    "Camera",
+    "Other architecture",
+    "Lighting"
+  ],
+  "approved": false
+}

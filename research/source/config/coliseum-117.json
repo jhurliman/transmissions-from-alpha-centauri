@@ -1,0 +1,39 @@
+{
+  "iteration": 117,
+  "baseline": "art/studies/coliseum-116/scene.blend",
+  "status": "Native sample rendered and critiqued; further iteration required",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "reference_properties": {
+    "UCL-01": "layered masonry, real openings and damaged upper-wall mass",
+    "UCL-02": "recessed upperwall subdivisions, connected breaches, crust and runoff",
+    "DP-03": "hierarchy of large mass to smaller architectural detail, not specific composition"
+  },
+  "hypothesis": "Connected volumetric damage and secondary wall relief are the dominant remaining gaps; fine noise alone cannot close them.",
+  "fixed": [
+    "main camera",
+    "accepted E curvature and bay count",
+    "four-degree yaw",
+    "open rear",
+    "low haze",
+    "all nonlandmark systems"
+  ],
+  "variables": [
+    "one sample upperwall/tower architectural relief",
+    "localized connected breakage",
+    "damage-attached weathering on sample only"
+  ],
+  "review": [
+    "clay structural depth",
+    "supported nonplanar fracture thickness",
+    "real hole geometry",
+    "main camera readability",
+    "matched reference crop",
+    "connected deposit paths and quiet wall balance"
+  ],
+  "target": "Toward user99 aspiration; honest independent scores, no final acceptance implied",
+  "review_page": "prototype/review-117.html"
+}

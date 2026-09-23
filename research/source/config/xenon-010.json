@@ -1,0 +1,15 @@
+{
+  "reference_ids": [
+    "DP-04",
+    "DP-05",
+    "HM-03",
+    "AF-06"
+  ],
+  "hypothesis": "Balanced physical lighting and actual boolean edge cuts improve values and damaged construction.",
+  "fixed": [
+    "camera",
+    "figure layout"
+  ],
+  "acceptance": "No image texture, projection or painted finish",
+  "reviewer_decision": null
+}

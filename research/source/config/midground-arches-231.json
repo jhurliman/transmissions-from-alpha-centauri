@@ -1,0 +1,32 @@
+{
+  "iteration": 231,
+  "source": "art/studies/midground-230/scene.blend",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Layered arch contours and upper opening ornament"
+    },
+    {
+      "id": "UP-03",
+      "property": "Industrial surface detail"
+    },
+    {
+      "id": "RS-01",
+      "property": "Hardware corrosion"
+    }
+  ],
+  "hypothesis": "Wrapped springline stones and modest sill pyramids enrich repeated arch contours while preservingwalkableground entrances; finalproof also integrates230midgroundpass.",
+  "changed_variables": [
+    "108additive revealstone returns",
+    "36upper-tier pyramids rising10%clearheight"
+  ],
+  "fixed": [
+    "All230midgroundchanges",
+    "229acceptedgarage/passages",
+    "228steps",
+    "Landmarkscale,camera,haze,sun,characters"
+  ],
+  "status": "Native4Krenderinprogress",
+  "review": "prototype/review-231.html",
+  "user_approved": false
+}

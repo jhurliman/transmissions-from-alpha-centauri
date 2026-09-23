@@ -1,0 +1,29 @@
+{
+  "source": "123 base plus124columns/framing/untintedcornices",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-11",
+    "UCL-13",
+    "DP-03"
+  ],
+  "hypothesis": "Concentrated multiscale erosion at ledges and genuine fine crown fractures improve richness without blanket noise.",
+  "fixed": [
+    "Locked surroundings except explicitly requested sky gradient",
+    "Accepted landmark pose",
+    "Latest columns/cornices/framing"
+  ],
+  "studies": [
+    "Normalized crown fine fractures",
+    "Arch radial tick cause",
+    "Attached granular ledge weathering"
+  ],
+  "status": "Integrated4K review ready; not locked",
+  "user_selected": {
+    "arch_width_reduction": 0.2,
+    "arch_height_reduction": 0.05,
+    "platform_fraction_of_resized_hole_height": 0.05,
+    "sky_final_render_top": "#e75a38",
+    "sky_final_render_bottom": "#ec5f37"
+  },
+  "target": "95/100 on every independent critic axis, plus final user acceptance"
+}

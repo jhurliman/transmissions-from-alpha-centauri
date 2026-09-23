@@ -1,0 +1,30 @@
+{
+  "iteration": 252,
+  "source": "art/studies/base-weather-249/scene.blend",
+  "references": [
+    {
+      "id": "UP-03",
+      "property": "Connected uneven staining, small granular breaks and retained base finish"
+    },
+    {
+      "id": "DP-08",
+      "property": "Plausible service-to-building relationships and subdued industrial wear"
+    },
+    {
+      "id": "UCL-01",
+      "property": "Accepted violet-shadow palette and distant surface contrast"
+    }
+  ],
+  "hypothesis": "Stronger dark soot and higher trail opacity make runoff readable at scene scale.",
+  "variables": [
+    "Trail opacity0.68\u20130.98",
+    "Dark multiplier0.07/0.08/0.11",
+    "Higher minimum continuity"
+  ],
+  "fixed": [
+    "Camera, geometry, sun, haze, existing surface texture and all other objects"
+  ],
+  "approved": false,
+  "review_baseline": "art/studies/awning-runoff-251/main-4k.png",
+  "implementation_base_note": "Rebuild250effect from249 to replace, not stack, runoff"
+}

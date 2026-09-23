@@ -1,0 +1,50 @@
+{
+  "source": "retained 168",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "Carry the independently reviewed 172 cooler primary age treatment into full-scene context without darkening or changing the existing pattern.",
+  "changed": [
+    "Private primary-age group uses the existing primary factor for a hue conversion at unchanged linear luminance",
+    "Secondary receiver faces explicitly excluded"
+  ],
+  "fixed": [
+    "All native geometry, normals, attributes, camera and lights",
+    "All 168 damage and corrected contact strokes",
+    "Other material graphs, paint coverage, polygon fields and strengths",
+    "All accepted environment systems, including 147 threefold bottom splatter"
+  ],
+  "criteria": [
+    "Full 4K and independent six-axis review",
+    "A muted broad cool body without purple paint patches or new darkness",
+    "Fresh kit/scene match, native contact preservation and outside-landmark pixel inspection"
+  ],
+  "status": "Retained after independent full-scene and portable-kit review; all-axis 95 and user approval remain pending.",
+  "validation": {
+    "render": [
+      3840,
+      2885
+    ],
+    "seconds": 120.926826,
+    "scores": [
+      95,
+      95,
+      94,
+      94,
+      94,
+      94
+    ],
+    "outside_landmark_pixels_over_4": 0,
+    "outside_landmark_max_channel_difference": 1,
+    "scene_kit_objects_match": 3531,
+    "separate_contact_strokes_match": 1938,
+    "linked_ids": 0,
+    "scene_images_packed": 9,
+    "kit_proofs": [
+      "primary-painted.png",
+      "primary-clay.png"
+    ]
+  }
+}

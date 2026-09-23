@@ -1,0 +1,34 @@
+{
+  "source": "art/studies/entry-surround-229/scene.blend",
+  "references": [
+    "UCL-01",
+    "UCL-03",
+    "DP-03"
+  ],
+  "reference_properties": [
+    "User UCL architecture: projecting spring stones and sill silhouette ornaments",
+    "UCL03 deep masonry reveals and connected stone returns",
+    "DP03 native layered construction and anchored receiver details"
+  ],
+  "user_crop": "clipboard-e8a01523-a1cb-4f94-8b0f-212f282932df.png",
+  "hypothesis": "Continuous impost stones through the reveal and low upper sill pyramids add the requested small silhouette breaks to the orange openings.",
+  "changed": [
+    "108 additive springline stones extended through full reveal, with connected rear wraps",
+    "36 upper sill centered pyramids,about10percent clearheight"
+  ],
+  "fixed": [
+    "Original facade/arch/tunnel geometry",
+    "Groundfloor walkable entries and steps",
+    "Native landmark scale/layout and all midground/foreground",
+    "Existing material graphs and camera"
+  ],
+  "acceptance": [
+    "Front stone extension overlaps original rather than floating",
+    "Rear caps continuously connected to full reveal strip",
+    "Upper pyramid bases seated on actual native coping",
+    "Zero pyramids at groundlevel",
+    "All newclosedmeshes manifold",
+    "Actual root native crop before visual acceptance"
+  ],
+  "status": "CPU frozen; native combined proof pending"
+}

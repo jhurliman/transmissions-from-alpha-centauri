@@ -1,0 +1,76 @@
+{
+  "study": "190 distributed colosseum face crumbling",
+  "source": "art/studies/coliseum-188/scene.blend",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "Larger connected groups on genuinely camera-visible walls, with original face-local boundaries preserved, will give the broad crumbled masonry reading missing from scattered tiny recesses.",
+  "reference_observations": {
+    "UCL-01": "User original created with ChatGPT Images 2.5. Larger dark crumbling groups appear at many cornice/arch shoulders, pier junctions and upper apertures. Larger groups roughly 15\u201335% of a bay width; smaller companions roughly 3\u201310%. Visual estimates, not segmentation measurements. Roughly one conspicuous group per 1\u20132 visible bays per arcade level, with quieter intact spans.",
+    "UCL-02": "User original detail crop: irregular dark substrate concentrated around openings and crown, with uneven fragments retained at edges. Major aperture darkness is deep shadow and must not be copied as flat dark damage patches.",
+    "DP-03": "Darius Puia / BakaArts, reference-only. Selective broken edges and sparse cracks interrupt repeated structural spans while large undamaged faces remain. Used for distribution/shape hierarchy, not composition or copied forms."
+  },
+  "changed_variables": [
+    "deterministic distributed shallow spall geometry",
+    "local darker substrate and fracture rim materials",
+    "selective connected crack cuts"
+  ],
+  "fixed": [
+    "camera",
+    "lighting",
+    "overall palette",
+    "115E structure and yaw",
+    "arch opening ratios",
+    "columns and piers",
+    "cornice profiles",
+    "platform lips",
+    "tunnels",
+    "framing",
+    "all non-colosseum systems"
+  ],
+  "seed": 19073,
+  "arcade_clusters_per_tier": 17,
+  "upper_wall_cluster_probability": 0.56,
+  "primary_radius_m": [
+    0.55,
+    1.3
+  ],
+  "recess_depth_m": [
+    0.075,
+    0.22
+  ],
+  "review_criteria": [
+    "Damage clearly distributed across the whole landmark at game camera",
+    "Irregular substrate pockets and broken rims, not identical stamps or noise blanket",
+    "Large clusters with smaller companions and selective fractures",
+    "Architectural openings and silhouettes remain intact",
+    "Editable native geometry and materials only"
+  ],
+  "status": "Standalone v2 first broader pass ready for review; exact native and replay audits passed; no integration or final score",
+  "user_approved": false,
+  "rim_gain": 0.83,
+  "substrate_gain": 0.47,
+  "fracture_probability": 0.38,
+  "material_binding": "Explicit per-face integer provenance; final mesh material table rebuilt from effective source slots and all slots DATA-linked.",
+  "version": 2,
+  "visible_arcade_groups": 7,
+  "lobe_radius_horizontal_m": [
+    1.5,
+    2.55
+  ],
+  "lobe_radius_vertical_m": [
+    0.55,
+    1.1
+  ],
+  "connected_lobes_per_group": [
+    2,
+    3
+  ],
+  "v2_recess_depth_m": [
+    0.13,
+    0.28
+  ],
+  "method": "Face-local constrained triangulation; no whole-wall Boolean; source face identity controls material lineage"
+}

@@ -1,0 +1,48 @@
+{
+  "study": "207 upper-course native ink visibility correction",
+  "source": "art/studies/scene-completion-205/scene.blend",
+  "evidence": [
+    "user d41a1b06 screenshot",
+    "corner-ink-207/before-top-native.png",
+    "corner-ink-207/ownership.json"
+  ],
+  "hypothesis": "The top diagonal projected course has different native shape owners from the middle/bottom205 fix. Restrict only their segments proven behind Building side return.002 by endpoint/midpoint world-ray depth.",
+  "fixed": [
+    "all geometry",
+    "all material graphs",
+    "camera/lighting",
+    "all149/156/161/192/205 corrections",
+    "visible native course continuation",
+    "global ink width"
+  ],
+  "changed": [
+    "additional207 native source-to-occluder guard only"
+  ],
+  "native_owners": [
+    "145 Panel 03 impact",
+    "145 Panel 03 impact folded top",
+    "Folded sheet face.047",
+    "Top / bottom return.094"
+  ],
+  "diagnostic_roi_4k": [
+    325,
+    12,
+    430,
+    108
+  ],
+  "proof_crop_4k": [
+    300,
+    0,
+    620,
+    450
+  ],
+  "threshold_m": 0.02,
+  "validation": [
+    "actual top y0\u2013108 included",
+    "offending upper ink stops at return boundary",
+    "right-side exposed continuation retained",
+    "native stroke ownership capture and hidden-segment audit",
+    "geometry/material graph preservation"
+  ],
+  "user_approved": false
+}

@@ -1,0 +1,92 @@
+{
+  "study": 206,
+  "hypothesis": "Photo-faithful rear silhouettes can be simplified into indexed low-resolution sprites, alongside separate scene-matched anime cutouts with a native lighting study.",
+  "reference_properties": {
+    "XENON-CD": "Native pixel dimensions, silhouette and economical shade clusters only; no copied costume or character",
+    "DP-05": "Small figure readability against monumental background",
+    "HM-03": "Muted painted tones and selective warm light",
+    "AF-06": "Economical dark contour and flat colored shapes"
+  },
+  "references": [
+    {
+      "group": "darius-puia",
+      "image_url": "https://inspgr.id/app/uploads/2024/08/illustration-darius-puia-07.jpg",
+      "title": "Scale and negative space",
+      "source_page": "https://theinspirationgrid.com/imaginative-sci-fi-illustrations-by-darius-puia/",
+      "creator": "Darius Puia / BakaArts",
+      "period": "Published in 2024 feature; individual artwork dates not verified",
+      "file": "darius-puia/DP-05-scale-and-negative-space.jpg",
+      "width": 1680,
+      "height": 2100,
+      "sha256": "d0e7255962f4035fa622a612f6a8f0065116dbf5f124fcceef755e7d658f5208",
+      "rights": "Reference only; no redistribution or game-asset license acquired",
+      "retrieved": "2026-09-09",
+      "id": "DP-05",
+      "source_title": "Published study 07",
+      "direction_note": "Stage small figures against a dominant distant mass; invent our own landmark.",
+      "avoid": "Do not reproduce the specific composition, character, vehicle, or signature design.",
+      "title_status": "Descriptive curatorial label, not a claimed original artwork title"
+    },
+    {
+      "group": "heavy-metal-1981",
+      "image_url": "https://i.imgur.com/nGeQga4.jpg",
+      "title": "Painted future street",
+      "source_page": "https://www.bluscreens.net/heavy-metal.html",
+      "creator": "Heavy Metal (1981), directed by Gerald Potterton; film rights holders",
+      "period": "1981 film / Blu-ray capture",
+      "file": "heavy-metal-1981/HM-03-painted-future-street.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "11acc543f16a9d70f12ba7f3e5d78ae833e3919147349b5f5daa52c1ff5dba3b",
+      "rights": "Reference only; no redistribution or game-asset license acquired",
+      "retrieved": "2026-09-09",
+      "id": "HM-03",
+      "source_title": "Film still 5",
+      "direction_note": "Combine ordinary urban clutter, atmospheric distance, and warm foreground accents.",
+      "avoid": "Do not reproduce the specific composition, character, vehicle, or signature design.",
+      "title_status": "Descriptive curatorial label, not a claimed original artwork title"
+    },
+    {
+      "group": "aeon-flux",
+      "image_url": "https://www.artofthetitle.com/assets/resized/sm/upload/ce/ak/fg/sp/af_titlestill_02-0-870-0-0.jpg?k=51e36513f3",
+      "title": "Architectural perspective",
+      "source_page": "https://www.artofthetitle.com/title/aeon-flux/",
+      "creator": "Peter Chung / MTV Animation; Art of the Title interview",
+      "period": "1991 pilot and development; title stills may be 1995",
+      "file": "aeon-flux/AF-06-architectural-perspective.jpg",
+      "width": 870,
+      "height": 669,
+      "sha256": "8301d4bfef417ade627dbdae20af0f602e0dcb1c5e3c561da6815bd8b708ff2f",
+      "rights": "Reference only; no redistribution or game-asset license acquired",
+      "retrieved": "2026-09-09",
+      "id": "AF-06",
+      "source_title": "Aeon Flux Title Sequence Still 01",
+      "direction_note": "Use repeated geometry to direct the eye; do not reproduce the specific corridor.",
+      "avoid": "Do not reproduce the specific composition, character, vehicle, or signature design.",
+      "title_status": "Descriptive curatorial label, not a claimed original artwork title"
+    }
+  ],
+  "user_owned_sources": [
+    "private/character-sources/airam-photo-cutout.png",
+    "private/character-sources/miranda-photo-cutout.png"
+  ],
+  "fixed": [
+    "205 scene art/camera/geometry/materials",
+    "Photo hair, clothing, rear-facing pose and proportions"
+  ],
+  "changed_variables": [
+    "Pixel grid and limited palette",
+    "Anime ink/albedo treatment",
+    "Scene-derived sprite lighting"
+  ],
+  "review_criteria": [
+    "Both subjects recognizable by silhouette/clothes/hair",
+    "Clean transparent alpha",
+    "Strict measured pixel dimensions and palette counts",
+    "Readable at gameplay scale",
+    "Independent parallel anime study",
+    "Clearly distinguish generated artwork from physically responsive lighting proof"
+  ],
+  "user_authorization": "Explicit request for bitmap character sprites/compositing supersedes generic geometry-only requirement for this separate study; no native geometry quality score claimed.",
+  "baseline_user_approval": "User accepted205 weathering and everything else before starting these studies; small notes deferred."
+}

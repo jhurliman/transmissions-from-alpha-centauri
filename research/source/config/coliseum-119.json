@@ -1,0 +1,36 @@
+{
+  "iteration": 119,
+  "source": "art/studies/coliseum-116/scene.blend",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "A visible centralbay can test the camera-scale value of the118 component treatment; hiddenbay4studies cannot.",
+  "bay": 8,
+  "fixed": [
+    "camera",
+    "Ecurve",
+    "yaw",
+    "bay8existingcrown",
+    "all nonlandmark geometry/materials",
+    "low haze",
+    "open rear"
+  ],
+  "variables": [
+    "recessedbay8architecture",
+    "one localizedbreach",
+    "broken trim/varied interiorledges",
+    "local cavityshade",
+    "landmark contact ink rebuilt"
+  ],
+  "status": "visible geometry study in progress",
+  "review": [
+    "maincamera nativepixel readability",
+    "matchedbefore/after4Kcrop",
+    "no unsupported remnants",
+    "crown unchanged",
+    "no regularstair rhythm",
+    "preservation audit"
+  ]
+}

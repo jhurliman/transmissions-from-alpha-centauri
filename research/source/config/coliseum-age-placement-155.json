@@ -1,0 +1,31 @@
+{
+  "source": "art/studies/coliseum-152/scene.blend (independent local component comparison)",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "One existing primary age lobe lies partly over excluded opening surfaces. Moving it onto the mapped lit spandrel makes the age legible apart from geometric shadow without increasing pigment strength or adding a layer.",
+  "changed_variables": [
+    "Primary deposit polygon5 translated2.2 original-space units left"
+  ],
+  "fixed": [
+    "All geometry, normals, camera, lighting and native ink",
+    "153 cornice correction and 151 crown",
+    "All material strengths, palette, noise scales, secondary age and quiet-area gates",
+    "All unrelated scene systems including3x bottom splatter"
+  ],
+  "criteria": [
+    "Connected asymmetric age readable on actual lit spandrel at1800 display",
+    "No dominant dark blot or hard polygon shape",
+    "Most lit receiver area remains quiet",
+    "No change in protected openings or niche depths"
+  ],
+  "status": "Independently retained for combined proof; no global score",
+  "native_changed_region": [
+    1739,
+    560,
+    1844,
+    640
+  ]
+}

@@ -11,8 +11,9 @@ This is an illustrated scene built in Blender: editable 3D architecture and mate
 ## Explore the project
 
 - **See the rendered artwork:** [download the 4K PNG](https://github.com/jhurliman/transmissions-from-alpha-centauri/releases/download/v1.0.0/main-4k.png).
-- **Open the editable scene:** [download the complete v1.0 project](https://github.com/jhurliman/transmissions-from-alpha-centauri/releases/download/v1.0.0/transmissions-from-alpha-centauri-v1.0.0.zip). It includes the Blender file, packed textures, render scripts, and documentation.
+- **Open the editable scene:** [download the complete v1.0 project](https://github.com/jhurliman/transmissions-from-alpha-centauri/releases/download/v1.0.0/transmissions-from-alpha-centauri-v1.0.0-licensed.zip). It includes the Blender file, packed textures, render scripts, and documentation.
 - **Read the documentation:** read the [reproduction guide](docs/release/REPRODUCING.md), [project review](docs/release/REVIEW.md), and [asset provenance](docs/release/PROVENANCE.md).
+- **Explore the techniques:** browse the [historical generation code and study catalog](research/README.md).
 
 The environment uses native geometry and materials, with native-derived cloud layers and authored soil textures. The characters are 2D pixel-art assets composited into the scene. Their exact colors and pixels are preserved by the render workflow.
 

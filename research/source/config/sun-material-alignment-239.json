@@ -1,0 +1,41 @@
+{
+  "iteration": 239,
+  "source": "art/studies/road-characters-239/scene.blend",
+  "hypothesis": "Align authored form-light normals to the existing visible sky sun so native lighting and hand-authored palette response agree.",
+  "direction_to_sun": [
+    0.10937,
+    0.9503,
+    0.2915
+  ],
+  "evidence": [
+    "tools/coliseum_materials_113.py Broad form lighting",
+    "tools/city_transition_133.py Broken-building shade families",
+    "tools/coliseum_lighting_128.py paired macro illumination",
+    "tools/rocks_091.py actual SUN-derived direction",
+    "tools/build_look_038.py facade palette",
+    "tools/ground_surface_085.py earth form lighting"
+  ],
+  "fixed": [
+    "geometry",
+    "palette ramps",
+    "weathering and pigment masks",
+    "world sky disc",
+    "actual scene lights (root adjusts SUN separately)",
+    "camera"
+  ],
+  "explicit_exclusions": [
+    "054 pipe pigment-lift band",
+    "075 scrap pigment bands",
+    "153 and208 geometric face masks",
+    "projection/luminance math",
+    "unmatched or nested group internals"
+  ],
+  "review_criteria": [
+    "Visible-sun direction coheres with native lighting",
+    "Palette identities survive without crushed facade colors",
+    "No weathering masks rotate",
+    "Root actual native proof required"
+  ],
+  "status": "CPU helper ready; root owns actual native proof",
+  "user_approved": false
+}

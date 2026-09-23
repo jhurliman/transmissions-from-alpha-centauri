@@ -1,0 +1,37 @@
+{
+  "iteration": 234,
+  "source": "art/studies/facade-finish-233/scene.blend",
+  "references": [
+    "UCL-01",
+    "RS-01",
+    "RS-02"
+  ],
+  "hypothesis": "Broader runoff/light-stain masks and physical facade recesses read at scene scale where233microdetail failed.",
+  "changed_variables": [
+    "Broad fading rain trails",
+    "Large ragged warm-light stains",
+    "Private native facade losses and fractures"
+  ],
+  "fixed": [
+    "233 darkened window base",
+    "Window layout and broken pane shapes",
+    "Near buildings, landmark, characters, atmosphere and camera"
+  ],
+  "status": "Complete; far towerfinish explicitly accepted",
+  "user_approved": false,
+  "physical_events": 24,
+  "visible_buildings": 12,
+  "window_trails": {
+    "normalized_halfwidths": [
+      0.075,
+      0.115,
+      0.045
+    ],
+    "normalized_lengths": [
+      0.88,
+      0.64,
+      0.96
+    ]
+  },
+  "user_approval_scope": "Far towers only"
+}

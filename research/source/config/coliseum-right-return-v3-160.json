@@ -1,0 +1,13 @@
+{
+  "source": "corrected156",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "Explicit pre112 masonry-step correspondence prevents whole-profile ruled-strip folding.",
+  "changed": "Eight independently constrained domains; all previous protected skin retained.",
+  "result": "Rejected:81 strict crossings; hypothesis not supported.",
+  "rendered": false,
+  "integrated": false
+}

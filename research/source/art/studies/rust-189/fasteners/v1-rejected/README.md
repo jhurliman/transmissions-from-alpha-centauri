@@ -1,0 +1,1 @@
+Rejected initial binary-cell wash. initial-black-film.blend preserves the original diffuse pigment shader, which rendered near black. candidate.blend preserves the same rejected binary-cell mask after the first bounded-light shader correction. Audit counts are valid but visual acceptance was rejected; use rebuilt V2 cache outside this folder after its review.

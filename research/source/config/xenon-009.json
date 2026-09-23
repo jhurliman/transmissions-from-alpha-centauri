@@ -1,0 +1,11 @@
+{
+  "reference_ids": [
+    "DP-04",
+    "DP-05",
+    "HM-03",
+    "AF-06"
+  ],
+  "acceptance": "geometry only",
+  "hypothesis": "Readable actual lighting, proportional ruins and thin metal overlap improve the remaining structural gaps.",
+  "reviewer_decision": null
+}

@@ -1,0 +1,31 @@
+{
+  "iteration": "049",
+  "reference_ids": [
+    "DP-08",
+    "HM-03",
+    "AF-06"
+  ],
+  "properties": [
+    "Different weathering histories across buildings",
+    "Vertical chromatic trails fed by architectural edges",
+    "Sparse geometric losses amid quiet intact architecture"
+  ],
+  "hypothesis": "Per-building runoff zones and one lighter mirrored panel damage variant can distribute the approved vocabulary without making all buildings equally distressed.",
+  "changed": [
+    "Runoff on selected window and panel-edge regions across facade families",
+    "Protected normals and lower-strength sheltered side-road staining",
+    "One additional shallow lifted panel corner"
+  ],
+  "fixed": [
+    "Camera, layout and interaction markers",
+    "Approved support spalls",
+    "Service materials and geometry",
+    "Baseline facade color regions"
+  ],
+  "review_criteria": [
+    "No uniform full-alley stripe field",
+    "Existing warm/cool facade identities retained",
+    "Concrete, sheet-metal and service damage remain distinct",
+    "Evaluate game camera, grayscale, closeups and reference"
+  ]
+}

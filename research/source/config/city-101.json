@@ -1,0 +1,49 @@
+{
+  "references": [
+    {
+      "id": "UX-01",
+      "property": "individual projected building masses, heights andpalette"
+    },
+    {
+      "id": "DP-03",
+      "property": "layered vertical urban architecture"
+    },
+    {
+      "id": "HM-14",
+      "property": "atmospheric separation"
+    },
+    {
+      "id": "UX-02",
+      "property": "clearer painted skyline masses, lowfrontages and depthcolors"
+    }
+  ],
+  "hypothesis": "Measured original massing with low foreground shelves and different building heights exposes breadth behindstreetfront.",
+  "user_authorization": "Explicit reference-layout matching experiment, overriding generic local prohibition on composition copying for this private study.",
+  "fixed": [
+    "camera",
+    "099rocks",
+    "097road",
+    "nearalley",
+    "sky",
+    "landmark"
+  ],
+  "variables": [
+    "farbuildinglayout",
+    "individualheight",
+    "individualcolor",
+    "camera-aperture fit preservingrelative massdistribution"
+  ],
+  "status": "A layout selected by user; tiny window facade treatment rejected",
+  "variants": {
+    "A": {
+      "reference": "UX-01",
+      "scene": "art/studies/city-101/A/scene.blend"
+    },
+    "B": {
+      "reference": "UX-02",
+      "scene": "art/studies/city-101/B/scene.blend"
+    }
+  },
+  "latest_user_direction": "Compareboth references; windingroadallowed; rubble-skyscraper stylelater",
+  "selected_variant": "A"
+}

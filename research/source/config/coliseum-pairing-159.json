@@ -1,0 +1,12 @@
+{
+  "hypothesis": "Staggered masonry course loss and attached finite facade age can form a connected medium-scale damaged group while preserving the intact architectural rhythm.",
+  "references": [
+    {"id":"UCL-01","property":"unequal broken course ends and connected sheltered age"},
+    {"id":"UCL-02","property":"large coherent damage group with quiet surrounding facing"},
+    {"id":"DP-03","property":"structural thickness and restrained surface variation"}
+  ],
+  "fixed": ["camera", "landmark layout", "arches", "columns", "primary152/155 age", "nonlandmark systems", "illumination"],
+  "changed": ["157 V3 local existing right cornice course subtraction", "158 existing secondary age polygon layout"],
+  "criteria": ["clay establishes course thickness and recess", "paint preserves short unequal retained stone ends", "one attached weathered group readable at1800 frame ratio", "majority adjacent lit wall remains quiet", "no new crossings or changes to protected scene"],
+  "status":"Local pairing prepared; no integration or acceptance implied"
+}

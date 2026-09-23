@@ -1,0 +1,22 @@
+{
+  "reference_ids": [
+    "DP-04",
+    "DP-05",
+    "HM-03",
+    "AF-06"
+  ],
+  "status": "fixed-camera visual threshold reached; geometry below threshold",
+  "target": "art/reviews/xenon-001/selected-third.png",
+  "final_render": "art/reviews/xenon-006/blender-finished.png",
+  "scene": "art/reviews/xenon-006/xenon-camera-finish.blend",
+  "scores": {
+    "composition": 82,
+    "silhouette": 84,
+    "depth": 86,
+    "values_color": 84,
+    "surface_line": 86,
+    "gameplay_readability": 85
+  },
+  "reviewer_decision": null,
+  "method": "new painted finish generated from the geometry render, camera-dependent material override; baked lighting and figure"
+}

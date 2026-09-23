@@ -1,0 +1,64 @@
+{
+  "source_scene": "art/studies/alley-weathering-145/actual/scene.blend",
+  "references": [
+    "UCL-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "goal": "Reusable alley building weathering system with independent95-per-axis review, then controlled actual-alley integration",
+  "hypothesis": "A connected broad light-response field with fine bottom-weighted splotches spans architectural panels naturally; an independent translucent runoff layer extending streaks50% farther adds fading rain stains without uniformly lengthening opaque rust.",
+  "required_features": [
+    "Nuanced connected large-scale warm/cool sunlight response",
+    "One missingtopchunk exposingthickness",
+    "Two unequal recessed pits",
+    "One impacthole",
+    "One crack",
+    "Approximately70percent occupied plausible bolt anchors",
+    "Dark oxide bolt rings and rain-directed clusteredstreaks",
+    "Tiny dots plus occasional elongated nicks and short curvedgashes"
+  ],
+  "fixed": [
+    "Existing145geometry and accepted underlying143scene",
+    "Camera/lighting and unrelated scene systems",
+    "Width and anchors of reviewed rust runs"
+  ],
+  "tests": [
+    "Native clay confirms real recesses/thickness",
+    "Moved-key and cool-fill controls distinguish physicallightresponse fromfixedwarmwash",
+    "Deterministicboltoccupancy andactualorigin audit",
+    "Closeup plusactual4Kcamera readability",
+    "Independentcritic threshold95 beforedeclaringcomplete"
+  ],
+  "status": "Rendered native component and actual4K candidate, inspected and published asreview146; full95target remains open",
+  "latest_user_correction": "A few rust streaks should begin broader and taper downward; keep fine trails and varied lengths as secondary marks.",
+  "material_revision": "V5: composed broad roughness regions, sparse boundary irregularity and restrained interior variation; actual warm-light response.",
+  "geometry_revision": "V2: finite tapered dark fracture and unequal impact bevel, all23 meshes closed with zero strict crossings.",
+  "actual_scene_scope": {
+    "source": "art/studies/alley-rust-143/scene.blend",
+    "private_instances": [
+      "Architecture | layout_broad.007",
+      "Architecture | layout_access.008",
+      "Architecture | layout_transition.010"
+    ],
+    "geometry": "Native dimensions and rigid poses preserved; damage positions adjusted inside panels to remain visible",
+    "fasteners": "8 of12 supported sites occupied in actual placement;11 of16 in isolated kit",
+    "preserved": "Old source mesh/material graphs and non-target scene instances unchanged; only58 local stale contact-ink points hidden",
+    "resolution": [
+      3840,
+      2885
+    ]
+  },
+  "changed_variables": [
+    "Broad coating field plus localized fine splotches at panel bases",
+    "Actual warm-incident-light susceptibility supports highlights beyond a narrow gloss lobe",
+    "Rust runs50%longer with independently editable translucent fade layer"
+  ],
+  "validation": [
+    "Material left/right/cool-fill controls inspected",
+    "Component native4K and matchedclay inspected",
+    "Actualscene native4K inspected",
+    "Recursive145V2/146preservation check passes geometry/normals/transforms/camera/lights",
+    "All translucent wash length multipliers verified1.5",
+    "HTTP and local artifact links verified"
+  ]
+}

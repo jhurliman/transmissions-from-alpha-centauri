@@ -1,0 +1,27 @@
+{
+  "iteration": "059",
+  "references": [
+    "UP-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "additional_reference": "references/user-concrete-crack-study/concrete-fracture-reference.png",
+  "hypothesis": "Connected primary fractures with variable aperture and localized breakouts will outperform increased independent crack count.",
+  "scope": "One existing right concrete support and the exposed sloped mineral face at the base of the front-left column",
+  "variants": [
+    "density: independent fixed-width anchored walks",
+    "network: connected main routes, branches, varied widths and breakouts"
+  ],
+  "fixed": [
+    "058 materials including pipes and ducts",
+    "alley camera and layout",
+    "all other components"
+  ],
+  "review": [
+    "game-camera legibility",
+    "native closeups",
+    "anchored endpoints",
+    "quiet intact regions"
+  ],
+  "specimen_change": "Original recessed panel is occluded by structural volume. Use visible mineral column face instead; no metal panel receives brittle damage."
+}

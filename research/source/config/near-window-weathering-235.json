@@ -1,0 +1,73 @@
+{
+  "study": 235,
+  "scope": "Four glass panes on the nearest right blue facade; light weathering only",
+  "source": "art/studies/far-weathering-234/scene.blend",
+  "module": "tools/near_window_weathering_235.py",
+  "roots": [
+    "Architecture | window_bay.005",
+    "Architecture | window_open.003"
+  ],
+  "pane_ids": [
+    "Full-height blue glass.005",
+    "Full-height blue glass.006",
+    "Full-height blue glass.008",
+    "Full-height blue glass.009"
+  ],
+  "references": [
+    {
+      "id": "DP-08",
+      "use": "Restrained weathered surface integration"
+    },
+    {
+      "id": "DP-04",
+      "use": "Rain-oriented residue"
+    },
+    {
+      "id": "HM-03",
+      "use": "Quiet finish variation"
+    }
+  ],
+  "finish": {
+    "unequal_rain_trails_per_pane": 4,
+    "rain_blend": 0.56,
+    "broad_stain_blend": 0.4,
+    "bottom_deposit_coverage_approx": 0.25,
+    "bottom_deposit_max_opacity": 0.52
+  },
+  "preserve": [
+    "Original pane meshes, normals and transforms",
+    "Frames and surrounding materials",
+    "Accepted far234 windows",
+    "Camera, lighting, architecture and all scene geometry"
+  ],
+  "projected_bounds_4k": {
+    "upper": [
+      3621,
+      41,
+      3801,
+      510
+    ],
+    "lower": [
+      3573,
+      732,
+      3869,
+      1159
+    ]
+  },
+  "review_crop": [
+    3470,
+    0,
+    3840,
+    1220
+  ],
+  "validation": "Scoped CPU preservation; final integrated native image reviewed by parent",
+  "revision": 2,
+  "mapping_audit": {
+    "horizontal_generated_axis": "X",
+    "vertical_generated_axis": "Z",
+    "pane_local_width": 0.88,
+    "pane_local_height": 1.832,
+    "generated_coordinates_match_actual_mesh_texspace": true,
+    "V1_visibility_failure": "Low contrast and thin trails, basal deposit hidden by rebate/foreground Y brace; not wrong coordinate axis"
+  }
+}

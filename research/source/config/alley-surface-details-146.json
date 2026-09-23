@@ -1,0 +1,40 @@
+{
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Edge sourced runoff fading along gravity"
+    },
+    {
+      "id": "UP-03",
+      "property": "Fine sparse surface marks and tonal hierarchy"
+    },
+    {
+      "id": "DP-08",
+      "property": "Plausible joint-origin infrastructure weathering"
+    }
+  ],
+  "hypothesis": "Independent translucent dilutedoxide extends existing contactruns50% without flattening darkorigin",
+  "changed": [
+    "Second shadercompositing layer and1.5x wash extent"
+  ],
+  "fixed": [
+    "Camera",
+    "geometry",
+    "corelayer",
+    "anchors",
+    "hardware",
+    "headwidths",
+    "lighting"
+  ],
+  "controls": [
+    "Wash strength=0 disables only newwash",
+    "Wash length multiplier defaults1.5",
+    "Strength=0 disables all corrosion"
+  ],
+  "review_criteria": [
+    "Longer clearlyfading trails",
+    "No cloudmask",
+    "No new geometry or detached sources",
+    "Preserve original dark contact core"
+  ]
+}

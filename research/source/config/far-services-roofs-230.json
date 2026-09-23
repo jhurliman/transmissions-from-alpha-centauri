@@ -1,0 +1,15 @@
+{
+  "study": 230,
+  "hypothesis": "Full-diameter wall entries and varied roof service silhouettes make the distant accepted building kit look intentionally assembled rather than repetitively tapered.",
+  "references": [
+    {"id":"DP-08","property":"Large service diameter hierarchy, projecting receivers, readable equipment groups"},
+    {"id":"DP-04","property":"Unequal mechanical groupings and grounded service details"},
+    {"id":"HM-03","property":"Quiet building planes counterbalanced by varied roof silhouettes"}
+  ],
+  "reference_rights": "Existing manifest credits retained; reference study only, no copied artwork",
+  "changes": ["Remove middle-left103 complete far service assembly", "Replace remaining far tapered terminals with600mm native elbows to receiver boxes or full-size wall flanges", "Remove top-front band components at/above roof elevation while preserving actual roof slabs and intermediate bands", "Native roof condenser assemblies with integral roof service penetrations and selected service ladders"],
+  "fixed": ["Foreground architecture and services", "Camera", "Landmark and228steps", "229entry and approved garage", "Soil and dust", "Selected characters", "Existing source geometry and materials"],
+  "integration": "After far_facades_230, before final landmark contact visibility reclip. Iterate all current root collections including root-authored infill.",
+  "review_criteria": ["No tiny tapered wall connections", "No floating roof beams", "Roof units seated and ladders reach roof", "Native endpoints and collars actually connected", "Far equipment reads at native scene camera without erasing facade"],
+  "status": "CPU candidate; final combined native render required"
+}

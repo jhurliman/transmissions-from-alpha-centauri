@@ -1,0 +1,38 @@
+{
+  "source": "art/studies/beam-rust-197/scene.blend",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "reference_properties": {
+    "UCL-01": "Connected broken facade planes with dark irregular losses, exposed floor sections, visible fracture scale across the alley-to-city transition",
+    "UCL-02": "Layered shallow facing loss, dark recessed core and occasional deeper cracks",
+    "DP-03": "Quiet broad cool planes interrupted by clustered damage and warm edge accents"
+  },
+  "hypothesis": "Visibility-gated real recesses and broken edges on the existing133ruin family, paired with broader restrained pigment breakup, will read as destroyed buildings rather than blank thin standing planes without moving their accepted massing.",
+  "changed": [
+    "Private geometry/data and material bindings on133 Ruined transition structures only",
+    "Irregular native wall recesses, cracks and edge chips at camera-readable scale",
+    "Private weathering materials retaining existing palette and direction-dependent shading"
+  ],
+  "fixed": [
+    "Camera, lights, scene composition",
+    "City tower layout and materials",
+    "Original road/soil/debris placement",
+    "Alley geometry and services",
+    "Landmark",
+    "Original133object transforms and major height/envelope",
+    "Reusable200payload remains untinted; user204palette applied downstream"
+  ],
+  "validation": [
+    "Actual native camera proof alongside baseline crop",
+    "Visible face inventory gates feature placement",
+    "Only133collection changes; all other source geometry/material graphs preserved",
+    "Closed mesh checks after applied cuts",
+    "No road blockage or disconnected added rubble",
+    "Report actual visible impact rather than feature count alone"
+  ],
+  "status": "V2 native proof with downstream204 palette inspected; retained for203 integration, not user approved",
+  "revision": "V2 connected edge fractures"
+}

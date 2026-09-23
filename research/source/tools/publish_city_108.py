@@ -1,0 +1,10 @@
+from pathlib import Path
+from PIL import Image
+import numpy as np,json
+R=Path(__file__).resolve().parents[1];O=R/'art/studies/city-108';roi=(520,245,980,505)
+for label,path in [('before',R/'art/studies/city-107/C/main.png'),('after',O/'main.png')]:
+ im=Image.open(path).convert('RGB');im.crop(roi).resize((1380,780),Image.Resampling.LANCZOS).save(O/(label+'-city.png'))
+a=np.array(Image.open(O/'main.png').convert('RGB')).astype(int);b=np.array(Image.open(R/'art/studies/city-107/C/main.png').convert('RGB')).astype(int)
+(O/'review.json').write_text(json.dumps({'status':'locked per user request after left extension','approved_material':'107C: 8x dark, 1x light','extension':'Four left buildings through depth174, beyond right rear156','visual_review':'Continuous left depth, varied heights, road remains open','road_crop_max_difference':int(np.abs(a-b)[560:880,420:1000].max())},indent=2)+'\n')
+s='''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>108 · Far buildings locked</title><style>body{background:#19191e;color:#eee7df;font:17px/1.55 system-ui;max-width:1440px;margin:32px auto;padding:0 22px}a{color:#efbc91}img{width:100%;display:block}figure{margin:28px 0}figcaption{padding:8px 0;color:#c5bbc4}</style><h1>108 · Far buildings locked</h1><p>The approved 8× dark brushwork and 1× light strokes are retained. Four added buildings extend the left side slightly farther back than the right, keeping the road open.</p><p><a href="#comparison">Before / after</a> · <a href="/art/studies/city-108/scene.blend">Editable scene</a></p><a href="/art/studies/city-108/main.png"><img src="/art/studies/city-108/main.png"></a><section id="comparison"><h2>Left-side depth</h2><figure><img src="/art/studies/city-108/before-city.png"><figcaption>Before · 107C</figcaption></figure><figure><img src="/art/studies/city-108/after-city.png"><figcaption>After · left buildings continue into the distance</figcaption></figure></section></html>'''
+(R/'prototype/review-108.html').write_text(s);(R/'prototype/index.html').write_text(s)

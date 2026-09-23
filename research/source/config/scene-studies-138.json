@@ -1,0 +1,29 @@
+{
+  "source": "135 scene, derived from134 with inspected v2 three-wall crown reconstruction and broken-cornice weathering",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-136",
+    "UP-03",
+    "DP-08"
+  ],
+  "hypothesis": "Combine the verified local fracture work with warmer finite city atmosphere and corrosion driven by actual fasteners and rainfall paths.",
+  "changed_variables": [
+    "135 crown and local cornice wear",
+    "136E orange native haze with rear cutoff",
+    "137 private left Y support and ledge rust materials"
+  ],
+  "fixed": [
+    "Camera and accepted architecture outside three repaired wall regions",
+    "Sky colors/clouds, city geometry, alley services, road and near scrap",
+    "All light objects and unrelated materials"
+  ],
+  "review_criteria": [
+    "Damaged returns read as irregular exposed masonry, not intact trim",
+    "Warm base atmosphere without bright tunnel sources",
+    "Dark bolt corrosion, unequal rain streaks and varied oxide palette without cloud masks or wrap bands",
+    "Native4K and coherent current kit proofs",
+    "Independent six-axis review and explicit remaining gaps",
+    "Final user approval still required"
+  ],
+  "status": "Integrated native4K delivered; fresh critic95/95/90/91/93/94; user approval pending"
+}

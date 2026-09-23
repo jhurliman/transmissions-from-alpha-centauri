@@ -1,0 +1,18 @@
+{
+  "hypothesis": "Two unequal finite collar-fed fields improve support age while preserving broad light and quiet interiors.",
+  "source": "art/studies/coliseum-149/scene.blend",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "anchors": "art/studies/coliseum-150/mapping/anchors.json",
+  "fixed": [
+    "geometry",
+    "camera",
+    "lighting",
+    "accepted rose/violet palette",
+    "darkest niches and return faces"
+  ],
+  "status": "draft mapping only"
+}

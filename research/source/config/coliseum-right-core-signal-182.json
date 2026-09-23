@@ -1,0 +1,12 @@
+{
+  "source": "art/studies/coliseum-173/scene.blend",
+  "references": ["UCL-01", "UCL-02", "DP-03"],
+  "property": "Readable exposed masonry planes against genuine sheltered returns; diagnose light-response routing rather than tune brightness",
+  "hypothesis": "Historical151 core assignment may compress useful actual-light separation on right broken courses; actual receiver measurements must precede any routing proof",
+  "crop": [2105,570,2235,685],
+  "source_material": "151 Warm violet exposed masonry core",
+  "probes": ["black0", "white1", "actual_diffuse", "old_palette_input"],
+  "method": "Private material copies, achromatic direct emission into active output. Retain lights, volume, geometry and ink. Black/white matched emission calibrates per-channel linear transport; corrected scalar=(signal-black)/(white-black). Sample actual first-hit151 faces and reject small-transmission/edge cases.",
+  "fixed": ["All saved scenes/materials untouched", "No165assignment", "NoAO/palette/strength/light change", "True band08soffit unchanged", "No scene save or art candidate"],
+  "criteria": ["Exact receiver object/face/normal", "Measured diffuse versus current ramp-driving separation within orientations", "Conservative handling of volume/antialiasing", "Decide whether one unchanged165 scoped routing proof is justified; no parameter tuning"]
+}

@@ -1,0 +1,10 @@
+{
+  "source": "art/studies/coliseum-134/scene.blend",
+  "previous_goal_turn": "Progress: integrated native134 crown repair, two proven tessellation fixes and collar-fed weathering; full4K independent review95/95/89/91/93/94.",
+  "reference_ids": ["UCL-01", "UCL-02", "DP-03"],
+  "hypothesis": "A visibly broader connected crown fracture and material wear tied to an existing broken cornice improve damage hierarchy and painted integration without changing approved architecture.",
+  "changed_variables": ["Left crown exposed return planes and local edge fractures", "One finite material weathering field attached to the central broken cornice"],
+  "fixed": ["134 camera, looming silhouette, openings, rear removal and4degree yaw", "Accepted lighting palette, black joints, arch ink, platforms and columns", "All133 alley, clouds, city, haze, road and foreground"],
+  "review_criteria": ["Supported unequal fracture planes visible at4K and camera size", "Raw and evaluated geometry checks; no detached fragments", "Actual broken ledge is source for connected deposits and selective warm lip catches", "No broad noise, identical repeated stains or new black ink knot", "Fresh combined six-axis critique without target-driven inflation"],
+  "status": "Separate geometry and material studies in progress; no final approval or lock"
+}

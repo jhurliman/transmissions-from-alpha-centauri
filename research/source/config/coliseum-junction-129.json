@@ -1,0 +1,25 @@
+{
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "Interrupted bedding losses within the exposed thickness subdivide long fracture returns into masonry courses without enlarging the connected128failure.",
+  "changed": [
+    "Exposed-core course relief",
+    "Two thin residual rim tongues removed"
+  ],
+  "fixed": [
+    "128macrofailure contour and backing",
+    "127camera/layout",
+    "All other buildings and materials"
+  ],
+  "proof_palette": "Inherited127; root128palette is separate",
+  "acceptance": [
+    "Maincamera visible benefit",
+    "No new strict local triangle crossings",
+    "Nonlocal surface unchanged",
+    "No dangling fragments"
+  ],
+  "status": "study"
+}

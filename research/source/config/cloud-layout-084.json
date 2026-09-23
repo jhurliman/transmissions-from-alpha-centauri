@@ -1,0 +1,78 @@
+{
+  "references": [
+    "UC-01",
+    "UC-02",
+    "DP-08"
+  ],
+  "hypothesis": "Increase cloud coverage with overlapping unequal banks and smaller winding sky gaps. Keep082 cloud shapes and calibrated palette, preserve sun breathing space.",
+  "fixed": [
+    "camera",
+    "noncloud scene",
+    "cloud assets and pigment"
+  ],
+  "changed": [
+    "cloud count",
+    "position",
+    "width",
+    "overlap"
+  ],
+  "placements": [
+    [
+      "arch",
+      570,
+      41,
+      440,
+      850
+    ],
+    [
+      "shoulder",
+      923,
+      8,
+      455,
+      880
+    ],
+    [
+      "shoulder",
+      530,
+      126,
+      350,
+      845
+    ],
+    [
+      "arch",
+      783,
+      128,
+      355,
+      855
+    ],
+    [
+      "wisp2",
+      691,
+      89,
+      250,
+      830
+    ],
+    [
+      "shoulder",
+      992,
+      170,
+      295,
+      865
+    ],
+    [
+      "wisp",
+      575,
+      191,
+      190,
+      840
+    ],
+    [
+      "wisp2",
+      810,
+      208,
+      235,
+      835
+    ]
+  ],
+  "status": "candidate"
+}

@@ -1,0 +1,20 @@
+{
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "Consistent selectedTower10 blindarched niche gives matching projecting shafts a coherent architectural grammar.",
+  "changed": [
+    "Tower7 long middle recess restored to clean nativecore and recut",
+    "Matching niche onTower1/4/13/16",
+    "Actual118 cavity response onlywhereabsent"
+  ],
+  "fixed": [
+    "128broadpalette",
+    "Tower10 chosen detail",
+    "Upperchannels/collars/crowns",
+    "Globalpose/camera"
+  ],
+  "review": "Pending user approval; native proof inspected"
+}

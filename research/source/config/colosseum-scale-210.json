@@ -1,0 +1,58 @@
+{
+  "iteration": 210,
+  "status": "selection-study-not-approved",
+  "hypothesis": "A uniformly larger landmark will increase the looming scale while the street, nearest building edge and sun stay anchored.",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Original landmark prominence and roofline negative space",
+      "creator": "Project creator using ChatGPT Images 2.5"
+    },
+    {
+      "id": "DP-05",
+      "property": "Architectural mass versus negative space",
+      "creator": "Darius Puia / BakaArts",
+      "source_page": "https://theinspirationgrid.com/imaginative-sci-fi-illustrations-by-darius-puia/"
+    },
+    {
+      "id": "HM-03",
+      "property": "Street depth and large distant architecture",
+      "creator": "Heavy Metal (1981), directed by Gerald Potterton; film rights holders",
+      "source_page": "https://www.bluscreens.net/heavy-metal.html"
+    }
+  ],
+  "source": "art/studies/scene-completion-209/scene.blend",
+  "changed_variables": [
+    "Uniform landmark scale, solved for10%,20%,70% consumption of vertical sky gap",
+    "Compensating translation about ground-projected nearest footprint point"
+  ],
+  "fixed": [
+    "Camera",
+    "Sun position and all lights",
+    "Sky",
+    "Street and buildings",
+    "Haze",
+    "Materials",
+    "Landmark proportions and complete child hierarchy"
+  ],
+  "metric": "Gap between highest visible landmark geometry and top of full4K render; nearest horizontal camera-to-surface distance preserved exactly, ground elevation preserved. Actual 3D nearest surface moves at most0.346m farther, never closer.",
+  "preview": {
+    "base_resolution": [
+      3840,
+      2885
+    ],
+    "percentage": 50,
+    "native_editable_scene_per_variant": true,
+    "matched_baseline": true,
+    "baseline": "Downsample of actual native209 main-4k.png to1920\u00d71442; no redundant baseline render",
+    "global_freestyle_width": 2.6666667461395264,
+    "width_adjustment": "Renderer percentage scaling only; no additional global width reduction"
+  },
+  "review_criteria": [
+    "Exact projected top targets",
+    "No nonlandmark transforms",
+    "All landmark damage/tunnels/framing scale together",
+    "Sun remains fixed and can be naturally occluded",
+    "Actual matched native previews inspected before delivery"
+  ]
+}

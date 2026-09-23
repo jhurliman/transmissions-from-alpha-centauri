@@ -1,0 +1,65 @@
+{
+  "hypothesis": "Discrete plausible corner hardware and source-attached corrosion provide coherent fine detail;quiet panelinteriors retain macrostyle.",
+  "references": [
+    "UCL-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "visual_properties": {
+    "UCL-01": "Corner inset blackfasteners,corrosion atjoints, thinunequal gravityrunoff",
+    "UP-03": "Small separatedmarks with tonal hierarchy",
+    "DP-08": "Purposeful infrastructure joinery and scaled detail"
+  },
+  "seed": 145,
+  "candidate_occupancy": 0.7,
+  "hardware_inset_m": 0.06,
+  "bolt_head_radius_m": 0.014,
+  "washer_radius_m": 0.02,
+  "ring_outer_radius_m": 0.045,
+  "rain_length_m": [
+    0.12,
+    0.65
+  ],
+  "layers": [
+    "fasteners",
+    "corrosion/runoff material",
+    "microink",
+    "optionaltrue-nick modifiers"
+  ],
+  "fixed": [
+    "Clean panel geometry master",
+    "Root macro-light/palette response",
+    "All existingprimary scene assets"
+  ],
+  "criteria": [
+    "Approximately70%cornerhardware occupancy audited",
+    "No bolt overvoid or outsidepanel",
+    "Every corrosion ring tied toactualoccupiedbolt",
+    "Rain originson top edge/corner/joint/bolt",
+    "Dispersed tinyink withfewlargermarks",
+    "Layers individuallydisableable"
+  ],
+  "version": 2,
+  "corrosion_direction": "Compact irregular oxide footprints, no radial color bands; clustered unequal rain traces, sparse warm flecks",
+  "microink_distribution": "50% damage-near,32%joint-near,18%flat; heavy-tailed small radii",
+  "broad_tapered_runs": {
+    "count_per_four_panels": 3,
+    "half_widths_m": [
+      0.028,
+      0.039,
+      0.032
+    ],
+    "lengths_m": [
+      0.56,
+      0.33,
+      0.47
+    ],
+    "tail_halfwidth_m": 0.0018,
+    "taper_powers": [
+      0.8,
+      1.6,
+      1.05
+    ],
+    "opacity": "Continuous body; broken tail only"
+  }
+}

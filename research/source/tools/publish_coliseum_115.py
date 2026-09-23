@@ -1,0 +1,16 @@
+from pathlib import Path
+from PIL import Image
+R=Path(__file__).resolve().parents[1];O=R/'art/studies/coliseum-115'
+style='body{background:#19191e;color:#eee7df;font:17px/1.55 system-ui;max-width:1440px;margin:32px auto;padding:0 22px}a{color:#efbc91}img{width:100%;display:block}figure{margin:28px 0}figcaption{color:#c5bbc4;padding:8px 0}section{margin:40px 0}'
+s=f'<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>115 · Looming coliseum and low haze</title><style>{style}</style><h1>115 · Looming coliseum and low haze</h1><p>Orange dust stays near the street and fades upward. Native perspective studies increase the curved rise and fall of the arcade bands, with the camera and surrounding geometry fixed. The recommended version combines stronger curvature, narrower bays and balanced arch depth.</p><p><a href="#E">Recommended version</a> · <a href="#C">Deeper tunnels</a> · <a href="#A">A · Deeper oblique ring</a> · <a href="#B">B · Tilted ring</a> · <a href="#reference">Reference</a> · <a href="#haze">Haze studies</a></p>'
+for label,title in [('E','Recommended · Curved ring, balanced arch depth'),('C','Alternative · Deeper arch tunnels'),('A','Study · Broader bays'),('B','Study · Tilted ring')]:
+ folder=O/label
+ if (folder/'main.png').exists():
+  im=Image.open(folder/'main.png');im.crop((450,100,1000,450)).resize((1650,1050)).save(folder/'detail.png');im.convert('L').save(folder/'gray.png')
+  s+= ('<details><summary>Earlier perspective study '+label+'</summary>' if label in ['A','B'] else '')
+  s+=f'<section id="{label}"><h2>{label} · {title}</h2><img src="/art/studies/coliseum-115/{label}/main.png"><p><a href="/art/studies/coliseum-115/{label}/scene.blend">Editable scene</a> · <a href="/art/studies/coliseum-115/{label}/main-4k.png">4K render</a></p><img src="/art/studies/coliseum-115/{label}/detail.png"><details><summary>Grayscale</summary><img src="/art/studies/coliseum-115/{label}/gray.png"></details></section>'
+  if label in ['A','B']:s+='</details>'
+s+='<section><h2>Untextured curvature landmark proof</h2><img src="/art/studies/coliseum-115/E/clay.png"></section>'
+s+='<section><h2>Measured curvature</h2><img src="/art/studies/coliseum-115/band-curves.svg"><p>Approximate hand measurements of the visible reference cornice, compared at equal visible width. C retains A’s curved mass with more closely spaced bays.</p></section>'
+s+='<section><h2>114 · Previous framing and haze</h2><img src="/art/studies/coliseum-114/main.png"></section><section id="reference"><h2>Selected reference · UCL-01</h2><img src="/references/user-coliseum/structure-crop.png"><p>User supplied; original artwork by the project creator using ChatGPT Images 2.5. Original project artwork. Hidden geometry and perspective are inferred.</p></section><section id="haze"><h2>Haze studies on unchanged 114 geometry</h2><p>Diagnostic previews omit Freestyle. A fades from full density at 3m to zero at 19m; B from 5m to 27m. Production candidates use A with a muted plum shadow palette.</p><img src="/art/studies/coliseum-115/haze/A.png"><img src="/art/studies/coliseum-115/haze/B.png"></section><p>Perspective and haze experiments, awaiting review. No final acceptance implied.</p></html>'
+(R/'prototype/review-115.html').write_text(s)

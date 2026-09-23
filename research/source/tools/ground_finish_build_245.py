@@ -1,0 +1,7 @@
+import bpy,sys,json
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];sys.path.insert(0,str(R/'tools'));O=R/'art/studies/ground-finish-245';O.mkdir(exist_ok=True)
+bpy.ops.wm.open_mainfile(filepath=str(R/'art/studies/alley-finish-244/scene.blend'));s=bpy.context.scene
+from soil_traffic_245 import apply as soil
+from footing_shape_245 import apply as foot
+a={'soil':soil(s),'footing':foot(s)};(O/'audit.json').write_text(json.dumps(a,indent=2));bpy.ops.wm.save_as_mainfile(filepath=str(O/'scene.blend'))

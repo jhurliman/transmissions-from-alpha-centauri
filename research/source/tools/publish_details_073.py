@@ -1,0 +1,7 @@
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];out=R/'prototype/review-073.html'
+def fig(src,label):return f'<figure><a href="{src}"><img src="{src}" alt="{label}"></a><figcaption>{label}</figcaption></figure>'
+a='/art/reviews/xenon-073/'
+s='''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>073 · Finished connections</title><style>body{margin:0;background:#19191e;color:#eee7df;font:16px/1.6 system-ui}header,section{padding:24px 3vw}a{color:#efbc91}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}figure{margin:0}img{width:100%;display:block}figcaption{padding:8px 0}p{max-width:1000px}@media(max-width:800px){.grid{grid-template-columns:1fr}}</style><header><h1>073 · Finished connections</h1><p>Full-depth sloped underhang, closed window-kick side returns, bolted wall shoes, rusty sheet-metal access panels and trim termination collars. The reflection experiment is disabled; glass returns to 071.</p><p><a href="#details">Before / after</a> · <a href="/art/reviews/xenon-073/scene.blend">Blender scene</a></p></header>'''
+s+='<section>'+fig(a+'render.png','073 · alley camera')+'</section><section id="details"><div class="grid">'+fig('/art/reviews/xenon-072/right.png','072 · before')+fig(a+'right.png','073 · corrected connections')+'</div></section></html>'
+out.write_text(s);(R/'prototype/index.html').write_text(s)

@@ -1,0 +1,16 @@
+from pathlib import Path
+from PIL import Image
+import json,numpy as np
+R=Path(__file__).resolve().parents[1];O=R/'art/studies/lines-096';A='/art/studies/lines-096/'
+before=Image.open(R/'art/studies/soil-094/main-C.png').convert('RGB');after=Image.open(O/'main.png').convert('RGB')
+boxes={'footings':(880,435,1200,620),'rubble':(800,690,1250,880),'facade':(0,0,450,410),'scrap':(780,850,1400,1080)}
+for key,box in boxes.items():
+ for tag,im in [('before',before),('after',after)]:im.crop(box).resize(((box[2]-box[0])*2,(box[3]-box[1])*2)).save(O/f'{key}-{tag}.png')
+after.convert('L').save(O/'grayscale.png')
+d=np.abs(np.asarray(after).astype(int)-np.asarray(before).astype(int)).max(2);(O/'pixel-audit.json').write_text(json.dumps({'changed_pixels_over_10':int((d>10).sum()),'total_pixels':int(d.size)},indent=2))
+def fig(path,label):return f'<figure><a href="{path}"><img src="{path}" alt="{label}" loading="lazy"></a><figcaption>{label}</figcaption></figure>'
+s='''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>096 · Full intersection ink</title><style>body{background:#19191e;color:#eee7df;font:17px/1.55 system-ui;margin:32px auto;max-width:1450px;padding:0 22px}a{color:#efbc91}figure{margin:0}img{width:100%;display:block}figcaption{padding:9px 0}section{margin:38px 0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}button{padding:12px;font:inherit;color:#eee;background:#45404a;border:1px solid #88776b;cursor:pointer}@media(max-width:800px){.grid{grid-template-columns:1fr}}</style><h1>096 · Full intersection ink</h1><p>The approved 095 linework now covers scene contacts and geometric damage. Soil094C, geometry, palettes and lighting are preserved.</p><p><a href="#footings">Footings</a> · <a href="#rubble">Road rocks</a> · <a href="#facade">Facade damage</a> · <a href="#scrap">Foreground scrap</a> · <a href="/art/studies/lines-096/scene.blend">Editable scene</a></p><button onclick="let i=document.getElementById('main');let a=i.dataset.after==='yes';i.src=a?'/art/studies/soil-094/main-C.png':'/art/studies/lines-096/main.png';i.dataset.after=a?'no':'yes';this.textContent=a?'Before · click for full ink':'Full ink · click for baseline'">Full ink · click for baseline</button><img id="main" data-after="yes" src="/art/studies/lines-096/main.png">'''
+for key,title in [('footings','Footings and structural contacts'),('rubble','Rocks in the road'),('facade','Geometric damage'),('scrap','Near-frame scrap')]:
+ s+=f'<section id="{key}"><h2>{title}</h2><div class="grid">'+fig(A+key+'-before.png','Before')+fig(A+key+'-after.png','Full ink')+'</div></section>'
+s+='<p>Intersection lines follow crossing surfaces; damage ink follows crack material boundaries. Texture-only pigment flecks and stains retain their approved treatment. All scene solids participate in hiding occluded strokes. Locked sky and the reserved landmark retain their existing linework. Baked native strokes regenerate for a changed camera or geometry. <a href="'+A+'audit.json">Coverage audit</a> · <a href="'+A+'grayscale.png">Grayscale view</a>.</p></html>'
+(R/'prototype/review-096.html').write_text(s);(R/'prototype/index.html').write_text(s)

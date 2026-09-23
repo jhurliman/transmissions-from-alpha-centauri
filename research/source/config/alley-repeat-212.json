@@ -1,0 +1,34 @@
+{
+  "hypothesis": "Repeating the actual accepted alley assemblies down the street will preserve their construction, material and service language better than the rejected generated skyscraper family.",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "continuous architectural language from near alley into ruined city"
+    },
+    {
+      "id": "DP-08",
+      "property": "repeated constructed facade and service assemblies with depth"
+    },
+    {
+      "id": "UP-03",
+      "property": "accepted fine surface treatment reused without replacement"
+    }
+  ],
+  "source": "209 plus213 recessed-floor scuff material",
+  "changes": [
+    "full accepted alley strip repeated at actual scale",
+    "existing23city masses hidden",
+    "last repeat terminated before actual low landmark surfaces"
+  ],
+  "fixed": [
+    "Original near geometry/transforms and materials except14 private213 recessed-floor material bindings",
+    "landmark",
+    "sky/haze",
+    "road/rubble",
+    "camera"
+  ],
+  "no_new_generator": true,
+  "status": "Native correctedV2 proof reviewed; ready for user direction review",
+  "material_exception": "213 adds finer denser scuffs on14 existing recessed receivers via4 private material copies before repeated assemblies inherit them.",
+  "visibility_correction": "Reclip only dedicated110landmark contacts against newly repeated opaque structures; hideempty101oldcitycompanion. Preserve all unrelated GP."
+}

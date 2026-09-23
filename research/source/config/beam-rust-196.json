@@ -1,0 +1,26 @@
+{
+  "hypothesis": "Irregularly warped brush spacing and long interrupted narrow edge corrosion connect the accepted feathered patches without restoring camouflage blobs.",
+  "references": [
+    "RS-01",
+    "RS-02",
+    "RS-03",
+    "UP-03"
+  ],
+  "changed": [
+    "Unequal patch intervals and spans with some omitted patches",
+    "Low-frequency interrupted edge runs connecting selected patches"
+  ],
+  "fixed": [
+    "195 scene geometry,camera,lighting,all non-beam materials",
+    "Accepted feathered inward tips and oxide colors",
+    "RightY half strength"
+  ],
+  "review": [
+    "Patch spacing no longer cadenced",
+    "Narrow rust runs connect patches along edges with clean breaks",
+    "No uniform border,no detached camo islands",
+    "Other195 edits retained"
+  ],
+  "user_approved": false,
+  "status": "Retained for user review after native full-render and independent visual checks."
+}

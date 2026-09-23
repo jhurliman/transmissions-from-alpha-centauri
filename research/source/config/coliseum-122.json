@@ -1,0 +1,23 @@
+{
+  "source": "121 scene",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-06",
+    "UCL-08",
+    "DP-03"
+  ],
+  "hypothesis": "Repeated drainage openings and stepped supports establish architectural rhythm; shallow panels should have only slight additional darkening",
+  "fixed": [
+    "acceptedglobalgeometry",
+    "alllockednonlandmarksystems",
+    "quarterdeptharchlight",
+    "midpointcornicecolors"
+  ],
+  "variables": [
+    "regular low drain mouths",
+    "lower-third deeper pilasters",
+    "cavityshade proportional to realrecess depth",
+    "cornicepaintbrightness additional35% inperceivedvalues, huepreserved"
+  ],
+  "status": "integrated4Kreviewready, notlocked"
+}

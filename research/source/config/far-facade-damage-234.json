@@ -1,0 +1,40 @@
+{
+  "source": "art/studies/facade-finish-233/scene.blend",
+  "references": [
+    "UCL-01",
+    "UP-03",
+    "DP-03"
+  ],
+  "reference_properties": [
+    "Unequal large facade loss with thin dark recessed edges",
+    "Distinct exposed substrate and fine interior nicks",
+    "Large quiet structural planes punctuated by concentrated damage"
+  ],
+  "hypothesis": "One to three prominent native recessed losses or long fractures per camera-visible far building will make the accepted facade kit feel damaged at scene scale without a blanket noise coat.",
+  "changed": [
+    "Private selected far facade panel meshes",
+    "Inward irregular spall floors and long varying-width cracks",
+    "Native inner boundary ink and restrained exposed-core material"
+  ],
+  "fixed": [
+    "All original shared masters and foreground",
+    "Window/door/service/roof geometry and placement",
+    "Outer panel envelopes and landmark visibility",
+    "Existing material graphs and native render passes"
+  ],
+  "criteria": [
+    "All selected events verified by opaque-scene first-hit rays",
+    "Prioritize both tall step buildings",
+    "Prominent footprints generally10pixels or larger where face size permits",
+    "No new nonmanifold mesh edges",
+    "No outward geometry or silhouette changes",
+    "Actual combined native render required"
+  ],
+  "revision": 2,
+  "revision_reason": "Native first proof held: equally spaced alternating cracks read as cartoon zigzags, polar tall spalls repeated pointed lozenges.",
+  "shape_revision": [
+    "Unequal directed fracture runs with one larger deviation and narrow tapering ends",
+    "Asymmetric non-polar torn polygons with blunt irregular ends",
+    "Varied verified centers and bounded aspect ratios; all new footprints remain inside panels"
+  ]
+}

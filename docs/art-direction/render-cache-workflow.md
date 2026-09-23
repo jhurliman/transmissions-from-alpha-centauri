@@ -1,9 +1,7 @@
-# Warm native render batches
+# Historical shader-cache experiment
 
-Use `tools/render_warm_batch.py` with Blender `-b -t 0` for successive local checks. The JSON job names a setup script, a list of output paths with optional in-place edit scripts, and a timing output. Setup loads the versioned scene and installs the existing native visibility guards once. Edit scripts retain the scene and material datablocks; do not reopen the blend between passes. The helper refuses to overwrite outputs.
+Study 256 compared a fresh Blender process with repeated close-up renders in one warm process: roughly 180 seconds initially, then 66 seconds. This was a diagnostic without the full Freestyle/compositor workload, not a full-scene speed guarantee. Repeat output differed by up to six channel values.
 
-Keep material graphs and render features stable where possible. New shader variants may still compile; changing geometry may invalidate outline data. This is in-process reuse, not a new persistent disk shader cache. Save versioned scenes separately as usual.
+The useful observation is that keeping the same process alive can reuse shader work. It does not establish a portable, persistent Metal cache. Historical warm-worker scripts and benchmark evidence remain in the local research archive and are not part of the public reproduction interface.
 
-Study256 measured the same native close-up twice:180seconds fresh-process and66seconds immediately repeated, about63percent less total time. Both disabled Freestyle/compositing. This does not establish a full-frame speedup. The GPU outputs differ slightly (maximum6code values); no inputs changed. Full-scene Freestyle view-map work was sampled on one core and requires separate optimization.
-
-Benchmark: `art/studies/gallery-sills-256/cache-benchmark/review.json`.
+For v1 use the single-render [release launcher](../release/REPRODUCING.md). Do not repeatedly install scene handlers into a warm worker without addressing handler accumulation. See the [Freestyle notes](freestyle-performance-257.md) for the separate CPU bottleneck.

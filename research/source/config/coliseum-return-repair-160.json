@@ -1,0 +1,26 @@
+{
+  "source": "art/studies/coliseum-156/scene.blend",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "Reconstruct the folded cap and upper angular-end return as one ruled strip between the exact surviving front/back profiles; preserve the clean concave pre112 wall domain.",
+  "candidate_object": "COL110 U10 fractured upper wall L",
+  "fixed": [
+    "accepted silhouette and original visible front planes",
+    "openings and attached moldings",
+    "material original coordinates and surviving corner normals",
+    "all unrelated meshes and material graphs"
+  ],
+  "method": "Constrained triangulation of an ordered profile strip with exact shared boundary vertices; no remesh, vertex smoothing, or tolerance inflation.",
+  "status": "Isolated structural and matched painted/clay proof complete; awaiting independent review and full-ink integration check.",
+  "remaining_object": "COL110 U15 fractured upper wall R remains untouched.",
+  "protected_surfaces": "1294 nonempty source front/back/bottom/left-end faces and right angular end below authored z66.1; 1296 retained nonzero triangles exact.",
+  "reconstructed_surfaces": "Folded cap and upper right angular-end strip only: 6496 source faces replaced.",
+  "limitations": [
+    "One retained triangle normal changes by 2.5464e-6 after custom-normal serialization; material indices and original coordinates exact.",
+    "U15R and other inherited defects remain untouched.",
+    "Structural acceptance is not visual or user acceptance."
+  ]
+}

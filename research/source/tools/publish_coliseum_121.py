@@ -1,0 +1,15 @@
+from pathlib import Path
+from PIL import Image
+R=Path(__file__).resolve().parents[1];O=R/'art/studies/coliseum-121';p='/art/studies/coliseum-121/'
+for name,path in [('before',R/'art/studies/coliseum-120/main-4k.png'),('after',O/'main-4k.png')]:
+ im=Image.open(path);im.crop((1400,350,2510,1140)).save(O/(name+'-detail.png'));im.crop((1610,360,2200,790)).save(O/(name+'-towers.png'));im.convert('L').resize((1440,1082)).save(O/(name+'-gray.png'))
+ if name=='after':im.resize((1440,1082),Image.Resampling.LANCZOS).save(O/'main.png')
+style='body{background:#19191e;color:#eee7df;font:17px/1.55 system-ui;max-width:1440px;margin:32px auto;padding:0 22px}a{color:#efbc91}img{width:100%;display:block}.pair{display:grid;grid-template-columns:1fr 1fr;gap:18px}figure{margin:22px 0}figcaption{color:#c5bbc4}@media(max-width:800px){.pair{grid-template-columns:1fr}}'
+html=f'''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>121 · Light, depth and recessed masonry</title><style>{style}</style><h1>121 · Light, depth and recessed masonry</h1>
+<p>Cornice blocks use the midpoint between the brighter outward masonry and darker undersides. Light now occupies the front quarter of each arch tunnel; the rear three quarters stay dark.</p>
+<p>This revision also adds unequal recessed fields across five upper bays and narrow channels on the two prominent towers, with subdued weathering at their ledges.</p><p><a href="#detail">Compare</a> · <a href="#geometry">Geometry</a> · <a href="{p}main-4k.png">4K image</a> · <a href="{p}scene.blend">Editable scene</a></p><img src="{p}main.png">
+<section id="detail"><h2>120 →121 · Matched 4K crops</h2><div class="pair"><figure><img src="{p}before-detail.png"><figcaption>Before</figcaption></figure><figure><img src="{p}after-detail.png"><figcaption>Current</figcaption></figure></div><h2>Tower and upper-wall detail</h2><div class="pair"><img src="{p}before-towers.png"><img src="{p}after-towers.png"></div></section>
+<section id="geometry"><h2>True recessed tower geometry</h2><div class="pair"><img src="{p}towers/before-clay.png"><img src="{p}towers/after-clay.png"></div><h2>Upper-wall fields</h2><div class="pair"><img src="{p}upper/baseline-clay.png"><img src="{p}upper/candidate-clay.png"></div><h2>Reference</h2><img style="max-width:850px" src="/references/user-coliseum/tower-arches-crop.png"><p>UCL-01, user-selected reference; original artwork by the project creator using ChatGPT Images 2.5. Native geometry interpretation; original artwork retained in the project.</p></section>
+<details><summary>Grayscale</summary><div class="pair"><img src="{p}before-gray.png"><img src="{p}after-gray.png"></div></details>
+<p>The finer fracture-boundary work remains open. An earlier surface roughening pass introduced folded faces; the next damage pass must repair those surfaces before adding smaller chips. The coliseum remains in development, not locked.</p></html>'''
+(R/'prototype/review-121.html').write_text(html)

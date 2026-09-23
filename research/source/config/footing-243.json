@@ -1,0 +1,26 @@
+{
+  "iteration": 243,
+  "source": "final-geometry-242",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Cool left architecture weathering palette"
+    },
+    {
+      "id": "UP-03",
+      "property": "Layered mineral wear"
+    },
+    {
+      "id": "DP-08",
+      "property": "Plausible compact service foundations"
+    }
+  ],
+  "hypothesis": "Compact footing beyond loop, blue-grey weathering and explicit contact seals ground only the intended entries.",
+  "fixed": [
+    "lighting",
+    "fog",
+    "characters",
+    "other geometry"
+  ],
+  "approved": false
+}

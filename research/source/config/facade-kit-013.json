@@ -1,0 +1,35 @@
+{
+  "id": "facade-kit-013",
+  "status": "native geometry proofs",
+  "hypothesis": "Designed panel subdivisions, explicit steel connections and mounted services will add reference density without arbitrary geometry.",
+  "reference_properties": {
+    "DP-04": "Density concentrated at functional junctions and machinery interfaces",
+    "HM-03": "Layered painted urban facade construction",
+    "AF-06": "Controlled architectural planes and strong graphic perspective"
+  },
+  "selected_target": "art/reviews/xenon-001/selected-third.png",
+  "changed": [
+    "Three bounded panel layouts",
+    "Canopy head connections, seats and underside cassette",
+    "Saved pipe/duct masters in recessed mounted service bay"
+  ],
+  "fixed": [
+    "Accepted inset slider and seamless kick",
+    "Whole alley geometry",
+    "Reference selection and studio materials"
+  ],
+  "next_proofs": [
+    "Layered panel corner",
+    "Complete window bay"
+  ],
+  "review_axes": [
+    "Silhouette and proportions",
+    "Depth and layering",
+    "Panel and opening rhythm",
+    "Joint and edge construction",
+    "Detail density at game scale",
+    "Component compatibility"
+  ],
+  "approval": "Not submitted as finished geometry",
+  "authoritative_window_reference": "art/components/facades/study-001/user-window-closeup.png"
+}

@@ -1,0 +1,29 @@
+{
+  "objective": "Complete seven open scene-weathering work items to a coherent native candidate ready for final artistic judgment",
+  "source": "scene-completion-201",
+  "references": [
+    "UCL-01",
+    "UC-04",
+    "UP-03",
+    "DP-03",
+    "RS-01"
+  ],
+  "planned_integration": [
+    "198 first facade and broader damage rollout",
+    "199 cloud contours and quiet interior layering",
+    "200 ruined alley-city transition",
+    "201 beam connector and190 Colosseum crumbling",
+    "202 low street haze transition",
+    "204 middle rubble and broken wall50% foreground scrap palette"
+  ],
+  "fixed": [
+    "Accepted camera and layout",
+    "Road/rocks/services/character",
+    "Sky gradient endpoints",
+    "RightYhalfstrength and accepted bolt runoff",
+    "Original material graphs"
+  ],
+  "review_criteria": "config/seven-item-completion-audit.json",
+  "status": "Prepared; studies must pass actual-render review before execution",
+  "user_approved": false
+}

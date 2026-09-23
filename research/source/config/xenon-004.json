@@ -1,0 +1,25 @@
+{
+  "iteration": "004",
+  "reference_ids": [
+    "DP-04",
+    "DP-05",
+    "HM-03",
+    "AF-06"
+  ],
+  "target": "art/reviews/xenon-001/selected-third.png",
+  "hypothesis": "Primary light cladding planes, varied rubble scales, skyline layers and tapered actor improve the largest critic gaps.",
+  "fixed": [
+    "camera",
+    "frame",
+    "actor feet position"
+  ],
+  "changed": [
+    "facade planes and value distribution",
+    "dome width",
+    "rubble density",
+    "depth layers",
+    "surface variation",
+    "human proxy"
+  ],
+  "reviewer_decision": null
+}

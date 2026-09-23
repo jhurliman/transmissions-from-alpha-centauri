@@ -1,0 +1,33 @@
+{
+  "source": "art/studies/scene-details-133/scene.blend",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "reference_properties": {
+    "UCL-01": "Interrupted crown thickness and connected damage",
+    "UCL-02": "Masonry-scale ledges inside larger losses",
+    "DP-03": "Detail hierarchy and supported industrial ruin masses"
+  },
+  "hypothesis": "Three shared-vertex course offsets across one existing exposed cap add readable depth without new large holes or decorative fragments.",
+  "changed_variables": [
+    "U9L cap and its immediate crown boundary only"
+  ],
+  "fixed": [
+    "All133 sky,alley,city,haze",
+    "Camera and coliseum pose",
+    "Arches,columns,tunnels,ink",
+    "Broad existing ruin contour"
+  ],
+  "criteria": [
+    "Supported real thickness",
+    "No new crossings or open mesh edges",
+    "2\u20133 readable depth courses in clay",
+    "Native4K pixel gain without excessive serration"
+  ],
+  "status": "Frozen after root visual review; final integrated approval remains pending",
+  "final_method": "Materialize existing layout on this already unique wall, cut at authoredz72.10, reconstruct one upper strip from its ordered17-vertex shared boundary. CDT cap with three offset course depths and an attached chipped shoulder.",
+  "target": "COL110 U9 fractured upper wall L",
+  "materialized_layout": "One already-unique U9L wall only"
+}

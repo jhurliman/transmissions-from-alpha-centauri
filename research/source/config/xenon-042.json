@@ -1,0 +1,19 @@
+{
+  "iteration": "042",
+  "reference_ids": [
+    "DP-08",
+    "HM-03",
+    "AF-06"
+  ],
+  "hypothesis": "Family-specific coating scales and coverage create coordinated warm/cool variation across the alley while retaining quiet facades and lightly worn services.",
+  "changed": [
+    "Coating distribution across building families and services"
+  ],
+  "fixed": [
+    "Geometry",
+    "Camera",
+    "Lights",
+    "Front-left 041 finish"
+  ],
+  "user_direction": "Right side geometry pretty good after this removal."
+}

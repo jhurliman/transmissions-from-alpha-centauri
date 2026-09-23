@@ -1,0 +1,48 @@
+{
+  "study": 248,
+  "hypothesis": "Thin darker native silhouettes and explicit surviving damage edges integrate the farther ruined walls with adjacent inked architecture.",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Hierarchical ruin silhouettes at middle distance"
+    },
+    {
+      "id": "UP-03",
+      "property": "Sparse interior damage strokes"
+    },
+    {
+      "id": "DP-08",
+      "property": "Industrial structural edges readable through tonal depth"
+    }
+  ],
+  "variables": {
+    "contour_px": 0.95,
+    "interior_px": 0.52,
+    "contour_color": [
+      0.012,
+      0.013,
+      0.023
+    ],
+    "target_assemblies": [
+      "L1",
+      "L2",
+      "R4",
+      "R5"
+    ]
+  },
+  "fixed": [
+    "native geometry positions",
+    "materials",
+    "fog",
+    "camera",
+    "nearestL0/R3 ink",
+    "soil-length247"
+  ],
+  "review": [
+    "actual silhouette stroke coverage",
+    "interior damage remains subordinate",
+    "no duplicate ink",
+    "far walls thinner than near"
+  ],
+  "user_approved": false
+}

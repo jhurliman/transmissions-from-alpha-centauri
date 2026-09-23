@@ -1,0 +1,20 @@
+{
+  "iteration": "043",
+  "reference_ids": [
+    "DP-08",
+    "HM-03",
+    "AF-06"
+  ],
+  "hypothesis": "A predominantly warm side-road elevation and clean service finishes break the uniform splotched-blue treatment.",
+  "changed": [
+    "Restore original pipe/duct material masters",
+    "Warm coating on side-road-facing wall and middle-building end return"
+  ],
+  "fixed": [
+    "Geometry",
+    "Camera",
+    "Lighting",
+    "Other facade coatings"
+  ],
+  "user_direction": "Right side geometry pretty good after this removal."
+}

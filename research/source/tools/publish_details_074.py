@@ -1,0 +1,7 @@
+from pathlib import Path
+R=Path(__file__).resolve().parents[1]
+def fig(p,t):return f'<figure><a href="{p}"><img src="{p}" alt="{t}"></a><figcaption>{t}</figcaption></figure>'
+a='/art/reviews/xenon-074/'
+s='''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>074 · Side-alley services</title><style>body{margin:0;background:#19191e;color:#eee7df;font:16px/1.6 system-ui}header,section{padding:24px 3vw}a{color:#efbc91}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}figure{margin:0}img{width:100%;display:block}figcaption{padding:8px 0}p{max-width:1000px}@media(max-width:800px){.grid{grid-template-columns:1fr}}</style><header><h1>074 · Side-alley services</h1><p>The round riser moves around the corner onto the side wall immediately beside the corner, with short fitted mounts. Gussets match the dark arms. Window-kick returns are integrated into the columns.</p><p><a href="#details">Before / after</a> · <a href="/art/reviews/xenon-074/scene.blend">Blender scene</a></p></header>'''
+s+='<section>'+fig(a+'render.png','074 · alley camera')+'</section><section id="details"><div class="grid">'+fig('/art/reviews/xenon-073/right.png','073 · before')+fig(a+'right.png','074 · relocated service and integral returns')+'</div></section></html>'
+(R/'prototype/review-074.html').write_text(s);(R/'prototype/index.html').write_text(s)

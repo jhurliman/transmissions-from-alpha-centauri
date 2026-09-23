@@ -1,0 +1,19 @@
+{
+  "iteration": "044",
+  "reference_ids": [
+    "DP-08",
+    "HM-03",
+    "AF-06"
+  ],
+  "hypothesis": "A single support can carry hierarchical branching cracks and localized spalling with exposed aggregate while preserving its structural silhouette and clean master.",
+  "changed": [
+    "First right concrete support only"
+  ],
+  "fixed": [
+    "Other geometry",
+    "Coatings",
+    "Camera",
+    "Lighting"
+  ],
+  "user_direction": "Right side geometry pretty good after this removal."
+}

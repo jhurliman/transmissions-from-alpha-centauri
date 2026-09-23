@@ -1,0 +1,32 @@
+{
+  "iteration": "013",
+  "reference_ids": [
+    "DP-04",
+    "DP-05",
+    "HM-03",
+    "AF-06"
+  ],
+  "target": "art/reviews/xenon-001/selected-third.png",
+  "user_feedback": "Scene jumps from alley end to rubble to dome; reference has a long depth of broken building/structure rubble before massive distant dome.",
+  "hypothesis": "Replace most repeated open frames with broken solid wall masses; pile collapsed fragments around their bases to create overlapping city silhouettes.",
+  "fixed": [
+    "camera",
+    "figure",
+    "near alley architecture",
+    "dome apparent size"
+  ],
+  "changed": [
+    "dome physical scale and distance",
+    "ruin-field depth and variation",
+    "ground extent",
+    "distance haze"
+  ],
+  "acceptance": "Geometry-only render; no painted finish",
+  "reviewer_decision": null,
+  "visual_properties": {
+    "DP-04": "Readable structural construction",
+    "DP-05": "Monumental distant scale",
+    "HM-03": "Overlapping ruined street masses",
+    "AF-06": "Strong receding perspective"
+  }
+}

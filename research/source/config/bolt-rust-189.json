@@ -1,0 +1,37 @@
+{
+  "hypothesis": "Small origin-bound gravity rust across80% of real fastener occurrences will unify scene-wide age without brown camouflage. Roughly10% of actual four-fastener anchor plates receive heavier porous washes.",
+  "references": [
+    "RS-01",
+    "RS-02",
+    "UP-03",
+    "UCL-01"
+  ],
+  "studied_properties": [
+    "RS-01 painted steel surviving under torn oxide",
+    "RS-02 dark seating oxide and unequal narrow gravity trails",
+    "UP-03 selective stylized surface contrast",
+    "UCL-01 fine weathering at game camera"
+  ],
+  "fixed": [
+    "188 camera, geometry, transform, palette, lighting, source materials",
+    "beam agent separately owns Y arm/stem"
+  ],
+  "changed": [
+    "new native surface-conforming transparent pigment films per logical occurrence",
+    "bounded actual-light oxide hue response using native emission and retained transparency",
+    "continuous shared-vertex ragged plate wash with smooth boundary and fine porosity",
+    "four heavy plates chosen after root camera-occlusion audit, both foreground Y plates plus two visible deeper left anchors"
+  ],
+  "review": [
+    "actual supported decal geometry, no floating or bridging",
+    "80%logical head count, pairedshanks excluded",
+    "four-boltplate actual receivingface, allfourheads rusty",
+    "heavyplatewash20\u201380%actualface",
+    "scene-wide camera impact and quiet small rust elsewhere",
+    "no black/white stencil or binary cell staircase",
+    "actual supported continuous wash footprint20\u201380% at mean native vertex alpha>.05, before fine shader porosity"
+  ],
+  "user_approved": false,
+  "revision": "V2 after actual render rejection",
+  "observed_problem": "Initial pure diffuse films rendered black under stylized lighting; binary plate cells produced a QR-like stencil."
+}

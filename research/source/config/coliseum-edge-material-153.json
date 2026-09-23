@@ -1,0 +1,31 @@
+{
+  "source": "art/studies/coliseum-152/scene.blend",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "Reducing final thresholded dark pigment mix factors on five finite exposed receivers resolves pigment knots without changing lighting, AO, true recesses or native ink.",
+  "fixed": [
+    "all geometry",
+    "lighting",
+    "palette ramps",
+    "AO",
+    "152 age fields",
+    "151 crown",
+    "all native ink"
+  ],
+  "scope": "Private material copies, finite115-coordinate ellipsoids and actual face-normal gates; C1band08profiles1/0+dentil05, C2band10profiles1/0.",
+  "status": "V3 independently retained for combined proof; V1/V2 held, no global score",
+  "version": "V3",
+  "strengths": {
+    "post_threshold_dark_pits": 0.9,
+    "post_threshold_dark_islands": 0.85,
+    "post_threshold_runoff": 0.88,
+    "post_threshold_grime_branches": 0.9,
+    "sponge_noise_quieting": 0.85,
+    "old_135_deposit_reduction": 0.78,
+    "old_148_deposit_reduction": 0.72
+  },
+  "radius_multiplier": 1.3
+}

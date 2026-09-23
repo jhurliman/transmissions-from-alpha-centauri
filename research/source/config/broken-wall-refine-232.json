@@ -1,0 +1,32 @@
+{
+  "source": "midground-arches-231",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "problem": "Actual231 large left wall shows cloudy tonal variation without requested readable severe weathering",
+  "change": "Ignore atmosphere in camera ray visibility; native edge-weighted connected shallow losses and cracks; sharp ragged mineral flaking plus basal short gashes/scuffs and gravity runoff",
+  "fixed": [
+    "all other geometry",
+    "layout",
+    "palette source",
+    "230 restored native contour ink"
+  ],
+  "review": "Native main-left crop must clearly show structured heavy wear, not cloud-only darkening; preserve physical depth and avoid brown crater stamps",
+  "actual_draft_feedback": "First232 draft had uniform granite-like small flaking. Held; material-only balance uses larger clustered flakes and quieter intervals.",
+  "balanced_finish_helper": "tools/broken_wall_finish_balance_232.py",
+  "balanced_finish": {
+    "mineral_scale": 1.2,
+    "fine_scale": 9.5,
+    "fine_weight": 0.075,
+    "rim_opacity": 0.26,
+    "rim_gain": [
+      1.24,
+      1.18,
+      1.1
+    ],
+    "body_scuff_weight": 0.1,
+    "base_scuff_add": 0.7
+  }
+}

@@ -1,4 +1,4 @@
-# Preserve only the explicit v1 release allowlist. Research stays local.
+# Explicit public release and curated historical-source allowlist.
 /*
 !/.gitignore
 !/.gitattributes
@@ -28,3 +28,11 @@
 **/*.blend1
 **/.DS_Store
 /releases/v1.0.0/output/
+
+# Explicit guardrails in addition to the root allowlist.
+/private/
+/references/
+/archives/
+
+# Reviewed text-only source history; original research remains local.
+!/research/

@@ -1,0 +1,31 @@
+{
+  "source": "art/studies/coliseum-173/scene.blend",
+  "references": {
+    "UCL-01": "Attached damaged stone with a few readable large planes",
+    "UCL-02": "Broken course ends subordinate to retained facing and core",
+    "DP-03": "Local edge detail organized around coherent large structure"
+  },
+  "hypothesis": "Integrating the reviewed187 left course/sill retreat and trimming only newly unsupported native contact spans makes the damaged right cornice easier to read at scene scale.",
+  "changed": [
+    "Six scoped masonry meshes from187 fixed-shape proof",
+    "Only continuously certified unsupported intervals in native contact ink"
+  ],
+  "fixed": [
+    "Accepted architecture, openings, arches, columns, niche bearing, band11, camera and light",
+    "All existing material graphs and palette",
+    "All nonlandmark systems, including147 threefold bottom splatter"
+  ],
+  "criteria": [
+    "Clearer retained facing/core/return with final ink and whole1800frame",
+    "No rectangular ink plaque or orphaned bracket/joint",
+    "Exact outside-scope native preservation; review actual raster differences",
+    "Independent six-axis review, no score awarded solely for completion"
+  ],
+  "status": "Rendered, native delivery verified, independently reviewed95 on all six axes and retained by root",
+  "user_approved": false,
+  "evidence": {
+    "critic": "art/studies/coliseum-188/critic.json",
+    "root": "art/studies/coliseum-188/review.json",
+    "native": "art/studies/coliseum-188/fresh-native-delivery-check.json"
+  }
+}

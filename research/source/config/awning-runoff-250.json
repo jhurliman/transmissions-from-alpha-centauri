@@ -1,0 +1,41 @@
+{
+  "iteration": 250,
+  "source": "art/studies/base-weather-249/scene.blend",
+  "references": [
+    {
+      "id": "UP-03",
+      "property": "Connected uneven staining, small granular breaks and retained base finish"
+    },
+    {
+      "id": "DP-08",
+      "property": "Plausible service-to-building relationships and subdued industrial wear"
+    },
+    {
+      "id": "UCL-01",
+      "property": "Accepted violet-shadow palette and distant surface contrast"
+    }
+  ],
+  "hypothesis": "Vent outer-lip gravity drops land below roof ridge; soot-bearing water then follows the actual sloped plane to the eave.",
+  "variables": [
+    "Private awning runoff material with geometry-derived fall and downhill paths"
+  ],
+  "fixed": [
+    "Camera, geometry, sun, haze, existing surface texture and all other objects"
+  ],
+  "approved": false,
+  "physical_model": {
+    "assumptions": "Gravity-only drips from outer lower lips; no wind or pressurized spray. Geometric ray model, not CFD.",
+    "measured_drop_m": 1.39612,
+    "roof_gravity_tangent": [
+      -0.5,
+      0,
+      -0.8660254
+    ],
+    "drip_count": [
+      4,
+      6
+    ],
+    "local_probe": "probe.png",
+    "observations": "Two unequal narrow runoff clusters begin below the ridge at lip-projected impacts; original larger wear remains visible."
+  }
+}

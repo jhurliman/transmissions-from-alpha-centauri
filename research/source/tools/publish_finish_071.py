@@ -1,0 +1,18 @@
+from pathlib import Path
+import json
+import numpy as np
+from PIL import Image
+from scipy.ndimage import uniform_filter
+R=Path('/PATH/TO/transmissions-from-alpha-centauri');O=R/'art/reviews/xenon-071';a='/art/reviews/xenon-071/'
+before=Image.open(R/'art/reviews/xenon-069/render.png').convert('RGB');after=Image.open(O/'damage-only.png').convert('RGB');d=abs(np.array(before).astype(float)-np.array(after).astype(float)).max(2);scores=uniform_filter((d>5).astype(float),size=100);boxes=[]
+for i in range(2):
+ y,x=np.unravel_index(scores.argmax(),scores.shape);box=(max(0,x-95),max(0,y-95),min(before.width,x+95),min(before.height,y+95));boxes.append(box);before.crop(box).save(O/f'damage-before-{i}.png');after.crop(box).save(O/f'damage-after-{i}.png');scores[max(0,y-150):y+150,max(0,x-150):x+150]=0
+stats={'damage_changed_pixels_over_5':int((d>5).sum()),'crop_boxes':[[int(v) for v in b] for b in boxes]};(O/'damage-measurement.json').write_text(json.dumps(stats,indent=2))
+pal=json.loads((O/'palettes.json').read_text())['palettes'];css='body{margin:0;background:#19191e;color:#eee7df;font:16px/1.6 system-ui}header,section{padding:24px 3vw}p{max-width:1000px}a{color:#efbc91}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}figure{margin:0}img{width:100%;display:block}figcaption{padding:8px 0}.swatch{display:inline-block;width:85px;height:40px;margin:4px;vertical-align:middle}.tight{max-width:780px}@media(max-width:800px){.grid{grid-template-columns:1fr}}'
+def fig(src,label):return f'<figure><a href="{src}"><img src="{src}" alt="{label}"></a><figcaption>{label}</figcaption></figure>'
+p=f'<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>071 · Building palettes and visible edge losses</title><style>{css}</style><header><h1>071 · Building palettes and visible edge losses</h1><p>The front-left building retains the strong split coating. Other buildings use related base and weathering colors, with distinct highlight tints. Crack darkening stays at 55% → 100%.</p><p><a href="#damage">Isolated damage proof</a> · <a href="#palette">Palette families</a> · <a href="#details">Details</a> · <a href="{a}scene.blend">Blender scene</a></p></header><section>'+fig(a+'render.png','071 · building palettes and larger edge losses')+'</section><section><h2>Whole-scene comparison</h2><div class="grid">'+fig('/art/reviews/xenon-069/render.png','069 · repeated blue/rust coating')+fig(a+'render.png','071 · distinct building palettes')+'</div></section><section id="damage"><h2>Damage only · matched tight crops</h2><p>These crops compare 069 against the larger cuts before the palette change. Identical camera and lighting; crop positions are recorded in the measurement file.</p>'
+for i in range(2):p+='<div class="grid tight">'+fig(a+f'damage-before-{i}.png','Before')+fig(a+f'damage-after-{i}.png','Larger geometric loss')+'</div>'
+p+='<p><a href="'+a+'damage-only.png">Full damage-only render</a></p></section><section id="palette"><h2>Palette families</h2><p>Base / weather1 / weather2 / highlight. Swatches are design inputs; rendered colors also depend on lighting and the existing finish.</p>'
+for k,v in pal.items():p+='<h3>'+k.replace('_',' ')+'</h3>'+''.join(f'<span class="swatch" style="background:{color}" title="{role} {color}"></span>' for role,color in v.items())
+p+='</section><section id="details"><div class="grid">'+fig(a+'left.png','Left building details')+fig(a+'right.png','Right building details')+'</div></section></html>'
+(R/'prototype/review-071.html').write_text(p);(R/'prototype/index.html').write_text(p)

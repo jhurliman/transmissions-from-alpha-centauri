@@ -1,0 +1,42 @@
+{
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Connected damage follows broken crown, retaining architectural frame"
+    },
+    {
+      "id": "UCL-02",
+      "property": "Unequal thickness returns around broad exposed core, no radial dimple"
+    },
+    {
+      "id": "DP-03",
+      "property": "Readable grouped angular losses amid quiet surfaces"
+    }
+  ],
+  "source": "148 scene",
+  "target": "COL110 U9 fractured upper wall L",
+  "hypothesis": "One broad under-crown loss with an unequal descending shoulder improves thickness reading within safe existing front surface.",
+  "fixed": [
+    "Outer silhouette",
+    "Niche frame",
+    "Openings",
+    "Camera",
+    "Other objects"
+  ],
+  "proof_box_4k": [
+    1925,
+    435,
+    2080,
+    590
+  ],
+  "actual_width_constraint": "Clean U9L front\u224845\u201355px; adjacent aperturehead/R unsafe legacy geometry excluded.",
+  "review_status": "Frozen geometry for root material stage and independent critique; no95claim",
+  "version": 2,
+  "geometry": "Open front-cap loss preserving overall rear skyline, not an enclosed recess",
+  "actual_changed_bbox_4k": [
+    1969,
+    457,
+    2011,
+    523
+  ]
+}

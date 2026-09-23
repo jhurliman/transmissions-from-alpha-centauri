@@ -1,0 +1,44 @@
+{
+  "references": [
+    "US-01",
+    "DP-08",
+    "BR-01"
+  ],
+  "hypothesis": "Compact dirt uses low-contrast correlated brown pigment, medium-scale smudges, and shallow axis-aligned structural fractures with broken lit lips.",
+  "fixed": [
+    "079 architecture, rocks, camera, lighting",
+    "no reference projection"
+  ],
+  "seed": 81031,
+  "noise_scale": 2.6,
+  "noise_detail": 1.0,
+  "ramp_low": [
+    56,
+    39,
+    35
+  ],
+  "ramp_high": [
+    96,
+    71,
+    57
+  ],
+  "review": "Match full RGB quantiles and scale-dependent texture in crack-free crops; inspect geometry and selected lip illumination independently.",
+  "user_steering": "Higher frequency, almost pixelated 90s Sierra grain overrides matching screenshot softness. Palette statistics retained; softness statistics diagnostic only.",
+  "variants": {
+    "soft": {
+      "noise_scale": 2.6,
+      "noise_detail": 1
+    },
+    "fine": {
+      "noise_scale": 18,
+      "noise_detail": 2
+    },
+    "discrete": {
+      "noise_scale": 26,
+      "noise_detail": 1.8,
+      "world_texel_size": 0.0125,
+      "palette_bins": 6
+    }
+  },
+  "junction_fix": "Every physical lip clipped by all retained crack cutters; lip follows sampled crack opening, not independent fixed width."
+}

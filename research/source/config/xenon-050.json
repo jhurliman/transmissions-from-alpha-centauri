@@ -1,0 +1,34 @@
+{
+  "iteration": "050",
+  "reference_ids": [
+    "DP-08",
+    "HM-03",
+    "AF-06"
+  ],
+  "properties": [
+    "Broad painted value regions",
+    "Selective structural line hierarchy",
+    "Warm/cool shadow color with restrained highlights"
+  ],
+  "hypothesis": "Lighting remapped to designed color bands, with controlled contour drawing, can retain the approved material patterns while reducing the PBR miniature appearance.",
+  "changed": [
+    "EEVEE diffuse-light-to-color material treatment",
+    "Three shadow ramp and contour variants",
+    "Sharper directional shadow source",
+    "Fine crease lines and distance attenuation",
+    "Hybrid local contact shading"
+  ],
+  "fixed": [
+    "049 geometry and all damage",
+    "Camera, resolution, layout, interaction anchors",
+    "Base-color coating and separate service weathering",
+    "World atmosphere"
+  ],
+  "review_criteria": [
+    "Compare all variants with 049 and reference",
+    "Inspect identical window, support and pipe crops",
+    "Check grayscale",
+    "No reference projection or generated paintover"
+  ],
+  "authorization": "User explicitly requested final style proof; supersedes earlier phase-specific deferral of toon shading."
+}

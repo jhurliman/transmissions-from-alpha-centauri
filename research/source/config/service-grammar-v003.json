@@ -1,0 +1,27 @@
+{
+  "iteration": "service-grammar-v003",
+  "reference_ids": [
+    "DP-04",
+    "HM-03",
+    "AF-06"
+  ],
+  "visual_properties": {
+    "DP-04": "Nested machinery groups, repeated fine elements inside large asymmetric masses",
+    "HM-03": "Local repetition subordinate to differently proportioned building groups",
+    "AF-06": "Controlled planes and negative space"
+  },
+  "target": "art/reviews/xenon-001/selected-third.png",
+  "hypothesis": "Explicit route endpoint contracts close every pipe with a wall turn, architectural receiver, rare cap, or functional vent.",
+  "fixed": [
+    "Prefab dimensions",
+    "Proof camera and lighting",
+    "No decay or texture overlay"
+  ],
+  "changed": [
+    "Every route declares inlet and outlet destinations",
+    "Four wall-entry elbows and collars sized to pipe profiles",
+    "Projecting high receiver and low service plinth",
+    "One visible end cap retained"
+  ],
+  "notes": "Proposed design grammar inferred from visible structure, not a recovered artist algorithm or measured fractal law."
+}

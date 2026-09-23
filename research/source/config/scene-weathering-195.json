@@ -1,0 +1,29 @@
+{
+  "hypothesis": "Consistent moderate weathering across the first left building, a readable exposed utility cavity, and directionally feathered beam rust improve the whole foreground rather than isolated patches.",
+  "references": [
+    "RS-01",
+    "RS-02",
+    "UP-03",
+    "DP-08"
+  ],
+  "changed": [
+    "First left facade and rear vertical member moderate weathering",
+    "Lighter service-panel backing",
+    "Edge-rooted inward bristle corrosion on Y members",
+    "Right support rust strength50% of left",
+    "192 plate runoff and both corner ink fixes retained"
+  ],
+  "fixed": [
+    "Camera, building geometry and palette, cables and pipes, sky, street, colosseum architecture"
+  ],
+  "review": [
+    "No pristine first-building faces at camera scale, varied moderate wear rather than uniform noise",
+    "Cavity cables separate from back panel",
+    "Rust feathering points inward from edges, no floating camo patches",
+    "RightY visibly less rusted than left",
+    "Plate rust visible; ink ends at real facade corner"
+  ],
+  "user_approved": false,
+  "status": "Native4K root and independent visual review passed; awaiting user review",
+  "final_changes_note": "FullXYZ facade mapping; grouped brush swathes; broadfaceplatewash shoulders outsidewasher footprint with shorttaperedtails"
+}

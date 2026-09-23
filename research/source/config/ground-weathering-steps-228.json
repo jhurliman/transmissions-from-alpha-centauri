@@ -1,0 +1,38 @@
+{
+  "iteration": 228,
+  "source": "art/studies/far-building-layout-226/scene.blend",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Warm stone architecture and shaded base"
+    },
+    {
+      "id": "RS-01",
+      "property": "Localized steel oxidation"
+    },
+    {
+      "id": "RS-02",
+      "property": "Broken rust coating and tonal variety"
+    },
+    {
+      "id": "UP-03",
+      "property": "Fine weathering of industrial surfaces"
+    }
+  ],
+  "hypothesis": "Facade-matched surrounds and strong physically located metal wear integrate the new entrances; increased soil deposit unifies stones with the bank; five native curved steps bridge the foundation and terrain.",
+  "changed_variables": [
+    "227 entrance material bindings and private graphs",
+    "Bank-stone existing deposit factor multiplied1.5",
+    "Five terrain-seated curved stone steps"
+  ],
+  "fixed": [
+    "Accepted entrance geometry",
+    "226 far-building heights and narrowing",
+    "Selected characters, landmark scale, sun, camera, sky",
+    "Existing18descending tunnels and open225thresholds",
+    "Main road and original facade/service assemblies"
+  ],
+  "status": "native4K completed; root and independent actual-render review passed",
+  "user_approved": false,
+  "review": "prototype/review-228.html"
+}

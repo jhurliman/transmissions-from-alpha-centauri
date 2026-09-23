@@ -1,0 +1,22 @@
+{
+  "source": "122scene",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-05",
+    "UCL-09",
+    "UCL-10",
+    "DP-03"
+  ],
+  "hypothesis": "Clean repaired fracture base supports fine valid chips; exposed embeddedmetaladdsreferenceconstructiondetail",
+  "user_changes": [
+    "cornicebearingwallmaterialtinted15%darker",
+    "bentmetalarmatureonbrokenrightcolumn"
+  ],
+  "fixed": [
+    "acceptedcamera/broadstructure",
+    "122drainsandsteppedpilasters",
+    "quarterlightarches",
+    "alllockednonlandmarksystems"
+  ],
+  "status": "integrated4Kreviewready; notlocked"
+}

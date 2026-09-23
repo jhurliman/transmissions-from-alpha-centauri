@@ -1,0 +1,26 @@
+{
+  "iteration": 235,
+  "source": "art/studies/far-weathering-234/scene.blend",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "Constructed-wall remnants, distinct facing/core finishes and finer internal ink will match the accepted towers more convincingly than another layer of random weathering.",
+  "changed_variables": [
+    "Eight visible wall construction details",
+    "Role-specific facing/core/lip surfaces",
+    "Disjoint silhouette and fine interior ink",
+    "Restrained near-right window weathering"
+  ],
+  "fixed": [
+    "Approved234farbuildings",
+    "Camera and landmark",
+    "All unrelated foreground surfaces",
+    "Airam and Miranda"
+  ],
+  "status": "Second native4Kproof complete and visually reviewed",
+  "user_approved": false,
+  "interior_ink_px": 0.65,
+  "silhouette_ink_px": 0.82
+}

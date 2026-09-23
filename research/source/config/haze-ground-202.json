@@ -1,0 +1,27 @@
+{
+  "references": [
+    "UCL-01",
+    "UCL-136",
+    "DP-01",
+    "DP-03"
+  ],
+  "hypothesis": "A broader low-volume source and optical depth will soften the isolated glowing strip at the far street termination into a gradual low atmosphere, while cool nearer towers and upper facade remain clear.",
+  "changed": [
+    "Below8.5m only: finite radiance bank rising48\u2013105m then falling130\u2013200m",
+    "Ground optical depth ramps48\u2013150m to2x existing reduced scatter"
+  ],
+  "fixed": [
+    "48m onset",
+    "Upper136E volume behavior",
+    "Accepted geometry, palette, sky, lights and camera"
+  ],
+  "criteria": [
+    "Continuous glow through distant street instead of isolated terminal shelf",
+    "Nearest towers stay cool and legible",
+    "No bright portal light increase",
+    "Matched native proof then full combined4K"
+  ],
+  "user_approved": false,
+  "revision": 2,
+  "status": "Matched native V2 retained for combined proof; V1 held insufficient visual change"
+}

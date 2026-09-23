@@ -1,0 +1,31 @@
+{
+  "iteration": "046",
+  "reference_ids": [
+    "DP-08",
+    "HM-03",
+    "AF-06"
+  ],
+  "properties": [
+    "Localized edge-connected fracture networks and chipped corners",
+    "Quiet intact areas separating damage clusters",
+    "Material-specific staining at actual joints"
+  ],
+  "hypothesis": "Sparse support damage with changed locations and mirrored motifs reads as individual histories; joint-local metal roughness and abrasion should add depth without facade-like splotches.",
+  "changed": [
+    "Two additional support variants, two kept clean",
+    "Narrower interrupted runoff",
+    "Localized rust, roughness and metallic abrasion on a lower pipe joint"
+  ],
+  "fixed": [
+    "Camera and lighting",
+    "Approved geometry and layout",
+    "Facade coating",
+    "All service geometry"
+  ],
+  "review_criteria": [
+    "No repeated damage stamps in neighboring supports",
+    "Anchored cracks and intact bearing surfaces",
+    "Connected closed evaluated concrete meshes",
+    "Wear legible in closeup but restrained in alley"
+  ]
+}

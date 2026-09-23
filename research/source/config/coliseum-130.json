@@ -1,0 +1,48 @@
+{
+  "source": "129 integrated scene with corrected masonry joint shading",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-19",
+    "UCL-23",
+    "DP-03"
+  ],
+  "hypothesis": "Continuous native arch-curve ink and two deep bent barrel vaults will clarify the architecture and replace the bottom arcade sky openings with plausible shaded interiors.",
+  "changed_variables": [
+    "Native ink following arch ring and recessed opening curve edges",
+    "Match the existing landmark ink color and camera-scale weight",
+    "Two30m inward barrel vaults with opposite90degree bends and5m open exits",
+    "Foreground ink from a linked native128 scene, keeping the original view-map geometry while the primary coliseum changes"
+  ],
+  "fixed": [
+    "All geometry, including 129 inward arch thickness and pillar niches",
+    "Accepted joint shading, cornice material, and clear gaps above round columns",
+    "Locked camera, landmark placement, sky, city, alley, road, and foreground"
+  ],
+  "review_criteria": [
+    "Every visible arch curve has a readable outline at native 4K and scene display size",
+    "Ink is depth-occluded and follows native geometry, with real damaged sections left open",
+    "No radial spokes, false straight seams, or excessively heavy curves",
+    "Preserve surrounding scene ink and document any legitimate new shadows",
+    "Two main bottom openings and third visible sliver terminate visually against tunnel surfaces",
+    "Open tunnel exits remain physically open, with configurable length for light tuning",
+    "Tunnel mouths meet existing opening returns and inset platform floors"
+  ],
+  "status": "Native4K render verified and ready for user review; not approved",
+  "tunnel_settings": {
+    "straight_length_m": 30,
+    "bend_radius_m": 6,
+    "bend_degrees": 90,
+    "open_exit_length_m": 5,
+    "wall_thickness_m": 0.65,
+    "additional_outer_vault_crown_m": 0.65,
+    "bays": [
+      8,
+      9
+    ]
+  },
+  "held_studies": [
+    "Separate-view-layer Freestyle exclusion failed to reproduce old ink and is not integrated."
+  ],
+  "foreground_ink_source": "art/studies/coliseum-128/scene.blend (native linked geometry; no raster overlay)",
+  "rendering": "Final render in a fresh Blender process; secondary ink source synchronized to primary output dimensions."
+}

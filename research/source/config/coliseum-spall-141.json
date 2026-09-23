@@ -1,0 +1,41 @@
+{
+  "source": "art/studies/alley-rust-140/scene.blend",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Connected broken ledge and exposed masonry depth"
+    },
+    {
+      "id": "UCL-02",
+      "property": "Irregular localized losses with broad intact neighbors"
+    },
+    {
+      "id": "DP-03",
+      "property": "Attached negative surface-loss regions within continuous loadbearing structures"
+    }
+  ],
+  "targets": [
+    "COL110 U9 sill wall polygon34"
+  ],
+  "hypothesis": "Irregular shallow facing loss spans~23px4K (~11px1800display) inside the actual wall face; aligns139secondagezone and retains all architecture.",
+  "method": "Constrained planar domain with exactfive-vertexboundary, uneven recessedfloor/returns; no Boolean and no detachedoverlay.",
+  "depth_world_m": [
+    0.12
+  ],
+  "fixed": [
+    "All original exterior perimeters",
+    "All othernativegeometry",
+    "Camera/lighting/140Ycorrection",
+    "Arch/column/platform/jointgeometry",
+    "Existingmaterials"
+  ],
+  "proof": [
+    "Native3840x2885crop[1750,525,2085,795]painted/clay",
+    "Raw/evaluatedstrictcrossings",
+    "Originalnormals/positionsoutsideface",
+    "No disconnectedcomponents"
+  ],
+  "integration": "Held independentcandidate; laterintegrationmuststartlatest143ratherthanoverwritealleychanges",
+  "version": "V4 off-center planar floor, stepped upper-left edge",
+  "status": "Held pending visual review; planar floor no longercentraldimple but same-valuefloor remains visuallysubtle."
+}

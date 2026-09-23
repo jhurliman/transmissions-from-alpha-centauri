@@ -1,0 +1,40 @@
+{
+  "iteration": "026",
+  "reference_ids": [
+    "DP-04",
+    "DP-05",
+    "HM-03",
+    "AF-06"
+  ],
+  "visual_properties": {
+    "DP-04": "Layered service machinery and connected fittings",
+    "DP-05": "Large distant structure",
+    "HM-03": "Weathered facade construction",
+    "AF-06": "Readable architectural planes"
+  },
+  "target": "art/reviews/xenon-001/selected-third.png",
+  "hypothesis": "Distinct building setbacks and real gaps, large single-Y platforms, asymmetric 45-degree supports and a low pipe U-return reproduce the requested architectural hierarchy.",
+  "fixed": [
+    "Camera and lens",
+    "Actor",
+    "Ground and rubble",
+    "Long ruined city and dome",
+    "Accepted 6:1 depth"
+  ],
+  "changed": [
+    "New single-Y 8.24 m gangway master",
+    "New 45-degree concrete support, uneven five-support placement",
+    "New recessed column master",
+    "Three building groups per side, left service bay, right road gap",
+    "Long 180-degree pipe return and varied wall standoffs",
+    "Shift single Y supports along platforms toward the visible mid-frame",
+    "Remove redundant mid-alley platforms to clear service trunks",
+    "Lower U-return by 1.2 m",
+    "Add far facade beyond side road and bring service-bay portal forward"
+  ],
+  "acceptance": "Native geometry-only; no projected finish",
+  "user_approval": "Assembly authorized; render pending review",
+  "reference_observations": {
+    "selected-third": "User identifies single-Y structures, two paneled columns, a service opening, bottom U pipe and staggered building fronts. Garage and side-road functions are inferred; visible gaps are evidence."
+  }
+}

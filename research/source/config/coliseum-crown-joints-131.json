@@ -1,0 +1,11 @@
+{
+  "source": "art/studies/coliseum-130/scene.blend",
+  "references": ["UCL-01", "UCL-11", "DP-03"],
+  "direct_user_design_instruction": "Centered narrow masonry seam from outer arch crown to cornice underside; attachment codex-clipboard-13a3f6d1-c52e-4a38-a16e-c4e8edaca555.png",
+  "hypothesis": "A real shallow V-joint with restrained depth-tested ink clarifies the two masonry halves without changing the accepted arch profile.",
+  "changed_variables": {"authored_mouth_width_m": 0.19, "authored_depth_m": 0.16, "physical_ink_radius_world_m": 0.027},
+  "fixed": ["camera", "130 arch openings and curved ink", "130 tunnel geometry", "all cornices and columns", "all nonlandmark objects/materials", "landmark pose"],
+  "implementation": "Boolean negative V-grooves on the three continuous arcade wall meshes; support ray checks skip missing wall. One native physical ink curve object follows evaluated joint paths.",
+  "review_criteria": ["1–2 pixel seam at native4K", "actual clay-visible recess", "closed manifold walls", "no new strict triangle crossings", "unchanged nontarget geometry and material attributes"],
+  "approval": "Pending user review"
+}

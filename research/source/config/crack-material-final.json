@@ -1,0 +1,10 @@
+{
+  "opening_darkening": 0.55,
+  "maximum_darkening": 1,
+  "depth_normalization": "per component deepest physical fracture point",
+  "color_space": "linear",
+  "interior_finish": "host surface projected to original face plane",
+  "reflection": "physical mouth only; unchanged from 064",
+  "approved_by_user": true,
+  "scene": "art/reviews/xenon-069/scene.blend"
+}

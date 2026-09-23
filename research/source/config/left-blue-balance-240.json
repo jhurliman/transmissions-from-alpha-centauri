@@ -1,0 +1,29 @@
+{
+  "iteration": 240,
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "source": "art/studies/road-characters-239/scene.blend",
+  "visual_evidence": "Matched237/239native wholeframes: left paintedfacades became grayer after sun-direction update. User explicitly requests restoration of blue while keeping239direction.",
+  "hypothesis": "A luminance-preserving blue pigment transfer restricted to already-cool left facade pixels restores color identity without rolling back illumination or repainting warm plaster.",
+  "changed_variables": [
+    "Private output hue-balance in facade materials",
+    "WorldXleftside gate",
+    "B/Rwarm-pigment exclusion"
+  ],
+  "fixed": [
+    "239sunvectors",
+    "alloriginalnodegraphs",
+    "shading luminance",
+    "rightside pixels",
+    "neutralservices",
+    "Colosseum",
+    "geometry",
+    "camera",
+    "warmplaster/rust colors"
+  ],
+  "status": "CPUcandidate; root owns combined native proof",
+  "user_approved": false
+}

@@ -1,0 +1,51 @@
+{
+  "source_scene": "art/studies/alley-rust-143/scene.blend",
+  "references": [
+    "UCL-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "goal": "Reusable alley building weathering system with independent95-per-axis review, then controlled actual-alley integration",
+  "hypothesis": "Separate light-responsive coating, meaningful negative damage, selectively occupied fasteners and cause-directed weathering recreate the reference's scale hierarchy better than a fixed brown wash and sparse uniform crack ink.",
+  "required_features": [
+    "Nuanced connected large-scale warm/cool sunlight response",
+    "One missingtopchunk exposingthickness",
+    "Two unequal recessed pits",
+    "One impacthole",
+    "One crack",
+    "Approximately70percent occupied plausible bolt anchors",
+    "Dark oxide bolt rings and rain-directed clusteredstreaks",
+    "Tiny dots plus occasional elongated nicks and short curvedgashes"
+  ],
+  "fixed": [
+    "Current143 scene remains baseline during component proofs",
+    "Existing accepted service routes,ground,city,sky andcoliseum architecture",
+    "Clean reusable panel master preserved"
+  ],
+  "tests": [
+    "Native clay confirms real recesses/thickness",
+    "Moved-key and cool-fill controls distinguish physicallightresponse fromfixedwarmwash",
+    "Deterministicboltoccupancy andactualorigin audit",
+    "Closeup plusactual4Kcamera readability",
+    "Independentcritic threshold95 beforedeclaringcomplete"
+  ],
+  "status": "Combined component review published; actual-camera candidate rendering, independent scores pending",
+  "latest_user_correction": "A few rust streaks should begin broader and taper downward; keep fine trails and varied lengths as secondary marks.",
+  "material_revision": "V5: composed broad roughness regions, sparse boundary irregularity and restrained interior variation; actual warm-light response.",
+  "geometry_revision": "V2: finite tapered dark fracture and unequal impact bevel, all23 meshes closed with zero strict crossings.",
+  "actual_scene_scope": {
+    "source": "art/studies/alley-rust-143/scene.blend",
+    "private_instances": [
+      "Architecture | layout_broad.007",
+      "Architecture | layout_access.008",
+      "Architecture | layout_transition.010"
+    ],
+    "geometry": "Native dimensions and rigid poses preserved; damage positions adjusted inside panels to remain visible",
+    "fasteners": "8 of12 supported sites occupied in actual placement;11 of16 in isolated kit",
+    "preserved": "Old source mesh/material graphs and non-target scene instances unchanged; only58 local stale contact-ink points hidden",
+    "resolution": [
+      3840,
+      2885
+    ]
+  }
+}

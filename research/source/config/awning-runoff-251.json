@@ -1,0 +1,31 @@
+{
+  "iteration": 251,
+  "source": "art/studies/base-weather-249/scene.blend",
+  "references": [
+    {
+      "id": "UP-03",
+      "property": "Connected uneven staining, small granular breaks and retained base finish"
+    },
+    {
+      "id": "DP-08",
+      "property": "Plausible service-to-building relationships and subdued industrial wear"
+    },
+    {
+      "id": "UCL-01",
+      "property": "Accepted violet-shadow palette and distant surface contrast"
+    }
+  ],
+  "hypothesis": "Constrain both inherited directional strips and new runoff to actual vent aperture spans, then add unequal translucent trails within those spans.",
+  "variables": [
+    "Vent aperture mask on directional streaks",
+    "Six and nine unequal drip trails",
+    "Wider opacity variation"
+  ],
+  "fixed": [
+    "Camera, geometry, sun, haze, existing surface texture and all other objects"
+  ],
+  "approved": false,
+  "review_baseline": "art/studies/awning-runoff-250/main-4k.png",
+  "implementation_base_note": "Rebuild250effect from249 to replace, not stack, runoff",
+  "local_probe_review": "Second panel between vents clears inherited straight strips; broader existing chipped finish remains. New traces constrained to narrowed vent aperture footprints."
+}

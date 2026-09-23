@@ -1,0 +1,7 @@
+# Alley damage reference findings
+
+UCL-01 is the intended full-scene reference, created by the project creator using ChatGPT Images2.5. The left platform/Y area contains an exposed service cavity: several straight horizontal conduits, paired lower bends and hanging cable loops. It is a recess with supporting structure, not a dark painted rectangle. The left crop is saved alongside the right support crop under `references/` in this study; the original reference and credits remain unchanged.
+
+The beam retains dark blue steel between oxidized areas. Rust collects along flange edges, splices, feet and selected larger patches. The ledge has warm erosion along its lip and downward streaking. UP-03 informs the separation between broad oxidation patches, smaller discoloration and fine pits; DP-08 informs support/mount hierarchy only. No composition from DP-08 is reproduced.
+
+The prototype uses the front-left upper panel nearest the return column: it remains visible at the locked camera, unlike the wider panel farther left that is mostly outside the frame. A private copy of the facade collection removes only that panel. The replacement is an editable service-cavity collection with a real broken annular cladding rim, depth, mounting rails, fitted clamps, open-ended routes continuing behind adjacent walls, and cables terminating at an enclosure. The left Y/ledge use private material overrides; their geometry remains unchanged.

@@ -1,0 +1,31 @@
+{
+  "iteration": "054",
+  "reference_ids": [
+    "DP-08",
+    "HM-03",
+    "AF-06"
+  ],
+  "properties": [
+    "Fiery directional orange-red sky gradient",
+    "Redder iron patches",
+    "Pipe wear and long painted highlight strips"
+  ],
+  "hypothesis": "Correcting the background and scattering separately, plus material-local red and service detail changes, will close gaps hidden by prior global style tuning.",
+  "changed": [
+    "World sky gradient and dust scattering hue",
+    "Rust-family red gain",
+    "Separate service scar layer and broad orientation-driven highlight bands",
+    "Round-pipe body shifted independently toward sampled dark steel blue-gray"
+  ],
+  "fixed": [
+    "053 C architecture, camera, layout",
+    "Existing weathering and linework",
+    "No facade flaking added to pipes"
+  ],
+  "review_criteria": [
+    "Actual sky pixel samples against selected concept",
+    "Full scene and pipe detail comparison",
+    "Highlights remain muted, broken, and form-following",
+    "Geometry and camera preservation"
+  ]
+}

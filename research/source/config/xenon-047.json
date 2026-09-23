@@ -1,0 +1,31 @@
+{
+  "iteration": "047",
+  "reference_ids": [
+    "DP-08",
+    "HM-03",
+    "AF-06"
+  ],
+  "properties": [
+    "Sparse chips originating at panel boundaries",
+    "Folded metal silhouette and seam depth",
+    "Fastener-led staining rather than uniform facade speckling"
+  ],
+  "hypothesis": "A single lifted corner with a missing fixing, interrupted seam coating loss and two fastener-led rust trails establishes a sheet-metal damage grammar distinct from concrete fracture.",
+  "changed": [
+    "One ground-level right facade module only",
+    "One mechanically bent corner and its folded returns",
+    "Seam-anchored paint chips and selected fixing corrosion"
+  ],
+  "fixed": [
+    "Camera and alley layout",
+    "Approved concrete and pipe damage",
+    "Other facade materials and geometry"
+  ],
+  "review_criteria": [
+    "Corner remains attached",
+    "Seams remain readable",
+    "Corrosion originates at hardware",
+    "No concrete cavities in sheet metal",
+    "Compare exact before/after closeup plus game camera"
+  ]
+}

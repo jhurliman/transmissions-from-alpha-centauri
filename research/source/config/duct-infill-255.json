@@ -1,0 +1,36 @@
+{
+  "iteration": 255,
+  "source": "art/studies/duct-infill-254/scene.blend",
+  "references": [
+    {
+      "id": "DP-08",
+      "property": "Plausible service anchors and wall relationships"
+    },
+    {
+      "id": "UP-03",
+      "property": "Weathered fitted metal connections"
+    },
+    {
+      "id": "UCL-01",
+      "property": "Preserve established scene contrast and palette"
+    }
+  ],
+  "hypothesis": "Replace the complete bay and old surrounds with continuous full-depth masonry from sill to header, eliminating floating panel edges and trim intersections.",
+  "variables": [
+    "Full bay infill geometry",
+    "Removal of obsolete window surrounds",
+    "Occlusion clipping of legacy096contact strokes against new infill only"
+  ],
+  "fixed": [
+    "All four brackets",
+    "Bottom mount",
+    "Camera",
+    "Other architecture",
+    "Lighting"
+  ],
+  "approved": false,
+  "local_trials": [
+    "Full bay rebuild removed window surrounds but revealed old baked contact ink.",
+    "Reclipped only096contact-ink portions occluded by the new full bay; second closeup shows three lines removed."
+  ]
+}

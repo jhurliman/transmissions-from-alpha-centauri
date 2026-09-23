@@ -1,0 +1,36 @@
+{
+  "iteration": 120,
+  "source": "art/studies/coliseum-119/scene.blend",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-03",
+    "UCL-04",
+    "UCL-05",
+    "DP-03"
+  ],
+  "user_direction": "Prioritize visibly computer-generated low-fidelity forms; detail should survive to4Kpixel scale.",
+  "variables": [
+    "undercornice blocks width.55mauthored, clear gap1.10m",
+    "boundedhigherfrequency chips onexistingdamagepaths",
+    "finer physicalrelief withinexposedcores",
+    "automatedflat-regionanalysis",
+    "cornice main height .95m, proportional secondary heights, bottom projection one third of top",
+    "arch tunnel front half lighter, rear half darker by authored depth"
+  ],
+  "fixed": [
+    "acceptedglobalgeometry/camera",
+    "base cutoutcontours",
+    "all nonlandmark systems",
+    "broadpainted palette",
+    "lowhaze/openrear"
+  ],
+  "status": "integrated4K review ready, not accepted",
+  "review": [
+    "realattachment andclearance",
+    "sharedintactblockgeometry",
+    "main4Kpixelreadability",
+    "fracturevolume/no floatingdebris",
+    "flat-region candidates visuallyreviewed, no blanketfill"
+  ],
+  "deferred": "High-frequency fracture edges rejected after intersection checks"
+}

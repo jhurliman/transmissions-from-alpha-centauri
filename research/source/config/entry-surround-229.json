@@ -1,0 +1,36 @@
+{
+  "iteration": 229,
+  "source": "art/studies/ground-weathering-steps-228/scene.blend",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Warm stone architecture and shaded base"
+    },
+    {
+      "id": "RS-01",
+      "property": "Localized steel oxidation"
+    },
+    {
+      "id": "RS-02",
+      "property": "Broken rust coating and tonal variety"
+    },
+    {
+      "id": "UP-03",
+      "property": "Fine weathering of industrial surfaces"
+    }
+  ],
+  "hypothesis": "A continuous warm plaster pigment removes the abrupt two-color passage reveal while retaining weathering.",
+  "changed_variables": [
+    "Passage surround base and damage pigment palette only"
+  ],
+  "fixed": [
+    "Accepted entrance geometry",
+    "226 far-building heights and narrowing",
+    "Selected characters, landmark scale, sun, camera, sky",
+    "Existing18descending tunnels and open225thresholds",
+    "Main road and original facade/service assemblies"
+  ],
+  "status": "Native4K complete; continuous warm surround reviewed, garage and characters pixel-exact",
+  "user_approved": false,
+  "review": "prototype/review-229.html"
+}

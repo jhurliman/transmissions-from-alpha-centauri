@@ -1,0 +1,28 @@
+{
+  "references": [
+    "UP-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "primary_direction": "selected-third concept plus saved user road-crack crop",
+  "scope": "all environment appearance systems except coliseum",
+  "baseline": "075",
+  "changes": [
+    "native directional ground grooves",
+    "soil-aware rock placement and palette",
+    "rust-washed near scrap with selective fold highlights",
+    "volumetric and tangled distant rubble",
+    "far-building pigment refinement",
+    "cloud edges",
+    "subtle existing walkway and pipe highlights"
+  ],
+  "preserved": [
+    "approved alley geometry",
+    "camera and depth",
+    "coliseum placeholder",
+    "near scrap geometry",
+    "disabled reflections"
+  ],
+  "review_protocol": "matched semantic closeups plus full camera; independent creator and critic; retain rejected studies",
+  "status": "candidate not user approved"
+}

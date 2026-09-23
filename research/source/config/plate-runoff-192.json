@@ -1,0 +1,10 @@
+{
+  "hypothesis": "Camera-readable short layered bolt trails across the plate family restore the requested rusty-water detail; a separate matching-geometry native ink pass prevents transparent pigment meshes changing architectural stroke endpoints.",
+  "references": ["RS-02", "UP-03", "UCL-01"],
+  "studied_properties": ["Bolt-root runoff with unequal short gravity trails", "Translucent fading rust-water edges", "Preserved fine architectural ink"],
+  "fixed": ["189 camera, lighting, structural geometry, beam rust, plate washes, 80% treated-head selection"],
+  "changed": ["1–2 narrow layered water trails per treated plate head", "Upper trails approximately15%plateheight; lower trails clipped to bottom rim", "Native ink visibility excludes only new pigment films"],
+  "review": ["Ordinary pipe plates show rust at actual camera scale", "LeftY splice trails originate at bolts and remain on plate", "User-marked horizontal strokes stop at building corner as before189", "No new visible line overruns anywhere in fullframe"],
+  "user_approved": false,
+  "status": "Awaiting native render checks"
+}

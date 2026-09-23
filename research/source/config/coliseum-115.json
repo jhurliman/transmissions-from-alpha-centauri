@@ -1,0 +1,55 @@
+{
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Arcade cornice projected curvature and low orange haze gradient"
+    },
+    {
+      "id": "UX-03",
+      "property": "Distant painted city separation"
+    },
+    {
+      "id": "DP-03",
+      "property": "Looming layered architectural perspective"
+    }
+  ],
+  "hypothesis": "A low height-dependent dust volume reveals upper masonry while deeper oblique ring geometry increases rising central floor-band arcs under the locked camera.",
+  "fixed": [
+    "camera",
+    "near scene geometry/materials",
+    "city and sky artwork",
+    "selected A approximate projected size"
+  ],
+  "authorized_changes": [
+    "dust volume height-dependent density",
+    "landmark depth and obliquity"
+  ],
+  "status": "Rendered and reviewed; awaiting user assessment",
+  "criteria": [
+    "reference floor-band curvature",
+    "orange haze limited to street and far city",
+    "clear upper arcades",
+    "all six critic axes >=90; user approval separate"
+  ],
+  "haze": {
+    "full_density": 0.0017,
+    "falloff_start_z": 3,
+    "falloff_end_z": 19,
+    "curve": "SMOOTHERSTEP"
+  },
+  "preferred_candidate": "E pending user review",
+  "candidate_C": {
+    "angular_compression": 0.68,
+    "density_multiplier": 1.4705882352941175,
+    "source_position_attribute": true,
+    "reference_apex_fraction_approx": 0.327
+  },
+  "candidate_E": {
+    "angular_compression": 0.68,
+    "inner_radial_depth_scale": 0.55,
+    "depth_scale": 5,
+    "depth_shear": 0.5,
+    "nearest_world_y": 177.55,
+    "source_position_attribute": true
+  }
+}

@@ -1,0 +1,13 @@
+from pathlib import Path
+from PIL import Image
+R=Path(__file__).resolve().parents[1];O=R/'art/studies/coliseum-123';p='/art/studies/coliseum-123/'
+for name,path in [('before',R/'art/studies/coliseum-122/main-4k.png'),('after',O/'main-4k.png')]:
+ im=Image.open(path);im.crop((1400,350,2510,1140)).save(O/(name+'-detail.png'));im.crop((2030,350,2260,650)).save(O/(name+'-metal.png'));im.convert('L').resize((1440,1082)).save(O/(name+'-gray.png'))
+ if name=='after':im.resize((1440,1082),Image.Resampling.LANCZOS).save(O/'main.png')
+style='body{background:#19191e;color:#eee7df;font:17px/1.55 system-ui;max-width:1440px;margin:32px auto;padding:0 22px}a{color:#efbc91}img{width:100%;display:block}.pair{display:grid;grid-template-columns:1fr 1fr;gap:18px}figure{margin:22px 0}figcaption{color:#c5bbc4}@media(max-width:800px){.pair{grid-template-columns:1fr}}'
+html=f'''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>123 · Exposed framing and masonry materials</title><style>{style}</style><h1>123 · Exposed framing and masonry materials</h1>
+<p>Bent metal framing emerges from the broken right shoulder of the central-right column. Its uprights are embedded in the surviving masonry, with unequal heights and buckled connecting pieces.</p><p>Cornice blocks now inherit their supporting wall material with a15% darkening tint. The previous bright custom color is removed.</p><p><a href="#detail">Compare</a> · <a href="#framing">Framing</a> · <a href="{p}main-4k.png">4K image</a> · <a href="{p}scene.blend">Editable scene</a> · <a href="{p}kit.blend">Appendable kit</a></p><img src="{p}main.png">
+<section id="detail"><h2>122 →123 · Matched 4K crops</h2><div class="pair"><figure><img src="{p}before-detail.png"><figcaption>Before</figcaption></figure><figure><img src="{p}after-detail.png"><figcaption>Current</figcaption></figure></div></section>
+<section id="framing"><h2>Exposed framing</h2><div class="pair"><img src="{p}before-metal.png"><img src="{p}after-metal.png"></div><img style="max-width:650px" src="/references/user-coliseum/bent-metal-crown.png"><p>UCL-09, user reference; original artwork by the project creator using ChatGPT Images 2.5. Geometry is native and editable.</p></section>
+<details><summary>Grayscale</summary><div class="pair"><img src="{p}before-gray.png"><img src="{p}after-gray.png"></div></details><p>The central upper-wall repair removes detected folded faces while preserving the coarse opening and crown path. Damage detailing remains under review; the coliseum is not locked.</p></html>'''
+(R/'prototype/review-123.html').write_text(html)

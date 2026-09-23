@@ -1,0 +1,19 @@
+{
+  "iteration": "037",
+  "reference_ids": [
+    "DP-08",
+    "HM-03",
+    "AF-06"
+  ],
+  "hypothesis": "Measured reference colors guide cooler violet-blue architectural shadows, warm selective lighting, ochre ground, coral sky and restrained native edge lines.",
+  "changed": [
+    "Material palette",
+    "Lighting balance",
+    "Native geometry edge lines"
+  ],
+  "fixed": [
+    "All geometry including approved right side",
+    "Camera and layout"
+  ],
+  "user_direction": "Right side geometry pretty good after this removal."
+}

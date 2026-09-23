@@ -1,0 +1,44 @@
+{
+  "source": "131 last base geometry edits over130",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-26",
+    "DP-03"
+  ],
+  "hypothesis": "A depth-dependent low orange dust volume preserves near-city clarity while increasing separation at the coliseum.",
+  "changed_variables": {
+    "near_density_multiplier": 0.25,
+    "distance_ramp_world_y": [
+      80,
+      210
+    ],
+    "far_density_multipliers": [
+      2,
+      5,
+      10
+    ],
+    "interpolation": "SMOOTHERSTEP"
+  },
+  "fixed": [
+    "Camera and all geometry including131 joints/frame",
+    "Haze color, phase, bounds and world-Z falloff3\u201319m",
+    "Sky/cloud palette and all surface materials",
+    "Lighting and native ink pipeline"
+  ],
+  "review_criteria": [
+    "Near city clearer in all variants",
+    "Strongly separated far haze strengths",
+    "Fade gone by second arcade",
+    "No sky palette change"
+  ],
+  "status": "Selected full-city 5x gradient implemented and included in133",
+  "user_selection": {
+    "far_density_multiplier": 5,
+    "correction": "Gradient must span from nearest skyscraper to coliseum, not begin deeper inside city.",
+    "distance_ramp_world_y": [
+      48,
+      205
+    ],
+    "near_density_multiplier": 0.25
+  }
+}

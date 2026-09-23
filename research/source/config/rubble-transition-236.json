@@ -1,0 +1,32 @@
+{
+  "iteration": 236,
+  "source": "ruin-integration-235",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Rubble continuity and atmospheric depth"
+    },
+    {
+      "id": "UCL-02",
+      "property": "Unequal rubble silhouette and depth contrast"
+    },
+    {
+      "id": "DP-03",
+      "property": "Angular structural debris and visual scale"
+    }
+  ],
+  "hypothesis": "Longer unequal rubble tongues with progressively finer softer outlines bridge front junk and ruined wall feet.",
+  "fixed": [
+    "camera",
+    "235 architecture",
+    "234 accepted towers",
+    "characters",
+    "global haze"
+  ],
+  "changed": [
+    "new rubble extension",
+    "depth-dependent rubble ink and private material convergence"
+  ],
+  "user_approved": false,
+  "status": "Native4K rendered and reviewed; user comparison ready"
+}

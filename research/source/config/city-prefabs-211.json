@@ -1,0 +1,54 @@
+{
+  "hypothesis": "Deep structural bays, returned corners and broken slabs with continuous scene-light material response connect distant buildings to the native alley architecture better than shallow silhouettes with painted stamp windows.",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "broken far-city silhouettes and restrained cool mass behind dense foreground architecture"
+    },
+    {
+      "id": "DP-08",
+      "property": "returned structural corners, broad quiet panels, large grouped recesses and selective service detail"
+    },
+    {
+      "id": "UP-03",
+      "property": "fine interior wear and connected tonal response"
+    }
+  ],
+  "families": [
+    "ribbed bay tower",
+    "stepped slab ruin",
+    "partial structural frame"
+  ],
+  "scope": "23visible current city masses;106oldobjects retained hidden",
+  "changes": [
+    "nine editable collection prefab variants",
+    "real recessed bays and structural returns",
+    "height factors0.65\u20131.35",
+    "depth extends backward within current frontage widths",
+    "continuous native lighting and restrained mineral grain"
+  ],
+  "fixed": [
+    "all noncity objects and materials",
+    "street clear width",
+    "current city front positions",
+    "camera sky and haze",
+    "landmark"
+  ],
+  "review_criteria": [
+    "wholefamily fits alley material/geometry language",
+    "visible real depth at game camera",
+    "height hierarchy without route or landmark obstruction",
+    "no tiny repeated lit window grids"
+  ],
+  "status": "held; superseded by user request to repeat accepted alley buildings in212",
+  "catalog": {
+    "physical_tall_variant": "40m /10stories /6m width anddepth",
+    "geometry": "same parameterized native kit, no uniform height stretching in catalog"
+  },
+  "projection_decisions": {
+    "higher_outer": "R08 at1.35height, projected x2491/top558at4K",
+    "higher_rear": "N_L6 at1.32height, projected x1812/top956",
+    "lower_near": "R03 at.65height to preserve opening",
+    "frontage_positions": "all23unchanged"
+  }
+}

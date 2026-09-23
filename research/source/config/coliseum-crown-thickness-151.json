@@ -1,0 +1,58 @@
+{
+  "source": "art/studies/coliseum-149/scene.blend",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "A broad open terraced fracture exposing real wall depth reads as broken masonry rather than a smooth front skin.",
+  "targets": [
+    "COL110 U4 fractured upper wall R",
+    "COL110 U5 fractured upper wall L"
+  ],
+  "fixed": [
+    "camera",
+    "lighting",
+    "openings",
+    "all source geometry below authored67.8",
+    "surviving source peak and side bearing"
+  ],
+  "changed": "Subtractive near-skin loss and two unequal short course returns on existing evaluated crown only",
+  "criteria": {
+    "visible_span_px": 90,
+    "visible_thickness_height_px": 25,
+    "strict_crossings": 0,
+    "nonmanifold_edges": 0
+  },
+  "status": "V3 integrated in152 and independently retained; original breadth gate remains unmet",
+  "actual_projected_scope": {
+    "actual_return_bbox": [
+      1486,
+      486,
+      1547,
+      523
+    ],
+    "bbox_width": 61,
+    "bbox_height": 37,
+    "actual_return_pixels": 507,
+    "target_width": 90,
+    "scope_gate_passed": false,
+    "measurement": "Actual locked-camera rays hit either target above authored67.8 and more than0.4m behind nominal75m front radial plane. Transparent atmosphere excluded for ray traversal only."
+  },
+  "source_envelope": {
+    "sample_type": "Every actual mesh vertex and rendered triangle centroid against source triangle BVH; concave polygon centers intentionally excluded because they are not necessarily surface points.",
+    "max_signed_outward_local": [
+      1.7801416106522083e-05,
+      1.0762200417957501e-05
+    ],
+    "tolerance": 0.0001,
+    "removed_native_mesh_volume": [
+      4.968489098480063,
+      5.1537091677936075
+    ],
+    "lower_source_surface_max_error": [
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+ "review": "087",
+ "baseline": "ground-085 with retained ground-086 tall mound field",
+ "intent": "Continuous native terrain, broader low rises and smooth transitions, about 20% flat",
+ "variants": {"A":0.06,"B":0.075,"C":0.09},
+ "tall_mound_max_m":0.18,
+ "broad_radii_m":[3.2,5.2],
+ "flat_fraction_target":0.20,
+ "flat_measurement_domain":{"x":[-7.35,7.35],"y":[-8.4,32.4]},
+ "preserve":["sky084","architecture","soil pigment","crack XY centerlines","tall mound placement"],
+ "references":["references/user-soil-study/dark-soil-detail.png","references/user-soil-study/structural-road-grit.png","references/darius-puia/DP-08-layered-infrastructure.jpg"],
+ "validation":"Native render inspection; no independent critic score claimed"
+}

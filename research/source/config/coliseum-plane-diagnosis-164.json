@@ -1,0 +1,16 @@
+{
+ "source": "art/studies/coliseum-163/scene.blend",
+ "references": {
+  "UCL-01": "Broad surviving planes remain readable alongside selective dark stone joints",
+  "UCL-02": "Fractured crown: exposed core facets and irregular sheltered contacts",
+  "DP-03": "Unequal broad architectural plane values with subordinate fine linework"
+ },
+ "hypothesis": "The remaining upper-frontage hierarchy gap may come from flat core geometry, compressed material response, or competing ink. Separate their native contributions before changing the retained artwork.",
+ "fixed": ["163 geometry, transforms and camera", "No mutations to retained files", "All user-approved scene systems"],
+ "changed_in_diagnostic_only": ["Disable Freestyle", "Temporarily hide explicit landmark ink objects", "Neutral matte override and two neutral directional lights for the isolated kit"],
+ "native_crop": [1400,350,2470,840],
+ "regions": {"left_crown":[1450,455,1625,605],"center_crown":[1930,435,2085,605],"course_contacts":[2080,540,2330,810]},
+ "criteria": ["Identify actual faces responsible for flat cores", "Distinguish native material darkness from explicit strokes", "Retain real structural contacts and the user-requested black crown joints", "Choose one substantive change based on the diagnostic, not a repeated strength increment"],
+ "status": "Diagnostic only, not an art candidate",
+ "user_approved": false
+}

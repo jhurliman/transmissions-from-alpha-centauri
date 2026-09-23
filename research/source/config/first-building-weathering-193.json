@@ -1,0 +1,46 @@
+{
+  "study": "193 first-left-building moderate weathering rollout",
+  "source": "art/studies/plate-runoff-192/candidate.blend",
+  "references": [
+    "UCL-01",
+    "UP-03",
+    "DP-03"
+  ],
+  "reference_property": "UCL-01 broad first-building coating wear and joint-led runoff; UP-03 connected medium-scale surface-interior texture and fine chipped fringes; DP-03 sparse broken finishes across coherent repeated structural families. No composition or image projection.",
+  "hypothesis": "A coherent weathering field applied across every exposed facade component, with panel-base mottling, interrupted seam chips and downward tapered moisture trails, should bring the whole first-left building to a moderate four-of-ten age level instead of leaving pristine panels beside isolated hero weathering.",
+  "severity": 0.4,
+  "primary_host": "Front-left section instance",
+  "rear_vertical_member": "Service bay portal jamb.001",
+  "rear_vertical_identity": "Rectangular charcoal-steel portal jamb at world x\u2248-7.65,y\u22483.10,z0\u20134.24; not a Y support or pipe",
+  "sharing": "108 mesh objects in the facade collection; one instance host only. Assign private materials via OBJECT links without cloning or renaming source objects.",
+  "fixed": [
+    "geometry and transforms",
+    "all existing material graphs",
+    "camera and lighting",
+    "palette",
+    "render layers and compositing",
+    "Y-support weathering",
+    "all pipes",
+    "all bolts and rust plates",
+    "exposed utility-panel internals",
+    "147 pilot bottom-splatter calibration"
+  ],
+  "changed_variables": [
+    "private native finish copies across whole first facade",
+    "panel-base and edge-biased chipped coating",
+    "gravity-aligned tapered damp streaks",
+    "subtle coherent chalking and moisture tone",
+    "weathering on rear portal jamb"
+  ],
+  "status": "CPU candidate ready:104 objects,6 private materials; exact material-only preservation passed; root195 integrated render pending",
+  "user_approved": false,
+  "revision": "v2 full world XYZ, no planar projection",
+  "v1_failure": "Added Y/Z-only texture coordinates collapse constant-Y panel/post faces into horizontal bands; held-v1 contains the original material and actual195 proof.",
+  "fix": "Replace projected fields with full XYZ at every scale; rain varies in both horizontal axes, retaining low vertical frequency and taper. No extra covering noise.",
+  "review_criteria": [
+    "No horizontal bands on pink recessed faces or portal post",
+    "Irregular medium-scale wear with finer broken fringes",
+    "Vertical moisture trails; consistent moderate whole-family age",
+    "Exact original geometry, ink, material graphs and non-target bindings preserved"
+  ]
+}

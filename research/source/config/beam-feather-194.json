@@ -1,0 +1,29 @@
+{
+  "hypothesis": "One shared sparse swath envelope per physical edge gates finer inward strands, retaining connected roots while leaving broad quiet edge intervals instead of a continuous sawtooth border.",
+  "references": [
+    "RS-01",
+    "RS-02",
+    "RS-03",
+    "UP-03"
+  ],
+  "changed_variables": [
+    "Y member rust coverage mask only"
+  ],
+  "fixed": [
+    "Native geometry",
+    "Camera and lights",
+    "189 accepted steel normal response",
+    "189 oxide palette and native bounded lighting",
+    "192 bolt runoff and plate washes"
+  ],
+  "review_criteria": [
+    "Bristles visibly point inward across actual member width",
+    "Unequal clustered fine strands remain anchored at physical edges",
+    "No detached camouflage islands",
+    "Right-side 50% reduction applied separately by 193 hook",
+    "Whole beam appearance inspected in native render",
+    "Quiet gaps and unequal broad swathes clearly replace rejected195 V1 comb border"
+  ],
+  "status": "CPU candidate; native render and user review pending",
+  "revision": "V2 grouped swathes"
+}

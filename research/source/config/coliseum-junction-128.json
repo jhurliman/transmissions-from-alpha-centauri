@@ -1,0 +1,26 @@
+{
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "A single supported loss connecting arch shoulder, spandrel and layered cornice reads as coherent architectural failure rather than independent edge chips.",
+  "changed_variables": [
+    "Bay7 upper-left archivolt/spandrel/cornice negative geometry",
+    "Offset fracture return contours through wall thickness"
+  ],
+  "fixed": [
+    "127 camera and landmark spacing/curvature",
+    "All nonlandmark systems",
+    "Tower core",
+    "B10 repair owned separately"
+  ],
+  "review_criteria": [
+    "Visible at maincamera",
+    "No floating remnant",
+    "True depth with substantial backing",
+    "No star/sawtooth cutter signature",
+    "No outside-cutter surface change"
+  ],
+  "user_approval": "pending"
+}

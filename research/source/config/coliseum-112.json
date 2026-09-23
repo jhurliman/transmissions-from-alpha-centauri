@@ -1,0 +1,34 @@
+{
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Connected dark runoff clusters, violet arch depth, articulated crowns and towers"
+    },
+    {
+      "id": "UX-03",
+      "property": "Quiet broad painted masonry regions"
+    },
+    {
+      "id": "DP-03",
+      "property": "Layered monumental architectural hierarchy"
+    }
+  ],
+  "hypothesis": "Rough physically exposed fracture facets and connected irregular grime replace planar cut faces and uniform runoff; quiet violet recesses retain architectural depth.",
+  "fixed": [
+    "109A projected framing",
+    "all locked scene108 nonlandmark systems"
+  ],
+  "changed": [
+    "landmark fracture surface geometry",
+    "light-gated fine pigment",
+    "clustered and interrupted ledge runoff"
+  ],
+  "review_criteria": [
+    "all six critic axes >=90 based on final renders",
+    "native editable geometry and materials only",
+    "user acceptance remains pending"
+  ],
+  "status": "4K rendered and critiqued; goal remains active",
+  "critic": "art/studies/coliseum-112/critic112.json",
+  "render": "art/studies/coliseum-112/main-4k.png"
+}

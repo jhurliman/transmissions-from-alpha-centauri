@@ -1,0 +1,24 @@
+{
+  "iteration": "041",
+  "reference_ids": [
+    "DP-08",
+    "HM-03",
+    "AF-06"
+  ],
+  "hypothesis": "Restore most fine edge breakup and two visible brown layers while retaining coarse chip variety; sparse substrate and lip accents add local depth.",
+  "changed": [
+    "Coating fine breakup .028 to .080",
+    "Intermediate brown layer restored/widened",
+    "Selective dark substrate and light edge accents",
+    "Coating-membership driven bump"
+  ],
+  "fixed": [
+    "Broad patch distribution",
+    "Coarse chip masks",
+    "Geometry",
+    "Camera",
+    "Lighting",
+    "Other surfaces"
+  ],
+  "user_direction": "Right side geometry pretty good after this removal."
+}

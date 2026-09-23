@@ -1,0 +1,35 @@
+{
+  "source": "art/studies/far-building-layout-226/scene.blend",
+  "references": [
+    "RS-01",
+    "RS-02",
+    "RS-03",
+    "UP-03"
+  ],
+  "properties": [
+    "RS01 irregular torn paint and fine edge-rooted oxide",
+    "RS02 joint and fastener rust with unequal downward water tracks",
+    "RS03 mixed dark oxide and warmer orange abrasion",
+    "UP03 connected material variation and quiet interstitial steel"
+  ],
+  "hypothesis": "Facade-matched receivers remove blank gray inserts; substantial structured metal oxidation makes the new garage and gate belong to the existing weathered architecture.",
+  "changed": [
+    "70 accepted222 component material bindings only",
+    "Warm existing facade receivers on passage",
+    "Blue existing facade receivers on garage surround",
+    "Edge/joint rooted oxide, small broken coating chips, sparse gashes, tapered and fading gravity rain fields on garage/gate"
+  ],
+  "fixed": [
+    "All geometry, panel cuts, placements, gate depth, services and braces",
+    "Native ink and GP clipping",
+    "Camera,characters,lighting,haze andground"
+  ],
+  "review": [
+    "Passage warm finish visibly matches surrounding facade",
+    "Garage door noticeably worn at actual4Kcamera, no camouflage blobs",
+    "Gate rust especially visible at joints/bottom, dark iron retained",
+    "No missing-attribute material fallback",
+    "No line or geometry regressions"
+  ],
+  "status": "CPU material candidate; combined native proof required"
+}

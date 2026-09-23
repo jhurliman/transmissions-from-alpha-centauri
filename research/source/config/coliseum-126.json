@@ -1,0 +1,39 @@
+{
+  "source": "125 scene",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-11",
+    "UCL-13",
+    "UCL-15",
+    "DP-03"
+  ],
+  "hypothesis": "Three-arch groups with reserved tower clearance eliminate intersecting moldings; doubled platforms and simpler visible upper column bases strengthen architecture. Photoshop-sampled sky endpoints, applied over the upper sky only, match the selected strip while clouds remain muted.",
+  "fixed": [
+    "Camera and scene surroundings",
+    "Cloud shapes/layout and sun",
+    "Low street-level haze",
+    "Selected arch aperture proportions"
+  ],
+  "status": "User architecture integration; weathering/fracturestudies heldseparate",
+  "user_changes": [
+    "Platform heightdoubled to10%visiblehole",
+    "Upper2levels havevisible simplercolumnbases onefewer ring",
+    "Larger grouped3archfrontage withdedicatedmajorpillarclearance",
+    "Sampled sky/cloud palette fromUCL-15; gradient ends near roofline at20%frameheight, then solidorange"
+  ],
+  "feedback_reference_ids": [
+    "UCL-14"
+  ],
+  "sky_output_targets": {
+    "top": "#e35635",
+    "bottom_at_roofline": "#ec633f",
+    "source": "User Photoshop samples override regional medians",
+    "clouds": "Preserve muted strip-derived cloud palette"
+  },
+  "review_criteria": [
+    "No visible molding/tower intersections on all three levels",
+    "Doubled platform height and upper bases readable at 4K",
+    "Clear sky top #e35635 and roofline/below #ec633f within one output code value",
+    "Preserve locked nonlandmark geometry, materials except authorized sky/cloud palette"
+  ]
+}

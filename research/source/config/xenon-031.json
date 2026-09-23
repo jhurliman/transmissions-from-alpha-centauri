@@ -1,0 +1,36 @@
+{
+  "iteration": "031",
+  "reference_ids": [
+    "DP-08",
+    "HM-03",
+    "AF-06"
+  ],
+  "visual_properties": {
+    "DP-08": "Human-to-infrastructure scale and projecting layered service systems",
+    "HM-03": "Grouped architecture and local repetition",
+    "AF-06": "Controlled architectural planes"
+  },
+  "target": "art/reviews/xenon-001/selected-third.png",
+  "hypothesis": "Corrected service connections and moderate sky illumination yield readable PBR geometry without a foreground light pool.",
+  "fixed": [
+    "Camera and lens",
+    "Actor",
+    "Ground and rubble",
+    "Long ruined city and dome",
+    "Accepted 6:1 depth"
+  ],
+  "changed": [
+    "Primary pipe dimensions 75%",
+    "Concentric close-fitting receiver and facade overlap",
+    "Lower vent with full return and smaller side duct feed",
+    "Seven visible U-return straps",
+    "Duct collars match body finish",
+    "PBR preview lighting and AgX, no outlines",
+    "Neutral AgX contrast, stronger diffuse sky and slightly softer sun"
+  ],
+  "acceptance": "Native geometry-only; no projected finish",
+  "user_approval": "Assembly authorized; render pending review",
+  "reference_observations": {
+    "selected-third": "User identifies single-Y structures, two paneled columns, a service opening, bottom U pipe and staggered building fronts. Garage and side-road functions are inferred; visible gaps are evidence."
+  }
+}

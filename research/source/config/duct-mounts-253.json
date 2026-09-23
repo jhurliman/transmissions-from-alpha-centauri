@@ -1,0 +1,34 @@
+{
+  "iteration": 253,
+  "source": "art/studies/awning-runoff-252/scene.blend",
+  "references": [
+    {
+      "id": "DP-08",
+      "property": "Plausible service anchors and wall relationships"
+    },
+    {
+      "id": "UP-03",
+      "property": "Weathered fitted metal connections"
+    },
+    {
+      "id": "UCL-01",
+      "property": "Preserve established scene contrast and palette"
+    }
+  ],
+  "hypothesis": "One solid entry panel and four right-angle side returns eliminate window penetrations while retaining duct routing.",
+  "variables": [
+    "Single window infill",
+    "Four support routes and rotated bolted plates"
+  ],
+  "fixed": [
+    "Camera",
+    "Duct route",
+    "Bottom mount",
+    "Remaining windows",
+    "Lighting",
+    "Haze",
+    "Characters"
+  ],
+  "approved": false,
+  "local_probe_review": "Four visible L returns seat onto adjacent pier side. Existing bottom anchor retained; only upper slider replaced with full-depth flat infill."
+}

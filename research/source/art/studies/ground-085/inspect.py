@@ -1,0 +1,3 @@
+import bpy,json
+from pathlib import Path
+R=Path('/PATH/TO/transmissions-from-alpha-centauri');bpy.ops.wm.open_mainfile(filepath=str(R/'art/studies/cloud-084/scene.blend'));s=bpy.context.scene;g=bpy.data.objects['Street foundation'];o={'ground':{'bounds':[list(p) for p in g.bound_box],'matrix':[list(p) for p in g.matrix_world],'materials':[m.name for m in g.data.materials]},'camera':{'loc':list(s.camera.location),'rot':list(s.camera.rotation_euler),'lens':s.camera.data.lens},'lights':[{ 'name':o.name,'type':o.data.type,'energy':o.data.energy,'rotation':list(o.rotation_euler)} for o in s.objects if o.type=='LIGHT']};(R/'art/studies/ground-085/scene-inspection.json').write_text(json.dumps(o,indent=2));print(json.dumps(o))

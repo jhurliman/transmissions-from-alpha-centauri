@@ -1,0 +1,15 @@
+{
+  "source": "art/studies/coliseum-173/scene.blend",
+  "references": ["UCL-01", "UCL-02", "DP-03"],
+  "property": "Attached broken courses organized into unequal broad facing/core/return forms before intermediate detail",
+  "hypothesis": "Coordinated subtraction of five intermediate course tails can clarify the existing break while preserving the dominant upper lip, lower ledge and backing wall",
+  "targets": ["COL110 T2 band10 profile1", "COL110 T2 band10 profile2", "COL110 T2 band10 profile4", "COL110 T2 band11 profile1", "COL110 T2 band11 profile2"],
+  "fixed": ["All other geometry, including lower profile0, upper profile3, U10 backing wall, arches, columns, supports and dentils", "Camera, lights, palettes, AO, age, existing material graphs", "All source surfaces outside the declared negative solid", "Existing173 native ink retained until root support correction", "No174 repair or179 crown geometry"],
+  "construction": "One common convex negative volume with unequal left/right inclined end planes and an oblique rear plane; no additions or isolated chips. Front lies outside building. Only five declared middle profiles receive subtraction.",
+  "planes": {"left_anchor_world": [17.55,203.4,41], "left_dx_dy": 0.1907894737, "left_dx_dz": 0.12, "right_anchor_world": [25.65,213.2,41], "right_dx_dy": -0.2727272727, "right_dx_dz": -0.07, "back_dy_dx": 0.9565217391, "back_anchor_world": [19,211,41], "back_dy_dz": 0.06, "front_y": 180, "z_range": [38,45]},
+  "core_material": "151 Warm violet exposed masonry core",
+  "review_window": [2135,600,2190,655],
+  "proof_crop": [2080,545,2310,775],
+  "gates": ["Closed incidence and no new robust crossings", "Subtractive volume and source containment using changed-surface winding, exact inherited correspondence", "Protected source triangles/materials/attributes preserved and normals quantified", "Actual painted and clay no-ink group visibly clearer, not merely fewer polygons or brighter", "Hold after one weak/unsafe candidate; no patch loops"],
+  "status": "One isolated candidate; no integration or user acceptance"
+}

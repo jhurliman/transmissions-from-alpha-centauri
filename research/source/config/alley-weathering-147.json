@@ -1,0 +1,35 @@
+{
+  "source": "art/studies/alley-weathering-146/actual/scene.blend",
+  "references": [
+    "UCL-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "hypothesis": "Tripling the amount of fine bottom splatter strengthens panel-base wear while retaining the existing patch scale and vertical distribution.",
+  "changed_variables": [
+    "Fine splatter coverage at panel bottoms: 3× iteration 146, including positive flecks and interruptions within broad regions"
+  ],
+  "fixed": [
+    "Broad mask",
+    "Fine patch size and palette",
+    "Bottom-weighted falloff",
+    "Rust geometry and 1.5× translucent reach",
+    "Camera, lighting, all geometry and scene layout"
+  ],
+  "criteria": [
+    "Native mask sampling verifies 3× weighted fine coverage",
+    "Matched material and component proofs visibly denser",
+    "Actual 4K alley view retains fine character"
+  ],
+  "status": "Rendered, visually inspected and published for user review",
+  "validation": {
+    "weighted_fine_mask_coverage_multiplier": 3,
+    "native_sample_count": 733730,
+    "geometry_normals_camera_lights_transforms_identical": true,
+    "actual_render": [
+      3840,
+      2885
+    ],
+    "review": "prototype/review-147.html#mask"
+  }
+}

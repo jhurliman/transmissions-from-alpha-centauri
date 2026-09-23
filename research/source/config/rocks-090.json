@@ -1,0 +1,40 @@
+{
+  "references": [
+    {
+      "id": "US-02",
+      "property": "low partially embedded road stones"
+    },
+    {
+      "id": "DP-08",
+      "property": "elongated slabs, irregular broken faces at wall bases"
+    },
+    {
+      "id": "US-01",
+      "property": "small scatter scale"
+    }
+  ],
+  "hypothesis": "Plane-fractured asymmetric wedges and slabs with selective corner losses reproduce the rock silhouette hierarchy better than cube-like scatter.",
+  "fixed": [
+    "soil089 geometry and mean elevation",
+    "architecture",
+    "sky",
+    "near scrap",
+    "far landmark"
+  ],
+  "scope": "New rock masters and road/bank scatter; final ground palette and art treatment deferred",
+  "distribution": "Sparse small road stones, diffuse pale-bank scatter, larger fragments near buildings, clusters with varied sizes",
+  "review": "Enlarged reference crops, native neutral catalogue, main camera, ground closeup",
+  "pipeline": [
+    "tools/rock_masters_090.py",
+    "tools/scatter_rocks_090.py",
+    "tools/refine_rocks_090.py",
+    "tools/rock_visibility_090.py"
+  ],
+  "geometry_review": "Catalogue visually inspected against enlarged reference; masters closed; chunky family kept uncommon",
+  "corrections": [
+    "Fixed temporary shading hiding facets",
+    "Added visible leaning foundation slabs",
+    "Welded near-identical factory vertices"
+  ],
+  "status": "rendered geometry study pending user review"
+}

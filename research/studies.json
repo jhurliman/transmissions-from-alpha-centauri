@@ -1,0 +1,3329 @@
+{
+  "association": "Filename numbers only, not execution order or proof of dependency completeness",
+  "studies": [
+    {
+      "study": 1,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/components/facades/v001/build-source.py",
+        "source/art/components/services/grammar-v001/reference-analysis.md",
+        "source/art/components/services/grammar-v001/source.py",
+        "source/art/components/services/scale-v001/README.md",
+        "source/config/facade-kit-001.json",
+        "source/config/facade-study-001.json",
+        "source/config/pipe-kit-001.json",
+        "source/config/service-grammar-v001.json",
+        "source/config/xenon-001.json"
+      ]
+    },
+    {
+      "study": 2,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/components/facades/v002/build-source.py",
+        "source/art/components/services/grammar-v002/source.py",
+        "source/art/components/services/scale-v002/README.md",
+        "source/config/facade-kit-002.json",
+        "source/config/service-grammar-v002.json",
+        "source/config/service-kit-002.json",
+        "source/config/xenon-002.json"
+      ]
+    },
+    {
+      "study": 3,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/components/services/grammar-v003/source.py",
+        "source/config/facade-kit-003.json",
+        "source/config/service-grammar-v003.json",
+        "source/config/xenon-003.json"
+      ]
+    },
+    {
+      "study": 4,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/components/facades/v004/build-source.py",
+        "source/config/facade-kit-004.json",
+        "source/config/xenon-004.json"
+      ]
+    },
+    {
+      "study": 5,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/components/facades/v005/build-source.py",
+        "source/config/facade-kit-005.json"
+      ]
+    },
+    {
+      "study": 6,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/components/facades/v006/build-source.py",
+        "source/config/facade-kit-006.json",
+        "source/config/xenon-006.json"
+      ]
+    },
+    {
+      "study": 7,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/components/facades/v007/build-source.py",
+        "source/config/facade-kit-007.json",
+        "source/config/xenon-007.json"
+      ]
+    },
+    {
+      "study": 8,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/components/facades/v008/build-source.py",
+        "source/config/facade-kit-008.json",
+        "source/config/xenon-008.json"
+      ]
+    },
+    {
+      "study": 9,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/facade-kit-009.json",
+        "source/config/xenon-009.json"
+      ]
+    },
+    {
+      "study": 10,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/facade-kit-010.json",
+        "source/config/xenon-010.json"
+      ]
+    },
+    {
+      "study": 11,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/components/facades/v011/build-source.py",
+        "source/config/facade-kit-011.json",
+        "source/config/xenon-011.json"
+      ]
+    },
+    {
+      "study": 12,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/components/facades/v012/build-source.py",
+        "source/config/facade-kit-012.json",
+        "source/config/xenon-012.json"
+      ]
+    },
+    {
+      "study": 13,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/components/facades/v013/build-source.py",
+        "source/config/facade-kit-013.json",
+        "source/config/xenon-013.json"
+      ]
+    },
+    {
+      "study": 14,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/components/facades/v014/build-source.py",
+        "source/config/facade-kit-014.json",
+        "source/config/xenon-014.json"
+      ]
+    },
+    {
+      "study": 15,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/components/facades/v015/README.md",
+        "source/config/xenon-015.json"
+      ]
+    },
+    {
+      "study": 16,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/components/facades/v016/README.md",
+        "source/config/xenon-016.json"
+      ]
+    },
+    {
+      "study": 17,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/components/facades/v017/README.md",
+        "source/config/xenon-017.json"
+      ]
+    },
+    {
+      "study": 18,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/critic-cycle/cycle-018-022.md",
+        "source/config/xenon-018.json"
+      ]
+    },
+    {
+      "study": 19,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-019.json"
+      ]
+    },
+    {
+      "study": 20,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-020.json"
+      ]
+    },
+    {
+      "study": 21,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-021.json"
+      ]
+    },
+    {
+      "study": 22,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/critic-cycle/cycle-018-022.md",
+        "source/config/xenon-022.json"
+      ]
+    },
+    {
+      "study": 23,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-023/assembly-source.py",
+        "source/config/xenon-023.json"
+      ]
+    },
+    {
+      "study": 24,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-024/assembly-source.py",
+        "source/config/xenon-024.json"
+      ]
+    },
+    {
+      "study": 25,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-025/assembly-source.py",
+        "source/config/xenon-025.json"
+      ]
+    },
+    {
+      "study": 26,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-026.json",
+        "source/tools/refine_xenon_026.py"
+      ]
+    },
+    {
+      "study": 27,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-027/assembly-source.py",
+        "source/art/reviews/xenon-027/refinement-source.py",
+        "source/config/xenon-027.json",
+        "source/tools/refine_xenon_027.py"
+      ]
+    },
+    {
+      "study": 28,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-028/source.py",
+        "source/config/xenon-028.json"
+      ]
+    },
+    {
+      "study": 29,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-029/source.py",
+        "source/config/xenon-029.json"
+      ]
+    },
+    {
+      "study": 30,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-030/source.py",
+        "source/config/xenon-030.json"
+      ]
+    },
+    {
+      "study": 31,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-031/source.py",
+        "source/config/xenon-031.json"
+      ]
+    },
+    {
+      "study": 32,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-032/source.py",
+        "source/config/xenon-032.json"
+      ]
+    },
+    {
+      "study": 33,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-033/source.py",
+        "source/config/xenon-033.json"
+      ]
+    },
+    {
+      "study": 34,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-034/source.py",
+        "source/config/xenon-034.json"
+      ]
+    },
+    {
+      "study": 35,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-035/source.py",
+        "source/config/xenon-035.json"
+      ]
+    },
+    {
+      "study": 36,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-036/next-stage.md",
+        "source/art/reviews/xenon-036/source.py",
+        "source/config/xenon-036.json"
+      ]
+    },
+    {
+      "study": 37,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-037/source.py",
+        "source/config/xenon-037.json"
+      ]
+    },
+    {
+      "study": 38,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-038/line-pass.py",
+        "source/art/reviews/xenon-038/source.py",
+        "source/config/xenon-038.json",
+        "source/tools/build_look_038.py"
+      ]
+    },
+    {
+      "study": 39,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-039/detail-view.py",
+        "source/art/reviews/xenon-039/line-pass.py",
+        "source/art/reviews/xenon-039/source.py",
+        "source/config/xenon-039.json",
+        "source/tools/build_coating_039.py"
+      ]
+    },
+    {
+      "study": 40,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-040/detail-view.py",
+        "source/art/reviews/xenon-040/line-pass.py",
+        "source/art/reviews/xenon-040/source.py",
+        "source/config/xenon-040.json",
+        "source/tools/refine_coating_040.py"
+      ]
+    },
+    {
+      "study": 41,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-041/detail-view.py",
+        "source/art/reviews/xenon-041/line-pass.py",
+        "source/art/reviews/xenon-041/source.py",
+        "source/config/xenon-041.json",
+        "source/tools/refine_coating_041.py"
+      ]
+    },
+    {
+      "study": 42,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-042/line-pass.py",
+        "source/art/reviews/xenon-042/source.py",
+        "source/config/xenon-042.json",
+        "source/tools/distribute_coating_042.py"
+      ]
+    },
+    {
+      "study": 43,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-043/source.py",
+        "source/config/xenon-043.json",
+        "source/tools/refine_coating_043.py"
+      ]
+    },
+    {
+      "study": 44,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-044/damage-system.md",
+        "source/art/reviews/xenon-044/detail-view.py",
+        "source/art/reviews/xenon-044/line-pass.py",
+        "source/art/reviews/xenon-044/source.py",
+        "source/config/xenon-044.json",
+        "source/tools/build_damage_044.py"
+      ]
+    },
+    {
+      "study": 45,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-045/detail-view.py",
+        "source/art/reviews/xenon-045/line-pass.py",
+        "source/art/reviews/xenon-045/source.py",
+        "source/art/reviews/xenon-045/topology-check.py",
+        "source/art/reviews/xenon-045/weather-test.py",
+        "source/config/xenon-045.json",
+        "source/tools/build_damage_045.py"
+      ]
+    },
+    {
+      "study": 46,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-046/source.py",
+        "source/config/xenon-046.json",
+        "source/tools/build_damage_046.py"
+      ]
+    },
+    {
+      "study": 47,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-047/asset-export.py",
+        "source/art/reviews/xenon-047/fastener-view.py",
+        "source/art/reviews/xenon-047/source.py",
+        "source/config/xenon-047.json",
+        "source/tools/build_damage_047.py",
+        "source/tools/export_panel_damage_047.py"
+      ]
+    },
+    {
+      "study": 48,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-048/source.py",
+        "source/config/xenon-048.json",
+        "source/tools/build_runoff_048.py"
+      ]
+    },
+    {
+      "study": 49,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-049/asset-export.py",
+        "source/art/reviews/xenon-049/source.py",
+        "source/config/xenon-049.json",
+        "source/tools/distribute_weather_049.py",
+        "source/tools/export_weather_049.py"
+      ]
+    },
+    {
+      "study": 50,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-050/source.py",
+        "source/config/xenon-050.json",
+        "source/tools/audit_style_050.py",
+        "source/tools/publish_style_050.py",
+        "source/tools/style_study_050.py"
+      ]
+    },
+    {
+      "study": 51,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-051/source.py",
+        "source/config/xenon-051.json",
+        "source/tools/audit_detail_051.py",
+        "source/tools/build_detail_051.py",
+        "source/tools/publish_detail_051.py"
+      ]
+    },
+    {
+      "study": 52,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-052/source.py",
+        "source/config/xenon-052.json",
+        "source/tools/audit_palette_052.py",
+        "source/tools/build_palette_052.py",
+        "source/tools/publish_palette_052.py"
+      ]
+    },
+    {
+      "study": 53,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-053/analysis-source.py",
+        "source/art/reviews/xenon-053/source.py",
+        "source/config/xenon-053.json",
+        "source/tools/analyze_style_053.py",
+        "source/tools/audit_studies_053.py",
+        "source/tools/build_studies_053.py",
+        "source/tools/publish_studies_053.py"
+      ]
+    },
+    {
+      "study": 54,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-054/source.py",
+        "source/config/xenon-054.json",
+        "source/tools/audit_finish_054.py",
+        "source/tools/build_finish_054.py",
+        "source/tools/publish_finish_054.py"
+      ]
+    },
+    {
+      "study": 55,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/reviews/xenon-055/source.py",
+        "source/config/xenon-055.json",
+        "source/tools/build_surface_055.py",
+        "source/tools/proof_surface_055.py",
+        "source/tools/publish_surface_055.py"
+      ]
+    },
+    {
+      "study": 56,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/surface-056.json",
+        "source/tools/audit_surface_056.py",
+        "source/tools/build_surface_056.py",
+        "source/tools/review_surface_056.py"
+      ]
+    },
+    {
+      "study": 57,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-057.json",
+        "source/tools/audit_surface_057.py",
+        "source/tools/build_surface_057.py",
+        "source/tools/detail_surface_057.py",
+        "source/tools/publish_surface_057.py"
+      ]
+    },
+    {
+      "study": 58,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-058.json",
+        "source/tools/audit_surface_058.py",
+        "source/tools/build_surface_058.py",
+        "source/tools/publish_surface_058.py"
+      ]
+    },
+    {
+      "study": 59,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-059.json",
+        "source/tools/audit_cracks_059.py",
+        "source/tools/build_cracks_059.py",
+        "source/tools/fix_cracks_059.py",
+        "source/tools/publish_cracks_059.py"
+      ]
+    },
+    {
+      "study": 60,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-060.json",
+        "source/tools/build_cracks_060.py",
+        "source/tools/fracture_mesh_060.py",
+        "source/tools/publish_cracks_060.py"
+      ]
+    },
+    {
+      "study": 61,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-061.json",
+        "source/tools/build_cracks_061.py",
+        "source/tools/fracture_mesh_061.py",
+        "source/tools/publish_cracks_061.py"
+      ]
+    },
+    {
+      "study": 62,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-062.json",
+        "source/tools/audit_cracks_062.py",
+        "source/tools/build_cracks_062.py",
+        "source/tools/publish_cracks_062.py"
+      ]
+    },
+    {
+      "study": 63,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-063.json",
+        "source/tools/build_cracks_063.py",
+        "source/tools/publish_cracks_063.py"
+      ]
+    },
+    {
+      "study": 64,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-064.json",
+        "source/tools/build_cracks_064.py",
+        "source/tools/publish_cracks_064.py"
+      ]
+    },
+    {
+      "study": 65,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-065.json",
+        "source/tools/build_cracks_065.py",
+        "source/tools/publish_cracks_065.py"
+      ]
+    },
+    {
+      "study": 66,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-066.json",
+        "source/tools/build_cracks_066.py",
+        "source/tools/publish_cracks_066.py"
+      ]
+    },
+    {
+      "study": 67,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-067.json",
+        "source/tools/build_cracks_067.py",
+        "source/tools/publish_cracks_067.py"
+      ]
+    },
+    {
+      "study": 68,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-068.json",
+        "source/tools/build_cracks_068.py",
+        "source/tools/publish_crack_inventory_068.py"
+      ]
+    },
+    {
+      "study": 69,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-069.json",
+        "source/tools/build_cracks_069.py",
+        "source/tools/publish_cracks_069.py"
+      ]
+    },
+    {
+      "study": 70,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-070.json",
+        "source/tools/build_spalls_070.py",
+        "source/tools/publish_spalls_070.py"
+      ]
+    },
+    {
+      "study": 71,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-071.json",
+        "source/tools/build_finish_071.py",
+        "source/tools/publish_finish_071.py"
+      ]
+    },
+    {
+      "study": 72,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-072.json",
+        "source/tools/build_details_072.py",
+        "source/tools/publish_details_072.py",
+        "source/tools/reflections_072.py",
+        "source/tools/sharp_reflections_072.py"
+      ]
+    },
+    {
+      "study": 73,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/components/facades/v073/README.md",
+        "source/config/xenon-073.json",
+        "source/tools/build_details_073.py",
+        "source/tools/publish_details_073.py"
+      ]
+    },
+    {
+      "study": 74,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/xenon-074.json",
+        "source/tools/build_details_074.py",
+        "source/tools/publish_details_074.py",
+        "source/tools/render_side_074.py"
+      ]
+    },
+    {
+      "study": 75,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/far-075/README.md",
+        "source/art/studies/scrap-075/README.md",
+        "source/art/studies/scrap-075/fix_end.py",
+        "source/art/studies/sky-075/README.md",
+        "source/config/study-far-075.json",
+        "source/config/study-ground-075.json",
+        "source/config/study-scrap-075.json",
+        "source/config/study-scrap-polish-075.json",
+        "source/config/study-sky-075.json",
+        "source/config/xenon-075.json",
+        "source/tools/integrate_environment_075.py",
+        "source/tools/polish_scrap_075.py",
+        "source/tools/publish_environment_075.py",
+        "source/tools/study_far_075.py",
+        "source/tools/study_ground_075.py",
+        "source/tools/study_scrap_075.py",
+        "source/tools/study_sky_075.py"
+      ]
+    },
+    {
+      "study": 76,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/landmark-076/README.md",
+        "source/config/study-landmark-076.json",
+        "source/tools/study_landmark_076.py"
+      ]
+    },
+    {
+      "study": 77,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/end-rubble-077/detail/end_rubble_before_battering.py",
+        "source/config/highlight-refine-077.json",
+        "source/config/sky-refine-077.json",
+        "source/config/study-end-rubble-077.json",
+        "source/config/study-far-077.json",
+        "source/config/study-scrap-077.json",
+        "source/config/xenon-077.json",
+        "source/tools/end_rubble_077.py",
+        "source/tools/far_refine_077.py",
+        "source/tools/ground_077.py",
+        "source/tools/ground_lips_077.py",
+        "source/tools/highlight_refine_077.py",
+        "source/tools/integrate_environment_077.py",
+        "source/tools/publish_environment_077.py",
+        "source/tools/scrap_palette_077.py",
+        "source/tools/sky_refine_077.py"
+      ]
+    },
+    {
+      "study": 78,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/study-scrap-strip-078.json",
+        "source/tools/ground_connections_078.py",
+        "source/tools/ground_finish_078.py",
+        "source/tools/publish_environment_078.py",
+        "source/tools/refine_environment_078.py",
+        "source/tools/scrap_strip_refine_078.py"
+      ]
+    },
+    {
+      "study": 79,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/bank-079/rejected_cone_method.py",
+        "source/config/ground-bank-079.json",
+        "source/config/xenon-079.json",
+        "source/tools/ground_bank_079.py",
+        "source/tools/integrate_environment_079.py",
+        "source/tools/publish_environment_079.py"
+      ]
+    },
+    {
+      "study": 80,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/cloud-080/README.md",
+        "source/art/studies/cloud-080/rejected_profile_method.py",
+        "source/config/cloud-system-080.json",
+        "source/tools/audit_cloud_080.py",
+        "source/tools/cloud_system_080.py",
+        "source/tools/publish_cloud_080.py"
+      ]
+    },
+    {
+      "study": 81,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/soil-study-081.json",
+        "source/tools/publish_soil_081.py",
+        "source/tools/soil_audit_081.py",
+        "source/tools/soil_clean_variants_081.py",
+        "source/tools/soil_junction_081.py",
+        "source/tools/soil_lip_cleanup_081.py",
+        "source/tools/soil_lip_repair_081.py",
+        "source/tools/soil_scene_081.py",
+        "source/tools/soil_stats_081.py",
+        "source/tools/soil_study_081.py",
+        "source/tools/soil_variants_081.py"
+      ]
+    },
+    {
+      "study": 82,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/cloud-082/README.md",
+        "source/art/studies/cloud-082/compose.py",
+        "source/art/studies/cloud-082/flatten_native.py",
+        "source/config/cloud-system-082.json",
+        "source/tools/audit_cloud_082.py",
+        "source/tools/cloud_system_082.py",
+        "source/tools/publish_cloud_082.py"
+      ]
+    },
+    {
+      "study": 83,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/soil-083/README.md",
+        "source/config/soil-relief-083.json",
+        "source/tools/publish_soil_083.py",
+        "source/tools/soil_height_bake_083.py",
+        "source/tools/soil_intermediate_083.py",
+        "source/tools/soil_intermediate_mesh_083.py",
+        "source/tools/soil_light_probe_083.py",
+        "source/tools/soil_map_probe_083.py",
+        "source/tools/soil_relief_083.py",
+        "source/tools/soil_relight_083.py",
+        "source/tools/soil_scene_083.py",
+        "source/tools/soil_shadow_floor_083.py",
+        "source/tools/soil_shadow_texture_probe_083.py"
+      ]
+    },
+    {
+      "study": 84,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/cloud-layout-084.json",
+        "source/tools/cloud_layout_084.py",
+        "source/tools/publish_cloud_084.py"
+      ]
+    },
+    {
+      "study": 85,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/ground-085/balanced_relief.py",
+        "source/art/studies/ground-085/build_combined.py",
+        "source/art/studies/ground-085/coherent_relief.py",
+        "source/art/studies/ground-085/final_lips.py",
+        "source/art/studies/ground-085/final_relief.py",
+        "source/art/studies/ground-085/ground_proofs.py",
+        "source/art/studies/ground-085/inspect.py",
+        "source/art/studies/ground-085/painted_relief.py",
+        "source/art/studies/ground-085/stronger_relief.py",
+        "source/art/studies/ground-085/surface-v1.py",
+        "source/art/studies/ground-085/surface-v2.py",
+        "source/art/studies/ground-085/surface-v3.py",
+        "source/art/studies/ground-085/verify.py",
+        "source/config/ground-085.json",
+        "source/tools/ground_breaks_085.py",
+        "source/tools/ground_surface_085.py",
+        "source/tools/publish_ground_085.py"
+      ]
+    },
+    {
+      "study": 86,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/ground-086/clay_proof.py",
+        "source/art/studies/ground-086/proofs.py",
+        "source/config/ground-086.json",
+        "source/tools/ground_mounds_086.py",
+        "source/tools/publish_ground_086.py"
+      ]
+    },
+    {
+      "study": 87,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/ground-087/clay_proof.py",
+        "source/art/studies/ground-087/export.py",
+        "source/config/ground-087.json",
+        "source/tools/build_ground_mesh_087.py",
+        "source/tools/ground_heightfield_087.py",
+        "source/tools/ground_variants_087.py",
+        "source/tools/publish_ground_087.py"
+      ]
+    },
+    {
+      "study": 88,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/ground-088/README.md",
+        "source/art/studies/ground-088/macro_proof.py",
+        "source/config/ground-088.json",
+        "source/tools/ground_datum_088.py",
+        "source/tools/publish_ground_088.py",
+        "source/tools/soil_detail_088.py"
+      ]
+    },
+    {
+      "study": 89,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/ground-089/clay_proof.py",
+        "source/art/studies/performance-089/README.md",
+        "source/art/studies/performance-089/probe.py",
+        "source/config/ground-089.json",
+        "source/tools/build_ground_mesh_089.py",
+        "source/tools/ground_relief_089.py",
+        "source/tools/integrate_ground_089.py",
+        "source/tools/publish_ground_089.py"
+      ]
+    },
+    {
+      "study": 90,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/rocks-090/README.md",
+        "source/art/studies/rocks-090/placement_proof.py",
+        "source/config/rocks-090.json",
+        "source/tools/publish_rocks_090.py",
+        "source/tools/refine_rocks_090.py",
+        "source/tools/rock_masters_090.py",
+        "source/tools/rock_visibility_090.py",
+        "source/tools/scatter_rocks_090.py"
+      ]
+    },
+    {
+      "study": 91,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/rocks-091/README.md",
+        "source/config/rocks-091.json",
+        "source/tools/publish_rocks_091.py",
+        "source/tools/rock_contact_091.py",
+        "source/tools/rocks_091.py"
+      ]
+    },
+    {
+      "study": 92,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/soil-092/README.md",
+        "source/art/studies/soil-092/inspect.py",
+        "source/config/soil-092.json",
+        "source/tools/foundation_contact_092.py",
+        "source/tools/publish_soil_092.py",
+        "source/tools/soil_paint_fields_092.py",
+        "source/tools/soil_paint_refine_092.py",
+        "source/tools/soil_paint_scene_092.py"
+      ]
+    },
+    {
+      "study": 93,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/soil-093/README.md",
+        "source/config/soil-093.json",
+        "source/tools/publish_soil_093.py",
+        "source/tools/soil_flecks_093.py",
+        "source/tools/soil_flecks_scene_093.py"
+      ]
+    },
+    {
+      "study": 94,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/soil-094/README.md",
+        "source/config/soil-094.json",
+        "source/tools/publish_soil_094.py",
+        "source/tools/soil_flecks_094.py",
+        "source/tools/soil_flecks_scene_094.py"
+      ]
+    },
+    {
+      "study": 95,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/lines-095/details-inventory.py",
+        "source/art/studies/lines-095/details-render.py",
+        "source/art/studies/lines-095/details-review.md",
+        "source/art/studies/lines-095/details-weather-render.py",
+        "source/art/studies/lines-095/details-weather-upper-render.py",
+        "source/art/studies/lines-095/details-weather-upper.py",
+        "source/art/studies/lines-095/details-weather.py",
+        "source/art/studies/lines-095/find_contacts.py",
+        "source/art/studies/lines-095/probe.py",
+        "source/config/lines-095.json",
+        "source/tools/intersection_details_095.py",
+        "source/tools/intersection_details_current_095.py",
+        "source/tools/intersection_expanded_095.py",
+        "source/tools/intersection_ink_095.py",
+        "source/tools/intersection_scene_095.py",
+        "source/tools/intersection_tune_095.py",
+        "source/tools/publish_lines_095.py"
+      ]
+    },
+    {
+      "study": 96,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/lines-096/README.md",
+        "source/art/studies/lines-096/audit-damage.py",
+        "source/art/studies/lines-096/audit-ground-helpers.py",
+        "source/config/lines-096.json",
+        "source/tools/contact_filter_096.py",
+        "source/tools/intersection_rollout_096.py",
+        "source/tools/publish_lines_096.py"
+      ]
+    },
+    {
+      "study": 97,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/soil-097/README.md",
+        "source/config/soil-097.json",
+        "source/tools/publish_soil_097.py",
+        "source/tools/soil_ink_097.py"
+      ]
+    },
+    {
+      "study": 98,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/rocks-098.json",
+        "source/tools/foundation_scatter_098.py",
+        "source/tools/publish_rocks_098.py"
+      ]
+    },
+    {
+      "study": 99,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/density-099.json",
+        "source/tools/city_density_099.py",
+        "source/tools/publish_density_099.py",
+        "source/tools/scene_density_099.py"
+      ]
+    },
+    {
+      "study": 100,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/city-100.json",
+        "source/tools/publish_city_100.py",
+        "source/tools/street_city_100.py"
+      ]
+    },
+    {
+      "study": 101,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/city-101.json",
+        "source/tools/city_reference_101.py",
+        "source/tools/filter_city_101.py",
+        "source/tools/publish_city_101.py",
+        "source/tools/render_city_101.py"
+      ]
+    },
+    {
+      "study": 102,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/city-102.json",
+        "source/tools/check_city_spec_102.py",
+        "source/tools/city_facades_102.py",
+        "source/tools/publish_city_102.py",
+        "source/tools/validate_city_102.py"
+      ]
+    },
+    {
+      "study": 103,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/city-103.json",
+        "source/tools/city_cleanup_103.py",
+        "source/tools/publish_city_103.py"
+      ]
+    },
+    {
+      "study": 104,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/scrap-104.json",
+        "source/tools/publish_scrap_104.py",
+        "source/tools/scrap_finish_104.py"
+      ]
+    },
+    {
+      "study": 105,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/scrap-105.json",
+        "source/tools/publish_scrap_105.py",
+        "source/tools/scrap_values_105.py"
+      ]
+    },
+    {
+      "study": 106,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/city-106.json",
+        "source/tools/city_study_106.py",
+        "source/tools/publish_city_106.py"
+      ]
+    },
+    {
+      "study": 107,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/city-107.json",
+        "source/tools/city_study_107.py",
+        "source/tools/publish_city_107.py"
+      ]
+    },
+    {
+      "study": 108,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/city-108.json",
+        "source/tools/city_study_108.py",
+        "source/tools/publish_city_108.py"
+      ]
+    },
+    {
+      "study": 109,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/coliseum-109.json",
+        "source/tools/coliseum_scale_109.py",
+        "source/tools/publish_coliseum_109.py"
+      ]
+    },
+    {
+      "study": 110,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/coliseum-110.json",
+        "source/tools/coliseum_breakage_110.py",
+        "source/tools/coliseum_damage_detail_110.py",
+        "source/tools/coliseum_final_render_110.py",
+        "source/tools/coliseum_finish_110.py",
+        "source/tools/coliseum_geometry_110.py",
+        "source/tools/coliseum_ink_occlusion_110.py",
+        "source/tools/coliseum_materials_110.py",
+        "source/tools/coliseum_proof_110.py",
+        "source/tools/publish_coliseum_110.py"
+      ]
+    },
+    {
+      "study": 111,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/coliseum-111.json",
+        "source/tools/coliseum_black_floor_111.py",
+        "source/tools/coliseum_finalize_111.py",
+        "source/tools/coliseum_integrate_111.py",
+        "source/tools/coliseum_material_preview_111.py",
+        "source/tools/coliseum_materials_111.py",
+        "source/tools/coliseum_proof_111.py",
+        "source/tools/coliseum_structure_111.py",
+        "source/tools/coliseum_upperwall_111.py",
+        "source/tools/publish_coliseum_111.py",
+        "source/tools/validate_coliseum_111.py"
+      ]
+    },
+    {
+      "study": 112,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/coliseum-112.json",
+        "source/tools/coliseum_finalize_112.py",
+        "source/tools/coliseum_fracture_112.py",
+        "source/tools/coliseum_material_proof_112.py",
+        "source/tools/coliseum_materials_112.py",
+        "source/tools/coliseum_proof_112.py",
+        "source/tools/publish_coliseum_112.py",
+        "source/tools/validate_coliseum_112.py"
+      ]
+    },
+    {
+      "study": 113,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/coliseum-113.json",
+        "source/tools/coliseum_collapse_113.py",
+        "source/tools/coliseum_finalize_113.py",
+        "source/tools/coliseum_link_113.py",
+        "source/tools/coliseum_material_proof_113.py",
+        "source/tools/coliseum_materials_113.py",
+        "source/tools/coliseum_proof_113.py",
+        "source/tools/publish_coliseum_113.py",
+        "source/tools/validate_coliseum_113.py"
+      ]
+    },
+    {
+      "study": 114,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/coliseum-114.json",
+        "source/tools/coliseum_finalize_114.py",
+        "source/tools/coliseum_material_preview_114.py",
+        "source/tools/coliseum_materials_114.py",
+        "source/tools/coliseum_proof_114.py",
+        "source/tools/coliseum_shoulder_114.py",
+        "source/tools/export_coliseum_kit_114.py",
+        "source/tools/publish_coliseum_114.py",
+        "source/tools/validate_coliseum_114.py"
+      ]
+    },
+    {
+      "study": 115,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/coliseum-115.json",
+        "source/tools/coliseum_affine_115.py",
+        "source/tools/coliseum_attached_weathering_115.py",
+        "source/tools/coliseum_clay_115.py",
+        "source/tools/coliseum_clay_e_115.py",
+        "source/tools/coliseum_finalize_115.py",
+        "source/tools/coliseum_haze_115.py",
+        "source/tools/coliseum_haze_palette_115.py",
+        "source/tools/coliseum_haze_plum_115.py",
+        "source/tools/coliseum_materials_115.py",
+        "source/tools/coliseum_perspective_115.py",
+        "source/tools/coliseum_perspective_c_115.py",
+        "source/tools/coliseum_perspective_d_115.py",
+        "source/tools/coliseum_perspective_e_115.py",
+        "source/tools/coliseum_sliver_cleanup_115.py",
+        "source/tools/publish_coliseum_115.py",
+        "source/tools/validate_coliseum_115.py"
+      ]
+    },
+    {
+      "study": 116,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-116/README.md",
+        "source/config/coliseum-116.json",
+        "source/tools/coliseum_clay_116.py",
+        "source/tools/coliseum_detail_116.py",
+        "source/tools/coliseum_detail_trials_116.py",
+        "source/tools/coliseum_finalize_116.py",
+        "source/tools/coliseum_kit_116.py",
+        "source/tools/coliseum_linked_116.py",
+        "source/tools/coliseum_linked_verify_116.py",
+        "source/tools/coliseum_material_c_116.py",
+        "source/tools/coliseum_material_study_116.py",
+        "source/tools/coliseum_rotate_116.py",
+        "source/tools/publish_coliseum_116.py",
+        "source/tools/validate_coliseum_116.py"
+      ]
+    },
+    {
+      "study": 117,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/coliseum-117.json",
+        "source/tools/coliseum_audit_sample_117.py",
+        "source/tools/coliseum_baseline_sample_117.py",
+        "source/tools/coliseum_material_sample_117.py",
+        "source/tools/coliseum_render_geometry_117.py",
+        "source/tools/coliseum_structure_117.py",
+        "source/tools/coliseum_weathering_117.py",
+        "source/tools/publish_coliseum_117.py"
+      ]
+    },
+    {
+      "study": 118,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/coliseum-118.json",
+        "source/tools/coliseum_depth_118.py",
+        "source/tools/coliseum_depth_trials_118.py",
+        "source/tools/coliseum_painted_sample_118.py",
+        "source/tools/coliseum_structure_118.py",
+        "source/tools/coliseum_visibility_118.py"
+      ]
+    },
+    {
+      "study": 119,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/coliseum-119.json",
+        "source/tools/coliseum_assembly_inventory_119.py",
+        "source/tools/coliseum_assembly_plan_119.py",
+        "source/tools/coliseum_audit_sample_119.py",
+        "source/tools/coliseum_breach_rays_119.py",
+        "source/tools/coliseum_finalize_119.py",
+        "source/tools/coliseum_render_geometry_119.py",
+        "source/tools/coliseum_structure_119.py",
+        "source/tools/coliseum_validate_119.py",
+        "source/tools/publish_coliseum_119.py"
+      ]
+    },
+    {
+      "study": 120,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-120/analysis/semantic-review.md",
+        "source/art/studies/coliseum-120/fracture/check_baseline.py",
+        "source/art/studies/coliseum-120/fracture/check_intersections.py",
+        "source/art/studies/coliseum-120/fracture/rejected-remesh-experiment.py",
+        "source/art/studies/coliseum-120/fracture/validate_safe.py",
+        "source/config/coliseum-120.json",
+        "source/tools/coliseum_arch_depth_120.py",
+        "source/tools/coliseum_cornice_120.py",
+        "source/tools/coliseum_cornice_proof_120.py",
+        "source/tools/coliseum_finalize_120.py",
+        "source/tools/coliseum_flat_regions_120.py",
+        "source/tools/coliseum_fracture_120.py",
+        "source/tools/coliseum_mask_120.py",
+        "source/tools/coliseum_validate_120.py",
+        "source/tools/publish_coliseum_120.py"
+      ]
+    },
+    {
+      "study": 121,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-121/source-crossing-repair.md",
+        "source/art/studies/coliseum-121/towers/inventory.py",
+        "source/config/coliseum-121.json",
+        "source/tools/coliseum_color_121.py",
+        "source/tools/coliseum_finalize_121.py",
+        "source/tools/coliseum_surface_121.py",
+        "source/tools/coliseum_tower_121.py",
+        "source/tools/coliseum_upper_121.py",
+        "source/tools/coliseum_upper_audit_121.py",
+        "source/tools/coliseum_upper_proof_121.py",
+        "source/tools/coliseum_validate_121.py",
+        "source/tools/publish_coliseum_121.py"
+      ]
+    },
+    {
+      "study": 122,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/coliseum-122.json",
+        "source/tools/coliseum_drain_crossings_122.py",
+        "source/tools/coliseum_drain_mask_122.py",
+        "source/tools/coliseum_finalize_122.py",
+        "source/tools/coliseum_rhythm_audit_122.py",
+        "source/tools/coliseum_rhythm_proof_122.py",
+        "source/tools/coliseum_shallow_shade_122.py",
+        "source/tools/coliseum_upper_rhythm_122.py",
+        "source/tools/coliseum_validate_122.py",
+        "source/tools/publish_coliseum_122.py"
+      ]
+    },
+    {
+      "study": 123,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-123/chips/render.py",
+        "source/art/studies/coliseum-123/repair/HANDOFF.md",
+        "source/art/studies/coliseum-123/repair/compare.py",
+        "source/config/coliseum-123.json",
+        "source/tools/coliseum_armature_123.py",
+        "source/tools/coliseum_base_123.py",
+        "source/tools/coliseum_cornice_material_123.py",
+        "source/tools/coliseum_crown_repair_123.py",
+        "source/tools/coliseum_finalize_123.py",
+        "source/tools/coliseum_fine_chips_123.py",
+        "source/tools/coliseum_joint_probe_123.py",
+        "source/tools/coliseum_validate_123.py",
+        "source/tools/publish_coliseum_123.py"
+      ]
+    },
+    {
+      "study": 124,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-124/arch-ratio/HANDOFF.md",
+        "source/art/studies/coliseum-124/arch-ratio/render.py",
+        "source/art/studies/coliseum-124/repair/HANDOFF.md",
+        "source/art/studies/coliseum-124/repair/render.py",
+        "source/config/coliseum-124.json",
+        "source/tools/coliseum_arch_ratio_124.py",
+        "source/tools/coliseum_armature_124.py",
+        "source/tools/coliseum_columns_124.py",
+        "source/tools/coliseum_cornice_material_124.py",
+        "source/tools/coliseum_finalize_124.py",
+        "source/tools/coliseum_r_foundation_124.py",
+        "source/tools/coliseum_r_normalize_124.py",
+        "source/tools/coliseum_validate_124.py",
+        "source/tools/publish_coliseum_124.py"
+      ]
+    },
+    {
+      "study": 125,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-125/arch-ratio/HANDOFF.md",
+        "source/art/studies/coliseum-125/arch-ratio/render.py",
+        "source/art/studies/coliseum-125/fracture/finalize_material.py",
+        "source/art/studies/coliseum-125/fracture/render.py",
+        "source/art/studies/coliseum-125/joints/analytic-probe.py",
+        "source/art/studies/coliseum-125/joints/combined-normal-probe.py",
+        "source/art/studies/coliseum-125/joints/contrast-probe.py",
+        "source/art/studies/coliseum-125/joints/flat-probe.py",
+        "source/art/studies/coliseum-125/joints/flatspandrel-probe.py",
+        "source/art/studies/coliseum-125/joints/mask-probe.py",
+        "source/art/studies/coliseum-125/joints/noao-probe.py",
+        "source/art/studies/coliseum-125/joints/normal-probe.py",
+        "source/art/studies/coliseum-125/joints/ramp-probe.py",
+        "source/config/coliseum-125.json",
+        "source/tools/coliseum_arch_ratio_125.py",
+        "source/tools/coliseum_finalize_125.py",
+        "source/tools/coliseum_fine_fracture_125.py",
+        "source/tools/coliseum_joint_probe_125.py",
+        "source/tools/coliseum_platforms_125.py",
+        "source/tools/coliseum_sky_finalize_125.py",
+        "source/tools/coliseum_surface_125.py",
+        "source/tools/coliseum_surface_proof_125.py",
+        "source/tools/coliseum_validate_125.py",
+        "source/tools/publish_coliseum_125.py",
+        "source/tools/sky_gradient_125.py"
+      ]
+    },
+    {
+      "study": 126,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-126/FRACTURE-HANDOFF.md",
+        "source/art/studies/coliseum-126/crown-deform/render.py",
+        "source/art/studies/coliseum-126/fracture-seed/HANDOFF.md",
+        "source/art/studies/coliseum-126/fracture-seed/render.py",
+        "source/art/studies/coliseum-126/fracture-seed-v2/render.py",
+        "source/art/studies/coliseum-126/grouping/storage-and-column-proof.py",
+        "source/art/studies/coliseum-126/grouping/tower-clearance-proof.py",
+        "source/art/studies/coliseum-126/surface/junction-v2-source.py",
+        "source/art/studies/coliseum-126/surface/ledge-v1-source.py",
+        "source/art/studies/coliseum-126/surface/patches-v3-source.py",
+        "source/art/studies/coliseum-126/volumetric/render.py",
+        "source/config/coliseum-126.json",
+        "source/tools/coliseum_column_bases_126.py",
+        "source/tools/coliseum_crown_deform_126.py",
+        "source/tools/coliseum_crown_deform_v2_126.py",
+        "source/tools/coliseum_crown_deform_v3_126.py",
+        "source/tools/coliseum_finalize_126.py",
+        "source/tools/coliseum_fracture_seed_126.py",
+        "source/tools/coliseum_fracture_seed_manifold_126.py",
+        "source/tools/coliseum_fracture_seed_v2_126.py",
+        "source/tools/coliseum_groups_126.py",
+        "source/tools/coliseum_outer_rim_126.py",
+        "source/tools/coliseum_platforms_126.py",
+        "source/tools/coliseum_surface_126.py",
+        "source/tools/coliseum_surface_proof_126.py",
+        "source/tools/coliseum_validate_126.py",
+        "source/tools/coliseum_volumetric_126.py",
+        "source/tools/coliseum_voxel_chips_126.py",
+        "source/tools/publish_coliseum_126.py",
+        "source/tools/sky_palette_126.py"
+      ]
+    },
+    {
+      "study": 127,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-127/fracture/render.py",
+        "source/art/studies/coliseum-127/fracture-irregular/HANDOFF.md",
+        "source/art/studies/coliseum-127/fracture-irregular/render.py",
+        "source/art/studies/coliseum-127/fracture-solid/render.py",
+        "source/art/studies/coliseum-127/fracture-solid-fine/render.py",
+        "source/art/studies/coliseum-127/seam-diagnostic/HANDOFF.md",
+        "source/art/studies/coliseum-127/spacing/measure-clearances.py",
+        "source/art/studies/coliseum-127/spacing/preservation-proof.py",
+        "source/config/coliseum-127.json",
+        "source/config/coliseum-fracture-127.json",
+        "source/tools/coliseum_clay_127.py",
+        "source/tools/coliseum_finalize_127.py",
+        "source/tools/coliseum_floaters_127.py",
+        "source/tools/coliseum_fracture_irregular_127.py",
+        "source/tools/coliseum_fracture_solid_127.py",
+        "source/tools/coliseum_fracture_solid_fine_127.py",
+        "source/tools/coliseum_pipe_recess_127.py",
+        "source/tools/coliseum_seam_diagnostic_127.py",
+        "source/tools/coliseum_seam_repair_127.py",
+        "source/tools/coliseum_seams_127.py",
+        "source/tools/coliseum_spacing_127.py",
+        "source/tools/coliseum_surface_127.py",
+        "source/tools/coliseum_surface_proof_127.py",
+        "source/tools/coliseum_validate_127.py",
+        "source/tools/coliseum_voxel_fracture_127.py",
+        "source/tools/coliseum_voxel_fracture_v2_127.py",
+        "source/tools/pipe_ink_transfer_127.py",
+        "source/tools/publish_coliseum_127.py"
+      ]
+    },
+    {
+      "study": 128,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-128/b10-rebuild/HANDOFF.md",
+        "source/art/studies/coliseum-128/b10-rebuild/render-clay.py",
+        "source/art/studies/coliseum-128/b10-rebuild/render.py",
+        "source/art/studies/coliseum-128/junction/proof-render.py",
+        "source/config/coliseum-128.json",
+        "source/config/coliseum-b10-repair-128.json",
+        "source/config/coliseum-junction-128.json",
+        "source/tools/coliseum_b10_prepared_128.py",
+        "source/tools/coliseum_b10_rebuild_128.py",
+        "source/tools/coliseum_b10_repair_128.py",
+        "source/tools/coliseum_junction_128.py",
+        "source/tools/coliseum_lighting_128.py",
+        "source/tools/coliseum_lighting_finalize_128.py",
+        "source/tools/coliseum_lighting_proof_128.py",
+        "source/tools/coliseum_lighting_validate_128.py",
+        "source/tools/publish_coliseum_128.py"
+      ]
+    },
+    {
+      "study": 129,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-129/arches/HANDOFF.md",
+        "source/art/studies/coliseum-129/arches/proof.py",
+        "source/art/studies/coliseum-129/flat-analysis/measure-flat-regions.py",
+        "source/art/studies/coliseum-129/flat-analysis/render-role-mask.py",
+        "source/art/studies/coliseum-129/joints/HANDOFF.md",
+        "source/art/studies/coliseum-129/joints/final-proof.py",
+        "source/config/coliseum-129.json",
+        "source/config/coliseum-arch-thickness-129.json",
+        "source/config/coliseum-joints-129.json",
+        "source/config/coliseum-junction-129.json",
+        "source/config/coliseum-pillars-129.json",
+        "source/tools/coliseum_arch_thickness_129.py",
+        "source/tools/coliseum_clay_129.py",
+        "source/tools/coliseum_cornice_clearance_129.py",
+        "source/tools/coliseum_cornice_color_129.py",
+        "source/tools/coliseum_cornice_color_proof_129.py",
+        "source/tools/coliseum_finalize_129.py",
+        "source/tools/coliseum_joint_diagnosis_129.py",
+        "source/tools/coliseum_joint_scope_129.py",
+        "source/tools/coliseum_joint_shading_129.py",
+        "source/tools/coliseum_junction_129.py",
+        "source/tools/coliseum_pillars_129.py",
+        "source/tools/coliseum_surface_129.py",
+        "source/tools/coliseum_surface_proof_129.py",
+        "source/tools/coliseum_validate_129.py",
+        "source/tools/publish_coliseum_129.py"
+      ]
+    },
+    {
+      "study": 130,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-130/arch-ink/HANDOFF.md",
+        "source/art/studies/coliseum-130/arch-ink/final-after.py",
+        "source/art/studies/coliseum-130/arch-ink/final-proof.py",
+        "source/art/studies/coliseum-130/arch-ink/preview.py",
+        "source/art/studies/coliseum-130/tunnels/HANDOFF.md",
+        "source/art/studies/coliseum-130/tunnels/build-proof.py",
+        "source/art/studies/coliseum-130/tunnels/validate-and-render-proofs.py",
+        "source/art/studies/coliseum-130/tunnels/verify-sightlines.py",
+        "source/config/coliseum-130.json",
+        "source/config/coliseum-arch-ink-130.json",
+        "source/tools/coliseum_arch_ink_130.py",
+        "source/tools/coliseum_finalize_130.py",
+        "source/tools/coliseum_ink_isolation_130.py",
+        "source/tools/coliseum_ink_reference_scene_130.py",
+        "source/tools/coliseum_tunnels_130.py",
+        "source/tools/coliseum_validate_130.py",
+        "source/tools/publish_coliseum_130.py"
+      ]
+    },
+    {
+      "study": 131,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-131/frame/HANDOFF.md",
+        "source/art/studies/coliseum-131/frame/build-proof.py",
+        "source/art/studies/coliseum-131/surface/HANDOFF.md",
+        "source/art/studies/coliseum-131/surface/proof.py",
+        "source/config/coliseum-131.json",
+        "source/config/coliseum-crown-joints-131.json",
+        "source/config/coliseum-surface-131.json",
+        "source/tools/coliseum_crown_joints_131.py",
+        "source/tools/coliseum_frame_extension_131.py",
+        "source/tools/coliseum_surface_131.py",
+        "source/tools/publish_coliseum_131.py"
+      ]
+    },
+    {
+      "study": 132,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/coliseum-132.json",
+        "source/tools/coliseum_haze_132.py",
+        "source/tools/publish_coliseum_132.py"
+      ]
+    },
+    {
+      "study": 133,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/alley-damage-133/README.md",
+        "source/art/studies/alley-damage-133/reference-notes.md",
+        "source/art/studies/city-transition-133/HANDOFF.md",
+        "source/art/studies/city-transition-133/proof.py",
+        "source/art/studies/city-transition-133/refine.py",
+        "source/art/studies/clouds-133/HANDOFF.md",
+        "source/art/studies/clouds-133/context-proof.py",
+        "source/art/studies/clouds-133/proof.py",
+        "source/config/alley-damage-133.json",
+        "source/config/city-transition-133.json",
+        "source/config/clouds-133.json",
+        "source/config/scene-studies-133.json",
+        "source/tools/alley_damage_133.py",
+        "source/tools/city_transition_133.py",
+        "source/tools/clouds_133.py",
+        "source/tools/clouds_133_generate.py",
+        "source/tools/coliseum_black_joint_133.py",
+        "source/tools/publish_scene_details_133.py",
+        "source/tools/scene_detail_integration_133.py"
+      ]
+    },
+    {
+      "study": 134,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-134/README.md",
+        "source/art/studies/coliseum-134/fracture/pilot-top-only/prelayout-rejected.py",
+        "source/art/studies/coliseum-134/fracture/rejected-deformation.py",
+        "source/art/studies/coliseum-134/topology-diagnostics/degenerate-trials.py",
+        "source/art/studies/coliseum-134/topology-diagnostics/diagnose.py",
+        "source/art/studies/coliseum-134/topology-diagnostics/envelope-trial.py",
+        "source/art/studies/coliseum-134/topology-diagnostics/prove-safe-module.py",
+        "source/art/studies/coliseum-134/weathering/HANDOFF.md",
+        "source/art/studies/coliseum-134/weathering/proof-v2.py",
+        "source/art/studies/coliseum-134/weathering/proof.py",
+        "source/config/coliseum-134-fracture.json",
+        "source/config/coliseum-134.json",
+        "source/config/coliseum-weathering-134.json",
+        "source/tools/coliseum_fracture_134.py",
+        "source/tools/coliseum_geometry_audit_134.py",
+        "source/tools/coliseum_integration_134.py",
+        "source/tools/coliseum_standalone_134.py",
+        "source/tools/coliseum_triangulation_134.py",
+        "source/tools/coliseum_weathering_134.py",
+        "source/tools/publish_coliseum_134.py"
+      ]
+    },
+    {
+      "study": 135,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-135/fracture/map_targets.py",
+        "source/art/studies/coliseum-135/fracture/v1/coliseum_fracture_135.py",
+        "source/config/coliseum-135-fracture.json",
+        "source/config/coliseum-135.json",
+        "source/config/coliseum-weathering-135.json",
+        "source/tools/coliseum_crossing_visibility_135.py",
+        "source/tools/coliseum_fracture_135.py",
+        "source/tools/coliseum_integration_135.py",
+        "source/tools/coliseum_sharing_audit_135.py",
+        "source/tools/coliseum_weathering_135.py",
+        "source/tools/coliseum_weathering_proof_135.py",
+        "source/tools/publish_coliseum_135.py"
+      ]
+    },
+    {
+      "study": 136,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-136/haze/HANDOFF.md",
+        "source/config/coliseum-haze-136.json",
+        "source/tools/coliseum_haze_136.py",
+        "source/tools/coliseum_haze_finalize_136.py",
+        "source/tools/coliseum_haze_proof_136.py",
+        "source/tools/publish_coliseum_haze_136.py"
+      ]
+    },
+    {
+      "study": 137,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/alley-rust-137/HANDOFF.md",
+        "source/art/studies/alley-rust-137/preservation.py",
+        "source/art/studies/alley-rust-137/proof.py",
+        "source/config/alley-rust-137.json",
+        "source/tools/alley_rust_137.py"
+      ]
+    },
+    {
+      "study": 138,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/scene-details-138/README.md",
+        "source/config/scene-studies-138.json",
+        "source/tools/coliseum_delivery_audit_138.py",
+        "source/tools/publish_scene_138.py",
+        "source/tools/scene_integration_138.py"
+      ]
+    },
+    {
+      "study": 139,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-139/weathering/HANDOFF.md",
+        "source/art/studies/coliseum-139/weathering/mask_diagnostic.py",
+        "source/art/studies/coliseum-139/weathering/preservation.py",
+        "source/art/studies/coliseum-139/weathering/proof.py",
+        "source/config/coliseum-weathering-139.json",
+        "source/tools/coliseum_geometry_audit_139.py",
+        "source/tools/coliseum_triangulation_probe_139.py",
+        "source/tools/coliseum_weathering_139.py"
+      ]
+    },
+    {
+      "study": 140,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/alley-rust-140.json",
+        "source/tools/alley_rust_140.py",
+        "source/tools/alley_rust_build_140.py",
+        "source/tools/alley_rust_coverage_140.py",
+        "source/tools/publish_alley_rust_140.py"
+      ]
+    },
+    {
+      "study": 141,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-141/front-pilot/coliseum_spall_141.py",
+        "source/art/studies/coliseum-141/underside-pilot/coliseum_spall_141.py",
+        "source/art/studies/coliseum-141/v3/coliseum_spall_141.py",
+        "source/config/coliseum-spall-141.json",
+        "source/tools/coliseum_spall_141.py"
+      ]
+    },
+    {
+      "study": 142,
+      "status": "no-number-associated-source",
+      "files": []
+    },
+    {
+      "study": 143,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/alley-rust-143.json",
+        "source/tools/alley_rust_143.py",
+        "source/tools/alley_rust_build_143.py",
+        "source/tools/alley_rust_coverage_143.py",
+        "source/tools/publish_alley_rust_143.py"
+      ]
+    },
+    {
+      "study": 144,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/coliseum-144.json",
+        "source/tools/coliseum_integration_144.py",
+        "source/tools/publish_coliseum_144.py"
+      ]
+    },
+    {
+      "study": 145,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/alley-weathering-145/README.md",
+        "source/art/studies/alley-weathering-145/actual/README.md",
+        "source/art/studies/alley-weathering-145/details/HANDOFF.md",
+        "source/art/studies/alley-weathering-145/details/proof.py",
+        "source/art/studies/alley-weathering-145/details/v1/module.py",
+        "source/art/studies/alley-weathering-145/details/v2/module.py",
+        "source/art/studies/alley-weathering-145/geometry/README.md",
+        "source/art/studies/alley-weathering-145/geometry/v1/README.md",
+        "source/art/studies/alley-weathering-145/geometry/v1/alley_damage_145.py",
+        "source/art/studies/alley-weathering-145/material/v4/alley_panel_material_145.py",
+        "source/art/studies/alley-weathering-145/reference-analysis.md",
+        "source/config/alley-damage-145.json",
+        "source/config/alley-surface-details-145.json",
+        "source/config/alley-weathering-145.json",
+        "source/tools/alley_damage_145.py",
+        "source/tools/alley_material_proof_145.py",
+        "source/tools/alley_panel_material_145.py",
+        "source/tools/alley_sunface_control_145.py",
+        "source/tools/alley_surface_details_145.py",
+        "source/tools/alley_weathering_build_145.py",
+        "source/tools/alley_weathering_controls_145.py",
+        "source/tools/alley_weathering_placement_145.py",
+        "source/tools/alley_weathering_proof_145.py",
+        "source/tools/publish_alley_weathering_145.py"
+      ]
+    },
+    {
+      "study": 146,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/alley-weathering-146/README.md",
+        "source/art/studies/alley-weathering-146/details/HANDOFF.md",
+        "source/art/studies/alley-weathering-146/details/proof.py",
+        "source/config/alley-surface-details-146.json",
+        "source/config/alley-weathering-146.json",
+        "source/tools/alley_material_proof_146.py",
+        "source/tools/alley_panel_material_146.py",
+        "source/tools/alley_surface_details_146.py",
+        "source/tools/alley_weathering_build_146.py",
+        "source/tools/alley_weathering_controls_146.py",
+        "source/tools/alley_weathering_proof_146.py",
+        "source/tools/publish_alley_weathering_146.py"
+      ]
+    },
+    {
+      "study": 147,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/alley-weathering-147/README.md",
+        "source/config/alley-weathering-147.json",
+        "source/tools/alley_material_proof_147.py",
+        "source/tools/alley_panel_material_147.py",
+        "source/tools/alley_splatter_calibrate_147.py",
+        "source/tools/alley_splatter_update_147.py",
+        "source/tools/publish_alley_weathering_147.py"
+      ]
+    },
+    {
+      "study": 148,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-148/README.md",
+        "source/art/studies/coliseum-148/geometry/HANDOFF.md",
+        "source/art/studies/coliseum-148/geometry/clay-proof.py",
+        "source/art/studies/coliseum-148/geometry/proof.py",
+        "source/art/studies/coliseum-148/geometry/validate.py",
+        "source/config/coliseum-148.json",
+        "source/config/coliseum-cornice-loss-148.json",
+        "source/config/coliseum-weathering-148.json",
+        "source/tools/coliseum_core_tone_148.py",
+        "source/tools/coliseum_cornice_loss_148.py",
+        "source/tools/coliseum_integration_148.py",
+        "source/tools/coliseum_material_proof_148.py",
+        "source/tools/coliseum_validate_148.py",
+        "source/tools/coliseum_weathering_148.py",
+        "source/tools/publish_coliseum_148.py"
+      ]
+    },
+    {
+      "study": 149,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-149/README.md",
+        "source/art/studies/coliseum-149/geometry/HANDOFF.md",
+        "source/art/studies/coliseum-149/geometry/clay-proof.py",
+        "source/art/studies/coliseum-149/geometry/project.py",
+        "source/art/studies/coliseum-149/geometry/proof.py",
+        "source/art/studies/coliseum-149/geometry/v1/module.py",
+        "source/art/studies/coliseum-149/geometry/validate.py",
+        "source/art/studies/coliseum-149/ink-regression/HANDOFF.md",
+        "source/art/studies/coliseum-149/repair/inspect.py",
+        "source/art/studies/coliseum-149/repair/proof.py",
+        "source/config/coliseum-149.json",
+        "source/config/coliseum-crown-loss-149.json",
+        "source/config/coliseum-crown-repair-149.json",
+        "source/config/coliseum-material-149.json",
+        "source/tools/coliseum_crown_loss_149.py",
+        "source/tools/coliseum_crown_material_149.py",
+        "source/tools/coliseum_crown_material_proof_149.py",
+        "source/tools/coliseum_crown_repair_149.py",
+        "source/tools/coliseum_ink_regression_149.py",
+        "source/tools/coliseum_integration_149.py",
+        "source/tools/coliseum_validate_149.py",
+        "source/tools/publish_coliseum_149.py"
+      ]
+    },
+    {
+      "study": 150,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-150/README.md",
+        "source/art/studies/coliseum-150/mapping/map.py",
+        "source/config/coliseum-150.json",
+        "source/config/coliseum-support-mapping-150.json",
+        "source/config/coliseum-support-weathering-150.json",
+        "source/tools/coliseum_integration_150.py",
+        "source/tools/coliseum_support_proof_150.py",
+        "source/tools/coliseum_support_weathering_150.py",
+        "source/tools/coliseum_validate_150.py",
+        "source/tools/publish_coliseum_150.py"
+      ]
+    },
+    {
+      "study": 151,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-151/README.md",
+        "source/art/studies/coliseum-151/geometry/HANDOFF.md",
+        "source/art/studies/coliseum-151/geometry/v2-rejected/source.py",
+        "source/art/studies/coliseum-151/geometry/validate-replay.py",
+        "source/art/studies/coliseum-151/geometry/validate.py",
+        "source/art/studies/coliseum-151/mapping/map.py",
+        "source/config/coliseum-crown-mapping-151.json",
+        "source/config/coliseum-crown-material-151.json",
+        "source/config/coliseum-crown-thickness-151.json",
+        "source/tools/coliseum_crown_material_151.py",
+        "source/tools/coliseum_crown_material_proof_151.py",
+        "source/tools/coliseum_crown_proof_151.py",
+        "source/tools/coliseum_crown_thickness_151.py"
+      ]
+    },
+    {
+      "study": 152,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-152/README.md",
+        "source/art/studies/coliseum-152/mapping/HANDOFF.md",
+        "source/art/studies/coliseum-152/mapping/check_faces.py",
+        "source/art/studies/coliseum-152/mapping/expand_faces.py",
+        "source/art/studies/coliseum-152/mapping/map.py",
+        "source/art/studies/coliseum-152/mapping/package.py",
+        "source/config/coliseum-152.json",
+        "source/config/coliseum-facade-age-152.json",
+        "source/tools/coliseum_delivery_audit_152.py",
+        "source/tools/coliseum_facade_age_152.py",
+        "source/tools/coliseum_facade_proof_152.py",
+        "source/tools/coliseum_integration_152.py",
+        "source/tools/coliseum_validate_152.py",
+        "source/tools/publish_coliseum_152.py"
+      ]
+    },
+    {
+      "study": 153,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-153/edge-diagnosis/README.md",
+        "source/art/studies/coliseum-153/material/HANDOFF.md",
+        "source/art/studies/coliseum-153/material/v1-held/source.py",
+        "source/art/studies/coliseum-153/material/v2-held/HANDOFF.md",
+        "source/art/studies/coliseum-153/material/v2-held/source.py",
+        "source/config/coliseum-edge-material-153.json",
+        "source/tools/coliseum_contact_audit_153.py",
+        "source/tools/coliseum_edge_diagnosis_153.py",
+        "source/tools/coliseum_edge_gate_153.py",
+        "source/tools/coliseum_edge_layers_153.py",
+        "source/tools/coliseum_edge_material_153.py",
+        "source/tools/coliseum_edge_materials_153.py",
+        "source/tools/coliseum_edge_proof_153.py",
+        "source/tools/coliseum_edge_value_diagnosis_153.py",
+        "source/tools/coliseum_integration_153.py",
+        "source/tools/coliseum_validate_153.py",
+        "source/tools/publish_coliseum_153.py"
+      ]
+    },
+    {
+      "study": 154,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-154/geometry/HANDOFF.md",
+        "source/art/studies/coliseum-154/geometry/render.py",
+        "source/art/studies/coliseum-154/geometry/v1/HANDOFF.md",
+        "source/art/studies/coliseum-154/geometry/v1/coliseum_crown_continuation_154.py",
+        "source/art/studies/coliseum-154/geometry/v1/render.py",
+        "source/art/studies/coliseum-154/mapping/HANDOFF.md",
+        "source/config/coliseum-crown-continuation-154.json",
+        "source/tools/coliseum_crown_continuation_154.py",
+        "source/tools/coliseum_crown_mapping_154.py",
+        "source/tools/coliseum_crown_proof_154.py"
+      ]
+    },
+    {
+      "study": 155,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/coliseum-age-placement-155.json",
+        "source/tools/coliseum_age_placement_155.py",
+        "source/tools/coliseum_age_placement_proof_155.py"
+      ]
+    },
+    {
+      "study": 156,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-156/README.md",
+        "source/art/studies/coliseum-156/preflight/HANDOFF.md",
+        "source/art/studies/coliseum-156/preflight/cleanup/HANDOFF.md",
+        "source/art/studies/coliseum-156/preflight/cleanup/proof.py",
+        "source/art/studies/coliseum-156/preflight/crossing-disposition-v2.md",
+        "source/art/studies/coliseum-156/preflight/degenerate-cleanup-notes.md",
+        "source/art/studies/coliseum-156/regression/CORRECTION-HANDOFF.md",
+        "source/art/studies/coliseum-156/regression/HANDOFF.md",
+        "source/art/studies/coliseum-156/regression/prove-visibility.py",
+        "source/config/coliseum-156.json",
+        "source/tools/coliseum_crossing_disposition_156.py",
+        "source/tools/coliseum_degenerate_cleanup_156.py",
+        "source/tools/coliseum_degenerate_feasibility_156.py",
+        "source/tools/coliseum_delivery_audit_156.py",
+        "source/tools/coliseum_delivery_manifest_156.py",
+        "source/tools/coliseum_foreground_visibility_156.py",
+        "source/tools/coliseum_ink_control_156.py",
+        "source/tools/coliseum_ink_diagnostic_156.py",
+        "source/tools/coliseum_ink_occlusion_156.py",
+        "source/tools/coliseum_integration_156.py",
+        "source/tools/coliseum_kit_proof_156.py",
+        "source/tools/coliseum_preflight_156.py",
+        "source/tools/coliseum_validate_156.py",
+        "source/tools/publish_coliseum_156.py"
+      ]
+    },
+    {
+      "study": 157,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-157/geometry/render.py",
+        "source/art/studies/coliseum-157/geometry/v1/coliseum_cornice_failure_157.py",
+        "source/art/studies/coliseum-157/geometry/v1/render.py",
+        "source/art/studies/coliseum-157/geometry/v2/code.py",
+        "source/art/studies/coliseum-157/geometry/v2/render.py",
+        "source/art/studies/coliseum-157/mapping/HANDOFF.md",
+        "source/config/coliseum-cornice-failure-157.json",
+        "source/tools/coliseum_cornice_failure_157.py",
+        "source/tools/coliseum_cornice_mapping_157.py",
+        "source/tools/coliseum_cornice_proof_157.py"
+      ]
+    },
+    {
+      "study": 158,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-158/material/v1/coliseum_course_age_158.py",
+        "source/config/coliseum-course-age-158.json",
+        "source/tools/coliseum_course_age_158.py",
+        "source/tools/coliseum_course_age_proof_158.py"
+      ]
+    },
+    {
+      "study": 159,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-159/README.md",
+        "source/config/coliseum-pairing-159.json",
+        "source/tools/coliseum_delivery_audit_159.py",
+        "source/tools/coliseum_delivery_manifest_159.py",
+        "source/tools/coliseum_integration_159.py",
+        "source/tools/coliseum_kit_proof_159.py",
+        "source/tools/coliseum_pairing_159.py",
+        "source/tools/coliseum_validate_159.py",
+        "source/tools/publish_coliseum_159.py"
+      ]
+    },
+    {
+      "study": 160,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-160/repair/HANDOFF.md",
+        "source/art/studies/coliseum-160/repair/v1-held/source.py",
+        "source/art/studies/coliseum-160/right-repair/HANDOFF.md",
+        "source/art/studies/coliseum-160/right-repair/v2/HANDOFF.md",
+        "source/art/studies/coliseum-160/right-repair/v3/HANDOFF.md",
+        "source/config/coliseum-return-repair-160.json",
+        "source/config/coliseum-right-return-repair-160.json",
+        "source/config/coliseum-right-return-v2-160.json",
+        "source/config/coliseum-right-return-v3-160.json",
+        "source/tools/coliseum_return_apply_160.py",
+        "source/tools/coliseum_return_proof_160.py",
+        "source/tools/coliseum_return_repair_160.py",
+        "source/tools/coliseum_return_strip_160.py",
+        "source/tools/coliseum_return_validation_160.py",
+        "source/tools/coliseum_right_audit_160.py",
+        "source/tools/coliseum_right_audit_v3_160.py",
+        "source/tools/coliseum_right_domain_160.py",
+        "source/tools/coliseum_right_return_160.py",
+        "source/tools/coliseum_right_return_v2_160.py",
+        "source/tools/coliseum_right_return_v3_160.py"
+      ]
+    },
+    {
+      "study": 161,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-161/visibility/HANDOFF.md",
+        "source/tools/coliseum_foreground_visibility_161.py",
+        "source/tools/coliseum_ink_diagnostic_161.py",
+        "source/tools/coliseum_ink_occlusion_161.py",
+        "source/tools/coliseum_visibility_correction_161.py",
+        "source/tools/coliseum_visibility_review_161.py"
+      ]
+    },
+    {
+      "study": 162,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/coliseum-broad-age-162.json",
+        "source/tools/coliseum_broad_age_162.py",
+        "source/tools/coliseum_broad_age_proof_162.py"
+      ]
+    },
+    {
+      "study": 163,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-163/README.md",
+        "source/tools/coliseum_delivery_audit_163.py",
+        "source/tools/coliseum_delivery_manifest_163.py",
+        "source/tools/coliseum_integration_163.py",
+        "source/tools/coliseum_kit_proof_163.py",
+        "source/tools/coliseum_validate_163.py",
+        "source/tools/publish_coliseum_163.py"
+      ]
+    },
+    {
+      "study": 164,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/coliseum-plane-diagnosis-164.json",
+        "source/tools/coliseum_core_signal_164.py",
+        "source/tools/coliseum_core_slots_164.py",
+        "source/tools/coliseum_damage_inventory_164.py",
+        "source/tools/coliseum_material_map_164.py",
+        "source/tools/coliseum_plane_diagnosis_164.py"
+      ]
+    },
+    {
+      "study": 165,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/coliseum-core-response-165.json",
+        "source/tools/coliseum_core_proof_165.py",
+        "source/tools/coliseum_core_response_165.py"
+      ]
+    },
+    {
+      "study": 166,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-166/README.md",
+        "source/tools/coliseum_delivery_audit_166.py",
+        "source/tools/coliseum_delivery_manifest_166.py",
+        "source/tools/coliseum_integration_166.py",
+        "source/tools/coliseum_kit_proof_166.py",
+        "source/tools/coliseum_validate_166.py",
+        "source/tools/publish_coliseum_166.py"
+      ]
+    },
+    {
+      "study": 167,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-167/geometry/HANDOFF.md",
+        "source/art/studies/coliseum-167/geometry/v1/HANDOFF.md",
+        "source/art/studies/coliseum-167/geometry/v1/coliseum_shoulder_failure_167.py",
+        "source/art/studies/coliseum-167/geometry/v1/coliseum_shoulder_proof_167.py",
+        "source/art/studies/coliseum-167/geometry/v2/coliseum_shoulder_failure_167.py",
+        "source/art/studies/coliseum-167/geometry/v2/coliseum_shoulder_proof_167.py",
+        "source/config/coliseum-shoulder-failure-167.json",
+        "source/tools/coliseum_shoulder_failure_167.py",
+        "source/tools/coliseum_shoulder_proof_167.py",
+        "source/tools/coliseum_shoulder_source_167.py",
+        "source/tools/coliseum_strip_diagnosis_167.py"
+      ]
+    },
+    {
+      "study": 168,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-168/README.md",
+        "source/config/coliseum-integration-168.json",
+        "source/tools/coliseum_contact_delivery_168.py",
+        "source/tools/coliseum_delivery_audit_168.py",
+        "source/tools/coliseum_delivery_manifest_168.py",
+        "source/tools/coliseum_integration_168.py",
+        "source/tools/coliseum_kit_proof_168.py",
+        "source/tools/coliseum_validate_168.py",
+        "source/tools/publish_coliseum_168.py"
+      ]
+    },
+    {
+      "study": 169,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-169/contact/HANDOFF.md",
+        "source/tools/coliseum_contact_certificate_169.py",
+        "source/tools/coliseum_contact_certify_169.py",
+        "source/tools/coliseum_contact_clip_169.py",
+        "source/tools/coliseum_contact_diagnosis_169.py",
+        "source/tools/coliseum_contact_payload_169.py",
+        "source/tools/coliseum_contact_proof_169.py",
+        "source/tools/coliseum_contact_support_169.py"
+      ]
+    },
+    {
+      "study": 170,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-170/mapping/HANDOFF.md",
+        "source/tools/coliseum_crown_footprint_170.py",
+        "source/tools/coliseum_crown_hash_170.py"
+      ]
+    },
+    {
+      "study": 171,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-171/material-map/HANDOFF.md",
+        "source/art/studies/coliseum-171/material-map/map_groups_171.py",
+        "source/art/studies/coliseum-171/material-map/map_native_171.py",
+        "source/art/studies/coliseum-171/material-map/summarize_171.py",
+        "source/config/coliseum-hierarchy-diagnosis-171.json",
+        "source/tools/coliseum_hierarchy_diagnosis_171.py"
+      ]
+    },
+    {
+      "study": 172,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/coliseum-primary-chroma-172.json",
+        "source/tools/coliseum_primary_chroma_172.py",
+        "source/tools/coliseum_primary_chroma_proof_172.py"
+      ]
+    },
+    {
+      "study": 173,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-173/README.md",
+        "source/config/coliseum-integration-173.json",
+        "source/tools/coliseum_delivery_audit_173.py",
+        "source/tools/coliseum_delivery_manifest_173.py",
+        "source/tools/coliseum_integration_173.py",
+        "source/tools/coliseum_kit_proof_173.py",
+        "source/tools/coliseum_validate_173.py",
+        "source/tools/publish_coliseum_173.py"
+      ]
+    },
+    {
+      "study": 174,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-174/diagnosis/HANDOFF.md",
+        "source/art/studies/coliseum-174/diagnosis/check_diagonal_174.py",
+        "source/art/studies/coliseum-174/diagnosis/implement_flip_174.py",
+        "source/art/studies/coliseum-174/diagnosis/map_head_174.py",
+        "source/art/studies/coliseum-174/native/HANDOFF.md",
+        "source/art/studies/coliseum-174/native/attribute_audit_174.py",
+        "source/art/studies/coliseum-174/native/proof_174.py",
+        "source/art/studies/coliseum-174/native/repair_174.py",
+        "source/art/studies/coliseum-174/native/test_api_174.py"
+      ]
+    },
+    {
+      "study": 175,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-175/diagnosis/v1/coliseum_facade_light_signal_175.py",
+        "source/config/coliseum-facade-light-signal-175.json",
+        "source/tools/coliseum_facade_light_signal_175.py"
+      ]
+    },
+    {
+      "study": 176,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-176/feasibility/HANDOFF.md",
+        "source/art/studies/coliseum-176/feasibility/depth_map_176.py",
+        "source/art/studies/coliseum-176/feasibility/ownership_bound_176.py",
+        "source/config/coliseum-broad-crown-176.json"
+      ]
+    },
+    {
+      "study": 177,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/coliseum-shelter-signal-177.json",
+        "source/tools/coliseum_shelter_signal_177.py"
+      ]
+    },
+    {
+      "study": 178,
+      "status": "no-number-associated-source",
+      "files": []
+    },
+    {
+      "study": 179,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-179/geometry/HANDOFF.md",
+        "source/art/studies/coliseum-179/geometry/build_179.py",
+        "source/art/studies/coliseum-179/geometry/build_179_frozen_candidate.py",
+        "source/art/studies/coliseum-179/geometry/certify_179.py",
+        "source/art/studies/coliseum-179/geometry/classify2_179.py",
+        "source/art/studies/coliseum-179/geometry/classify_179.py",
+        "source/art/studies/coliseum-179/geometry/classify_protected_179.py",
+        "source/art/studies/coliseum-179/geometry/proof_179.py",
+        "source/config/coliseum-broad-crown-179.json",
+        "source/tools/coliseum_contact_compare_179.py",
+        "source/tools/coliseum_contact_source_179.py"
+      ]
+    },
+    {
+      "study": 180,
+      "status": "no-number-associated-source",
+      "files": []
+    },
+    {
+      "study": 181,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-181/HANDOFF.md",
+        "source/art/studies/coliseum-181/audit_edges_181.py",
+        "source/art/studies/coliseum-181/map_core_181.py"
+      ]
+    },
+    {
+      "study": 182,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-182/diagnosis/HANDOFF.md",
+        "source/art/studies/coliseum-182/diagnosis/analyze.py",
+        "source/config/coliseum-right-core-signal-182.json",
+        "source/tools/coliseum_right_core_signal_182.py"
+      ]
+    },
+    {
+      "study": 183,
+      "status": "no-number-associated-source",
+      "files": []
+    },
+    {
+      "study": 184,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-184/proposal/HANDOFF.md",
+        "source/art/studies/coliseum-184/proposal/map_184.py",
+        "source/config/coliseum-right-break-proof-184.json",
+        "source/tools/coliseum_right_break_proof_184.py"
+      ]
+    },
+    {
+      "study": 185,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-185/geometry/HANDOFF.md",
+        "source/art/studies/coliseum-185/geometry/diagnose.py",
+        "source/config/coliseum-course-simplification-185.json",
+        "source/tools/coliseum_contact_compare_185.py",
+        "source/tools/coliseum_contact_correct_185.py",
+        "source/tools/coliseum_contact_source_185.py",
+        "source/tools/coliseum_course_proof_185.py",
+        "source/tools/coliseum_course_simplification_build_185.py"
+      ]
+    },
+    {
+      "study": 186,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-186/HANDOFF.md",
+        "source/tools/coliseum_knot_ownership_186.py"
+      ]
+    },
+    {
+      "study": 187,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-187/geometry/HANDOFF.md",
+        "source/art/studies/coliseum-187/geometry/certify.py",
+        "source/art/studies/coliseum-187/geometry/classify-envelope.py",
+        "source/art/studies/coliseum-187/geometry/dentil-bearing.py",
+        "source/art/studies/coliseum-187/geometry/early-held/build.py",
+        "source/art/studies/coliseum-187/geometry/envelope-double.py",
+        "source/art/studies/coliseum-187/geometry/joint-receiver.py",
+        "source/art/studies/coliseum-187/geometry/numeric-diagnosis.py",
+        "source/art/studies/coliseum-187/geometry/support.py",
+        "source/art/studies/coliseum-187/geometry/test-replay.py",
+        "source/config/coliseum-left-course-187.json",
+        "source/tools/coliseum_contact_compare_187.py",
+        "source/tools/coliseum_contact_correct_187.py",
+        "source/tools/coliseum_contact_source_187.py",
+        "source/tools/coliseum_left_course_187.py",
+        "source/tools/coliseum_left_course_build_187.py",
+        "source/tools/coliseum_left_course_proof_187.py"
+      ]
+    },
+    {
+      "study": 188,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-188/README.md",
+        "source/config/coliseum-integration-188.json",
+        "source/tools/coliseum_delivery_audit_188.py",
+        "source/tools/coliseum_delivery_manifest_188.py",
+        "source/tools/coliseum_integration_188.py",
+        "source/tools/coliseum_kit_proof_188.py",
+        "source/tools/coliseum_validate_188.py",
+        "source/tools/publish_coliseum_188.py"
+      ]
+    },
+    {
+      "study": 189,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/rust-189/README.md",
+        "source/art/studies/rust-189/beam/v1/beam_rust_189.py",
+        "source/art/studies/rust-189/fasteners/HANDOFF.md",
+        "source/art/studies/rust-189/fasteners/v1-rejected/HANDOFF.md",
+        "source/art/studies/rust-189/fasteners/v1-rejected/README.md",
+        "source/config/beam-rust-189.json",
+        "source/config/bolt-rust-189.json",
+        "source/config/scene-rust-189.json",
+        "source/tools/beam_rust_189.py",
+        "source/tools/beam_rust_proof_189.py",
+        "source/tools/bolt_rust_189.py",
+        "source/tools/bolt_rust_ink_check_189.py",
+        "source/tools/bolt_rust_visibility_189.py",
+        "source/tools/publish_scene_rust_189.py",
+        "source/tools/rust_plate_visibility_189.py",
+        "source/tools/scene_rust_build_189.py",
+        "source/tools/scene_rust_fresh_check_189.py"
+      ]
+    },
+    {
+      "study": 190,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/coliseum-190/README.md",
+        "source/art/studies/coliseum-190/held-v1/README.md",
+        "source/art/studies/coliseum-190/held-v1/colosseum_crumbling_190.py",
+        "source/art/studies/coliseum-190/held-v1/colosseum_crumbling_audit_190.py",
+        "source/art/studies/coliseum-190/held-v1/colosseum_crumbling_proof_190.py",
+        "source/art/studies/coliseum-190/reference/README.md",
+        "source/config/colosseum-crumbling-190.json",
+        "source/tools/colosseum_crumbling_190.py",
+        "source/tools/colosseum_crumbling_audit_190.py",
+        "source/tools/colosseum_crumbling_audit_v2_190.py",
+        "source/tools/colosseum_crumbling_payload_190.py",
+        "source/tools/colosseum_crumbling_proof_190.py",
+        "source/tools/publish_colosseum_crumbling_190.py"
+      ]
+    },
+    {
+      "study": 191,
+      "status": "no-number-associated-source",
+      "files": []
+    },
+    {
+      "study": 192,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/plate-runoff-192/HANDOFF.md",
+        "source/art/studies/plate-runoff-192/README.md",
+        "source/art/studies/plate-runoff-192/v1-quiet/HANDOFF.md",
+        "source/art/studies/plate-runoff-192/v1-quiet/plate_runoff_192.py",
+        "source/art/studies/plate-runoff-192/v2-quiet/HANDOFF.md",
+        "source/art/studies/plate-runoff-192/v2-quiet/plate_runoff_192.py",
+        "source/config/plate-runoff-192.json",
+        "source/tools/architecture_ink_capture_192.py",
+        "source/tools/architecture_ink_visibility_192.py",
+        "source/tools/plate_runoff_192.py",
+        "source/tools/plate_runoff_build_192.py",
+        "source/tools/plate_runoff_check_192.py",
+        "source/tools/publish_plate_runoff_192.py",
+        "source/tools/rust_ink_diagnostic_192.py",
+        "source/tools/rust_ink_isolation_192.py",
+        "source/tools/rust_upper_gp_owner_192.py",
+        "source/tools/rust_upper_ink_owner_192.py"
+      ]
+    },
+    {
+      "study": 193,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/first-building-weathering-193/README.md",
+        "source/art/studies/first-building-weathering-193/held-v1/README.md",
+        "source/art/studies/first-building-weathering-193/held-v1/first_building_weathering_193.py",
+        "source/config/first-building-weathering-193.json",
+        "source/config/service-contrast-193.json",
+        "source/tools/first_building_weathering_193.py",
+        "source/tools/service_contrast_193.py"
+      ]
+    },
+    {
+      "study": 194,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/beam-feather-194/HANDOFF.md",
+        "source/art/studies/beam-feather-194/held-v1/beam_feather_194.py",
+        "source/config/beam-feather-194.json",
+        "source/tools/beam_feather_194.py"
+      ]
+    },
+    {
+      "study": 195,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/scene-weathering-195/README.md",
+        "source/config/scene-weathering-195.json",
+        "source/tools/plate_runoff_readability_195.py",
+        "source/tools/publish_scene_weathering_195.py",
+        "source/tools/scene_weathering_build_195.py"
+      ]
+    },
+    {
+      "study": 196,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/beam-rust-196.json",
+        "source/tools/beam_rust_build_196.py",
+        "source/tools/beam_rust_connections_196.py",
+        "source/tools/publish_beam_rust_196.py"
+      ]
+    },
+    {
+      "study": 197,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/beam-rust-197.json",
+        "source/tools/beam_edge_edit_197.py",
+        "source/tools/beam_rust_build_197.py",
+        "source/tools/publish_beam_rust_197.py"
+      ]
+    },
+    {
+      "study": 198,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/alley-weathering-198/README.md",
+        "source/art/studies/alley-weathering-198/held-v1/alley_weathering_proof_198.py",
+        "source/art/studies/alley-weathering-198/held-v1/alley_weathering_rollout_198.py",
+        "source/art/studies/alley-weathering-198/held-v2/README.md",
+        "source/config/alley-weathering-198.json",
+        "source/tools/alley_weathering_audit_198.py",
+        "source/tools/alley_weathering_mesh_audit_198.py",
+        "source/tools/alley_weathering_proof_198.py",
+        "source/tools/alley_weathering_rollout_198.py"
+      ]
+    },
+    {
+      "study": 199,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/clouds-199/HANDOFF.md",
+        "source/art/studies/clouds-199/held-v1/cloud_refinement_199.py",
+        "source/art/studies/clouds-199/held-v1/cloud_refinement_199_generate.py",
+        "source/config/clouds-199.json",
+        "source/tools/cloud_refinement_199.py",
+        "source/tools/cloud_refinement_199_check.py",
+        "source/tools/cloud_refinement_199_generate.py",
+        "source/tools/cloud_refinement_199_render.py"
+      ]
+    },
+    {
+      "study": 200,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/city-transition-200/README.md",
+        "source/art/studies/city-transition-200/held-v1/city_transition_refinement_200.py",
+        "source/config/city-transition-refinement-200.json",
+        "source/tools/city_transition_audit_200.py",
+        "source/tools/city_transition_inventory_200.py",
+        "source/tools/city_transition_payload_200.py",
+        "source/tools/city_transition_proof_200.py",
+        "source/tools/city_transition_recess_probe_200.py",
+        "source/tools/city_transition_refinement_200.py",
+        "source/tools/city_transition_replay_200.py"
+      ]
+    },
+    {
+      "study": 201,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/scene-completion-201.json",
+        "source/tools/beam_connector_201.py",
+        "source/tools/haze_current_audit_201.py",
+        "source/tools/publish_scene_completion_201.py",
+        "source/tools/scene_completion_build_201.py"
+      ]
+    },
+    {
+      "study": 202,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/haze-ground-202/held-v1/haze_ground_transition_202.py",
+        "source/config/haze-ground-202.json",
+        "source/tools/haze_ground_proof_202.py",
+        "source/tools/haze_ground_transition_202.py"
+      ]
+    },
+    {
+      "study": 203,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/scene-completion-203.json",
+        "source/tools/publish_scene_completion_203.py",
+        "source/tools/scene_completion_build_203.py",
+        "source/tools/scene_completion_check_203.py"
+      ]
+    },
+    {
+      "study": 204,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/middle-rubble-204/HANDOFF.md",
+        "source/config/middle-rubble-204.json",
+        "source/tools/middle_rubble_palette_204.py",
+        "source/tools/middle_rubble_palette_204_check.py"
+      ]
+    },
+    {
+      "study": 205,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/corner-ink-205/README.md",
+        "source/config/scene-completion-205.json",
+        "source/tools/architecture_ink_visibility_205.py",
+        "source/tools/corner_ink_owner_205.py",
+        "source/tools/corner_ink_proof_205.py",
+        "source/tools/publish_scene_completion_205.py",
+        "source/tools/scene_completion_build_205.py",
+        "source/tools/scene_completion_check_205.py"
+      ]
+    },
+    {
+      "study": 206,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/characters-206/README.md",
+        "source/art/studies/characters-206/anime/README.md",
+        "source/art/studies/characters-206/reference-analysis/README.md",
+        "source/config/characters-206.json",
+        "source/tools/anime_character_proof_206.py",
+        "source/tools/anime_proxy_hide_206.py",
+        "source/tools/anime_proxy_ink_diagnostic_206.py",
+        "source/tools/anime_proxy_preservation_206.py",
+        "source/tools/character_composite_206.py",
+        "source/tools/character_pixel_finish_206.py",
+        "source/tools/publish_character_study_206.py"
+      ]
+    },
+    {
+      "study": 207,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/corner-ink-207/README.md",
+        "source/config/corner-ink-207.json",
+        "source/tools/architecture_ink_visibility_207.py",
+        "source/tools/corner_ink_audit_207.py",
+        "source/tools/corner_ink_owner_207.py",
+        "source/tools/corner_ink_proof_207.py"
+      ]
+    },
+    {
+      "study": 208,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/alley-recess-208/HANDOFF.md",
+        "source/config/alley-recess-208.json",
+        "source/tools/alley_recess_build_208.py",
+        "source/tools/alley_recess_refinement_208.py",
+        "source/tools/alley_recess_render_208.py"
+      ]
+    },
+    {
+      "study": 209,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/scene-completion-209.json",
+        "source/tools/publish_scene_completion_209.py",
+        "source/tools/scene_completion_build_209.py",
+        "source/tools/scene_completion_check_209.py"
+      ]
+    },
+    {
+      "study": 210,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/colosseum-scale-210/README.md",
+        "source/config/colosseum-scale-210.json",
+        "source/tools/colosseum_scale_210.py",
+        "source/tools/colosseum_scale_ink_210.py",
+        "source/tools/colosseum_scale_metrics_210.py",
+        "source/tools/colosseum_scale_publish_210.py",
+        "source/tools/colosseum_visibility_build_210.py",
+        "source/tools/colosseum_visibility_proof_210.py",
+        "source/tools/landmark_contact_visibility_210.py"
+      ]
+    },
+    {
+      "study": 211,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/city-prefabs-211.json",
+        "source/tools/city_prefab_catalog_211.py",
+        "source/tools/city_prefab_catalog_render_211.py",
+        "source/tools/city_prefabs_211.py",
+        "source/tools/city_prefabs_build_211.py",
+        "source/tools/city_prefabs_render_211.py"
+      ]
+    },
+    {
+      "study": 212,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/alley-repeat-212/HANDOFF.md",
+        "source/config/alley-repeat-212.json",
+        "source/tools/alley_repeat_212.py",
+        "source/tools/alley_repeat_build_212.py",
+        "source/tools/alley_repeat_diagnostic_212.py",
+        "source/tools/alley_repeat_publish_212.py",
+        "source/tools/alley_repeat_render_212.py",
+        "source/tools/alley_repeat_visibility_fix_212.py"
+      ]
+    },
+    {
+      "study": 213,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/recess-scuffs-213.json",
+        "source/tools/recess_scuffs_213.py"
+      ]
+    },
+    {
+      "study": 214,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/characters-spacesuit-214/README.md",
+        "source/art/studies/characters-spacesuit-214/anime/README.md",
+        "source/config/characters-spacesuit-214.json",
+        "source/tools/package_spacesuit_study_214.py",
+        "source/tools/publish_spacesuit_study_214.py",
+        "source/tools/spacesuit_composite_214.py",
+        "source/tools/spacesuit_native_214.py",
+        "source/tools/spacesuit_pixel_finish_214.py"
+      ]
+    },
+    {
+      "study": 215,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/alley-composition-215/HANDOFF.md",
+        "source/config/alley-composition-215.json",
+        "source/tools/alley_composition_215.py",
+        "source/tools/alley_composition_build_215.py",
+        "source/tools/alley_composition_inventory_215.py",
+        "source/tools/alley_ink_atmosphere_215.py",
+        "source/tools/alley_roof_seating_215.py"
+      ]
+    },
+    {
+      "study": 216,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/sun-position-216/README.md",
+        "source/config/sun-position-216.json",
+        "source/tools/sun_position_216.py"
+      ]
+    },
+    {
+      "study": 217,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/pixel-characters-217/README.md",
+        "source/config/pixel-characters-217.json",
+        "source/tools/pixel_character_assets_217.py",
+        "source/tools/pixel_characters_217.py",
+        "source/tools/pixel_characters_check_217.py",
+        "source/tools/pixel_characters_proof_217.py"
+      ]
+    },
+    {
+      "study": 218,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/scene-direction-218.json",
+        "source/tools/scene_direction_build_218.py",
+        "source/tools/scene_direction_check_218.py",
+        "source/tools/scene_direction_ink_218.py",
+        "source/tools/scene_direction_publish_218.py",
+        "source/tools/scene_direction_render_218.py",
+        "source/tools/scene_direction_roofs_218.py"
+      ]
+    },
+    {
+      "study": 219,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/haze-texture-219/README.md",
+        "source/art/studies/haze-texture-219/held-v1/README.md",
+        "source/art/studies/haze-texture-219/held-v1/material-builder.py",
+        "source/config/haze-texture-219.json",
+        "source/tools/haze_texture_219.py",
+        "source/tools/haze_texture_check_219.py",
+        "source/tools/haze_texture_publish_219.py",
+        "source/tools/haze_texture_render_219.py"
+      ]
+    },
+    {
+      "study": 220,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/arcade-tunnels-220.json",
+        "source/tools/arcade_tunnels_220.py",
+        "source/tools/arcade_tunnels_build_220.py",
+        "source/tools/arcade_tunnels_check_220.py",
+        "source/tools/arcade_tunnels_diagram_220.py",
+        "source/tools/arcade_tunnels_finish_220.py",
+        "source/tools/arcade_tunnels_publish_220.py",
+        "source/tools/arcade_tunnels_render_220.py"
+      ]
+    },
+    {
+      "study": 221,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/haze-texture-221/README.md",
+        "source/config/haze-texture-221.json",
+        "source/tools/haze_texture_221.py",
+        "source/tools/haze_texture_check_221.py",
+        "source/tools/haze_texture_publish_221.py",
+        "source/tools/haze_texture_render_221.py"
+      ]
+    },
+    {
+      "study": 222,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/ground-floor-kit-222.json",
+        "source/tools/ground_floor_build_222.py",
+        "source/tools/ground_floor_check_222.py",
+        "source/tools/ground_floor_export_222.py",
+        "source/tools/ground_floor_kit_222.py",
+        "source/tools/ground_floor_publish_222.py"
+      ]
+    },
+    {
+      "study": 223,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/foundation-dust-223/README.md",
+        "source/config/foundation-dust-223.json",
+        "source/tools/foundation_dust_223.py"
+      ]
+    },
+    {
+      "study": 224,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/right-alley-soil-224/README.md",
+        "source/config/right-alley-soil-224.json",
+        "source/tools/alley_ground_build_224.py",
+        "source/tools/alley_ground_check_224.py",
+        "source/tools/alley_ground_publish_224.py",
+        "source/tools/alley_ground_render_224.py",
+        "source/tools/right_alley_soil_224.py"
+      ]
+    },
+    {
+      "study": 225,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/arcade-sills-225/README.md",
+        "source/art/studies/arcade-sills-225/held-v1/arcade_sills_225.py",
+        "source/config/alley-ground-update-225.json",
+        "source/config/arcade-sills-225.json",
+        "source/tools/alley_ground_build_225.py",
+        "source/tools/alley_ground_check_225.py",
+        "source/tools/alley_ground_publish_225.py",
+        "source/tools/alley_ground_render_225.py",
+        "source/tools/arcade_sills_225.py"
+      ]
+    },
+    {
+      "study": 226,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/far-building-layout-226/README.md",
+        "source/config/far-building-layout-226.json",
+        "source/tools/far_building_check_226.py",
+        "source/tools/far_building_layout_226.py",
+        "source/tools/far_building_publish_226.py",
+        "source/tools/far_building_render_226.py"
+      ]
+    },
+    {
+      "study": 227,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/entrance-weathering-227.json",
+        "source/tools/entrance_weathering_227.py",
+        "source/tools/entrance_weathering_build_227.py",
+        "source/tools/ground_floor_export_227.py",
+        "source/tools/stone_dust_227.py"
+      ]
+    },
+    {
+      "study": 228,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/colosseum-steps-228/README.md",
+        "source/config/colosseum-steps-228.json",
+        "source/config/ground-weathering-steps-228.json",
+        "source/tools/colosseum_steps_228.py",
+        "source/tools/ground_weathering_build_228.py",
+        "source/tools/ground_weathering_check_228.py",
+        "source/tools/ground_weathering_publish_228.py",
+        "source/tools/ground_weathering_render_228.py"
+      ]
+    },
+    {
+      "study": 229,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/entry-surround-229.json",
+        "source/tools/entry_surround_229.py",
+        "source/tools/entry_surround_publish_229.py",
+        "source/tools/entry_surround_render_229.py",
+        "source/tools/ground_floor_export_229.py"
+      ]
+    },
+    {
+      "study": 230,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/broken-walls-230/README.md",
+        "source/art/studies/far-services-roofs-230/README.md",
+        "source/config/broken-wall-weathering-230.json",
+        "source/config/far-facades-230.json",
+        "source/config/far-services-roofs-230.json",
+        "source/config/midground-230.json",
+        "source/tools/broken_wall_weathering_230.py",
+        "source/tools/far_facades_230.py",
+        "source/tools/far_facades_build_230.py",
+        "source/tools/far_services_roofs_230.py",
+        "source/tools/midground_build_230.py",
+        "source/tools/midground_layout_230.py",
+        "source/tools/midground_plan_230.py",
+        "source/tools/midground_publish_230.py",
+        "source/tools/midground_render_230.py",
+        "source/tools/midground_topdown_230.py"
+      ]
+    },
+    {
+      "study": 231,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/arch-ornaments-231.json",
+        "source/config/midground-arches-231.json",
+        "source/tools/arch_ornaments_231.py",
+        "source/tools/arch_ornaments_build_231.py",
+        "source/tools/midground_arches_build_231.py",
+        "source/tools/midground_arches_publish_231.py",
+        "source/tools/midground_arches_render_231.py"
+      ]
+    },
+    {
+      "study": 232,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/broken-walls-232/README.md",
+        "source/art/studies/rooftop-variety-232/README.md",
+        "source/art/studies/window-pipe-refine-232/README.md",
+        "source/config/broken-wall-refine-232.json",
+        "source/config/colosseum-arch-fractures-232.json",
+        "source/config/midground-damage-232.json",
+        "source/config/rooftop-variety-232.json",
+        "source/config/window-pipe-refine-232.json",
+        "source/tools/arch_proportions_232.py",
+        "source/tools/broken_wall_finish_balance_232.py",
+        "source/tools/broken_wall_weathering_refine_232.py",
+        "source/tools/colosseum_arch_fractures_232.py",
+        "source/tools/colosseum_arch_fractures_build_232.py",
+        "source/tools/colosseum_arch_fractures_validate_232.py",
+        "source/tools/midground_damage_build_232.py",
+        "source/tools/midground_damage_publish_232.py",
+        "source/tools/midground_damage_render_232.py",
+        "source/tools/midground_damage_stage_232.py",
+        "source/tools/rooftop_variety_232.py",
+        "source/tools/window_pipe_refine_232.py"
+      ]
+    },
+    {
+      "study": 233,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/facade-finish-233.json",
+        "source/tools/facade_finish_233.py",
+        "source/tools/facade_finish_publish_233.py",
+        "source/tools/facade_finish_render_233.py"
+      ]
+    },
+    {
+      "study": 234,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/far-facade-damage-234/held-v1/far_facade_damage_234.py",
+        "source/config/far-facade-damage-234.json",
+        "source/config/far-weathering-234.json",
+        "source/tools/far_facade_damage_234.py",
+        "source/tools/far_facade_damage_build_234.py",
+        "source/tools/far_facade_damage_validate_234.py",
+        "source/tools/far_weathering_build_234.py",
+        "source/tools/far_weathering_publish_234.py",
+        "source/tools/far_weathering_render_234.py",
+        "source/tools/window_stains_234.py"
+      ]
+    },
+    {
+      "study": 235,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/near-window-weathering-235/README.md",
+        "source/art/studies/ruined-wall-structure-235/README.md",
+        "source/config/near-window-weathering-235.json",
+        "source/config/ruin-integration-235.json",
+        "source/config/ruined-wall-structure-235.json",
+        "source/tools/near_window_weathering_235.py",
+        "source/tools/ruin_integration_build_235.py",
+        "source/tools/ruin_integration_publish_235.py",
+        "source/tools/ruin_integration_render_235.py",
+        "source/tools/ruined_wall_course_fix_235.py",
+        "source/tools/ruined_wall_finish_235.py",
+        "source/tools/ruined_wall_structure_235.py"
+      ]
+    },
+    {
+      "study": 236,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/rubble-extension-236/README.md",
+        "source/config/rubble-extension-236.json",
+        "source/config/rubble-transition-236.json",
+        "source/tools/rubble_depth_finish_236.py",
+        "source/tools/rubble_extension_236.py",
+        "source/tools/rubble_transition_build_236.py",
+        "source/tools/rubble_transition_publish_236.py",
+        "source/tools/rubble_transition_render_236.py"
+      ]
+    },
+    {
+      "study": 237,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/rubble-variation-237.json",
+        "source/tools/rubble_variation_237.py",
+        "source/tools/rubble_variation_publish_237.py",
+        "source/tools/rubble_variation_render_237.py"
+      ]
+    },
+    {
+      "study": 238,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/whole-scene-review-238/review.md"
+      ]
+    },
+    {
+      "study": 239,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/road-paint-239/README.md",
+        "source/config/road-characters-239.json",
+        "source/config/road-paint-239.json",
+        "source/config/sun-material-alignment-239.json",
+        "source/tools/character_shadow_receiver_239.py",
+        "source/tools/character_shadows_239.py",
+        "source/tools/road_characters_build_239.py",
+        "source/tools/road_characters_integrate_239.py",
+        "source/tools/road_characters_publish_239.py",
+        "source/tools/road_characters_render_239.py",
+        "source/tools/road_paint_239.py",
+        "source/tools/sun_light_alignment_239.py",
+        "source/tools/sun_material_alignment_239.py"
+      ]
+    },
+    {
+      "study": 240,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/haze-variance-240/README.md",
+        "source/art/studies/hybrid-atmosphere-240/review.md",
+        "source/config/haze-variance-240.json",
+        "source/config/hybrid-atmosphere-240.json",
+        "source/config/left-blue-balance-240.json",
+        "source/tools/haze_variance_240.py",
+        "source/tools/haze_variance_probe_240.py",
+        "source/tools/hybrid_atmosphere_build_240.py",
+        "source/tools/hybrid_atmosphere_publish_240.py",
+        "source/tools/hybrid_atmosphere_render_240.py",
+        "source/tools/hybrid_rubble_light_240.py",
+        "source/tools/left_blue_balance_240.py"
+      ]
+    },
+    {
+      "study": 241,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/highlight-fix-241.json",
+        "source/config/hybrid-finish-241.json",
+        "source/config/ruin-ink-241.json",
+        "source/config/tunnel-caps-241.json",
+        "source/tools/atmosphere_finish_241.py",
+        "source/tools/highlight_check_241.py",
+        "source/tools/highlight_fix_241.py",
+        "source/tools/hybrid_finish_build_241.py",
+        "source/tools/hybrid_finish_publish_241.py",
+        "source/tools/hybrid_finish_render_241.py",
+        "source/tools/ruin_ink_241.py",
+        "source/tools/tunnel_caps_241.py"
+      ]
+    },
+    {
+      "study": 242,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/damage-edges-242.json",
+        "source/config/final-geometry-242.json",
+        "source/config/roofline-242.json",
+        "source/config/service-fit-242.json",
+        "source/tools/damage_edges_242.py",
+        "source/tools/final_geometry_build_242.py",
+        "source/tools/final_geometry_finish_242.py",
+        "source/tools/final_geometry_publish_242.py",
+        "source/tools/final_geometry_render_242.py",
+        "source/tools/footing_ink_fix_242.py",
+        "source/tools/roofline_242.py",
+        "source/tools/service_fit_242.py",
+        "source/tools/service_fit_validate_242.py",
+        "source/tools/service_footing_242.py"
+      ]
+    },
+    {
+      "study": 243,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/footing-243.json",
+        "source/tools/footing_build_243.py",
+        "source/tools/footing_publish_243.py",
+        "source/tools/footing_render_243.py",
+        "source/tools/footing_revision_243.py"
+      ]
+    },
+    {
+      "study": 244,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/alley-finish-244.json",
+        "source/config/roof-edge-244.json",
+        "source/config/window-bank-244.json",
+        "source/tools/alley_finish_build_244.py",
+        "source/tools/alley_finish_publish_244.py",
+        "source/tools/alley_finish_render_244.py",
+        "source/tools/footing_curve_ink_244.py",
+        "source/tools/footing_ground_guard_244.py",
+        "source/tools/roof_edge_244.py",
+        "source/tools/tunnel_shading_244.py",
+        "source/tools/window_bank_244.py"
+      ]
+    },
+    {
+      "study": 245,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/art/studies/ground-finish-245/soil-trial-tint.py",
+        "source/config/ground-finish-245.json",
+        "source/tools/footing_shape_245.py",
+        "source/tools/ground_finish_build_245.py",
+        "source/tools/ground_finish_publish_245.py",
+        "source/tools/ground_finish_render_245.py",
+        "source/tools/ground_probe_245.py",
+        "source/tools/soil_traffic_245.py"
+      ]
+    },
+    {
+      "study": 246,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/soil-tracks-246.json",
+        "source/tools/soil_tracks_246.py",
+        "source/tools/soil_tracks_build_246.py",
+        "source/tools/soil_tracks_probe_246.py",
+        "source/tools/soil_tracks_publish_246.py",
+        "source/tools/soil_tracks_render_246.py"
+      ]
+    },
+    {
+      "study": 247,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/soil-length-247.json",
+        "source/tools/soil_length_247.py",
+        "source/tools/soil_length_build_247.py",
+        "source/tools/soil_length_probe_247.py",
+        "source/tools/soil_length_publish_247.py",
+        "source/tools/soil_length_render_247.py"
+      ]
+    },
+    {
+      "study": 248,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/far-ruin-ink-248.json",
+        "source/config/ruin-ink-248.json",
+        "source/tools/far_ruin_ink_248.py",
+        "source/tools/ruin_ink_build_248.py",
+        "source/tools/ruin_ink_publish_248.py",
+        "source/tools/ruin_ink_render_248.py"
+      ]
+    },
+    {
+      "study": 249,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/base-weather-249.json",
+        "source/tools/base_weather_build_249.py",
+        "source/tools/base_weather_probe_249.py",
+        "source/tools/base_weather_publish_249.py",
+        "source/tools/base_weather_render_249.py",
+        "source/tools/column_weather_249.py",
+        "source/tools/step_crack_ink_249.py",
+        "source/tools/step_weather_249.py"
+      ]
+    },
+    {
+      "study": 250,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/awning-runoff-250.json",
+        "source/tools/awning_runoff_250.py",
+        "source/tools/awning_runoff_build_250.py",
+        "source/tools/awning_runoff_probe_250.py",
+        "source/tools/awning_runoff_publish_250.py",
+        "source/tools/awning_runoff_render_250.py"
+      ]
+    },
+    {
+      "study": 251,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/awning-runoff-251.json",
+        "source/tools/awning_runoff_251.py",
+        "source/tools/awning_runoff_build_251.py",
+        "source/tools/awning_runoff_probe_251.py",
+        "source/tools/awning_runoff_publish_251.py",
+        "source/tools/awning_runoff_render_251.py"
+      ]
+    },
+    {
+      "study": 252,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/awning-runoff-252.json",
+        "source/tools/awning_runoff_252.py",
+        "source/tools/awning_runoff_build_252.py",
+        "source/tools/awning_runoff_probe_252.py",
+        "source/tools/awning_runoff_publish_252.py",
+        "source/tools/awning_runoff_render_252.py"
+      ]
+    },
+    {
+      "study": 253,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/duct-mounts-253.json",
+        "source/tools/duct_mounts_253.py",
+        "source/tools/duct_mounts_build_253.py",
+        "source/tools/duct_mounts_probe_253.py",
+        "source/tools/duct_mounts_publish_253.py",
+        "source/tools/duct_mounts_render_253.py"
+      ]
+    },
+    {
+      "study": 254,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/duct-infill-254.json",
+        "source/tools/duct_infill_build_254.py",
+        "source/tools/duct_infill_probe_254.py",
+        "source/tools/duct_infill_publish_254.py",
+        "source/tools/duct_infill_render_254.py"
+      ]
+    },
+    {
+      "study": 255,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/duct-infill-255.json",
+        "source/tools/duct_infill_build_255.py",
+        "source/tools/duct_infill_probe_255.py",
+        "source/tools/duct_infill_publish_255.py",
+        "source/tools/duct_infill_render_255.py"
+      ]
+    },
+    {
+      "study": 256,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/gallery-sills-256.json",
+        "source/tools/gallery_sills_256.py",
+        "source/tools/gallery_sills_build_256.py",
+        "source/tools/gallery_sills_cache_probe_256.py",
+        "source/tools/gallery_sills_probe_256.py",
+        "source/tools/gallery_sills_publish_256.py",
+        "source/tools/gallery_sills_render_256.py"
+      ]
+    },
+    {
+      "study": 257,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/soil-panel-257.json",
+        "source/tools/soil_panel_257.py",
+        "source/tools/soil_panel_compare_257.py",
+        "source/tools/soil_panel_crack_probe_257.py",
+        "source/tools/soil_panel_final_setup_257.py",
+        "source/tools/soil_panel_grit_probe_257.py",
+        "source/tools/soil_panel_publish_257.py",
+        "source/tools/soil_panel_setup_257.py"
+      ]
+    },
+    {
+      "study": 258,
+      "status": "historical-source-unverified",
+      "files": [
+        "source/config/crack-lift-258.json",
+        "source/tools/crack_lift_final_setup_258.py",
+        "source/tools/crack_lift_publish_258.py",
+        "source/tools/crack_lift_setup_258.py"
+      ]
+    }
+  ]
+}

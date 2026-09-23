@@ -1,0 +1,38 @@
+{
+  "source": "126 scene",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-11",
+    "UCL-14",
+    "DP-03"
+  ],
+  "hypothesis": "Equal edge-to-edge masonry clearance at round columns and major pillars repairs the uneven rhythm. Separate fine material and fracture studies pursue the outstanding fidelity target.",
+  "fixed": [
+    "Sky endpoints #e35635 and #ec633f",
+    "Muted clouds and their shapes",
+    "Camera and surroundings except explicitly selected primary pipe assembly",
+    "Platforms and column base/capital profiles",
+    "Selected normal arch aperture proportions"
+  ],
+  "review_criteria": [
+    "Measured equal clearances in authored geometry",
+    "Perspective-aware visible gap comparison at the same height",
+    "No clipping into pier profiles",
+    "No floating sky fragments",
+    "Continuous flush wall surfaces with no false interface ink",
+    "Receiver depth ratio 0.66, width and pipe diameter preserved",
+    "No stale pipe-contact ink",
+    "Refined painted mineral grain retains quiet deep returns"
+  ],
+  "status": "Integrated 4K, clay and preservation checked; user review pending",
+  "feedback_reference_ids": [
+    "UCL-16",
+    "UCL-17",
+    "UCL-18"
+  ],
+  "user_changes": [
+    "Arch brickwork to large pillar clearance must equal arch brickwork to round column clearance; no empty oversize tower margins.",
+    "Join arch and pier wall cores without false vertical seams or material breaks",
+    "Selected primary left pipe receiver depth 66% (latest correction: 10% more than the 60% trial); unchanged width and bore; route pulls inward with connections preserved"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+ "source":"art/studies/alley-rust-143/scene.blend",
+ "references":["UCL-01","UCL-02","DP-03"],
+ "hypothesis":"Visible broad shallow facing loss paired with asymmetric mineral/deposit fields changes the facade's scene-scale age hierarchy.",
+ "changed_variables":["141V3 U9sill facing loss","139V3 broader flatmasonry wear"],
+ "fixed":["All accepted openings, columns, platforms, crown envelope, joints and lighting","Latest143 rust and140 Ysteel corrections","136E haze, city, sky, alley and ground"],
+ "review_criteria":["Recognizable age group at1800display width","Shallow loss reads as missing facing rather than a dimple or added plaque","No broad uniform coat or stronger black ledge knot","Native4K fullframe and matchedclay/painted proof","Honest independent six-axis evaluation"],
+ "status":"Prepared only; pending localproofreview"
+}

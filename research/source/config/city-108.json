@@ -1,0 +1,25 @@
+{
+  "hypothesis": "Extend left street wall to slightly beyond the right rear brown tower for balanced city depth.",
+  "references": [
+    {
+      "id": "UX-01",
+      "property": "overlapping distant city silhouettes"
+    },
+    {
+      "id": "UX-03",
+      "property": "approved sparse light and dark painted facades"
+    },
+    {
+      "id": "DP-03",
+      "property": "layered urban depth"
+    }
+  ],
+  "fixed": [
+    "107C approved 8x dark and 1x light materials",
+    "existing placement",
+    "all noncity systems"
+  ],
+  "changed": "Four left rear buildings at depth91/117/144/174; right rear depth156",
+  "status": "complete; far buildings locked per user request",
+  "canonical_scene": "art/studies/city-108/scene.blend"
+}

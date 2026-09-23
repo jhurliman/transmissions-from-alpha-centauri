@@ -1,0 +1,50 @@
+{
+  "source": "art/studies/coliseum-156/scene.blend",
+  "hypothesis": "An existing cornice failure can become a broad connected loss across projecting masonry courses, exposing attached unequal returns instead of a flat facing scar.",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Broken cornice releases into retained layered returns, column support stays legible"
+    },
+    {
+      "id": "UCL-02",
+      "property": "Connected unequal wall/course loss, few dominant break planes"
+    },
+    {
+      "id": "DP-03",
+      "property": "Structural thickness and hierarchical angular detail; not its composition"
+    }
+  ],
+  "fixed": [
+    "camera",
+    "locked nonlandmark systems",
+    "arches and columns",
+    "accepted facade quiet spans",
+    "materials outside new cut surfaces"
+  ],
+  "target_window_provisional": [
+    2080,
+    555,
+    2280,
+    745
+  ],
+  "changed_variables": [
+    "Preserve broad9-piece course-loss span, with each end transition contained within0.45m",
+    "Different course ends and retained support form short readable thickness faces",
+    "Replace peaked sill cut by an offset stepped upward cavity; preserve adjacentU11 sill and niche bearing"
+  ],
+  "status": "V3 native proof rendered; independent visual review pending",
+  "geometry_method": "Eight changed course mesh pieces across two bays/five heights plus one attached U10 sill shoulder. Native subtraction, source tessellation retained; no added mass/debris.",
+  "source_preparation": "U10 sill opposite-winding duplicate triangle pair removed with zero net-volume change and unchanged surviving vertex positions.",
+  "numeric_checks": "Float64 source/candidate intersection pairs under the same exact world matrix, closedness, reduced volume, source containment with simultaneous0.5mm/.02px residual budgets. No new pairs permitted; inherited issues documented.",
+  "target_window_native": [
+    2080,
+    560,
+    2280,
+    715
+  ],
+  "variant": "V3 short abrupt course returns and offset stepped cavity",
+  "v3_notes": "V2 was broader but its longbevels/peaked cavity suggested shaped panels. This changes fracture form, not a numeric brightness adjustment.",
+  "actual_changed_objects": 9,
+  "unchanged_target": "COL110 T2 band11 profile0; exact source render triangles unchanged by cutter, original object preserved"
+}

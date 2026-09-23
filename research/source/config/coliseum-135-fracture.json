@@ -1,0 +1,35 @@
+{
+  "source": "art/studies/coliseum-134/scene.blend",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "reference_properties": {
+    "UCL-01": "Unequal layered crown losses with substantial surviving wall thickness",
+    "UCL-02": "Exposed wall returns and short broken masonry courses, not a flat polygon cut",
+    "DP-03": "Supported connected damage with clear hierarchy and restrained fine detail"
+  },
+  "hypothesis": "Rebuilding the existing broader left crown return as unequal supported course planes and one restrained undercut will produce a visible4K damage gain without enlarging the main loss envelope.",
+  "targets": [
+    "COL110 U4 fractured upper wall L",
+    "COL110 U4 fractured upper wall R",
+    "COL110 U5 fractured upper wall L"
+  ],
+  "fixed": [
+    "Accepted broad crown envelope",
+    "All arches and openings",
+    "Camera/pose",
+    "134 palette,lighting,haze,sky,alley,city",
+    "All unrelated geometry/materials"
+  ],
+  "validation": [
+    "Native main-camera4K painted/clay comparisons",
+    "Raw and evaluated crossings and manifold edges",
+    "No detached chips",
+    "Non-target preservation",
+    "Normals and original-position paint coordinates preserved outside rebuilt return"
+  ],
+  "status": "Isolated native study; no primary integration or user approval",
+  "repair_scope": "Three existing crown returns; U4 L/R share original lower cut boundary at67.8m, U5L plain lower prism repaired from convex measured bottom footprint because inherited folds extend to its bottom."
+}

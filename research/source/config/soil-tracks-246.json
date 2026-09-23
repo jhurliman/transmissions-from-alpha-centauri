@@ -1,0 +1,52 @@
+{
+  "iteration": 246,
+  "source": "art/studies/ground-finish-245/scene.blend",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Ground palette and native painterly grain"
+    },
+    {
+      "id": "UP-03",
+      "property": "Connected granular surface detail"
+    },
+    {
+      "id": "DP-08",
+      "property": "Plausible environmental service access"
+    }
+  ],
+  "hypothesis": "Two continuous granular traces extending through the pale alley soil read as tyre traffic, with the nearest rock-crossing trail removed.",
+  "variables": [
+    "remove nearest trail at y1.1",
+    "extend other two to x21 through native bank branch",
+    "subtle additive pale pigment on alley soil"
+  ],
+  "fixed": [
+    "footing245",
+    "camera/layout",
+    "original grain and cracks",
+    "characters",
+    "all other geometry/materials"
+  ],
+  "approved": false,
+  "bank_trials": [
+    {
+      "file": "tracks.png",
+      "add": [
+        0.042,
+        0.032,
+        0.016
+      ],
+      "observation": "Continuation too faint against pale soil."
+    },
+    {
+      "file": "continuous.png",
+      "add": [
+        0.1,
+        0.075,
+        0.035
+      ],
+      "observation": "Two traces visible across boundary; selected for full native proof."
+    }
+  ]
+}

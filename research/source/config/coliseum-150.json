@@ -1,0 +1,47 @@
+{
+  "source": "art/studies/coliseum-149/scene.blend",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "Two distinct collar-fed, asymmetric midtone fields over one story interrupt the clean repeated pillar strips without obscuring niches or lighting.",
+  "changed_variables": [
+    "150V2 two unequal native support/collar age fields",
+    "149 native depth-based suppression of7 occluded structural ink segments on foreground fascia"
+  ],
+  "fixed": [
+    "All geometry, normals, camera and lights",
+    "Existing149 palette, weathering and material graphs",
+    "147 bottom splatter and translucent1.5x rust tails",
+    "Sky, city, ground, services and foreground details"
+  ],
+  "criteria": [
+    "Visible unequal history at full scene1800display width",
+    "No darkened niche or uniform pillar blanket",
+    "Physical collar-to-shaft continuity",
+    "No chalk rectangle, new ink, or patterned paired drips",
+    "All existing shader graphs remain unchanged; private material copies only",
+    "Full4K retains foreground rust and intentional visible edges; falseT removed"
+  ],
+  "status": "Native4K rendered, preservation checked and independently retained; all95target remains open",
+  "user_approved": false,
+  "scores": {
+    "silhouette_scale": 95,
+    "structural_depth": 95,
+    "damage_plausibility": 91,
+    "surface_richness": 92,
+    "painted_integration": 93,
+    "linework": 94
+  },
+  "full_render_seconds": 116.04800200462341,
+  "visual_regression_review": {
+    "false_T_removed": true,
+    "guard_hidden_segments": 12,
+    "outside_landmark_pixels_over4": 165,
+    "within_documented_ink_roi": 120,
+    "additional_same_fascia_tip_pixels": 7,
+    "remaining_small_outline_variations_pixels": 38,
+    "inspection": "Inspected enlarged right-panel/rail/ground crops: no new disconnected stroke or visible material change; retain honest small raster differences, not bit-identity claim."
+  }
+}

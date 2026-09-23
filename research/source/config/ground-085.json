@@ -1,0 +1,34 @@
+{
+  "references": [
+    "US-01",
+    "US-02",
+    "DP-08"
+  ],
+  "context_reference": "private/captures/xenon-opening-cd.png",
+  "priority": "Break uniform open ground character before crack refinements",
+  "fixed": [
+    "sky084 approved90",
+    "architecture",
+    "camera",
+    "basic fine soil pigment"
+  ],
+  "hypothesis": "A sparse but pervasive hierarchy of light-responsive angular soil grains and low clods, irregular spatial clusters and subtle gathered-surface relief will make the road read as compacted dirty earth at camera scale. Crack axis geometry and grit support this.",
+  "seed": 85012,
+  "status": "candidate; awaiting user assessment",
+  "open_ground": {
+    "native_grain_groups": "coarse clusters containing small local clumps, with quiet intervals",
+    "grain_radius_m": [
+      0.012,
+      0.1
+    ],
+    "shape": "irregular low truncated fragments, no pointed pyramid tops",
+    "shade": "illustrated directional fill on native normals plus actual glossy response; readable even in building shadow",
+    "relief": "world-space height-derived shallow soil shading, reduced high-frequency ripple detail",
+    "retained": "081 fine soil pigment"
+  },
+  "secondary_cracks": {
+    "axes": "remove .25m sinusoidal centerline drift on all four longitudinal structural breaks",
+    "edge_treatment": "fragmented palette/lighting on actual lips and1041 trapped/bank grit pieces"
+  },
+  "comparison": "084 locked sky baseline; native camera images and crack-free soil crops"
+}

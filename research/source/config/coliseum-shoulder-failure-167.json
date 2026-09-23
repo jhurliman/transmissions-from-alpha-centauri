@@ -1,0 +1,43 @@
+{
+  "source": "163",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "A finite connected collar-to-shoulder facing loss creates a readable structural event across courses while a continuous supporting tower core and deep wall backing remain.",
+  "fixed": [
+    "Camera and pose",
+    "Tower7 core and silhouette",
+    "All arch opening envelopes, roundcolumns/caps and spacing",
+    "All other scene systems/materials/ink"
+  ],
+  "variables": [
+    "One subtractive stepped profile crossing actual collar/course/shoulder targets",
+    "Existing151 exposed-core material only"
+  ],
+  "gates": [
+    "Positive removed volume",
+    "Closed targets and no new strict float64 crossings",
+    "No new disconnected fragments",
+    "Protected outside triangles exact",
+    "Separate native clay/painted review before integration"
+  ],
+  "status": "V2 native painted/clay proof complete; independent review pending. Not integrated.",
+  "new_core_material": "Exact165 Existing light on exposed masonry core appended from166; only cutter-supported new faces.",
+  "actual_core_projected_bounds": [
+    1725.869,
+    549.834,
+    1779.189,
+    648.371
+  ],
+  "normal_preservation_limit": "Maximum retained custom-normal vector delta0.0005771644688307776; no exact-normal claim.",
+  "version": "V2 bounded geometry revision",
+  "removed_volume_m3": 58.954749118031664,
+  "changes_from_v1": [
+    "Two finite transverse depth steps atY188.8 and194, rather than one continuous inclined recess floor",
+    "Longer surviving middle collar ledge ending separately from other layers",
+    "Offset stepped sill-facing edge instead of sloped upper termination",
+    "Shortened projecting rib; entire small upper shoulder cap removed within its negative volume"
+  ]
+}

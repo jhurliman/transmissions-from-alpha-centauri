@@ -1,0 +1,38 @@
+{
+  "source": "art/studies/coliseum-148/scene.blend",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "An open loss connected to the existing crown fracture supplies broader exposed thickness; return-only topology repairs remove adjacent crossing surfaces without changing front articulation.",
+  "changed_variables": [
+    "149V2 open crown loss on U9L",
+    "149 contained U9head/R return repair",
+    "149 warm-violet core and fracture-fed deposit",
+    "Previously proved148-only cornice core tone normalization"
+  ],
+  "fixed": [
+    "Overall skyline,existing niche and tower framing,openings",
+    "All148 connected masonry age",
+    "Latest147 alley weathering,rust,services",
+    "Camera,lights,haze,sky,city,ground androcks"
+  ],
+  "criteria": [
+    "Native clay reads missing stone open to fracture rather than inset panel",
+    "Safe geometry with fixed front strip for repairs",
+    "Warm stone/violet pigment reinforces real thickness",
+    "Full4K and scene-scale honest six-axis critique",
+    "Preservation of all unrelated geometry andmaterial graphs"
+  ],
+  "status": "Native4K rendered; colosseum independently retained, scene promotion held for one Freestyle-only foreground regression",
+  "scores": {
+    "silhouette_scale": 95,
+    "structural_depth": 95,
+    "damage_plausibility": 91,
+    "surface_richness": 92,
+    "painted_integration": 93,
+    "linework": 94
+  },
+  "ink_regression": "One newly visible T-like mark on unchangedFoldedfascia.005 at4K[250,850,268,857]; no-Freestyle control clean; native hidden-edge diagnosis active."
+}

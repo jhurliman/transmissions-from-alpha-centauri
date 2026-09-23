@@ -1,0 +1,31 @@
+{
+  "iteration": "034",
+  "reference_ids": [
+    "DP-08",
+    "HM-03",
+    "AF-06"
+  ],
+  "visual_properties": {
+    "DP-08": "Human-to-infrastructure scale and projecting layered service systems",
+    "HM-03": "Grouped architecture and local repetition",
+    "AF-06": "Controlled architectural planes"
+  },
+  "target": "art/reviews/xenon-001/selected-third.png",
+  "hypothesis": "Distinct section families and contrasting opening rhythms distinguish the two rear right buildings at the game camera.",
+  "fixed": [
+    "Approved pipes",
+    "Front-left 033",
+    "Front-right building",
+    "Camera, lighting, actor, rubble, dome and depth",
+    "Existing concrete buttresses and road gap"
+  ],
+  "changed": [
+    "Middle right: four deeply recessed vertical window bays, projecting paired ribs and upper setback.",
+    "Rear right: broad sloped shoulder, sparse horizontal windows and grouped ventilation recesses."
+  ],
+  "acceptance": "Native geometry-only; no projected finish",
+  "user_approval": "Assembly authorized; render pending review",
+  "reference_observations": {
+    "selected-third": "User identifies single-Y structures, two paneled columns, a service opening, bottom U pipe and staggered building fronts. Garage and side-road functions are inferred; visible gaps are evidence."
+  }
+}

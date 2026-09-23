@@ -1,0 +1,23 @@
+{
+  "iteration": 233,
+  "source": "art/studies/midground-damage-232/scene.blend",
+  "hypothesis": "New openings fit the aged architecture better when the frames lose their uniform pale value and glass carries subdued light response, vertical residue and settled sill dirt.",
+  "references": [
+    "UCL-01",
+    "RS-01",
+    "RS-02"
+  ],
+  "changed_variables": [
+    "Private window and door finish materials",
+    "Slate surviving broken glass",
+    "Edge-local corrosion and lower rebate dust"
+  ],
+  "fixed": [
+    "All geometry and window spacing",
+    "Two broken pane shapes",
+    "Building placement and roof equipment",
+    "Accepted foreground, landmark, atmosphere and characters"
+  ],
+  "status": "Native4K rendered; root visual and preservation checks passed",
+  "user_approved": false
+}

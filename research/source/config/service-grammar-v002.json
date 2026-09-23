@@ -1,0 +1,27 @@
+{
+  "iteration": "service-grammar-v002",
+  "reference_ids": [
+    "DP-04",
+    "HM-03",
+    "AF-06"
+  ],
+  "visual_properties": {
+    "DP-04": "Nested machinery groups, repeated fine elements inside large asymmetric masses",
+    "HM-03": "Local repetition subordinate to differently proportioned building groups",
+    "AF-06": "Controlled planes and negative space"
+  },
+  "target": "art/reviews/xenon-001/selected-third.png",
+  "hypothesis": "Bounded hierarchy of route groups, quiet spans and localized fitting events avoids periodic equipment repetition while retaining local manufactured regularity.",
+  "fixed": [
+    "Prefab dimensions",
+    "Proof camera and lighting",
+    "No decay or texture overlay"
+  ],
+  "changed": [
+    "Motif-level assembly structure",
+    "Event spacing and endpoints",
+    "Controlled depth lanes",
+    "Secondary equipment motif staggered below the primary; wall-entry termination"
+  ],
+  "notes": "Proposed design grammar inferred from visible structure, not a recovered artist algorithm or measured fractal law."
+}

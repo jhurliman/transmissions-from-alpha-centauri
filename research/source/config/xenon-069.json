@@ -1,0 +1,23 @@
+{
+  "references": [
+    "UP-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "placement_reference": "art/reviews/xenon-068/crack-inventory.json",
+  "hypothesis": "Distinct seeded networks across architectural components with quiet gaps and end-biased support cracks",
+  "material": [
+    55,
+    100
+  ],
+  "fixed": [
+    "Camera",
+    "Pipe and duct assemblies",
+    "Steel Y frames"
+  ],
+  "changes": [
+    "Scene-wide unique editable cutters",
+    "Per-component material projection",
+    "Nonmanifold outputs rejected"
+  ]
+}

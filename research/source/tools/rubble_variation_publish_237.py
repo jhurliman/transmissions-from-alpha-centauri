@@ -1,0 +1,15 @@
+from pathlib import Path
+from PIL import Image
+import numpy as np,json
+R=Path(__file__).resolve().parents[1];O=R/'art/studies/rubble-variation-237';C=O/'comparison';C.mkdir(exist_ok=True)
+for label,path in [('before',R/'art/studies/rubble-transition-236/main-4k.png'),('after',O/'main-4k.png')]:
+ im=Image.open(path).convert('RGB')
+ for name,box in [('street',(1100,850,2860,1520)),('left',(1230,1010,1850,1460)),('right',(2180,1000,2810,1460))]:im.crop(box).save(C/(label+'-'+name+'.png'))
+ im.resize((1920,1442),Image.Resampling.LANCZOS).save(C/(label+'-full.jpg'),quality=96)
+b=np.asarray(Image.open(O/'main-4k.png').convert('RGB'));checks={}
+for row in json.loads((R/'art/studies/pixel-characters-217/assets.json').read_text()):
+ target=np.asarray(Image.open(R/row['placed_canvas']).convert('RGBA'));mask=target[:,:,3]==255;assert np.array_equal(b[mask],target[:,:,:3][mask]);checks[row['name']]='exact'
+(O/'pixel-check.json').write_text(json.dumps(checks,indent=2))
+html='''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>237 · Unequal rubble silhouettes</title><style>body{margin:0;background:#191820;color:#e4ded7;font:16px system-ui}main{max-width:1500px;margin:auto;padding:24px}h1{font-size:25px}h2{font-size:20px;margin-top:36px}p{line-height:1.5;color:#c3bab4}button{background:#33303e;color:inherit;border:1px solid #777080;padding:12px 18px;border-radius:6px;cursor:pointer;margin:4px}button.active{background:#775347}img{display:block;width:100%;height:auto;margin:18px auto}#left,#right{max-width:900px}a{color:#e8c8a4}</style><main><h1>237 · Unequal rubble silhouettes</h1><p>The prominent front beam stays. The two repeating upward-right silhouettes behind it are laid low at different angles, retaining their weathered materials and the rubble depth transition.</p><button onclick="choose('before',this)">Before · 236</button><button class="active" onclick="choose('after',this)">Varied silhouettes · 237</button><img id="street" src="../art/studies/rubble-variation-237/comparison/after-street.png" alt="Street rubble depth transition"><p><a href="../art/studies/rubble-variation-237/main-4k.png">Full-resolution scene</a> · <a href="../art/studies/rubble-variation-237/scene.blend">Editable scene</a></p><h2>Left transition</h2><img id="left" src="../art/studies/rubble-variation-237/comparison/after-left.png" alt="Left rubble extension"><h2>Right transition</h2><img id="right" src="../art/studies/rubble-variation-237/comparison/after-right.png" alt="Right rubble extension"><h2>Whole scene</h2><img id="full" src="../art/studies/rubble-variation-237/comparison/after-full.jpg" alt="Whole scene"></main><script>function choose(v,b){document.querySelectorAll('button').forEach(x=>x.classList.remove('active'));b.classList.add('active');for(let id of ['street','left','right','full'])document.getElementById(id).src='../art/studies/rubble-variation-237/comparison/'+v+'-'+id+(id==='full'?'.jpg':'.png');location.hash=v}</script></html>'''
+(R/'prototype/review-237.html').write_text(html)
+print('237 published; characters exact')

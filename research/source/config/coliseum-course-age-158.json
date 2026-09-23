@@ -1,0 +1,370 @@
+{
+  "source": "art/studies/coliseum-156/scene.blend",
+  "references": {
+    "UCL-01": "Connected unequal facade age and broad quiet stone",
+    "UCL-02": "Sheltered deposits adjoining ledges and wall facing",
+    "DP-03": "Finite clusters across structural members, quiet surrounding planes"
+  },
+  "hypothesis": "An attached age group spanning actual sill masonry, broken courses and the adjacent lit spandrel can establish one readable medium-scale weathering event, with unequal lower tails and exposed light fragments. It is paired with157 geometry, not an attempt to paint depth onto flat cuts.",
+  "changed_variables": [
+    "Existing secondary age polygons retained; concentrate its deposit strength in one finite lobe on mapped lit spandrels, quiet peripheral deposit",
+    "Blend that same existing deposit toward muted cool-brown/violet only inside the finite body; no additional shading layer or noise"
+  ],
+  "fixed": [
+    "All geometry, normals, camera, lighting and ink",
+    "Primary152 age group with retained155 placement",
+    "153 dark-pigment correction and all old material graphs",
+    "All unrelated systems including147 3x splatter"
+  ],
+  "criteria": [
+    "Connected 180\u2013250 native-pixel overall age group on actual lit receiver faces",
+    "Read at1800-frame display without dominant stain or material-boundary lines",
+    "At least half adjacent eligible lit wall remains quiet",
+    "Irregular broad/fine hierarchy, lighter interrupted exposures, unequal fade below damaged ledge",
+    "Compare actual native crop and full view; no automatic95 claim"
+  ],
+  "status": "PairedV1 independently reviewed/held for weak hierarchy; V2 authored finite midtone body, awaiting native proof",
+  "secondary": {
+    "frame": {
+      "origin_original": [
+        14.259429931640625,
+        193.32302856445312,
+        42.735843658447266
+      ],
+      "across_original": [
+        0.9631332755088806,
+        0.26902469992637634,
+        4.656612873077393e-10
+      ],
+      "up_original": [
+        -0.005173631012439728,
+        0.018522074446082115,
+        0.9998151063919067
+      ],
+      "normal_original": [
+        0.2689749598503113,
+        -0.962955117225647,
+        0.01923106238245964
+      ],
+      "sample_coordinate_bounds": [
+        [
+          -7.772836314191233,
+          -13.768543532462377,
+          -1.5208110651588385
+        ],
+        [
+          10.850102081531402,
+          1.3949490206768473,
+          3.134888168480586
+        ]
+      ],
+      "note": "Bounds describe visible eligible sample envelope, not fill rectangle. Use local per-receiver depth gate, not global normal interval. Cross-surface field continuity may follow shared across/up coordinates."
+    },
+    "receiver_attribute": "152 secondary facade receiver",
+    "strength": 0.5,
+    "deposit_tint": [
+      0.62,
+      0.55,
+      0.59,
+      1
+    ],
+    "deposit_polygons": [
+      [
+        [
+          -6.4,
+          -0.55
+        ],
+        [
+          -3.3,
+          0.2
+        ],
+        [
+          -0.9,
+          -0.4
+        ],
+        [
+          -0.4,
+          -2.2
+        ],
+        [
+          -2.6,
+          -3.2
+        ],
+        [
+          -5.6,
+          -2.8
+        ]
+      ],
+      [
+        [
+          -1.6,
+          0.55
+        ],
+        [
+          2.5,
+          1.1
+        ],
+        [
+          6.6,
+          0.6
+        ],
+        [
+          8.8,
+          -0.75
+        ],
+        [
+          7.7,
+          -3.35
+        ],
+        [
+          3.1,
+          -4.1
+        ],
+        [
+          -0.8,
+          -2.6
+        ]
+      ],
+      [
+        [
+          5.1,
+          -1.2
+        ],
+        [
+          8.2,
+          -1.1
+        ],
+        [
+          10.0,
+          -2.5
+        ],
+        [
+          9.5,
+          -4.55
+        ],
+        [
+          6.8,
+          -5.4
+        ],
+        [
+          5.25,
+          -3.9
+        ]
+      ],
+      [
+        [
+          0.4,
+          -2.7
+        ],
+        [
+          2.5,
+          -3.0
+        ],
+        [
+          2.3,
+          -5.2
+        ],
+        [
+          1.0,
+          -8.8
+        ],
+        [
+          0.35,
+          -7.3
+        ],
+        [
+          -0.15,
+          -4.5
+        ]
+      ],
+      [
+        [
+          6.7,
+          -4.0
+        ],
+        [
+          8.5,
+          -4.3
+        ],
+        [
+          8.7,
+          -5.6
+        ],
+        [
+          7.8,
+          -7.1
+        ],
+        [
+          6.9,
+          -5.6
+        ]
+      ],
+      [
+        [
+          -5.1,
+          -2.35
+        ],
+        [
+          -3.6,
+          -2.6
+        ],
+        [
+          -3.7,
+          -5.4
+        ],
+        [
+          -4.4,
+          -7.8
+        ],
+        [
+          -5.2,
+          -5.6
+        ]
+      ]
+    ],
+    "exposed_polygons": [
+      [
+        [
+          -1.4,
+          0.7
+        ],
+        [
+          1.2,
+          1.2
+        ],
+        [
+          4.2,
+          0.7
+        ],
+        [
+          5.0,
+          -0.05
+        ],
+        [
+          3.35,
+          -0.8
+        ],
+        [
+          0.1,
+          -0.45
+        ]
+      ],
+      [
+        [
+          4.6,
+          -2.85
+        ],
+        [
+          7.4,
+          -2.6
+        ],
+        [
+          8.5,
+          -3.45
+        ],
+        [
+          7.4,
+          -4.45
+        ],
+        [
+          5.4,
+          -4.2
+        ]
+      ],
+      [
+        [
+          0.2,
+          -3.6
+        ],
+        [
+          0.85,
+          -3.5
+        ],
+        [
+          1.25,
+          -4.6
+        ],
+        [
+          0.3,
+          -6.6
+        ],
+        [
+          -0.2,
+          -5.6
+        ]
+      ]
+    ]
+  },
+  "primary_155_shift_u": -2.2,
+  "user_approved": false,
+  "variant": "V2 concentrated intermediate-value lobe",
+  "midtone_body": {
+    "polygon": [
+      [
+        2.2,
+        -1.45
+      ],
+      [
+        5.6,
+        -1.25
+      ],
+      [
+        9.4,
+        -2.75
+      ],
+      [
+        10.5,
+        -4.2
+      ],
+      [
+        7.8,
+        -5.8
+      ],
+      [
+        4.0,
+        -5.3
+      ],
+      [
+        2.5,
+        -3.5
+      ]
+    ],
+    "edge_feather": [
+      -0.5,
+      0.68
+    ],
+    "periphery_factor": 0.8,
+    "body_factor": 1.92,
+    "body_tint": [
+      0.46,
+      0.46,
+      0.61,
+      1
+    ],
+    "mapped_evidence": {
+      "peak_native_pixel": [
+        2214,
+        652
+      ],
+      "peak_original_uv": [
+        5.98,
+        -3.01
+      ],
+      "weak_extension_native_pixel": [
+        2175,
+        638
+      ],
+      "weak_extension_original_uv": [
+        1.52,
+        -2.68
+      ],
+      "excluded_receivers": [
+        "round columns",
+        "arch rings",
+        "voids",
+        "deep contacts"
+      ],
+      "note": "Original-coordinate finite material field; screen points are diagnostic placement evidence only."
+    }
+  }
+}

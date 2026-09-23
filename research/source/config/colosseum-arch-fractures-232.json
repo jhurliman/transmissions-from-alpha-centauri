@@ -1,0 +1,38 @@
+{
+  "source": "art/studies/midground-arches-231/scene.blend",
+  "references": [
+    "UCL-01",
+    "UCL-03",
+    "DP-03"
+  ],
+  "reference_properties": [
+    "UCL01 connected fractures across decorative masonry layers",
+    "UCL03 retained thick reveals around broken openings",
+    "DP03 exposed construction depth and unequal structural loss"
+  ],
+  "user_crop": "clipboard-957343a5-aef7-4086-9352-2f5c76825bad.png",
+  "hypothesis": "Continuous subtractive fractures with shaded native cut faces remove the intact-trim interruption and make three upper arches visibly damaged without replacing their readable structure.",
+  "changed": [
+    "One bay9 crown trim physical split",
+    "Tier2 bay8 opened crown and shoulder fractures",
+    "Tier2 bays6 and9 narrower primary cracks with unequal secondary fractures",
+    "Only newly unsupported landmark contact spans"
+  ],
+  "fixed": [
+    "Selected70percent scale",
+    "Camera and lights",
+    "All foreground and midground",
+    "Tunnels and upper sill pyramids",
+    "All existing material graphs",
+    "All landmark geometry outside cutter intersections"
+  ],
+  "criteria": [
+    "Positive subtractive volume only",
+    "Closed cut solids and no new nonmanifold edges",
+    "No new triangle crossings beyond inherited source defects",
+    "Surviving source positions and attribute values preserved",
+    "Contact cleanup does not restore externally clipped strokes",
+    "Actual native fullcamera proof required"
+  ],
+  "visibility_selection": "Bay10 was rejected by actual first-hit visibility; exposed adjacent bay9 selected instead."
+}

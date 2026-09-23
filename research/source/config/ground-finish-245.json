@@ -1,0 +1,64 @@
+{
+  "iteration": 245,
+  "source": "art/studies/alley-finish-244/scene.blend",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Native broken-edge hierarchy and grounded soil palette"
+    },
+    {
+      "id": "UP-03",
+      "property": "Connected multi-scale granular surface detail"
+    },
+    {
+      "id": "DP-08",
+      "property": "Plausible weathered service foundations"
+    }
+  ],
+  "hypothesis": "Shallow footing chips avoid false full-height ink posts; localized granular outward trails convey traffic without smearing road texture.",
+  "variables": [
+    "footing chip shape and contour selection",
+    "localized right alley-mouth soil deposits"
+  ],
+  "fixed": [
+    "camera and layout",
+    "haze and light",
+    "exact characters",
+    "original road grain and cracks",
+    "all other geometry"
+  ],
+  "approved": false,
+  "soil_trials": [
+    {
+      "image": "subtle.png",
+      "treatment": "Existing-grain multiplicative tint, 0.8",
+      "observation": "Too faint to read as exported light soil."
+    },
+    {
+      "image": "strong.png",
+      "treatment": "Stronger multiplicative tint, 1.35",
+      "observation": "Still reads as road color modulation."
+    },
+    {
+      "image": "dispersed.png",
+      "treatment": "Blend toward procedural bank branch",
+      "observation": "Bank branch evaluates too dark outside bank."
+    },
+    {
+      "image": "traffic.png",
+      "treatment": "Stronger bank-branch deposition",
+      "observation": "Still too brown."
+    },
+    {
+      "image": "granular.png",
+      "treatment": "Add pale mineral pigment over unchanged grain, 2.3",
+      "observation": "Readable but too dense."
+    },
+    {
+      "image": "selected.png",
+      "treatment": "Add pale mineral pigment over unchanged grain, 1.5",
+      "observation": "Selected for integrated proof; granular paths retain dark gaps."
+    }
+  ],
+  "native_footing": "Shallow upper 0.085m chip losses, explicitly marked top perimeter, generic crease tracing disabled for footing only."
+}

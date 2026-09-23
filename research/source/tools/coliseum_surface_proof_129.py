@@ -1,0 +1,4 @@
+import bpy,sys,json,time
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];sys.path.insert(0,str(R/'tools'));from coliseum_surface_129 import apply
+O=R/'art/studies/coliseum-129/surface';O.mkdir(parents=True,exist_ok=True);label=sys.argv[-1];bpy.ops.wm.open_mainfile(filepath=str(R/'art/studies/coliseum-128/scene.blend'));start=time.time();a=apply(bpy.data.collections['110 Coliseum detailed front ruin'],float(label));s=bpy.context.scene;s.render.resolution_x=3840;s.render.resolution_y=2885;s.render.resolution_percentage=100;s.render.line_thickness=3840/1440;s.render.use_border=True;s.render.use_crop_to_border=True;s.render.border_min_x=1350/3840;s.render.border_max_x=2690/3840;s.render.border_min_y=1-1230/2885;s.render.border_max_y=1-320/2885;s.render.filepath=str(O/(label+'.png'));bpy.ops.render.render(write_still=True);a['seconds']=time.time()-start;(O/(label+'-audit.json')).write_text(json.dumps(a,indent=2))

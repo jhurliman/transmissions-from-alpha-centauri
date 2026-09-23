@@ -1,0 +1,31 @@
+{
+  "iteration": "015",
+  "reference_ids": [
+    "DP-04",
+    "DP-05",
+    "HM-03",
+    "AF-06"
+  ],
+  "target": "art/reviews/xenon-001/selected-third.png",
+  "user_feedback": "From alley end to start of dome should be 3x alley lengths",
+  "hypothesis": "Hold the exact 3:1 measured layout, lower near obstructions and separate farther ruin silhouettes with native material tones.",
+  "fixed": [
+    "Camera",
+    "Alley",
+    "Figure",
+    "Dome",
+    "Exact 120-unit gap"
+  ],
+  "changed": [
+    "Near ruin heights",
+    "Ruin material tones"
+  ],
+  "acceptance": "Geometry-only render; no painted finish",
+  "reviewer_decision": null,
+  "visual_properties": {
+    "DP-04": "Readable structural construction",
+    "DP-05": "Monumental distant scale",
+    "HM-03": "Overlapping ruined street masses",
+    "AF-06": "Strong receding perspective"
+  }
+}

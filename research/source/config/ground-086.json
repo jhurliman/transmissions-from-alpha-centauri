@@ -1,0 +1,21 @@
+{
+  "references": [
+    "US-01",
+    "US-02",
+    "DP-08"
+  ],
+  "hypothesis": "Replace repetitive mid-frequency bump with sparse finite soil deposits at metre scale, true mesh height, and quiet compacted intervals. Retain fine pigment and grains.",
+  "fixed": [
+    "sky084 locked",
+    "camera",
+    "architecture",
+    "crack centerlines",
+    "soil palette"
+  ],
+  "changed": [
+    "actual soil height",
+    "grain grounding on deposits",
+    "reduce085 fine relief influence"
+  ],
+  "status": "candidate"
+}

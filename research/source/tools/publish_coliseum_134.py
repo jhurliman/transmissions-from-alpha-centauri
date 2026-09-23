@@ -1,0 +1,14 @@
+from pathlib import Path
+from PIL import Image
+import json
+R=Path(__file__).resolve().parents[1];O=R/'art/studies/coliseum-134';P='/art/studies/coliseum-134/'
+regions={'landmark':(1390,345,2470,1180),'crown':(1410,350,2350,630),'weathering':(1530,460,2210,920),'arcades':(1490,590,2290,955)}
+for label,path in [('before',O/'standalone/main-4k.png'),('after',O/'main-4k.png')]:
+ im=Image.open(path).convert('RGB');im.resize((1440,1082),Image.Resampling.LANCZOS).save(O/f'{label}-main.png');im.resize((1440,1082),Image.Resampling.LANCZOS).convert('L').save(O/f'{label}-gray.png')
+ for name,box in regions.items():im.crop(box).save(O/f'{label}-{name}.png')
+h='''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>134 · Crown and masonry detail</title><style>body{background:#19191e;color:#eee7df;font:17px/1.55 system-ui;max-width:1500px;margin:28px auto;padding:0 22px}a{color:#efbc91}img{width:100%;display:block}.pair{display:grid;grid-template-columns:1fr 1fr;gap:20px}figure{margin:10px 0}figcaption{color:#c5bbc4}button{padding:12px;background:#433137;color:#fff;border:1px solid #957e77;cursor:pointer}section{margin:42px 0}@media(max-width:700px){.pair{grid-template-columns:1fr}}</style><h1>134 · Crown and masonry detail</h1><p>A localized crown repair adds stepped exposed thickness. Three collar-fed weathering areas connect deposits to real ledges. The accepted framing, architecture, city haze, clouds and alley remain in place.</p>'''
+h+=f'<button onclick="pick(\'after\')">Updated</button> <button onclick="pick(\'before\')">Previous</button><a href="{P}main-4k.png"><img id="main" src="{P}after-main.png"></a><p><a href="{P}main-4k.png">4K render</a> · <a href="{P}scene.blend">Editable scene</a> · <a href="{P}kit.blend">Landmark kit</a></p>'
+for name in regions:
+ h+=f'<section id="{name}"><h2>{name.title()}</h2><div class="pair"><figure><img src="{P}before-{name}.png"><figcaption>Before</figcaption></figure><figure><img src="{P}after-{name}.png"><figcaption>Updated</figcaption></figure></div></section>'
+h+=f'<section><h2>Geometry proof</h2><div class="pair"><img src="{P}fracture/before-clay.png"><img src="{P}fracture/after-clay.png"></div></section><section><h2>Original reference</h2><img src="{P}analysis/independent/reference-display.png"><p>UCL-01: original user artwork created with ChatGPT Images 2.5.</p></section><details><summary>Grayscale</summary><div class="pair"><img src="{P}before-gray.png"><img src="{P}after-gray.png"></div></details><p>Work in progress. Broader damage and surface fidelity remain under independent review; this is not a final lock.</p><script>function pick(v){{document.getElementById("main").src="{P}"+v+"-main.png"}}</script></html>'
+(R/'prototype/review-134.html').write_text(h)

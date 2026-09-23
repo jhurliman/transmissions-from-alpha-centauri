@@ -1,0 +1,34 @@
+{
+  "hypothesis": "Closing far descending tunnel outlets blocks unintended back-entry light without changing the accepted route.",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Quiet dark arch interiors with warm haze"
+    },
+    {
+      "id": "UCL-02",
+      "property": "Arch interior depth and occlusion"
+    },
+    {
+      "id": "DP-01",
+      "property": "Recessed architecture and plausible enclosure"
+    }
+  ],
+  "source": "art/studies/hybrid-atmosphere-240/scene.blend",
+  "fixed": [
+    "camera",
+    "sun",
+    "atmosphere",
+    "existing geometry",
+    "materials"
+  ],
+  "changed": [
+    "18 solid 0.65 m terminal plugs on lowered native outlets"
+  ],
+  "review_criteria": [
+    "No missing cap faces",
+    "No light transmission through outlet",
+    "Entrance and route unchanged",
+    "Integrated right arch comparison pending"
+  ]
+}

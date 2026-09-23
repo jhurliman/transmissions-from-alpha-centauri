@@ -1,0 +1,49 @@
+{
+  "source": "art/studies/coliseum-188/scene.blend",
+  "references": {
+    "RS-01": "Fine ragged edge-driven paint loss with rust on exposed flange edges; retain quieter broad paint interiors.",
+    "RS-02": "Fastener-rooted dark oxide, gravity runoff and irregular shared corrosion washes.",
+    "RS-03": "Continuous granular reddish oxide with dark pitting rather than flat camouflage islands.",
+    "UP-03": "Translate fine connected surface variation into the accepted illustrated palette."
+  },
+  "hypothesis": "A repeated fastener/anchor treatment distributed across both alley walls and depth, plus edge/grain-driven beam corrosion, gives a coherent scene-wide weathering improvement.",
+  "changed_variables": [
+    "Deterministically select80%of eligible native bolts for subtle oxide/trickle weathering, including bolts in selected heavy plates.",
+    "Select10%of true four-bolt anchor plates for20\u201380%wash coverage with radial/drip corrosion at every bolt.",
+    "Replace140/143flat Y-beam camouflage with connected finely broken edge corrosion, granular oxide and runoff."
+  ],
+  "fixed": [
+    "Camera, lights, scene composition and primary structural geometry",
+    "Colosseum geometry/materials and accepted sky/haze/ground",
+    "147threefold bottom splatter and other wall weathering",
+    "Existing service dimensions and routes"
+  ],
+  "criteria": [
+    "Record native fastener and actualplate inventory including repeated instances; counts and rounding explicit.",
+    "Runoff follows gravity and stays attached to appropriate receivers.",
+    "Heavy plate selection is spread across scene; plate texture occupies20\u201380%with everybolt affected.",
+    "Beam preserves steel readability with varied oxide values and fine granular breakup; no broadflatbrownislands.",
+    "Review full native4K, full display, bothalley sides and representative fasteners rather than tiny isolated pixel differences."
+  ],
+  "status": "Native4K rendered, root and independent review retain candidate; userapprovalpending",
+  "user_approved": false,
+  "validation": {
+    "eligible_heads": 4066,
+    "applied_heads": 3253,
+    "fraction": 0.8000491883915396,
+    "eligible_plates": 42,
+    "heavy_plates": 4,
+    "heavy_wash_footprints": [
+      0.518798828125,
+      0.43896484375,
+      0.406494140625,
+      0.6591796875
+    ],
+    "all_heavy_bolts_applied": true
+  },
+  "corrections": [
+    "Rejected first plate result: unbounded diffuse lighting and missing actual Freestyle exclusion produced near-black stencils.",
+    "Bounded actual-light oxide emission, continuous shared-vertex wash opacity, and persistent unlinked union of original ink exclusions with rust mesh resolve the two causes.",
+    "Two occluded heavy plates replaced by visible right splice and two deeper left anchors, using sampled camera visibility."
+  ]
+}

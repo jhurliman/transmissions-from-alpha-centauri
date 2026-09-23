@@ -1,0 +1,14 @@
+{
+  "hypothesis": "The retained alley scuff and scratch vocabulary, applied densely on exposed recess floors, will make shallow erosion read as rough damaged substrate while retaining the lighter208finish.",
+  "references": [
+    {"id": "UP-03", "property": "Unequal fine interior nicks, scars and pigment flecks"},
+    {"id": "DP-08", "property": "Grouped structural wear with quiet versus damaged surfaces"},
+    {"id": "UCL-01", "property": "Dense broken marks in exposed damaged stone"}
+  ],
+  "source_scene": "art/studies/scene-completion-209/scene.blend",
+  "changes": ["Private copy of existing051facade scuff and scratch pass", "Higher floor coverage with finer scuffs, pinholes and short scratches", "Floor-normal mask preserves existing sidewall finish"],
+  "fixed": ["All geometry, ink, camera, lighting and outside materials", "Lighter208recess base color and thin interior lines"],
+  "review_criteria": ["High density visibly reads at game-camera closeup", "Exposed floor remains lighter than previous198brownfill", "Marks follow floor and stay out of lips and intact facade"],
+  "native_proof": "Integrated212repeat-alley study with matched209recess closeup",
+  "user_approved": false
+}

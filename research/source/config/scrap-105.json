@@ -1,0 +1,27 @@
+{
+  "references": [
+    {
+      "id": "UM-01",
+      "property": "Darker body values and stronger separation of shadows from warm catches"
+    },
+    {
+      "id": "UP-03",
+      "property": "Value depth within weathered metal"
+    },
+    {
+      "id": "DP-08",
+      "property": "Selective lit edges"
+    }
+  ],
+  "fixed": [
+    "104 lighting-driven hue split, user approved",
+    "geometry",
+    "weathering",
+    "rest of scene"
+  ],
+  "changed": [
+    "near scrap body luminance curve"
+  ],
+  "status": "ready for user review",
+  "review": "art/studies/scrap-105/review.json"
+}

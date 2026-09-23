@@ -1,0 +1,16 @@
+{
+  "reference_ids": [
+    "DP-04",
+    "DP-05",
+    "HM-03",
+    "AF-06"
+  ],
+  "hypothesis": "Value rebalance, actual volume depth and irregular dome plates improve geometry render toward reference.",
+  "fixed": [
+    "camera",
+    "figure placement",
+    "facade composition"
+  ],
+  "acceptance": "Actual geometry and materials only; no images",
+  "reviewer_decision": null
+}

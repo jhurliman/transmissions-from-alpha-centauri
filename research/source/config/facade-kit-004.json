@@ -1,0 +1,36 @@
+{
+  "id": "facade-kit-004",
+  "status": "native geometry proofs",
+  "hypothesis": "Layered bays with shared cross-sections, actual opening depth and explicit panel terminations will close the medium-scale architectural fidelity gap.",
+  "reference_properties": {
+    "DP-04": "Density concentrated at functional junctions and machinery interfaces",
+    "HM-03": "Layered painted urban facade construction",
+    "AF-06": "Controlled architectural planes and strong graphic perspective"
+  },
+  "selected_target": "art/reviews/xenon-001/selected-third.png",
+  "changed": [
+    "User correction: replace domestic four-light window with two full-height industrial sliding leaves",
+    "Eliminate broad reveal bevel, hood and projecting sill",
+    "Provide closed, open and broken-glass variants with shared rough opening"
+  ],
+  "fixed": [
+    "Reference selection",
+    "Bay dimensions",
+    "Material palette and lighting",
+    "Accepted whole scene remains untouched"
+  ],
+  "next_proofs": [
+    "Layered panel corner",
+    "Complete window bay"
+  ],
+  "review_axes": [
+    "Silhouette and proportions",
+    "Depth and layering",
+    "Panel and opening rhythm",
+    "Joint and edge construction",
+    "Detail density at game scale",
+    "Component compatibility"
+  ],
+  "approval": "Not submitted as finished geometry",
+  "authoritative_window_reference": "art/components/facades/study-001/user-window-closeup.png"
+}

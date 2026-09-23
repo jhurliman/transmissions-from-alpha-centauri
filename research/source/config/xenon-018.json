@@ -1,0 +1,30 @@
+{
+  "iteration": "018",
+  "reference_ids": [
+    "DP-04",
+    "DP-05",
+    "HM-03",
+    "AF-06"
+  ],
+  "visual_properties": {
+    "DP-04": "Layered service machinery and connected fittings",
+    "DP-05": "Large distant structure",
+    "HM-03": "Weathered facade construction",
+    "AF-06": "Readable architectural planes"
+  },
+  "target": "art/reviews/xenon-001/selected-third.png",
+  "hypothesis": "Break regular facade outlines with large torn sheets, exposed internal ribs and buckled I-profile buttresses.",
+  "fixed": [
+    "Camera",
+    "Actor",
+    "Dome",
+    "Accepted six-alley gap"
+  ],
+  "changed": [
+    "Cladding outline and sheet folding",
+    "Buttress steel section and bend",
+    "Floor edge damage"
+  ],
+  "acceptance": "Native geometry-only; no projected finish",
+  "user_approval": "Scale accepted; new structure pending"
+}

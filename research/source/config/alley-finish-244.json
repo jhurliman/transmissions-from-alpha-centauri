@@ -1,0 +1,32 @@
+{
+  "iteration": 244,
+  "source": "art/studies/footing-243/scene.blend",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Weathered roof silhouette, subdued arch interiors"
+    },
+    {
+      "id": "UP-03",
+      "property": "Surface staining and connected wear"
+    },
+    {
+      "id": "DP-08",
+      "property": "Plausible service and architectural variation"
+    }
+  ],
+  "changes": [
+    "local chipped and weathered dark roof return",
+    "nonrepeating coherent weathering onrightdarkbuilding5x2windowbank",
+    "remove unwanted tunnelinterior glow aftercaptest"
+  ],
+  "fixed": [
+    "accepted haze",
+    "warmbuildingwindows",
+    "camera",
+    "sun",
+    "characters",
+    "revisedfooting"
+  ],
+  "approved": false
+}

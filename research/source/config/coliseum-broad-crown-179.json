@@ -1,0 +1,49 @@
+{
+  "source": "Retained173 plus isolated174 diagonal repair replayed in memory",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "visual_property": "Unequal broad broken masonry facing, oblique exposed core and short transverse return, connected through existing upper crown rather than isolated chips",
+  "hypothesis": "A variable-depth removal open to the existing crest can establish a readable roughly110px four-part composition, where176 constant-radius removal fragmented visible core.",
+  "authority": "User permits damage/weathering while retaining115E structure/pose and later accepted openings/columns. Entire rear-surface immutability and numerical protection masks were prior study safeguards, not user instructions. This study preserves actual bearing and principal peak, not arbitrary all-rear vertices.",
+  "targets": [
+    "COL110 U4 fractured upper wall L",
+    "COL110 U4 aperture head",
+    "COL110 U4 fractured upper wall R",
+    "COL110 U5 fractured upper wall L"
+  ],
+  "fixed": [
+    "camera, lights, materials except genuinely new core assignment",
+    "all other scene geometry",
+    "all arches, columns, aperture opening and its bearing",
+    "all lower geometry below67.8",
+    "principal existing peak and substantial support beneath its near shoulder"
+  ],
+  "change": "One negative solid with angle-dependent rear depth and unequal floor elevations; opens through existing broken crown. No additions, raised back mass, fragments, constant-radius slice or small fallback.",
+  "review": [
+    "Actual occupied facing/core/return composition around110px, not claim120",
+    "meaningful contiguous core at1800display scale",
+    "exact protected triangles/coordinates/materials and quantified normals",
+    "closed components, no new robust crossings, source containment",
+    "actual support for attached details and contact ink before any integration"
+  ],
+  "status": "CPU candidate only, separate baseline; no integration without root and independent visual review",
+  "explicit_scope_clarification": {
+    "root_reviewed": "Seven r\u224873 old151 core triangles may split; original protected set minus only these exceptions. All peak-sector anchor vertices and near-peak faces stayexact.",
+    "COL110 U4 fractured upper wall R": [
+      5042,
+      5054,
+      5055,
+      5058
+    ],
+    "COL110 U5 fractured upper wall L": [
+      1393,
+      1396,
+      1401
+    ],
+    "source_coordinates": "geometry/protected-classification.json",
+    "art_acceptance": false
+  }
+}

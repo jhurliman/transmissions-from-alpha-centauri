@@ -1,0 +1,40 @@
+{
+  "source": "art/studies/midground-230/layout-only.blend",
+  "references": [
+    "DP-03",
+    "DP-08",
+    "UP-03",
+    "UCL-01"
+  ],
+  "properties": [
+    "DP03 purposeful industrial entrances with varied facade rhythm",
+    "DP08 recessed windows and framed quiet metal panels",
+    "UP03 surface wear and depth rather than black painted decals",
+    "UCL01 restrained distant architectural hierarchy and broken structures"
+  ],
+  "hypothesis": "Real entries and sparse window arrangements give every distant prefab a building identity while preserving the selected landmark exposure.",
+  "changed": [
+    "Private facade container per each18root",
+    "One functional ground entry per building away from visible service trunks",
+    "Picture window prefab alongside slider variant and retained original sliders",
+    "Sparse raised-left side windows",
+    "Two prominently placed broken panes with native shards and dark wells",
+    "Private side-return backing cuts behind new holes"
+  ],
+  "fixed": [
+    "Foreground/229 accepted entrance",
+    "Buildings footprint/height/placement from root230layout",
+    "Original shared panel masters and their geometry/materials",
+    "Services/roofs belong to separate230agent",
+    "Camera,landmark,haze,characters"
+  ],
+  "acceptance": [
+    "Every building gets credible entry and window",
+    "Left tall side remains sparse but not blank",
+    "Exactly2 broken windows camera-visible",
+    "Deep native apertures clear structural backing",
+    "No original shared-master changes",
+    "Actual root native combined proof required"
+  ],
+  "status": "CPU candidate frozen; native root proof pending"
+}

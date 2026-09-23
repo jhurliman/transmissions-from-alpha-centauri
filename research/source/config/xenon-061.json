@@ -1,0 +1,23 @@
+{
+  "references": [
+    "UP-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "hypothesis": "Depth bounded by distance to mouth boundary yields opposing sloped walls meeting at a varying valley, without a flat depth plane.",
+  "changes": [
+    "Distance-field V recess",
+    "Smooth variation below a 55-degree wall-envelope depth limit",
+    "Explicit same-camera shaded and clay pair"
+  ],
+  "fixed": [
+    "060 crack mouth footprints",
+    "alley camera",
+    "two-specimen scope"
+  ],
+  "validation": [
+    "Closed evaluated meshes",
+    "No constant-depth floor",
+    "Same camera for gray proof and in-scene render"
+  ]
+}

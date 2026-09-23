@@ -1,0 +1,65 @@
+{
+  "hypothesis": "Point-origin corrosion cores and downward unequal runoff replace broad Perlin clouds; retained steel and layered maroon/sienna/ochre pigments.",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Localized structural corrosion and steel gaps"
+    },
+    {
+      "id": "UP-03",
+      "property": "Connected tonal richness on metal"
+    },
+    {
+      "id": "DP-08",
+      "property": "Weathered structural steel hierarchy"
+    }
+  ],
+  "user_detail": "references/user-rust-137/target.png",
+  "fixed": "All geometry, normals, lights, camera, near scrap materials and other scene materials",
+  "seed": 137,
+  "review_criteria": [
+    "Bolt correspondence",
+    "Unequal gravity streaks",
+    "Distinct oxide palette",
+    "Quiet steel between stains",
+    "Native4K camera readability"
+  ],
+  "recorded_parameters": {
+    "bolt_core_radius_m": [
+      0.12,
+      0.145
+    ],
+    "bolt_streak_width_m": [
+      0.025,
+      0.052
+    ],
+    "bolt_streak_length_m": [
+      0.42,
+      1.25
+    ],
+    "joint_core_radius_m": 0.045,
+    "joint_streak_width_m": [
+      0.018,
+      0.046
+    ],
+    "joint_streak_length_m": [
+      0.2,
+      0.65
+    ],
+    "edge_noise_scale": 18,
+    "edge_noise_amplitude": 0.9,
+    "palette_interpolation": "CONSTANT",
+    "field_origin_gating": true,
+    "flange_edge_patch_halfwidth_m": [
+      0.026,
+      0.044
+    ],
+    "flange_patch_halflength_m": [
+      0.26,
+      0.55
+    ],
+    "plateau_depth_gate_m": 0.48,
+    "stem_contact_core": false,
+    "pigment_field": "Independent finite oxide breakup plus maroon contact plateau"
+  }
+}

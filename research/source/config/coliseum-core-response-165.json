@@ -1,0 +1,16 @@
+{
+ "source":"art/studies/coliseum-163/scene.blend",
+ "references":{"UCL-01":"Existing broken masses separate into warm exposed stone and cooler sheltered returns","UCL-02":"Broad fracture planes outweigh small perimeter detail","DP-03":"Plane value hierarchy supports readable structural depth"},
+ "hypothesis":"The existing core response cancels a measured actual-light difference. Rebalance the existing diffuse contribution so broad fracture planes separate without more geometry or texture.",
+ "evidence":"164 core-signal-audit.json: central diffuse populations0.3948/0.5610 become ramp inputs0.5703/0.5815. Neutral geometry already has useful distinct orientations.",
+ "fixed":["All geometry, normals, transforms, camera and actual lights","Existing core palette and AO, all original material graphs","163 primary age and warm quiet counterpart","Course contacts, black joints and arch rim ink","All nonlandmark systems and147 3x bottom splatter"],
+ "changed":["Private151/154 core material input:25% existing response +75% remapped existing diffuse luminance"],
+ "existing_input_weight":0.25,
+ "diffuse_input_range":[0.38,0.60],
+ "diffuse_output_range":[0.30,0.78],
+ "targets":{"COL110 U4 fractured upper wall R":3,"COL110 U5 fractured upper wall L":4,"COL110 U9 fractured upper wall L":4,"COL110 U9 aperture head":1,"COL110 U9 fractured upper wall R":2},
+ "proof_crop_native":[1400,350,2470,840],
+ "criteria":["Broad existing core planes read as thickness at final camera scale","Warm-gray lit core and cooler return stay within existing masonry palette","No bright metallic facet, new dark slit, or pasted color boundary","All course contacts and facing paint remain fixed; no automatic95 claim"],
+ "status":"Prepared local material study",
+ "user_approved":false
+}

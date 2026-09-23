@@ -1,0 +1,34 @@
+{
+  "source": "130 integrated scene",
+  "previous_goal_turn": "progress: native arch ink, bent tunnels, preserved foreground ink,4K render and validation completed",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-11",
+    "UCL-24",
+    "UCL-25",
+    "DP-03"
+  ],
+  "hypothesis": "Physical centered masonry joints above the arches and a taller connected exposed frame complete the requested base architecture before focused damage and weathering.",
+  "changed_variables": [
+    "Narrow real centered notch between each arch crown and overlying ledge, with visible native ink",
+    "Extend exposed bent framing toward the upper intact left wall"
+  ],
+  "fixed": [
+    "130 architecture, openings, columns, niches, cornices and tunnels",
+    "Accepted curved pose and camera",
+    "128 broad lighting/palette and130 curved rim ink",
+    "All locked alley, city, road, foreground, sky and foreground ink source"
+  ],
+  "review_criteria": [
+    "Concrete native4K improvement compared with130 and original reference crops",
+    "Damage has real depth and support; intact wall faces do not look like exposed core",
+    "No new self-crossings, floating fragments or false ink seams",
+    "Distinct weathering scales, finite sources and quiet intact areas",
+    "Current per-axis critique with evidence, no invented95score or implied user approval"
+  ],
+  "status": "Implemented and rendered at4K; base edits ready for review; damage/weathering studies held",
+  "held_studies": [
+    "Fracture classification and course detail",
+    "131 native mineral/runoff material candidate"
+  ]
+}

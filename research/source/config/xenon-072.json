@@ -1,0 +1,20 @@
+{
+  "references": [
+    "UP-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "hypothesis": "Reflections and intentional chamfered returns reinforce the industrial architecture; material corrections separate services from structure",
+  "changes": [
+    "Native reflected glazing",
+    "45 degree cantilever return",
+    "Duct metal vanes",
+    "Rust middle gallery",
+    "Shoulder chamfer caps"
+  ],
+  "fixed": [
+    "Camera",
+    "Crack finish",
+    "Other buildings"
+  ]
+}

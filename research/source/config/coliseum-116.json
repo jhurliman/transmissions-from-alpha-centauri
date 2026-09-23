@@ -1,0 +1,85 @@
+{
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Selective warm catches and connected masonry weathering"
+    },
+    {
+      "id": "UX-03",
+      "property": "Painted distant facade regions"
+    },
+    {
+      "id": "DP-03",
+      "property": "Architectural cast shadow hierarchy"
+    }
+  ],
+  "fixed": [
+    "approved115E geometry and haze",
+    "locked camera and city"
+  ],
+  "changes": [
+    "approximately4degree rigid landmark yaw",
+    "stronger real light contribution",
+    "selective interrupted edge catches",
+    "restrained broad face pigment"
+  ],
+  "criteria": [
+    "retain approved curvedmass",
+    "all critic axes90 orbetter",
+    "userfinalacceptanceseparate"
+  ],
+  "status": "Critic threshold achieved; final user acceptance pending",
+  "material_parameters": {
+    "actual_diffuse_normalization": 0.45,
+    "actual_diffuse_fraction": 0.18,
+    "orientation_fraction": 0.82,
+    "edge_spec_max": 0.3,
+    "edge_normal_z_gate": [
+      0.15,
+      0.65
+    ],
+    "quiet_crust_strength": 0.32,
+    "connected_water_path_strength": 1.0
+  },
+  "rotation": {
+    "degrees_world_z": 4,
+    "pivot_world": [
+      4.239481449127197,
+      460.57666015625,
+      0.9695461392402649
+    ],
+    "horizontal_recenter_m": -18.68967090147317,
+    "delta_matrix": [
+      [
+        0.9975640177726746,
+        -0.06975655257701874,
+        0.0,
+        13.448894500732422
+      ],
+      [
+        0.06975655257701874,
+        0.9975640177726746,
+        0.0,
+        0.8262166380882263
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "nearest_world_y": 177.01779174804688,
+    "original_nearest_world_y": 177.5501251220703,
+    "mesh_geometry_unchanged": true,
+    "root_objects": [
+      "115 Coliseum orientation"
+    ]
+  }
+}

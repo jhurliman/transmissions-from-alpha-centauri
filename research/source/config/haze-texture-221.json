@@ -1,0 +1,17 @@
+{
+ "iteration":221,
+ "source":"art/studies/arcade-tunnels-220/scene.blend",
+ "hypothesis":"Greater real atmospheric opacity will make existing multi-scale density pockets readable, while an orange-to-muted-peach height gradient gives the haze more volume without a milky white veil.",
+ "references":[
+  {"id":"UCL-01","property":"Orange/coral low bank transitions toward muted pale peach higher; original user-created ChatGPT Images2.5 artwork.","crop":"art/studies/coliseum-136/haze/reference-street.png"},
+  {"id":"DP-05","property":"Architectural scale remains legible through distant atmosphere."},
+  {"id":"HM-03","property":"Warm painted atmospheric depth while near structures stay clear."}
+ ],
+ "scatter_density_multiplier":2.8,
+ "height_gradient_world_z_m":[1.5,17.0],
+ "scatter_rgb_linear":{"bottom":[0.78,0.27,0.09],"top":[0.93,0.64,0.43]},
+ "radiance_rgb_linear":{"bottom":[1.0,0.18,0.045],"top":[1.0,0.58,0.35]},
+ "fixed":["Final220 tunnels and all geometry/materials except atmosphere","219V2 noise field and shared scatter/radiance modulation","Near-clear/far5x relative depth envelope","202 low-layer source envelope and rear cutoff","Sky/clouds/sun/camera/all light objects","Exact217 character pixels and compositing","215 dedicated ink atmosphere exclusion"],
+ "review_criteria":["Actual native opacity/cloudiness visibly stronger than220, not a variance-only adjustment","Orange lower haze grades to muted peach without a white fog curtain","Legible wall and column ink, unchanged nearest buildings","No change to unrelated sky or selected character pixels"],
+ "approved":false
+}

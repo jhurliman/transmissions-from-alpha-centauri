@@ -1,0 +1,27 @@
+{
+  "source": "151V3 isolatedgeometry on149",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "The established warm/violet exposedstone family makes the broadnewfractureplanes legible withoutanolivepolygon.",
+  "changed_variables": [
+    "Colorramp onprivatecorecopies for151newcutfaces only"
+  ],
+  "fixed": [
+    "All151V3 geometry andnormals",
+    "Diffuse/AO/grainresponse",
+    "All retainedoldsurfaces andmaterials",
+    "Camera,lighting andsurroundings"
+  ],
+  "criteria": [
+    "A few clearlyseparated contiguousmasonryplanes",
+    "Noolivecore orpale label",
+    "Existingmass/retainedfacingremains readable"
+  ],
+  "geometry_scope_caveat": "Actual61x37nativepixels507hits; original90pixelwidth targetnotmet. Localvisualshape reviewretained; broaderpackageA and95goalnotclaimed.",
+  "status": "Independently retained locally; staged for combined151+152review, no standalonefullintegration",
+  "user_approved": false,
+  "local_critic": "art/studies/coliseum-151/material/local-critic.json"
+}

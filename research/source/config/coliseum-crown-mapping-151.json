@@ -1,0 +1,22 @@
+{
+  "source": "149 scene.blend",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "Connected exposed fracture thickness across the existing shared U4R/U5L high crown",
+  "targets": [
+    "COL110 U4 fractured upper wall R",
+    "COL110 U5 fractured upper wall L"
+  ],
+  "fixed": [
+    "camera",
+    "lighting",
+    "accepted openings",
+    "wall below67.8",
+    "overall crown massing"
+  ],
+  "status": "Read-only candidate mapping, no geometry mutation or approval",
+  "proposal": "art/studies/coliseum-151/mapping/proposal.json"
+}

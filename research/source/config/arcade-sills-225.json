@@ -1,0 +1,40 @@
+{
+  "iteration": 225,
+  "hypothesis": "Ground arches become unobstructed walk-through openings when their low platforms/sill strips are removed and the existing tunnel floors are lowered to the preserved structural foundation.",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Legible dark first-level arcade openings"
+    },
+    {
+      "id": "UCL-03",
+      "property": "Architectural arch and sill hierarchy"
+    },
+    {
+      "id": "DP-08",
+      "property": "Ground-level access through monumental architecture"
+    }
+  ],
+  "source": "art/studies/haze-texture-221/scene.blend",
+  "changed": [
+    "Hide18ground125inset platforms",
+    "Hide18ground110sill strips",
+    "Lower only tunnel floor/lowest side-profile vertices to actual foundation support",
+    "Remove15 continuously certified contact intervals whose platform/sill owner is removed, even if another wall remains"
+  ],
+  "fixed": [
+    "Upper36platforms and upper110sills",
+    "Columns,jambs,arch crowns and facade foundation",
+    "Tunnel30m straight+30m descending45degree routes and outlets",
+    "Materials,camera,lighting,haze and characters"
+  ],
+  "review_criteria": [
+    "No short wall remains across any ground opening",
+    "Threshold/tunnel floor continuous with preserved foundation",
+    "Upper sill hierarchy unchanged",
+    "No floating old coping/contact lines",
+    "Ground mouths remain blocked from direct sky by descending tunnels"
+  ],
+  "render": "Combined final native proof by root; no separate render",
+  "diagnosis": "V1 wrongly retained obsolete intersection lines because they remained supported by the other owner. V2 certifies proximity to the actual removed face instead."
+}

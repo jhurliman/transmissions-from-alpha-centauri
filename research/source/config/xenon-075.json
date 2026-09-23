@@ -1,0 +1,26 @@
+{
+  "references": [
+    "UP-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "hypothesis": "Tight footprint soil, clustered mineral scatter, layered scrap and slender distant architecture complete the environmental frame without altering approved buildings.",
+  "changed": [
+    "soil and rocks",
+    "near and end scrap",
+    "clouds and sun",
+    "slender distant city"
+  ],
+  "fixed": [
+    "074 alley",
+    "camera",
+    "landmarkplaceholder"
+  ],
+  "review": [
+    "ground hierarchy",
+    "footprint soil width",
+    "scrap readability",
+    "sky contrast",
+    "distant scale"
+  ]
+}

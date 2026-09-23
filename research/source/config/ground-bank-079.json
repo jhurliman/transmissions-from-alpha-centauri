@@ -1,0 +1,26 @@
+{
+  "references": [
+    "DP-08",
+    "HM-12",
+    "UP-03"
+  ],
+  "additional_reference": "references/user-ground-study/road-crack-reference.png",
+  "hypothesis": "A few actual small losses and soil grains at existing cut edges break smooth trough boundaries without changing the crack network.",
+  "fixed": [
+    "camera",
+    "network",
+    "palette",
+    "grain",
+    "allothergeometry"
+  ],
+  "changed": [
+    "6 larger foreground bank-edge nicks",
+    "small nearby dark soil grains"
+  ],
+  "criteria": [
+    "visible localized edge breakup",
+    "no new black dotted line",
+    "no broad ground damage"
+  ],
+  "iteration": "First25nicks rejected as negligible atcamera. Second6nicks at2\u20133x width."
+}

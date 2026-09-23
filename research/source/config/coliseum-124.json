@@ -1,0 +1,33 @@
+{
+  "source": "123 scene",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-09",
+    "UCL-11",
+    "UCL-12",
+    "DP-03"
+  ],
+  "hypothesis": "Round modeled column profiles improve architectural fidelity; reduced true apertures increase masonry weight.",
+  "studied_properties": [
+    "Engaged round columns, bases and capitals from UCL-11",
+    "Bent embedded structural metal from UCL-09",
+    "Painted light response from UCL-01 and DP-03"
+  ],
+  "variants": {
+    "A": 0.05,
+    "B": 0.1,
+    "C": 0.2
+  },
+  "aperture_measurement": "Fractional reduction of both clear width and height; base remains fixed",
+  "shared_changes": [
+    "Round arcade columns and detailed bases/capitals",
+    "Bent armature extends into taller surviving wall",
+    "Cornice blocks inherit unmodified supporting wall material"
+  ],
+  "fixed": [
+    "Camera and accepted overall massing",
+    "Floor bands and pier positions",
+    "Locked non-landmark scene"
+  ],
+  "status": "Three4Kstudies ready; pending user choice"
+}

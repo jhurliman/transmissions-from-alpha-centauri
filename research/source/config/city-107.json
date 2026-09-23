@@ -1,0 +1,31 @@
+{
+  "hypothesis": "Keep sparse original light pigment; dark-only density adds decay rather than occupied windows.",
+  "references": [
+    {
+      "id": "UX-01",
+      "property": "quiet distant masses"
+    },
+    {
+      "id": "UX-03",
+      "property": "sparse painted facade detail"
+    },
+    {
+      "id": "DP-03",
+      "property": "dark urban surface variation"
+    }
+  ],
+  "fixed": [
+    "approved106 placement",
+    "original 1x light marks and their positions",
+    "camera",
+    "all other scene systems"
+  ],
+  "changed": "Dark stroke count 2x / 4x / 8x; native dark overlays protected from covering original light pigment",
+  "review_criteria": [
+    "decayed rather than thriving",
+    "broad facade readability",
+    "no regular window grid"
+  ],
+  "status": "C 8x dark strokes approved by user",
+  "review": "prototype/review-107.html"
+}

@@ -1,0 +1,477 @@
+{
+  "source": "art/studies/coliseum-150/scene.blend",
+  "references": {
+    "UCL-01": "Connected unequal facade age and broad quiet stone",
+    "UCL-02": "Sheltered deposits adjoining ledges and wall facing",
+    "DP-03": "Finite clusters across structural members, quiet surrounding planes"
+  },
+  "hypothesis": "One main and one weaker connected age composition across collars, friezes and spandrels changes the scene-scale hierarchy while retaining quiet lit faces and protected recesses.",
+  "changed_variables": [
+    "Two finite authored native pigment fields",
+    "Exhaustive front-receiver masks derived from actual material, depth and face classification"
+  ],
+  "fixed": [
+    "Allgeometry andnormals",
+    "All existing shadergraphs, camera andlights",
+    "Protectednichefloors, interiorarchplanes, deepestreturns",
+    "All150materials retained beneath newfinitefields",
+    "All unrelatedscene systems"
+  ],
+  "criteria": [
+    "Primary150\u2013250pxnative overall span acrossactualmasonry",
+    "Connectedcollar/frieze/spandrel age noticeable at1800displaywidth",
+    "Mosteligiblelit area quiet; no dominantblackblot",
+    "Secondarysmaller anddistinct",
+    "No isolatedtriangular paintmask artifacts or materialboundary outlines"
+  ],
+  "status": "Locally and in full152 independently retained; whole surface93/painted93, not95",
+  "groups": {
+    "primary": {
+      "frame": {
+        "origin_original": [
+          -13.70521354675293,
+          193.1749267578125,
+          43.090641021728516
+        ],
+        "across_original": [
+          0.9635167121887207,
+          -0.2676481306552887,
+          0.0
+        ],
+        "up_original": [
+          0.005479963030666113,
+          0.019727526232600212,
+          0.9997904300689697
+        ],
+        "normal_original": [
+          -0.26759204268455505,
+          -0.9633147716522217,
+          0.020474502816796303
+        ],
+        "sample_coordinate_bounds": [
+          [
+            -5.81563188822156,
+            -14.394911406372099,
+            -3.2508969068819127
+          ],
+          [
+            9.218762311170394,
+            0.9496604534669402,
+            4.101573659925712
+          ]
+        ],
+        "note": "Bounds describe visible eligible sample envelope, not fill rectangle. Use local per-receiver depth gate, not global normal interval. Cross-surface field continuity may follow shared across/up coordinates."
+      },
+      "receiver_attribute": "152 primary facade receiver",
+      "strength": 0.72,
+      "deposit_tint": [
+        0.55,
+        0.54,
+        0.62,
+        1
+      ],
+      "deposit_polygons": [
+        [
+          [
+            -5.2,
+            -0.5
+          ],
+          [
+            -2.2,
+            0.45
+          ],
+          [
+            1.5,
+            0.15
+          ],
+          [
+            2.7,
+            -1.4
+          ],
+          [
+            0.4,
+            -2.9
+          ],
+          [
+            -3.8,
+            -2.7
+          ]
+        ],
+        [
+          [
+            0.9,
+            -0.2
+          ],
+          [
+            4.4,
+            0.08
+          ],
+          [
+            7.8,
+            -0.95
+          ],
+          [
+            7.1,
+            -2.3
+          ],
+          [
+            3.1,
+            -2.8
+          ],
+          [
+            0.4,
+            -2.0
+          ]
+        ],
+        [
+          [
+            -4.8,
+            -2.0
+          ],
+          [
+            -2.2,
+            -2.5
+          ],
+          [
+            -2.35,
+            -5.1
+          ],
+          [
+            -3.1,
+            -7.2
+          ],
+          [
+            -4.6,
+            -6.1
+          ],
+          [
+            -5.1,
+            -3.6
+          ]
+        ],
+        [
+          [
+            -4.3,
+            -5.7
+          ],
+          [
+            -3.1,
+            -6.1
+          ],
+          [
+            -2.9,
+            -8.7
+          ],
+          [
+            -3.5,
+            -11.4
+          ],
+          [
+            -4.0,
+            -9.6
+          ]
+        ],
+        [
+          [
+            -0.7,
+            -2.1
+          ],
+          [
+            2.8,
+            -2.5
+          ],
+          [
+            3.7,
+            -3.8
+          ],
+          [
+            1.7,
+            -5.4
+          ],
+          [
+            -0.4,
+            -4.8
+          ],
+          [
+            -1.5,
+            -3.3
+          ]
+        ]
+      ],
+      "exposed_polygons": [
+        [
+          [
+            -1.8,
+            0.1
+          ],
+          [
+            0.2,
+            0.48
+          ],
+          [
+            2.6,
+            -0.05
+          ],
+          [
+            3.4,
+            -0.7
+          ],
+          [
+            1.9,
+            -1.25
+          ],
+          [
+            -0.4,
+            -1.0
+          ]
+        ],
+        [
+          [
+            2.8,
+            -2.55
+          ],
+          [
+            5.3,
+            -2.2
+          ],
+          [
+            7.0,
+            -2.8
+          ],
+          [
+            6.2,
+            -3.6
+          ],
+          [
+            3.9,
+            -4.1
+          ],
+          [
+            2.8,
+            -3.7
+          ]
+        ],
+        [
+          [
+            -2.25,
+            -3.0
+          ],
+          [
+            -1.55,
+            -3.5
+          ],
+          [
+            -2.0,
+            -5.8
+          ],
+          [
+            -2.8,
+            -7.4
+          ],
+          [
+            -3.1,
+            -6.8
+          ]
+        ]
+      ]
+    },
+    "secondary": {
+      "frame": {
+        "origin_original": [
+          14.259429931640625,
+          193.32302856445312,
+          42.735843658447266
+        ],
+        "across_original": [
+          0.9631332755088806,
+          0.26902469992637634,
+          4.656612873077393e-10
+        ],
+        "up_original": [
+          -0.005173631012439728,
+          0.018522074446082115,
+          0.9998151063919067
+        ],
+        "normal_original": [
+          0.2689749598503113,
+          -0.962955117225647,
+          0.01923106238245964
+        ],
+        "sample_coordinate_bounds": [
+          [
+            -7.772836314191233,
+            -13.768543532462377,
+            -1.5208110651588385
+          ],
+          [
+            10.850102081531402,
+            1.3949490206768473,
+            3.134888168480586
+          ]
+        ],
+        "note": "Bounds describe visible eligible sample envelope, not fill rectangle. Use local per-receiver depth gate, not global normal interval. Cross-surface field continuity may follow shared across/up coordinates."
+      },
+      "receiver_attribute": "152 secondary facade receiver",
+      "strength": 0.5,
+      "deposit_tint": [
+        0.62,
+        0.55,
+        0.59,
+        1
+      ],
+      "deposit_polygons": [
+        [
+          [
+            -6.7,
+            -1.6
+          ],
+          [
+            -4.2,
+            -1.8
+          ],
+          [
+            -2.7,
+            -2.8
+          ],
+          [
+            -3.4,
+            -4.2
+          ],
+          [
+            -6.1,
+            -4.0
+          ],
+          [
+            -7.2,
+            -2.7
+          ]
+        ],
+        [
+          [
+            -3.8,
+            -0.8
+          ],
+          [
+            -0.9,
+            0.2
+          ],
+          [
+            2.2,
+            -0.5
+          ],
+          [
+            3.2,
+            -1.7
+          ],
+          [
+            1.6,
+            -2.7
+          ],
+          [
+            -1.8,
+            -2.5
+          ]
+        ],
+        [
+          [
+            -5.4,
+            -3.3
+          ],
+          [
+            -3.6,
+            -3.8
+          ],
+          [
+            -3.7,
+            -5.5
+          ],
+          [
+            -4.6,
+            -7.7
+          ],
+          [
+            -5.3,
+            -6.4
+          ]
+        ],
+        [
+          [
+            -0.8,
+            -2.0
+          ],
+          [
+            2.4,
+            -2.0
+          ],
+          [
+            5.0,
+            -3.6
+          ],
+          [
+            4.3,
+            -4.5
+          ],
+          [
+            1.7,
+            -4.5
+          ],
+          [
+            -0.4,
+            -3.4
+          ]
+        ]
+      ],
+      "exposed_polygons": [
+        [
+          [
+            -3.3,
+            -0.2
+          ],
+          [
+            -1.8,
+            0.4
+          ],
+          [
+            0.5,
+            -0.3
+          ],
+          [
+            0.8,
+            -1.0
+          ],
+          [
+            -1.2,
+            -1.2
+          ],
+          [
+            -2.9,
+            -0.9
+          ]
+        ],
+        [
+          [
+            0.3,
+            -3.6
+          ],
+          [
+            2.5,
+            -3.2
+          ],
+          [
+            4.4,
+            -4.4
+          ],
+          [
+            3.1,
+            -5.0
+          ],
+          [
+            0.7,
+            -4.6
+          ]
+        ]
+      ]
+    }
+  },
+  "local_critic": "art/studies/coliseum-152/material/local-critic.json"
+}

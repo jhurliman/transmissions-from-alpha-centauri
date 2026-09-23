@@ -1,0 +1,33 @@
+{
+  "iteration": "024",
+  "reference_ids": [
+    "DP-04",
+    "DP-05",
+    "HM-03",
+    "AF-06"
+  ],
+  "visual_properties": {
+    "DP-04": "Layered service machinery and connected fittings",
+    "DP-05": "Large distant structure",
+    "HM-03": "Weathered facade construction",
+    "AF-06": "Readable architectural planes"
+  },
+  "target": "art/reviews/xenon-001/selected-third.png",
+  "hypothesis": "Rigid canopy assemblies, selected blank service bays and mixed round/rectangular trunks reduce repeated catalogue rhythm.",
+  "fixed": [
+    "Camera and lens",
+    "Actor",
+    "Ground and rubble",
+    "Long ruined city and dome",
+    "Accepted 6:1 depth"
+  ],
+  "changed": [
+    "Replace old alley facade collections with reviewed window, kick, panel, slot, support and canopy masters",
+    "Connect native pipe risers along selected service bays",
+    "Correct raised canopy rigid transforms",
+    "Blank service columns interrupt right window rows",
+    "Connect round-to-rectangular duct trunks"
+  ],
+  "acceptance": "Native geometry-only; no projected finish",
+  "user_approval": "Assembly authorized; render pending review"
+}

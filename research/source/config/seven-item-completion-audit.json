@@ -1,0 +1,104 @@
+{
+  "objective": "Complete all seven open work items as far as each can be completed before required human input",
+  "source_scene": "art/studies/beam-rust-197/scene.blend",
+  "user_approved": false,
+  "requirements": [
+    {
+      "id": 1,
+      "name": "First-building coverage",
+      "evidence_required": [
+        "Actual whole facade and lower-left crops show connected medium-scale wear, not only dots",
+        "All visible first-building skins and rear vertical member receive appropriate minimum wear",
+        "Services, accepted palette and silhouette preserved"
+      ],
+      "status": "Implemented, integrated, and actual-render reviewed; retained in final205. Artistic approval remains with user."
+    },
+    {
+      "id": 2,
+      "name": "Broader alley weathering",
+      "evidence_required": [
+        "Reusable native missing chunks, recessed pits, impact damage and cracks distributed across visible facade families",
+        "Nuanced multi-panel surface response and bottom-weighted fine detail",
+        "Anchored runoff, sparse bolts and nicks preserved",
+        "Whole-camera impact; creator and independent actual-render review"
+      ],
+      "status": "Implemented, integrated, and actual-render reviewed; retained in final205. Artistic approval remains with user."
+    },
+    {
+      "id": 3,
+      "name": "Colosseum broad crumbling",
+      "evidence_required": [
+        "190v2 native payload present in current full scene",
+        "Actual4K shows varied dark crumbling groups across tiers and upperwall",
+        "Quiet spans and original openings/columns/tunnels/structure preserved",
+        "No foreground ink regression"
+      ],
+      "status": "Implemented, integrated, and actual-render reviewed; retained in final205. Artistic approval remains with user."
+    },
+    {
+      "id": 4,
+      "name": "Left beam connector and cadence",
+      "evidence_required": [
+        "Unequal middle patch shapes retained",
+        "Interrupted warm rust connection visible inside near-edge ink at native crop and meaningful viewing scale",
+        "Right support halfstrength and all other accepted beam finish preserved"
+      ],
+      "status": "Implemented, integrated, and actual-render reviewed; retained in final205. Artistic approval remains with user."
+    },
+    {
+      "id": 5,
+      "name": "Cloud contour and layering",
+      "evidence_required": [
+        "Hierarchical fine outer contour detail without uniform grain",
+        "Subtle overlapping desaturated internal tones without large cel bands",
+        "Mass/layout and final sky gradient preserved",
+        "Native owned cloud assets and full-camera proof"
+      ],
+      "status": "Implemented, integrated, and actual-render reviewed; retained in final205. Artistic approval remains with user."
+    },
+    {
+      "id": 6,
+      "name": "Alley-city ruins",
+      "evidence_required": [
+        "Varied partial buildings bridge the gap with camera-readable fracture and surface detail",
+        "Physically attached wall/floor remains, no floating scrap or road blockage",
+        "Accepted city positions and road retained"
+      ],
+      "status": "Implemented, integrated, and actual-render reviewed; retained in final205. Artistic approval remains with user."
+    },
+    {
+      "id": 7,
+      "name": "Haze reference match",
+      "evidence_required": [
+        "Fresh saved graph confirms gradient runs nearest city to Colosseum",
+        "Current actual reference comparison: clear cool near city and increasing warm atmospheric depth",
+        "Smooth vertical falloff, no bright tunnel portal artifacts or foreground orange wash",
+        "Sky endpoints preserved"
+      ],
+      "status": "Implemented, integrated, and actual-render reviewed; retained in final205. Artistic approval remains with user."
+    }
+  ],
+  "delivery_required": [
+    "One combined current editable scene",
+    "Native4K render and meaningful before/after/reference crops",
+    "Preservation and fresh saved-scene audits",
+    "Independent visual review",
+    "Current status document with honest remaining limitations"
+  ],
+  "completion_policy": "No known technical or visual defect can be relabeled as awaiting user approval. Final artistic preference may remain with user after a coherent inspected candidate is delivered. No new95score without defensible per-axis evidence.",
+  "latest_user_steering": {
+    "item": "Middle rubble and broken wall palette",
+    "requirement": "Blend foreground junk pile steel-blue and warm-rust palette at50% application, preserving each middle piece distinct original colors.",
+    "study": 204,
+    "evidence_required": [
+      "Native same lighting-dependent palette response from accepted near scrap source",
+      "Exactly50% blend on all identified middle rubble and broken walls",
+      "Foreground junk pile, road stones, sky, city and structures outsidemiddleunchanged",
+      "Actual combinedcrop/wholeframe inspection"
+    ],
+    "status": "PASS:1177 middle meshes receive50% native lighting-driven palette blend;203 integrated visual review passed; foreground junk unchanged in205."
+  },
+  "combined_saved_state": "art/studies/scene-completion-205/fresh-check.json PASS;203 scope-check PASS;205 exact geometry/material preservation PASS.",
+  "completion": "Complete through implementation and internal native-render review. No known blocking defect. Ready for user artistic review; no new95score or user approval claimed.",
+  "final_review": "art/studies/scene-completion-205/final-independent-review.json"
+}

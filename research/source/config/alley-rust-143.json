@@ -1,0 +1,26 @@
+{
+  "source": "art/studies/alley-rust-140/scene.blend",
+  "references": [
+    "UCL-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "hypothesis": "A second slightly lighter warmer oxide pigment covers5percent of leftbeam surfaces with a modest overlap preference for existing24percent patches.",
+  "changed_variables": [
+    "Second oxide layer only, native world-space mask weighted toward existing first rust mask"
+  ],
+  "fixed": [
+    "Geometry and normals",
+    "Camera and lights",
+    "Bolt corrosion and ledge rain trails",
+    "Other services and approved near scrap",
+    "Coliseum and haze",
+    "140 Ysteel correction and first rust coverage"
+  ],
+  "review_criteria": [
+    "5percent total modeled surface coverage",
+    "Overlap more frequent than unbiased24percent without confining all new rust to old patches",
+    "Subtle warmer/lighter pigment",
+    "Both supports steel correction preserved"
+  ]
+}

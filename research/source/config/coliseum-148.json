@@ -1,0 +1,37 @@
+{
+  "source": "art/studies/alley-weathering-147/actual/scene.blend",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "Connected medium-scale masonry age and two physically grounded facing losses improve the landmark decay hierarchy without changing approved architecture.",
+  "changed_variables": [
+    "141V4 shallow U9 facing loss",
+    "148 connected upper-wall deposit field",
+    "148 secondary stepped cornice loss beside Tower7"
+  ],
+  "fixed": [
+    "Latest147 alley panels including3x bottom splatter and1.5x translucent runoff",
+    "Accepted arches,columns,platforms,crown joints,framing",
+    "All scene camera,lighting,sky,haze,city,ground,services andYsupport rust"
+  ],
+  "review_criteria": [
+    "Visible connected aging at1800 display width",
+    "Irregular attached shallow losses rather than radial dimples",
+    "Most facade retained quiet",
+    "No new black knot or chalk labels",
+    "Native4K fullframe and local clay proof",
+    "Independent six-axis review;95 remains unproven"
+  ],
+  "status": "Integrated native4K rendered, inspected, independently retained and published; four axes below95",
+  "scores": {
+    "silhouette_scale": 95,
+    "structural_depth": 95,
+    "damage_plausibility": 91,
+    "surface_richness": 92,
+    "painted_integration": 93,
+    "linework": 94
+  },
+  "preservation": "Four intended meshes and scoped masonry slots only; all latest147 unrelated geometry/camera/lights/material graphs preserved"
+}

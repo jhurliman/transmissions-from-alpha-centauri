@@ -1,0 +1,52 @@
+{
+  "study": "198 whole-alley damage and first-facade finish rollout",
+  "source": "art/studies/beam-rust-197/scene.blend",
+  "references": [
+    "UCL-01",
+    "UP-03",
+    "DP-03"
+  ],
+  "reference_property": "UCL-01 connected coating changes across broad lower facade, nonuniform medium islands, recessed losses and irregular panel-edge breaks; UP-03 surface-interior texture hierarchy; DP-03 varied grouped damage across repeated architectural families.",
+  "hypothesis": "Connected medium-scale coating breakup across the entire first facade plus a sparse repeated native damage vocabulary on visible alley panels will read as consistently aged architecture rather than isolated hero patches and dots.",
+  "fixed": [
+    "camera",
+    "lighting",
+    "base palette",
+    "service geometry/materials",
+    "Y beams",
+    "bolts and plate rust",
+    "landmark",
+    "street",
+    "sky",
+    "building layout"
+  ],
+  "changed": [
+    "first-building material finish coverage",
+    "native facade recesses and impact apertures",
+    "selected edge notches and finite cracks on repeated alley panels"
+  ],
+  "seed": 198,
+  "review_criteria": [
+    "Lower-left facade no pristine broad interior panels",
+    "Moderate 4/10 minimum art-direction age across first building, not a measured score",
+    "Distinct scale hierarchy and irregular shapes without stripes or noise blanket",
+    "Native losses visible at game camera across multiple building families",
+    "No duplicate-stamp pattern or service damage"
+  ],
+  "user_approved": false,
+  "revision": "V3 balanced facade damage plus two camera-verified native side-edge missing chunks",
+  "secondary_limits": {
+    "left": 10,
+    "right": 8
+  },
+  "v1_review": "Connected medium finish reads moderate age; retain. Two primary recesses too similar in height/size/twinlobes; change to staggered narrow-tall single shallow pit and wider unequal cluster. Right-side damage coverage insufficient; include native gallery and window families.",
+  "current_status": "V3 CPU saved; complete combined203 native visual gate pending",
+  "actual_damage_distribution": {
+    "first_facade": 4,
+    "farther_left": 10,
+    "right": 5,
+    "additional_real_edge_losses": 2
+  },
+  "post_revision": "Existing field selectively lightens worn-metal intervals on rear post only; no added noise.",
+  "ink_cleanup": "Eight legacy contact-ink points hidden locally inside newly missing edge volumes; data privately copied, remaining points retained."
+}

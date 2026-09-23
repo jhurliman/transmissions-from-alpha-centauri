@@ -1,0 +1,25 @@
+{
+  "references": [
+    "DP-08",
+    "DP-01",
+    "HM-01"
+  ],
+  "selected_target": "selected-third",
+  "hypothesis": "Measured deeper violet values and reduced cyan coating contrast improve far-city painted continuity.",
+  "fixed": [
+    "074 alley",
+    "075 far proportions and depth",
+    "sky",
+    "camera",
+    "landmark"
+  ],
+  "changed": [
+    "distant material pigments",
+    "sparse warm window insets"
+  ],
+  "review_criteria": [
+    "matched-crop palette statistics",
+    "aerial depth",
+    "painted detail hierarchy"
+  ]
+}

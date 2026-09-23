@@ -1,0 +1,25 @@
+{
+  "references": [
+    "UP-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "properties": [
+    "palette hierarchy",
+    "clustered surface detail",
+    "accumulation and quiet spaces"
+  ],
+  "hypothesis": "Dark lane and pale edge soil with grouped embedded rocks establish the ground hierarchy.",
+  "fixed": [
+    "074 buildings",
+    "camera",
+    "sky",
+    "landmark"
+  ],
+  "review": [
+    "soil separation",
+    "transition irregularity",
+    "rock scale hierarchy",
+    "walkability readability"
+  ]
+}

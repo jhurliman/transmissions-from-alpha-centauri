@@ -1,0 +1,28 @@
+{
+  "source": "retained 166",
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "One connected loss through the tower collar, adjacent courses and arch-shoulder facing creates a legible larger damage event while retaining native backing and support.",
+  "changed": [
+    "Replay the independently reviewed 167 V2 native subtraction onto 166",
+    "Clip only pre-existing baked contact ink proven to have lost all native support in the removed volume"
+  ],
+  "fixed": [
+    "Camera and composition",
+    "All other geometry and materials",
+    "166 exposed-core response",
+    "149, 156 and 161 foreground visibility guards",
+    "147 threefold bottom splatter and all accepted environment treatments"
+  ],
+  "criteria": [
+    "Closed surviving target solids without new crossings",
+    "Preserve protected source triangles and unchanged material graphs",
+    "Preserve all supported baked contact strokes",
+    "Inspect actual full 4K render and independent six-axis review",
+    "Fresh saved scene and kit must match; inspect pixels outside the landmark"
+  ],
+  "status": "Retained working candidate after full native and kit review. Scores 95/95/94/94/93/94; all-axis 95 and user approval remain pending."
+}

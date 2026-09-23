@@ -1,0 +1,46 @@
+{
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Curved arcades, converging towers, localized weathering"
+    },
+    {
+      "id": "UX-03",
+      "property": "Quiet painted far-surface variation"
+    },
+    {
+      "id": "DP-03",
+      "property": "Layered monumental structure"
+    }
+  ],
+  "hypothesis": "Reference-informed convergence, thick front-half arcade construction and localized weathering give a looming centerpiece without rear-wall visual noise.",
+  "fixed": [
+    "109A framing",
+    "108 camera",
+    "locked city/road/rocks/sky/alley/scrap"
+  ],
+  "changed": [
+    "Rear half removed",
+    "Detailed structural kit and crown damage",
+    "Inward tower convergence and modest forward lean",
+    "Painted warm masonry / violet recesses"
+  ],
+  "status": "integrated candidate ready for user review, not locked",
+  "review": "prototype/review-110.html",
+  "editable_scene": "art/studies/coliseum-110/scene.blend",
+  "resolution": [
+    3840,
+    2885
+  ],
+  "fit": {
+    "forward_lean_degrees": 2,
+    "radial_inward_batter_percent": 5.5,
+    "screen_reference_evidence": "Opposing tower slopes, about3\u20136 degrees; approximate hand measurements, not recovered physical pose",
+    "camera_centered_scale": 0.715,
+    "nearest_world_y": 186.79,
+    "framing_preserved": true
+  },
+  "damage": "Five manifold physical breakage zones plus three crown-connected grooves and sparse aperture frames",
+  "ink": "Landmark-specific contours and creases, with 682 visible contact runs clipped against scene occluders",
+  "remaining": "User review; quality target not claimed as attained"
+}

@@ -1,0 +1,30 @@
+{
+  "references": [
+    {
+      "id": "US-02",
+      "property": "broken granular soil fissures"
+    },
+    {
+      "id": "UR-01",
+      "property": "dark chipped grain contacts"
+    },
+    {
+      "id": "DP-08",
+      "property": "linework integrated with material texture"
+    }
+  ],
+  "hypothesis": "Retain native soil intersection contour distribution but cut sharp corners and long rectangular paths into irregular tapered fragments. Restore dark detail without helper-shaped boxes.",
+  "fixed": [
+    "approved096 ink",
+    "soil094C palette, brushwork and terrain",
+    "all scene geometry and composition"
+  ],
+  "status": "user approved; dark road locked",
+  "variables": [
+    "short irregular soil-ink fragments",
+    "windowed corner breaks and trimmed parent-run endpoints",
+    "variable width and tip shape"
+  ],
+  "scene": "art/studies/soil-097/scene.blend",
+  "review": "art/studies/soil-097/review.json"
+}

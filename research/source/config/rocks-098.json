@@ -1,0 +1,29 @@
+{
+  "references": [
+    {
+      "id": "DP-08",
+      "property": "foundation clusters and quiet gaps"
+    },
+    {
+      "id": "UR-01",
+      "property": "rock palette and chipped planes"
+    },
+    {
+      "id": "US-02",
+      "property": "small granular transition"
+    }
+  ],
+  "hypothesis": "Actual facade positions replace a fixed road-edge strip; largest fragments accumulate at walls with smaller diffuse light-soil pieces.",
+  "fixed": [
+    "120 road stones",
+    "097 dark soil",
+    "rock geometry and materials",
+    "camera and architecture"
+  ],
+  "variables": [
+    "foundation rock placement and terrain reseating"
+  ],
+  "status": "ready for review",
+  "scene": "art/studies/rocks-098/scene.blend",
+  "review": "art/studies/rocks-098/review.json"
+}

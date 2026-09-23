@@ -1,0 +1,53 @@
+{
+  "iteration": 226,
+  "hypothesis": "Two extra native panel courses on the two marked visible stepped prefabs, plus an inward taper of the farthest rows, cover more of the first arcade while retaining clear street perspective.",
+  "user_reference": "art/studies/far-building-layout-226/reference/user-markup.png",
+  "registration": {
+    "method": "Unmarked left-tower patch normalized cross correlation",
+    "scale_user_to_native": 1.5,
+    "offset_native_xy": [
+      1155,
+      -4.5
+    ],
+    "correlation": 0.99072679237
+  },
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Foreground architecture overlaps landmark base"
+    },
+    {
+      "id": "DP-08",
+      "property": "Unequal infrastructure heights and coherent vertical panel courses"
+    },
+    {
+      "id": "UP-03",
+      "property": "Preserve accepted painted panel/service material detail"
+    }
+  ],
+  "changed": [
+    "Private taller step83 left and step89 right containers; add2full2.18m panel courses",
+    "Move six far roots progressively inward; footprint placement distinct from pipe projection",
+    "Restore110unclipped contact source, reclip to new occluders, then reapply225removed-sill-contact cleanup only"
+  ],
+  "fixed": [
+    "Native-size architectural and service components",
+    "Camera and landmark70percent scale",
+    "221haze",
+    "222gates/recesses",
+    "223dust",
+    "224soil",
+    "225open thresholds and lowered tunnel floors",
+    "217selectedpixelcharacters"
+  ],
+  "supersedes": "215strict landmark-exposure preservation: user now explicitly wants more first-arcade occlusion",
+  "review_criteria": [
+    "Marked pair roof elevations approach magenta target tops",
+    "Far facade inner edges approach green footprints; pipes may project farther inward",
+    "All added courses supported; seated roof bands retained",
+    "No old landmark ink floats across newly occluding buildings",
+    "Selected foreground systems unchanged"
+  ],
+  "status": "Complete for user review: native4K, root/independent review and comparison UI verified",
+  "user_approved": false
+}

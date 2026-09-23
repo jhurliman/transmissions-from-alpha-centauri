@@ -1,0 +1,37 @@
+{
+  "source": "132 selected corrected full-city 5x haze over131 architecture",
+  "user_authorized_changes": [
+    "Cloud fine contour detail and subtle internal layering",
+    "Destroyed structural bridge between alley and far city",
+    "Missing cladding prefab exposing pipes and cables",
+    "Severe localized wall damage; rusted Y support and ledge",
+    "Black ink on actual arch crown joint interiors; preserve notch geometry"
+  ],
+  "reference_ids": [
+    "UCL-01",
+    "UC-01",
+    "DP-03"
+  ],
+  "hypothesis": "Reference-guided, separate component studies can improve the remaining low-detail transitions and flat surfaces while preserving accepted composition.",
+  "fixed": [
+    "Camera",
+    "Sky gradient",
+    "Far city original layout and brush density",
+    "Main road clearance",
+    "Existing service dimensions and routes except new exposed prefab",
+    "Coliseum architecture and surface treatment except black center joints"
+  ],
+  "integration_policy": "Keep independent outputs until rendered evidence is inspected; haze variations remain separate pending user selection.",
+  "status": "Integrated native 4K scene and review133 delivered for review; no final lock",
+  "known_remaining_work": [
+    "Transition ruin faces need higher-frequency fracture and surface detail after composition review",
+    "Cloud edge perturbation could be more selectively distributed",
+    "Rust intensity remains tunable; new damage prefab is one localized instance"
+  ],
+  "final_assets": {
+    "scene": "art/studies/scene-details-133/scene.blend",
+    "render": "art/studies/scene-details-133/main-4k.png",
+    "prefabs": "art/studies/scene-details-133/prefabs.blend",
+    "review": "prototype/review-133.html"
+  }
+}

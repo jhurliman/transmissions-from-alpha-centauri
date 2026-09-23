@@ -1,0 +1,55 @@
+{
+  "references": [
+    "DP-08",
+    "UP-01",
+    "UP-03"
+  ],
+  "reference_properties": {
+    "DP-08": "overlapping depth layers and clustered low infrastructure debris",
+    "UP-01": "industrial hollow geometry silhouettes",
+    "UP-03": "varied metal surface families within composed assemblies"
+  },
+  "hypothesis": "Irregular volumetric mineral fragments mixed with reused bent scrap can replace the old flat triangular islands and form a continuous but navigable depth transition.",
+  "fixed": [
+    "approved near geometry",
+    "075 camera",
+    "alley architecture",
+    "six-to-one landmark gap"
+  ],
+  "changed": [
+    "hide legacy collapsed rubble polygons",
+    "eight diminishing-density depth bands of low debris",
+    "sparse connecting chips",
+    "distant specular suppression to remove flare patches",
+    "alternating low rubble tongues interrupt overly clean straight passage"
+  ],
+  "review_criteria": [
+    "no broad flat polygon islands",
+    "low intricate clustered silhouettes",
+    "visible ground between groups",
+    "depth corridor preserved",
+    "restrained palette variation"
+  ],
+  "status": "native main and matched crop inspected; integration ready; user review pending",
+  "detail_followup": {
+    "hypothesis": "Crossed channels and jagged projecting sheets create reference-like intersecting silhouettes without increasing rock count.",
+    "fixed": [
+      "base077 placements",
+      "approved near scrap",
+      "camera"
+    ],
+    "changed": [
+      "six structural groups at depths32\u201361",
+      "torn channel webs and flanges",
+      "three hollow pipe remnants",
+      "larger ragged sheets"
+    ],
+    "review_criteria": [
+      "recognizable structural debris at main camera",
+      "crossed silhouettes rather than tidy rocks",
+      "no picket-fence or identical-height repetition",
+      "preserve passable corridor"
+    ],
+    "status": "second native main and matched crop inspected; retain for078 integration"
+  }
+}

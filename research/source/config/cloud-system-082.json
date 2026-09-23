@@ -1,0 +1,75 @@
+{
+  "references": [
+    "UC-01",
+    "UC-02",
+    "DP-08"
+  ],
+  "hypothesis": "Billowing mass hierarchies with narrow tails and local underside shadows convey volume; authored bank groups frame the sun and alley opening.",
+  "seed": 80021,
+  "contour_frequency": 18,
+  "per_cloud_frequency_jitter": 0.14,
+  "inset_frequency_ratio": 0.42,
+  "large_cloud_inset_threshold": 0.03,
+  "rare_color_chance": 0.1,
+  "outer_color": "#d05b42",
+  "inner_color": "#bc4835",
+  "fixed": [
+    "camera",
+    "all architecture",
+    "sky gradient",
+    "sun",
+    "non-camera lighting"
+  ],
+  "variation_policy": "Seeded per-cloud frequencies establish coherent painted shape variation. World-depth projection handles apparent scale; no distance-driven jitter or texture LOD.",
+  "review_criteria": [
+    "connected horizontal banks",
+    "rounded lobes not cotton ellipses",
+    "flatter lower edge",
+    "broad sky gaps",
+    "insets always lower-frequency than outer contours",
+    "subtle paired palette"
+  ],
+  "macro_body_count": 4,
+  "vertical_scale": 1.0,
+  "description": "Cloud082 volume and authored framing study; native multi-mass contour geometry and local underside shadow motifs.",
+  "shadow_coverage_target": [
+    0.2,
+    0.4
+  ],
+  "target_score": 95,
+  "native_volume": true,
+  "ellipsoid_union": true,
+  "hero_only": true,
+  "pipeline": "Editable native ellipsoid union -> native illumination and alpha passes -> spatially grouped flat pigment assets -> distant camera-only cloud plates",
+  "flatten": {
+    "shadow_area_target": 0.23,
+    "illumination_smoothing_pixels": 8,
+    "shadow_boundary_smoothing_pixels": 2.5,
+    "palette_srgb": {
+      "body": [
+        204,
+        83,
+        62
+      ],
+      "shadow": [
+        198,
+        79,
+        61
+      ],
+      "light": [
+        210,
+        88,
+        64
+      ]
+    },
+    "preserve_native_alpha": true,
+    "final_pipeline_green_blue_offset": -21
+  },
+  "composition": {
+    "base": "art/studies/soil-081/selected-scene.blend",
+    "placement_space": "authored main-frame anchors converted to distant world-space planes",
+    "preserve_world_sun_lighting": true
+  },
+  "status": "creator-critic iteration; not approved",
+  "selected_morphology": "morph3 arch, shoulder, original right wisp and stepped left wisp2"
+}

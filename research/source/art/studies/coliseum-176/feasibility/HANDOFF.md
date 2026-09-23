@@ -1,0 +1,7 @@
+#176 feasibility: held, no carve
+
+The one-pixel first-hit audit records4,342 upper-target pixels in a110×78px box. The narrower unprotected subset is110×71px. All1,097 solid-depth rays have even entry/exit counts. Two analytical radial removals expose only about96×64px, split into multiple components; the largest new-core component is roughly30×44px. Greater depth removes more visible body instead of establishing one broad return. No native candidate was made, no primary scene changed, and no GPU render ran.
+
+This holds the tested cut family, not the whole authorized damage direction. Numerical floors, the entire r≤70 rear surface, exact angular peak mask and120–160px goal came from conservative study choices. The user accepted the architectural system and pose and authorized damage; the150 plan explicitly permits local fractured-skin erosion and considers a110px event potentially meaningful. A separate reversible upper-return study could protect actual bearing/peak faces rather than every rear vertex. Its current four-target breadth ceiling remains110px. See protection-provenance.json for the conditional scope and reject conditions; do not silently relax176 or treat an analytical overlay as a visual success.
+
+Evidence: ownership-rays.json, depth-rays.json, feasibility-review.json, visibility-bound-comparison.png.174 remains an isolated tested two-face repair; replay it onto the retained scene instead of adopting its168-based proof scene.

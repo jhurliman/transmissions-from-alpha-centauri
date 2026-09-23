@@ -1,0 +1,37 @@
+{
+  "references": [
+    {
+      "id": "US-01",
+      "property": "brown pigment palette and fine ground marks"
+    },
+    {
+      "id": "US-02",
+      "property": "crack/soil detail hierarchy"
+    },
+    {
+      "id": "DP-08",
+      "property": "painted ground integration"
+    },
+    {
+      "url": "https://i.pinimg.com/736x/7a/1b/a0/7a1ba0a794a785078f58dcdf72b4e45e.jpg",
+      "property": "user-supplied Totoro still: contiguous light/shadow washes and directional broken brush marks"
+    }
+  ],
+  "hypothesis": "Filtering approved relief into wider tonal guidance and layering explicit pigment strokes removes uniform computer-rendered microshading without changing soil geometry.",
+  "fixed": [
+    "soil089 mesh",
+    "120 approved road rocks and materials",
+    "buildings",
+    "sky",
+    "scrap"
+  ],
+  "changed": [
+    "bank rock contact transforms",
+    "road surface material only"
+  ],
+  "variants": {
+    "A": "quiet wash, subdued strokes",
+    "B": "stronger contiguous pigment strokes"
+  },
+  "status": "rendered A/B candidates, pending user selection"
+}

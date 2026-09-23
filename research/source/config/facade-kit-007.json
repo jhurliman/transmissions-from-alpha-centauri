@@ -1,0 +1,35 @@
+{
+  "id": "facade-kit-007",
+  "status": "native geometry proofs",
+  "hypothesis": "Layered bays with shared cross-sections, actual opening depth and explicit panel terminations will close the medium-scale architectural fidelity gap.",
+  "reference_properties": {
+    "DP-04": "Density concentrated at functional junctions and machinery interfaces",
+    "HM-03": "Layered painted urban facade construction",
+    "AF-06": "Controlled architectural planes and strong graphic perspective"
+  },
+  "selected_target": "art/reviews/xenon-001/selected-third.png",
+  "changed": [
+    "User correction: kick panel slopes outwards 15 degrees from vertical",
+    "Top tucked under window; bottom projects 0.139 meters over 0.52 meter height",
+    "Native folded lip and wedge side closures"
+  ],
+  "fixed": [
+    "Window design and three variants",
+    "Proof camera, lighting, and finishes",
+    "Whole alley baseline"
+  ],
+  "next_proofs": [
+    "Layered panel corner",
+    "Complete window bay"
+  ],
+  "review_axes": [
+    "Silhouette and proportions",
+    "Depth and layering",
+    "Panel and opening rhythm",
+    "Joint and edge construction",
+    "Detail density at game scale",
+    "Component compatibility"
+  ],
+  "approval": "Not submitted as finished geometry",
+  "authoritative_window_reference": "art/components/facades/study-001/user-window-closeup.png"
+}

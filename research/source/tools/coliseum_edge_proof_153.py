@@ -1,0 +1,7 @@
+import bpy,sys,json,time,hashlib
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];sys.path.insert(0,str(R/'tools'));O=R/'art/studies/coliseum-153/material';O.mkdir(exist_ok=True,parents=True)
+from coliseum_edge_material_153 import apply
+bpy.ops.wm.open_mainfile(filepath=str(R/'art/studies/coliseum-152/scene.blend'));s=bpy.context.scene;s.render.use_compositing=False;s.render.use_freestyle=False;s.render.resolution_x=3840;s.render.resolution_y=2885;s.render.resolution_percentage=100;s.render.threads_mode='FIXED';s.render.threads=3;s.render.use_border=True;s.render.use_crop_to_border=True;s.render.border_min_x=1725/3840;s.render.border_max_x=2330/3840;s.render.border_min_y=1-960/2885;s.render.border_max_y=1-560/2885
+state={o.name:(o.data.as_pointer()if o.data else 0,tuple(tuple(r)for r in o.matrix_world),o.hide_render)for o in s.objects}
+s.render.filepath=str(O/'before.png');bpy.ops.render.render(write_still=True);t=time.time();d=apply(s);d['generation_seconds']=time.time()-t;d['object_geometry_transform_visibility_changes']=[o.name for o in s.objects if state.get(o.name)!=(o.data.as_pointer()if o.data else 0,tuple(tuple(r)for r in o.matrix_world),o.hide_render)];d['proof']='Matched4K native crop with Freestyle/compositor disabled; existing native contact, rim and joint ink retained.';d['crop']=[1725,560,2330,960];(O/'audit.json').write_text(json.dumps(d,indent=2));bpy.ops.wm.save_as_mainfile(filepath=str(O/'study.blend'));s.render.filepath=str(O/'after.png');bpy.ops.render.render(write_still=True)

@@ -1,0 +1,24 @@
+{
+  "references": [
+    "DP-08",
+    "UP-01",
+    "UP-03"
+  ],
+  "property": "Long contiguous native reflected highlight strips on corners, quieter broad metal faces",
+  "baseline": "077",
+  "fixed": [
+    "geometry",
+    "body palette",
+    "camera",
+    "all other systems"
+  ],
+  "changed": [
+    "near-body spec strength",
+    "rim spec noise continuity"
+  ],
+  "review_criteria": [
+    "connected edge highlights",
+    "less broad-face mottling",
+    "preserved warm body palette"
+  ]
+}

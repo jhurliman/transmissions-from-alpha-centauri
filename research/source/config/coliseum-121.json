@@ -1,0 +1,29 @@
+{
+  "source": "art/studies/coliseum-120/scene.blend",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-02",
+    "UCL-03",
+    "DP-03"
+  ],
+  "hypothesis": "Recessed upper wall and tower architecture with connected local weathering addresses broad low-fidelity surfaces more effectively than blanket grain",
+  "variables": [
+    "unequal shallow wall fields and limited niches",
+    "tall tower inset channels",
+    "subdued recess-connected deposits",
+    "user: archlightfrontquarter, darkrearthreequarters",
+    "user: corniceblockpalette midpoint between outward and downward faces"
+  ],
+  "fixed": [
+    "camera and accepted silhouette/tilt",
+    "120 arch depth colors and tapered cornice blocks",
+    "all locked nonlandmark systems"
+  ],
+  "status": "parallel studies",
+  "review": [
+    "clay and4K main-camera comparisons",
+    "preserved geometry outside cuts",
+    "no floating features",
+    "independent axis scoring"
+  ]
+}

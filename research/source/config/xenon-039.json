@@ -1,0 +1,19 @@
+{
+  "iteration": "039",
+  "reference_ids": [
+    "DP-08",
+    "HM-03",
+    "AF-06"
+  ],
+  "hypothesis": "Shared building-space coating masks create large warm/cool patches that cross component seams, with finer noise restricted to the transition silhouette.",
+  "changed": [
+    "Front-left coating materials only"
+  ],
+  "fixed": [
+    "All geometry",
+    "Camera",
+    "Lighting",
+    "Other building finishes"
+  ],
+  "user_direction": "Right side geometry pretty good after this removal."
+}

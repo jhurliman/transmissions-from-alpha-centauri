@@ -1,0 +1,29 @@
+{
+  "iteration": "xenon-003",
+  "status": "rendered, visual review recorded",
+  "reference_ids": [
+    "DP-04",
+    "DP-05",
+    "HM-03",
+    "AF-06"
+  ],
+  "selected_target": "art/reviews/xenon-001/selected-third.png",
+  "hypothesis": "Broken architectural outlines, open dome ribs and composed rubble groups will better match the selected illustration while preserving the established camera and figure placement.",
+  "fixed_variables": [
+    "camera",
+    "figure position",
+    "4:3 framing"
+  ],
+  "changed_variables": [
+    "architectural silhouettes",
+    "dome shell and ribs",
+    "rubble composition",
+    "structural color planes",
+    "three-value form shading",
+    "contact occlusion",
+    "geometry-derived contour lines"
+  ],
+  "reviewer_decision": null,
+  "latest_scene": "art/reviews/xenon-003/xenon-refinement-shaded.blend",
+  "latest_render": "art/reviews/xenon-003/refinement-shaded.png"
+}

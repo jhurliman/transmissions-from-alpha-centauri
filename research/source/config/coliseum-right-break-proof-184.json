@@ -1,0 +1,31 @@
+{
+  "source": "art/studies/coliseum-173/scene.blend",
+  "references": {
+    "UCL-01": "Unequal attached broken courses and readable retained mass",
+    "UCL-02": "Exposed core/return plane hierarchy",
+    "DP-03": "Detailed structure subordinate to coherent large planes"
+  },
+  "hypothesis": "The contested right-cornice knot may result from several genuine short course ends competing in projection; neutral matched views distinguish shape from pigment and explicit ink.",
+  "crop": [
+    2080,
+    545,
+    2310,
+    775
+  ],
+  "fixed": [
+    "Camera",
+    "Geometry and normals",
+    "Actual lights and haze",
+    "Saved materials and retained scene",
+    "No art mutation"
+  ],
+  "changed_for_diagnosis": [
+    "Temporary explicit-ink visibility",
+    "Temporary neutral material on landmark solid surfaces only"
+  ],
+  "criteria": [
+    "Identify meaningful course-end silhouette/interior plane roles before any simplification",
+    "Never treat physical dark contacts or mesh edge counts alone as false ink",
+    "Preserve true black architectural joints in final art"
+  ]
+}

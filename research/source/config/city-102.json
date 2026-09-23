@@ -1,0 +1,45 @@
+{
+  "references": [
+    {
+      "id": "UX-03",
+      "property": "Quiet facade coverage, sparse irregular painted marks, selective edge highlights"
+    },
+    {
+      "id": "UX-01",
+      "property": "User-selected 101 A layout, individual silhouette and base palette"
+    },
+    {
+      "id": "DP-03",
+      "property": "Urban mass hierarchy and restrained surface detail"
+    },
+    {
+      "id": "HM-14",
+      "property": "Atmospheric separation"
+    }
+  ],
+  "hypothesis": "Removing repeated miniature window grids and concentrating detail into sparse pigment scars and light-responsive chamfers restores painted distant-building character.",
+  "base": "art/studies/city-101/A/scene.blend",
+  "fixed": [
+    "101 A mass positions, dimensions, measured crowns and base palette",
+    "camera",
+    "near alley",
+    "099 foundation rocks",
+    "097 dark soil and road stones",
+    "sky",
+    "landmark"
+  ],
+  "variables": [
+    "far facade detail density",
+    "sparse surface accents",
+    "corner and ledge highlight response"
+  ],
+  "status": "Facade direction accepted by user; final placement cleanup in103",
+  "review_criteria": [
+    "Mostly smooth facade interiors",
+    "Sparse non-grid marks visible at game camera",
+    "Selective highlights without luminous outlining",
+    "Preserved silhouette and approved foreground"
+  ],
+  "review": "art/studies/city-102/review.json",
+  "selected_layout": "101 A, user approved"
+}

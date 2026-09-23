@@ -1,0 +1,45 @@
+{
+  "hypothesis": "Native-size accepted facade and service components assembled into shorter staggered buildings can continue the alley language while preserving the selected21070 landmark exposure.",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "low irregular ruins frame rather than cover landmark arcades"
+    },
+    {
+      "id": "DP-08",
+      "property": "assembled panel bays, ledges, wall returns and complete service destinations"
+    },
+    {
+      "id": "UP-03",
+      "property": "retain accepted nuanced material interiors and joint weathering"
+    }
+  ],
+  "source": "art/studies/colosseum-scale-210/70/scene.blend",
+  "variants": [
+    "low service house with complete wall-entry pipe",
+    "stepped facade bays with unequal roof heights",
+    "low gallery with deep native window bays"
+  ],
+  "fixed": [
+    "selected70%scale landmark transform",
+    "nearalley geometry/services",
+    "road and rubble",
+    "camera",
+    "haze/sky",
+    "accepted source material graphs"
+  ],
+  "changes": [
+    "oldcity family replaced with shorter accepted-component assemblies",
+    "14private213floorbindings if absent",
+    "dedicated landmarkGP restored then reclipped to actual newforeground"
+  ],
+  "review_criteria": [
+    "baseline-visible landmark samples retained in left/center/right and low/mid/high bands",
+    "no whole-object vertical squashing",
+    "native complete pipe endpoints",
+    "actual camera proof shows coherent materials and clear route",
+    "no floating contact ink"
+  ],
+  "status": "CPUcandidate ready; root218 owns integrated native proof",
+  "measured_exposure": "4875/4875 baselinevisible landmark samples retained in all11populatedregions; fullframebounds crosscheck passes"
+}

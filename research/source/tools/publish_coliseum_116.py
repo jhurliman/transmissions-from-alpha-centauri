@@ -1,0 +1,13 @@
+from pathlib import Path
+from PIL import Image
+import json
+R=Path(__file__).resolve().parents[1];O=R/'art/studies/coliseum-116'
+for label,src in [('before',R/'art/studies/coliseum-115/E/main-4k.png'),('after',O/'main-4k.png')]:
+ im=Image.open(src);im.crop((1400,350,2510,1140)).save(O/(label+'-detail.png'));im.convert('L').resize((1440,1082)).save(O/(label+'-gray.png'))
+style='body{background:#19191e;color:#eee7df;font:17px/1.55 system-ui;max-width:1440px;margin:32px auto;padding:0 22px}a{color:#efbc91}img{width:100%;display:block}figure{margin:28px 0}figcaption{color:#c5bbc4;padding:8px 0}section{margin:40px 0}'
+s=f'<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>116 · Coliseum painted detail</title><style>{style}</style><h1>116 · Coliseum painted detail</h1><p>Approved E structure with a 4° turn, retaining its curved frontage. Stronger architectural shadows, selective warm ledge catches and connected weathering give the masonry more depth.</p><p><a href="#detail">Before / after</a> · <a href="#reference">Reference</a> · <a href="#kit">Editable bay</a> · <a href="/art/studies/coliseum-116/main-4k.png">4K render</a> · <a href="/art/studies/coliseum-116/scene.blend">Editable scene</a></p><img src="/art/studies/coliseum-116/main.png">'
+s+='<section id="detail"><h2>Before · 115 E</h2><img src="/art/studies/coliseum-116/before-detail.png"><h2>116 · Rotation and painted lighting</h2><img src="/art/studies/coliseum-116/after-detail.png"></section><section id="reference"><h2>Selected reference · UCL-01</h2><img src="/references/user-coliseum/structure-crop.png"><p>User supplied; original artwork by the project creator using ChatGPT Images 2.5. Original project artwork. Construction beyond its resolution is inferred.</p></section>'
+if (O/'kit.png').exists():s+='<section id="kit"><h2>Editable architectural bay</h2><a href="/art/studies/coliseum-116/kit.blend">Native bay kit</a> · <a href="/art/studies/coliseum-116/linked/scene.blend">Scene with shared editable components</a><img src="/art/studies/coliseum-116/kit.png"></section>'
+s+='<details><summary>Untextured structure proofs</summary><img src="/art/studies/coliseum-116/main-clay.png"><img src="/art/studies/coliseum-116/kit-clay.png"></details>'
+s+='<details><summary>Grayscale comparison</summary><img src="/art/studies/coliseum-116/before-gray.png"><img src="/art/studies/coliseum-116/after-gray.png"></details><p>The camera, haze, surrounding geometry and materials remain fixed. This finer-detail pass awaits final user acceptance; the centerpiece is not marked locked.</p></html>'
+(R/'prototype/review-116.html').write_text(s);(R/'prototype/index.html').write_text(s)

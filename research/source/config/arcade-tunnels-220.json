@@ -1,0 +1,38 @@
+{
+  "reference_ids": [
+    "UCL-01",
+    "UCL-19",
+    "UCL-23",
+    "DP-03"
+  ],
+  "hypothesis": "Consistent deep descending barrel vaults across every ground-floor opening block sky views while maintaining native stone-depth and arch silhouette.",
+  "visual_properties": [
+    "UCL warm stone and violet recesses",
+    "UCL23 continuous native inner arch boundary",
+    "DP03 functional deep architectural connections"
+  ],
+  "changed_variables": [
+    "Replace two130horizontal-bend tunnels with18ground-arcade tunnels",
+    "Each30worldmetres straight inward then45degrees down for30worldmetres; open outlets"
+  ],
+  "fixed": [
+    "Selected70scale",
+    "Facade and thresholds",
+    "All architecture, weathering, atmosphere, camera, nativeinkpasses, pixelcharacters"
+  ],
+  "review_criteria": [
+    "All18native rear portal rims fitted exactly",
+    "Worldmetre centerline lengths and21.213m drop",
+    "Manifoldsolid shell, continuousmiter, endsopen",
+    "No facade mutation",
+    "Inventoryneighbor intersections honestly",
+    "Actualnativewholecamera plus representative cutaway"
+  ],
+  "status": "CPUcandidate",
+  "construction_notes": [
+    "Route direction follows actual native front-to-back arch reveal axis, not the distorted ellipse surface normal.",
+    "First10m aligns oblique mouths to normal section withpositiveadvance for every wall/roof/floor vertex; centerline remainsstraight.",
+    "Onlyold130tunnel objects hidden; no separate thirdopeningblocker exists.",
+    "The existing110externalGP clipper excludes bothold/newlandmark tunnels; noexternaloccluderschanged."
+  ]
+}

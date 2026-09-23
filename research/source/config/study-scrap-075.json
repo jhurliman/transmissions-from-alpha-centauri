@@ -1,0 +1,35 @@
+{
+  "references": [
+    "DP-08",
+    "UP-01",
+    "UP-03"
+  ],
+  "reference_properties": {
+    "DP-08": "nested scrap silhouettes and grouped muted material masses",
+    "UP-01": "worn metal rims and selective highlights",
+    "UP-03": "connected multi-scale metal surface treatment"
+  },
+  "hypothesis": "Folded thin-shell objects and hollow casings create a readable junk pile more effectively than repeated solid rock shards.",
+  "changed": [
+    "foreground scrap kit and clustering",
+    "end rubble scrap mixture",
+    "stamped ribs and fastener remnants",
+    "flanged circular mouth anchors",
+    "physical reflective bevel rims",
+    "accepted service-metal shader reuse"
+  ],
+  "fixed": [
+    "074 architecture",
+    "074 camera",
+    "074 palettes",
+    "ground datum"
+  ],
+  "review_criteria": [
+    "recognizable folded shell thickness",
+    "unified near palette",
+    "selective worn highlights",
+    "open end-pile channels",
+    "absence of uniform rock repetition"
+  ],
+  "status": "Native candidate creator reviewed; user review pending"
+}

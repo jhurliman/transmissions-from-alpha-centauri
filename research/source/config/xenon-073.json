@@ -1,0 +1,28 @@
+{
+  "references": [
+    "UP-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "hypothesis": "Closed window reveals, complete soffit returns and explicit joints make assemblies read as constructed parts.",
+  "changed": [
+    "soffit projection",
+    "kick side closures",
+    "bolted wall shoes",
+    "rusty access sheet",
+    "trim end collars",
+    "restore 071 glazing"
+  ],
+  "fixed": [
+    "camera",
+    "layout",
+    "crack 55-100 finish"
+  ],
+  "review_criteria": [
+    "No black kick triangles",
+    "Soffit meets outer trim",
+    "Visible fastening hardware",
+    "Crisp trim terminations",
+    "Independent service-panel metal"
+  ]
+}

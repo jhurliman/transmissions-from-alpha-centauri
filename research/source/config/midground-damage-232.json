@@ -1,0 +1,37 @@
+{
+  "iteration": 232,
+  "source": "art/studies/midground-arches-231/scene.blend",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Heavy architectural fracture and cohesive worn ruin surfaces"
+    },
+    {
+      "id": "DP-08",
+      "property": "Purposeful varied infrastructure routes"
+    },
+    {
+      "id": "RS-01",
+      "property": "Weathered metal equipment"
+    }
+  ],
+  "hypothesis": "Sharper structured wall damage, continued trim fractures, varied arch damage and shorter roof units with unequal services address remaining repetition and softweathering.",
+  "changed_variables": [
+    "Condenser height 75%, fittings follow",
+    "Varied supported roof ducts and pipes",
+    "Defined large broken-wall erosion with balanced surface scuffs",
+    "Crown trim crack continuation and three upper arch fractures",
+    "Pyramid base dimensions two-thirds; height preserved",
+    "First-level wraparound ornament ink suppressed",
+    "Regular aligned window groups of two or three; distinct broken-pane patterns",
+    "Two projecting pipe routes replaced with close-fitting alternatives"
+  ],
+  "fixed": [
+    "230 building layout",
+    "Accepted 229 garage and passage",
+    "Camera, landmark scale, characters, haze and sun"
+  ],
+  "status": "Native 4K rendered and visually reviewed; ready for user review",
+  "review": "prototype/review-232.html",
+  "user_approved": false
+}

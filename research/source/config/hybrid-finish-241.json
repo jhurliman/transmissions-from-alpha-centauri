@@ -1,0 +1,34 @@
+{
+  "iteration": 241,
+  "source": "art/studies/hybrid-atmosphere-240/scene.blend",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Warm atmospheric depth, layered architectural contours"
+    },
+    {
+      "id": "UCL-02",
+      "property": "Selective distant detail loss"
+    },
+    {
+      "id": "DP-03",
+      "property": "Near rubble silhouette readability"
+    }
+  ],
+  "hypothesis": "Remove neon highlight artifacts, connect near ruin outlines to rubble, and refine accepted fog without changing accepted palettes. Native end caps test stray tunnel light.",
+  "changes": [
+    "targeted yellow-green highlight correction",
+    "thick native contours on nearest two ruined buildings only",
+    "fog density and radiance times0.9, new noise offsets",
+    "solid tunnel terminal caps"
+  ],
+  "fixed": [
+    "camera",
+    "visible sun",
+    "hybrid light direction",
+    "accepted left blue palette",
+    "character pixels",
+    "road texture"
+  ],
+  "approved": false
+}

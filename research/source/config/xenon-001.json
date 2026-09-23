@@ -1,0 +1,34 @@
+{
+  "iteration": "xenon-001",
+  "status": "direction C selected by user",
+  "scene": null,
+  "reference_ids": [
+    "DP-04",
+    "DP-05",
+    "HM-03",
+    "AF-06"
+  ],
+  "hypothesis": "Reconstruct an authored adventure composition before adding material detail.",
+  "original_screen": "SQIV CD DOS: first playable Xenon street after the time portal; capture exact edition before camera lock",
+  "aspect_ratio": "4:3",
+  "reviewer_decision": "User: third one (C?) is a pretty solid win",
+  "stages": [
+    "original-screen study",
+    "three composition/value thumbnails",
+    "chosen thumbnail to Blender camera blockout",
+    "illustrated material and paint pass",
+    "visual comparison and revision"
+  ],
+  "selected_study": "art/reviews/xenon-001/selected-third.png",
+  "approval_scope": "Visual direction selection; not final asset or engine compatibility approval",
+  "next_stage": "Blender camera and geometry blockout against selected C study",
+  "preserve": [
+    "Broad graphic shadow shapes",
+    "Orange-red sky and muted violet architecture",
+    "Open readable street",
+    "Foreground rubble framing",
+    "Selective detail and strong Roger silhouette"
+  ],
+  "selected_target": "art/reviews/xenon-001/selected-third.png",
+  "selection_correction": "User chose third image in completion/display order, whose original internal filename is B-industrial.png. Use selected-third.png as authoritative target; prior C-graphic selection was a labeling error."
+}

@@ -1,0 +1,21 @@
+{
+  "iteration": "040",
+  "reference_ids": [
+    "DP-08",
+    "HM-03",
+    "AF-06"
+  ],
+  "hypothesis": "Reduce uniform fine noise and add localized coarse angular boundary losses plus sparse nearby chips while retaining the accepted large patch field.",
+  "changed": [
+    "Front-left coating boundary hierarchy"
+  ],
+  "fixed": [
+    "Broad patch field",
+    "Coating palette",
+    "Geometry",
+    "Camera",
+    "Lighting",
+    "Other materials"
+  ],
+  "user_direction": "Right side geometry pretty good after this removal."
+}

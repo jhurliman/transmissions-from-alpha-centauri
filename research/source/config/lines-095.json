@@ -1,0 +1,24 @@
+{
+  "references": [
+    {
+      "id": "DP-08",
+      "property": "selective contact linework"
+    },
+    {
+      "id": "US-02",
+      "property": "soil/solid boundary contrast"
+    },
+    {
+      "id": "UR-01",
+      "property": "dark object-to-ground contact"
+    }
+  ],
+  "fixed": [
+    "094C soil and rock systems",
+    "all architecture geometry and palettes"
+  ],
+  "hypothesis": "An intersection-only line-art pass complements Freestyle mesh edges at physical object contacts.",
+  "scope": "Compare structural intersection ink with expanded small-rock contact ink and separate geometric-weathering boundary ink; user explicitly requests testing detail ink.",
+  "status": "native structural and expanded detail comparisons; pending user selection",
+  "review": "art/studies/lines-095/review.json"
+}

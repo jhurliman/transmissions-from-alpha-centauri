@@ -1,0 +1,10 @@
+{
+ "study":232,
+ "source":"art/studies/midground-arches-231/scene.blend",
+ "references":[{"id":"DP-08","property":"Deliberate varied rooftop utility routes and distinct primary/secondary pipe scale"},{"id":"DP-04","property":"Asymmetric compact service groupings with explicit mechanical supports"},{"id":"HM-03","property":"Selective varied roofline silhouettes separated by quiet areas"}],
+ "hypothesis":"Lower condenser cabinets and unequal supported rooftop services replace the repeated single-box silhouette with architectural variety.",
+ "changed_variables":["Condenser cabinet75% original height above same base, with fan/louver/service adjustment","Per-building native box vents, L ducts, bent pipes, occasional unequal capped twin stacks"],
+ "fixed":["Roof slabs","Ladder placement","Windows and doors","Facade structure","Far building positions","Camera and environment","Foreground and characters"],
+ "review_criteria":["Cabinet fans and louvers remain fitted","Roof services seated and connected","No identical layout on every roof","No accidental open spools","Native geometry reads at actual scene camera"],
+ "status":"CPU candidate; parent combined render pending"
+}

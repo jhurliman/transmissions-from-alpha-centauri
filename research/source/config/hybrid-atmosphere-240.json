@@ -1,0 +1,35 @@
+{
+  "iteration": 240,
+  "source": "road-characters-239",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Cool alley framing and dense textured lower-arcade atmosphere"
+    },
+    {
+      "id": "UCL-02",
+      "property": "Selective atmospheric loss of detail"
+    },
+    {
+      "id": "DP-03",
+      "property": "Readable foreground rubble color and directionallighting"
+    }
+  ],
+  "requested": [
+    "Previous light on nearjunk and allrocks; new light elsewhere",
+    "Gentle middlepilelift",
+    "Morefogvariance toflatten lowerarcade withoutwhitewash",
+    "Restore237roadpattern, reject239smearing",
+    "Restoreleftbluepalette keepingnewSUN"
+  ],
+  "fixed": [
+    "Visible finalSUN",
+    "exactcharacters",
+    "geometry",
+    "sky",
+    "rightwarmfacadepalette"
+  ],
+  "user_approved": false,
+  "render_shadow_pool_mb": 1024,
+  "rejected239roadtreatment": "Nine-tap texture average and broadfieldreplacement removed"
+}

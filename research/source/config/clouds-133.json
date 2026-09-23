@@ -1,0 +1,42 @@
+{
+  "seed": 133042,
+  "references": [
+    "UC-01",
+    "UC-04",
+    "DP-08"
+  ],
+  "primary_reference": "UC-04",
+  "hypothesis": "Retain approved native cloud mass and placement while replacing low-frequency scallops/cel bands with hierarchical ragged edges and subtle overlapping pigment veils.",
+  "fixed": [
+    "camera",
+    "cloud plate placements/scales",
+    "sky gradient and sun",
+    "all noncloud objects"
+  ],
+  "changed": [
+    "native-derived opacity edge field",
+    "native-derived continuous interior pigment field"
+  ],
+  "source": "art/studies/cloud-082/assets/*-pigment.png; original native metaball-derived assets only",
+  "reference_findings": [
+    "Contour mixes large billows with much smaller uneven interruptions and wisps.",
+    "Interior transitions are softly layered and lower contrast than current large cel bands.",
+    "Keep broad calm regions; do not cover clouds with uniform grain."
+  ],
+  "upscale": 3,
+  "edge_amplitude_source_pixels": [
+    2.1,
+    1.0,
+    0.45
+  ],
+  "interior_contrast": 0.62,
+  "review_criteria": [
+    "massing and centroids stable",
+    "fine detail visible at locked camera",
+    "no reference raster used",
+    "sky untouched",
+    "subtle painterly layers, not smooth CG or grain"
+  ],
+  "revision": 2,
+  "edge_bounds_taper_source_pixels": 8
+}

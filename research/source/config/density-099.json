@@ -1,0 +1,32 @@
+{
+  "references": [
+    {
+      "id": "DP-08",
+      "property": "dense foundation debris and receding infrastructure"
+    },
+    {
+      "id": "DP-01",
+      "property": "layered skyline silhouettes"
+    },
+    {
+      "id": "HM-01",
+      "property": "distant city massing and scale"
+    }
+  ],
+  "hypothesis": "Double larger foundation pieces and increase visible slender skyline silhouettes; narrow the distant corridor to one-third to deepen the mountain-scale landmark impression.",
+  "fixed": [
+    "097 dark road and120 stones",
+    "sky084",
+    "alley architecture074",
+    "landmark geometry and camera",
+    "accepted rock and far-city materials"
+  ],
+  "variables": [
+    "additional foundation rocks",
+    "far tower density and depth placement",
+    "distant corridor width"
+  ],
+  "status": "ready for review",
+  "scene": "art/studies/density-099/scene.blend",
+  "review": "art/studies/density-099/review.json"
+}

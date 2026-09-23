@@ -1,0 +1,42 @@
+{
+  "source": "art/studies/coliseum-152/scene.blend",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-02",
+    "DP-03"
+  ],
+  "hypothesis": "A meaningful central crown return combined with clearer cornice material and correctly placed spandrel age improves damaged-wall readability at the full camera.",
+  "changed_variables": [
+    "154V2 connected central-crown subtraction with retained L ridge and two differently oriented core planes",
+    "153V3 finite attenuation of final dark pigment factors",
+    "155 relocation of one existing primary age lobe onto actual lit spandrel",
+    "Conservative cleanup of14exactzero-area faces on5otherobjects, with identical visible triangles/normals/materials",
+    "Additional scoped native depth guard removes only proven hidden joist/fascia/rubble strokes; preserves all native scene geometry/materials and ink widths"
+  ],
+  "fixed": [
+    "Accepted architectural layout, openings, framing, lighting and camera",
+    "151 primary crown event and existing152 material fields except the single155 lobe",
+    "True dark cornice returns, AO and all approved ink",
+    "All current alley systems including3x bottom splatter, ground, services, sky and city"
+  ],
+  "criteria": [
+    "Actual retained wall thickness visible in native and1800 display views",
+    "No new unsupported molding, rock-like mass or material label",
+    "Cornice planes separate from true recesses without bleaching",
+    "Most lit masonry remains quiet and age is unequal",
+    "Whole independent six-axis review with no automatic score gains",
+    "Native preservation and outside-landmark rendered comparisons"
+  ],
+  "status": "Working156 candidate retained after full independent coliseum review and native foreground visibility correction; four axes remain below95.",
+  "user_approved": false,
+  "all_axes_at_least95": false,
+  "scores": {
+    "silhouette_scale": 95,
+    "structural_depth": 95,
+    "damage_plausibility": 92,
+    "surface_richness": 93,
+    "painted_integration": 93,
+    "linework": 94
+  },
+  "raster_preservation": "No bit identity claimed. Corrected hidden-edge strokes and small residual shading differences documented inregression/correction-review.json."
+}

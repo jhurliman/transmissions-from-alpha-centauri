@@ -1,0 +1,61 @@
+{
+  "iteration": 218,
+  "status": "complete-for-user-review",
+  "hypothesis": "Shorter varied native alley components preserve the selected enlarged landmark opening while carrying the foreground architecture through the street.",
+  "source": "art/studies/alley-composition-215/candidate.blend",
+  "user_selections": {
+    "characters": "214 double-detail pixels",
+    "landmark": "210 70 percent sky fill",
+    "architecture_direction": "Repeated alley with shorter varied buildings"
+  },
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Landmark exposure and street-to-monument hierarchy",
+      "creator": "Project creator using ChatGPT Images 2.5"
+    },
+    {
+      "id": "DP-05",
+      "property": "Architectural mass versus negative space",
+      "creator": "Darius Puia / BakaArts",
+      "source_page": "https://theinspirationgrid.com/imaginative-sci-fi-illustrations-by-darius-puia/"
+    },
+    {
+      "id": "HM-03",
+      "property": "Street depth and distant architecture",
+      "creator": "Heavy Metal (1981), directed by Gerald Potterton; film rights holders",
+      "source_page": "https://www.bluscreens.net/heavy-metal.html"
+    }
+  ],
+  "changed": [
+    "215 shorter varied distant alley assemblies",
+    "217 selected persistent exact pixel characters",
+    "216 alternate visible sun placement"
+  ],
+  "fixed": [
+    "Camera",
+    "Selected 70 percent landmark scale",
+    "Near architecture",
+    "Road and rubble",
+    "Weathering",
+    "Scene illumination",
+    "Sun size and height"
+  ],
+  "validation": [
+    "Actual native combined full-resolution frames",
+    "Landmark exposure against 21070",
+    "Exact selected pixel sprites",
+    "Sun boundary displacement",
+    "Native saved scenes"
+  ],
+  "output": [
+    3840,
+    2885
+  ],
+  "score": null,
+  "user_approved": false,
+  "final_fixes": [
+    "14roofslabs seated underoriginalbands",
+    "Distantink isolatedfromatmosphericvolume boundary, preservingexistingbeauty/ink"
+  ]
+}

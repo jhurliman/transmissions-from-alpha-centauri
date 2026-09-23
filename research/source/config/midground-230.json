@@ -1,0 +1,35 @@
+{
+  "iteration": 230,
+  "source": "art/studies/entry-surround-229/scene.blend",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Varied inhabited ruined street masses and heavy broken-wall decay"
+    },
+    {
+      "id": "UP-03",
+      "property": "Layered industrial surface wear"
+    },
+    {
+      "id": "RS-01",
+      "property": "Localized hardware corrosion"
+    }
+  ],
+  "hypothesis": "More varied credible facade openings, fullsize service endpoints, roof silhouettes, closer uneven building spacing and heavily weathered inked ruins create a coherent middle ground.",
+  "changed_variables": [
+    "Six staggered native-size infill buildings",
+    "Window/door identities and two broken picture windows",
+    "Farpipe endpoint replacement and one route removal",
+    "Roof edge beam removal and condenser/ladder kit",
+    "Brokenwall ink and heavy decay"
+  ],
+  "fixed": [
+    "Foreground architecture including acceptedgarage and229passage",
+    "Selectedcharacters",
+    "Colosseum70%scale and228steps",
+    "Sun and221haze"
+  ],
+  "status": "Integrated nativegeometry; final231beauty pending",
+  "user_approved": false,
+  "review": "prototype/review-231.html"
+}

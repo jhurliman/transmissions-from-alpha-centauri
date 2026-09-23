@@ -1,0 +1,47 @@
+{
+  "iteration": 228,
+  "hypothesis": "Five broad curved stone courses can bridge the actual street elevation to the preserved Colosseum foundation while keeping the newly opened arches and descending tunnel floors intact.",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Warm weathered masonry and monumental ground-level arcade"
+    },
+    {
+      "id": "UCL-03",
+      "property": "Curved stone course articulation and restrained ink on projecting edges"
+    },
+    {
+      "id": "DP-08",
+      "property": "Large-scale architectural access and grounded infrastructure"
+    }
+  ],
+  "source": "art/studies/far-building-layout-226/scene.blend",
+  "geometry": "Five native watertight curved courses traced from the evaluated foundation edge, limited to terrain-supported central arc; no terrain extension",
+  "parameters": {
+    "steps": 5,
+    "tread_m": 0.95,
+    "total_run_m": 4.75,
+    "soil_embed_m": 0.035,
+    "worn_arris_bevel_m": 0.012
+  },
+  "materials": "Reuse existing foundation painted masonry band and original-world paint attribute; no gray placeholder material",
+  "ink": "Register new meshes in existing215 atmosphere-free native pass; mark only real tread-nose edges",
+  "fixed": [
+    "226far-building layout",
+    "Colosseumscale/arches/foundation",
+    "18descending tunnels and225floorfit",
+    "222entrances",
+    "223dust/224soil",
+    "Haze221/sun/camera",
+    "217characters"
+  ],
+  "review_criteria": [
+    "Five visible broad steps at base",
+    "Top flush to existingfoundation; bottom seated soil",
+    "No floating exposed endcaps",
+    "Stone palette/weathering coherent withColosseum",
+    "No phantom oldcontact lines acrossstairs",
+    "Upperarcade andtunnelfloorsunchanged"
+  ],
+  "status": "CPU fitting in progress; rootcombinedrender pending"
+}

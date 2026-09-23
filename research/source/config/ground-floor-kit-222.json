@@ -1,0 +1,49 @@
+{
+  "source": "art/studies/arcade-tunnels-220/scene.blend",
+  "references": [
+    "DP-03",
+    "DP-08",
+    "UP-03"
+  ],
+  "reference_properties": [
+    "Functional architectural receivers, fitted deep returns and practical service-scale framing",
+    "Industrial construction with quiet large metal panels",
+    "Restrained fine steel abrasion and rain/oxide marks rather than facade camouflage"
+  ],
+  "user_feedback": "clipboard-4f9baf1a-581c-415e-8146-635dbcddf67d.png",
+  "hypothesis": "A closed garage in the blue frontage and a deep gated pedestrian entry in the warm frontage add purposeful ground-floor architecture using a reusable native kit.",
+  "changed_variables": [
+    "Six privately copied facade panels cut for two true openings",
+    "3.6m wide closed garage atbluey26.2\u201329.8",
+    "2.1m pedestrian passage atwarmy9.15\u201311.25; gate1.8m inside",
+    "Both clearheights2.16m underunchangedbearingbottom2.30m",
+    "Separatecleanmaterialsources and optional subtlewear finishes",
+    "Old096 contact/damage spans clipped only where new passage jambs or sidewalls physically occlude them; native stroke attributes retained"
+  ],
+  "fixed": [
+    "Allsupportbeams and footings",
+    "Services and awning",
+    "Every unrelated panel/window/structure",
+    "Camera,scale,road,rubble,Colosseum,tunnels,characters"
+  ],
+  "review_criteria": [
+    "Garage reads closed and constructed, with quiet slats and jambs",
+    "Entry visibly has native floor,sidewalls,ceiling and set-back gate, not a black decal",
+    "Actual facade skin removed within bothfootprints",
+    "Support and service clearance preserved",
+    "No obsolete contacts floating across newopenings",
+    "Both masters reusable and editable",
+    "Fullnativecamera proof required"
+  ],
+  "status": "Actual225 geometry retained; bounded jamb-ink correction building",
+  "passage_geometry": {
+    "mouth_width_m": 2.1,
+    "clear_height_m": 2.16,
+    "entry_lead_m": 0.2,
+    "walk_length_to_gate_m": 1.8,
+    "gate_plane": "parallel to facade; diagonal recessed walkway follows approach",
+    "gate_clear_width_in_plane_m": 1.95,
+    "gate_leaf_width_m": 0.93,
+    "overall_walkway_length_m": 3.25
+  }
+}

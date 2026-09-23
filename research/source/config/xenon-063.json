@@ -1,0 +1,1 @@
+{"references":["UP-01","UP-03","DP-08"],"changes":["Matte crack linear reflectance multiplied by 1.30","Specular mouth fade widened from 1.2 mm to 4 mm"],"fixed":["Geometry","camera","scene lighting","all other materials"],"review":["Same-camera specular ablation","Crack readability at camera scale"]}

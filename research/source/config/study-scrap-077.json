@@ -1,0 +1,34 @@
+{
+  "references": [
+    "DP-08",
+    "UP-01",
+    "UP-03"
+  ],
+  "reference_properties": {
+    "DP-08": "cohesive foreground material mass and warm/cool separation",
+    "UP-01": "warm worn sheet-metal strips against cool shadow metal",
+    "UP-03": "selective bright edge strips integrated with weathered surface"
+  },
+  "selected_concept_measurement": "bottom10.5% crop, exclude luminance<25 or>215; dominant cool shadows#322b35 and #423e50, warm body#644439, warm lit wear#8f635c/#a57a6f",
+  "hypothesis": "Warm the visible scrap bodies while preserving cool cavities; strengthen existing native glossy-driven strip accents rather than lifting every surface.",
+  "fixed": [
+    "approved near scrap geometry and placements",
+    "buildings",
+    "ground",
+    "end rubble",
+    "camera"
+  ],
+  "changed": [
+    "near-only material copies",
+    "luminance-weighted rust palette wash",
+    "selective glossy-response strip color and strength"
+  ],
+  "review_criteria": [
+    "warm cohesive rust read",
+    "dark cool cavities retained",
+    "more bright selective strips",
+    "no broad washed-out surfaces",
+    "geometry unchanged"
+  ],
+  "status": "native proof inspected; integration ready; user review pending"
+}

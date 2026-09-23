@@ -1,0 +1,37 @@
+{
+  "iteration": 257,
+  "source": "art/studies/gallery-sills-256/scene.blend",
+  "references": [
+    {
+      "id": "UP-03",
+      "property": "Broken layered granular surface wear"
+    },
+    {
+      "id": "DP-08",
+      "property": "Readable detail hierarchy"
+    },
+    {
+      "id": "UCL-01",
+      "property": "Retain scene palette and contrast"
+    }
+  ],
+  "hypothesis": "Removing only the lower panel fracture reduces repetition; dark grains within accepted track masks make pale tracks read as disturbed soil.",
+  "variables": [
+    "Lower Utility base.028 fracture cuts and associated damage ink",
+    "Additive track grit layer",
+    "Trial camera culling on both native ink layers"
+  ],
+  "fixed": [
+    "Camera",
+    "Upper panel crack",
+    "Track positions and shortened length",
+    "Original road texture",
+    "Lighting and characters"
+  ],
+  "approved": false,
+  "review_criteria": [
+    "Lower crack removed, upper crack preserved",
+    "Grit visible within two accepted tracks without changing endpoints",
+    "Culling retains visible ink and frame-edge contours"
+  ]
+}

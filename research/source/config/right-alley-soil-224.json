@@ -1,0 +1,41 @@
+{
+  "iteration": 224,
+  "hypothesis": "Removing the raised brown cross-alley plate and continuing the accepted pale soil creates a coherent side-alley ground surface; sparse small fractured stones match the mid-left bank rather than the large right foundation slabs.",
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Open readable road and subordinate rubble groupings"
+    },
+    {
+      "id": "DP-08",
+      "property": "Infrastructure-ground contact and clear traversable routes"
+    },
+    {
+      "id": "US-01",
+      "property": "Native soil pigment nuance; preserve accepted main road separately"
+    }
+  ],
+  "baseline": "art/studies/haze-texture-221/scene.blend",
+  "changed": [
+    "Hide Side road surface only",
+    "Extend existing pale-bank material mask through exact right cross-alley x8..21 y0.4..6 footprint",
+    "Replace bank stones intersecting cross-alley with sparse small mid-left native rock family copies"
+  ],
+  "fixed": [
+    "Camera and framing",
+    "Main dark road and its rocks",
+    "Architecture and services",
+    "Gate floor222",
+    "Other bank stones and junk piles",
+    "Selected pixel characters"
+  ],
+  "order": "apply222, apply224, apply223 dust",
+  "review_criteria": [
+    "No brown rectangular floor remains",
+    "Light soil fills cross-alley to its edges",
+    "Small sparse non-grid stones, not big slabs",
+    "No floating stone or old floor ink",
+    "Main road and new gate floor unchanged"
+  ],
+  "render": "Root combined native proof; no standalone render"
+}

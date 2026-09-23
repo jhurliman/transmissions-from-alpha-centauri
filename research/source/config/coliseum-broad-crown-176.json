@@ -1,0 +1,11 @@
+{
+  "source": "173 plus174 two-face repair in memory",
+  "references": ["UCL-01", "UCL-02", "DP-03"],
+  "property": "Broad unequal connected exposed masonry thickness within existing broken crown, preserving bearing and major surviving peak",
+  "hypothesis": "Four-part available solid depth may support a120px-or-larger connected facing/core/return group; whole-object extents alone cannot establish it.",
+  "targets": ["COL110 U4 fractured upper wall L", "COL110 U4 aperture head", "COL110 U4 fractured upper wall R", "COL110 U5 fractured upper wall L"],
+  "fixed": ["camera and all lights/materials", "all geometry outside four target meshes", "all target surfaces below authored67.8", "head bearing up to authored71.15", "rear source spine at radius<=70", "major central peak sector angle[-2.263,-2.243] above71.6", "all arches/columns/niche openings"],
+  "feasibility": {"window": [1440,440,1650,635], "ray_grid_pixels": 2, "maximum_ray_step_m": 0.025, "cut_upper_bound_radius": 70.25, "conservative_radius": 72.2, "angle_bounds": [-2.425,-2.191], "base_floor": 67.8, "head_floor": 71.15},
+  "criteria": {"whole_group_goal_px": [120,160,60,90], "must_report": ["new core pixel area and occupied width", "other-solid occlusion", "protected peak occlusion", "connected components", "actual depth"], "no_small_fallback": true},
+  "status": "Read-only depth feasibility first; no candidate authorized by bbox alone"
+}

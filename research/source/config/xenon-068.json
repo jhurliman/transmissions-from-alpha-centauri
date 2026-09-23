@@ -1,0 +1,19 @@
+{
+  "references": [
+    "UP-01",
+    "UP-03",
+    "DP-08"
+  ],
+  "selected_concept": "art/reviews/xenon-001/selected-third.png",
+  "hypothesis": "Inventory distinct component fracture families before scene-wide placement; preserve user-finalized 45 to 100 percent depth material.",
+  "fixed": [
+    "061 geometry proof",
+    "064 finish projection",
+    "Camera",
+    "Approved services"
+  ],
+  "changes": [
+    "Finalize 45 to 100 percent material",
+    "Reference region inventory and procedural estimates"
+  ]
+}

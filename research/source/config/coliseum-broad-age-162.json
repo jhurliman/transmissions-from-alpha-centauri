@@ -1,0 +1,288 @@
+{
+  "source": "art/studies/coliseum-159/scene.blend",
+  "references": {
+    "UCL-01": "Unequal broad surviving-facade values: cooler age body beside warm quiet masonry",
+    "UCL-02": "Multi-panel sheltered age groups with irregular connected lower shoulders",
+    "DP-03": "Large quiet structural planes and sparse material interruption"
+  },
+  "hypothesis": "Recompose the existing primary age into a connected two-bay cooler body with an unequal warm neighboring shoulder, using actual surviving wall faces rather than a dark stripe along the cornice.",
+  "fixed": [
+    "All geometry, normals, camera, lights, structural ink",
+    "159 secondary158V2 field and157V3 geometry",
+    "All nonlandmark systems including147 3x bottom splatter",
+    "Existing deposit color, strength, grain frequencies and dark-surface protection"
+  ],
+  "changed": [
+    "Existing primary finite polygon composition expands across U6\u2013U9 facing and adjacent T2 spandrels",
+    "Complete front-face receiving masks extended to those existing faces; holes, arch rings, columns and inset niches excluded",
+    "One primary cooler body, asymmetric lower fragment and broad quiet warmer counterpart; no new noise or extra pigment layer"
+  ],
+  "primary": {
+    "frame": {
+      "origin_original": [
+        -13.70521354675293,
+        193.1749267578125,
+        43.090641021728516
+      ],
+      "across_original": [
+        0.9635167121887207,
+        -0.2676481306552887,
+        0.0
+      ],
+      "up_original": [
+        0.005479963030666113,
+        0.019727526232600212,
+        0.9997904300689697
+      ],
+      "normal_original": [
+        -0.26759204268455505,
+        -0.9633147716522217,
+        0.020474502816796303
+      ],
+      "sample_coordinate_bounds": [
+        [
+          -5.81563188822156,
+          -14.394911406372099,
+          -3.2508969068819127
+        ],
+        [
+          9.218762311170394,
+          0.9496604534669402,
+          4.101573659925712
+        ]
+      ],
+      "note": "Bounds describe visible eligible sample envelope, not fill rectangle. Use local per-receiver depth gate, not global normal interval. Cross-surface field continuity may follow shared across/up coordinates."
+    },
+    "receiver_attribute": "162 primary facade receiver",
+    "strength": 0.72,
+    "deposit_tint": [
+      0.55,
+      0.54,
+      0.62,
+      1
+    ],
+    "deposit_polygons": [
+      [
+        [
+          -4.6,
+          2.7
+        ],
+        [
+          -1.2,
+          5.1
+        ],
+        [
+          5.8,
+          4.7
+        ],
+        [
+          9.6,
+          1.9
+        ],
+        [
+          8.0,
+          -2.4
+        ],
+        [
+          3.0,
+          -3.4
+        ],
+        [
+          -2.1,
+          -1.1
+        ]
+      ],
+      [
+        [
+          -2.0,
+          -1.0
+        ],
+        [
+          2.0,
+          -1.4
+        ],
+        [
+          8.8,
+          -2.7
+        ],
+        [
+          10.4,
+          -4.8
+        ],
+        [
+          8.0,
+          -6.8
+        ],
+        [
+          4.2,
+          -7.4
+        ],
+        [
+          0.2,
+          -5.4
+        ],
+        [
+          -2.6,
+          -3.1
+        ]
+      ],
+      [
+        [
+          -1.2,
+          -4.5
+        ],
+        [
+          0.7,
+          -5.7
+        ],
+        [
+          2.0,
+          -9.1
+        ],
+        [
+          1.1,
+          -12.8
+        ],
+        [
+          -0.9,
+          -13.5
+        ],
+        [
+          -2.0,
+          -8.5
+        ]
+      ],
+      [
+        [
+          -6.9,
+          -0.4
+        ],
+        [
+          -4.0,
+          -1.0
+        ],
+        [
+          -3.3,
+          -3.5
+        ],
+        [
+          -4.0,
+          -6.0
+        ],
+        [
+          -6.1,
+          -5.2
+        ],
+        [
+          -7.7,
+          -2.2
+        ]
+      ]
+    ],
+    "exposed_polygons": [
+      [
+        [
+          8.7,
+          2.0
+        ],
+        [
+          14.8,
+          3.3
+        ],
+        [
+          20.1,
+          1.9
+        ],
+        [
+          21.3,
+          -0.3
+        ],
+        [
+          18.7,
+          -2.9
+        ],
+        [
+          13.0,
+          -2.2
+        ],
+        [
+          10.0,
+          -0.1
+        ]
+      ],
+      [
+        [
+          8.9,
+          -3.8
+        ],
+        [
+          11.7,
+          -3.3
+        ],
+        [
+          16.7,
+          -4.6
+        ],
+        [
+          17.1,
+          -6.8
+        ],
+        [
+          13.5,
+          -8.2
+        ],
+        [
+          10.4,
+          -6.5
+        ]
+      ],
+      [
+        [
+          -1.8,
+          -3.0
+        ],
+        [
+          -0.1,
+          -2.8
+        ],
+        [
+          1.2,
+          -4.1
+        ],
+        [
+          0.7,
+          -6.1
+        ],
+        [
+          -0.6,
+          -6.9
+        ],
+        [
+          -1.7,
+          -5.2
+        ]
+      ]
+    ]
+  },
+  "display_region_native": [
+    1665,
+    515,
+    2085,
+    800
+  ],
+  "proof_crop_native": [
+    1600,
+    450,
+    2140,
+    950
+  ],
+  "criteria": [
+    "Identify unequal aged-face grouping at1800 whole-frame ratio before zooming",
+    "Actual visible group spans350\u2013450nativepx across several surviving faces",
+    "Keep more than half broad proof region quiet, no uniform dark cornice stripe",
+    "Retain clear distinctions between lit facing, exposed core, contacts and recesses",
+    "Native structural data and old material graphs unchanged"
+  ],
+  "status": "Prepared separate material study; no render or acceptance",
+  "user_approved": false
+}

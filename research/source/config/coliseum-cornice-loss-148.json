@@ -1,0 +1,53 @@
+{
+  "references": [
+    {
+      "id": "UCL-01",
+      "property": "Cornice damage is clustered beside vertical structure with long intact neighboring spans"
+    },
+    {
+      "id": "UCL-02",
+      "property": "Broken crown has stepped uneven return planes, not detached flakes"
+    },
+    {
+      "id": "DP-03",
+      "property": "Readable plane hierarchy and sparse angular surface losses"
+    }
+  ],
+  "source": "art/studies/alley-weathering-147/actual/scene.blend",
+  "hypothesis": "One connected three-course inward loss besideTower7 gives a visible secondary ruin event while retaining the clean cornice majority.",
+  "targets": [
+    "COL110 T1 band07 profile1",
+    "COL110 T1 band07 profile2",
+    "COL110 T1 band07 profile3"
+  ],
+  "fixed": [
+    "Camera",
+    "All other mesh geometry",
+    "Existing material graphs",
+    "Arch and column silhouettes",
+    "Lighting"
+  ],
+  "changed": [
+    "Missing cornice front/rim geometry inside one finite convex cutter"
+  ],
+  "proof_crop_4k": [
+    1680,
+    710,
+    1835,
+    840
+  ],
+  "checks": [
+    "Positive closed mesh after cut",
+    "Zero strict crossings on each changed object versus clean source",
+    "No outward vertices",
+    "Original position attributes interpolated for new vertices",
+    "Retained original faces retain custom normals"
+  ],
+  "review_status": "Frozen bounded candidate; independent full-scene critique pending",
+  "actual_changed_bbox_4k": [
+    1759,
+    758,
+    1792,
+    777
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "iteration": "048",
+  "reference_ids": [
+    "DP-08",
+    "HM-03",
+    "AF-06"
+  ],
+  "properties": [
+    "Vertical chromatic streaks that contrast gently with the substrate",
+    "Clusters of narrow trails with unequal lengths",
+    "Continued flows across component boundaries"
+  ],
+  "hypothesis": "World-aligned finite runoff paths with an adaptive warm/cool color response add vertical weathering structure without black ink or repeating panel-local stamps.",
+  "changed": [
+    "Runoff layer on the approved two-panel bay",
+    "Warm-on-cool, cool-on-warm, and darker local color trail modes",
+    "Grouped seam-fed streaks with broken widths and unequal lengths"
+  ],
+  "fixed": [
+    "Approved geometry",
+    "Existing coating and chips",
+    "Main camera, lighting and other material families"
+  ],
+  "review_criteria": [
+    "Lines read as differences in surface color, not black outlines",
+    "Trails originate at seam edges or fixings",
+    "Several paths cross the panel seam coherently",
+    "Quiet gaps remain between clusters",
+    "Visible in closeup, restrained at game camera"
+  ]
+}

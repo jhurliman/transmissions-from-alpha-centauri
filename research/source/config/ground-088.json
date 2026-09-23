@@ -1,0 +1,45 @@
+{
+  "hypothesis": "Preserve C relative relief but restore A mean elevation; then develop packed dirt geometry without separate rocks or stylization.",
+  "references": [
+    {
+      "id": "US-01",
+      "property": "fine packed soil relief"
+    },
+    {
+      "id": "US-02",
+      "property": "compacted body, structural road breaks"
+    },
+    {
+      "id": "DP-08",
+      "property": "scene-scale dirt hierarchy"
+    },
+    {
+      "id": "PH-GRAVEL-ROAD",
+      "creator": "Amal Kumar",
+      "url": "https://polyhaven.com/a/gravel_road",
+      "property": "scanned aggregate embedded in a continuous compacted surface; reference only, not copied geometry"
+    }
+  ],
+  "fixed": [
+    "sky084",
+    "architecture074",
+    "camera",
+    "C relative macro terrain"
+  ],
+  "review_criteria": [
+    "mean matches A",
+    "support contact clearance",
+    "no separate road rock layer",
+    "connected multi-scale relief in neutral actual geometry"
+  ],
+  "status": "user accepted geometry for integration",
+  "datum": {
+    "C_original_mean_m": 0.036191864627724266,
+    "A_and_adjusted_C_mean_m": 0.026452243588094317,
+    "lowering_m": 0.009739621039629949
+  },
+  "detail_scope": "Separate 6x6m editable native mesh; not scene-wide yet",
+  "detail_sampling_m": 0.0075,
+  "creator_critic_iterations": "v1 ridges/round clumps; v2 flatter integrated packing; v3 angular embedded grain and compression-linked distribution",
+  "user_feedback": "looks pretty damn good to me ... lets continue integration"
+}

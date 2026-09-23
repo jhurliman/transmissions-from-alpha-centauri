@@ -1,0 +1,44 @@
+{
+  "source": "128 integrated scene",
+  "reference_ids": [
+    "UCL-01",
+    "UCL-20",
+    "UCL-21",
+    "UCL-22",
+    "DP-03"
+  ],
+  "hypothesis": "Stronger arch masonry and consistent tower niches improve architectural rhythm; lighter tapered dentils clarify the cornices.",
+  "fixed": [
+    "128 facade-relative lighting and dusty red palette",
+    "127 equal clearances, continuous walls, and receiver at 66% original depth",
+    "Camera, accepted coliseum pose, sky, clouds, haze, and locked surroundings"
+  ],
+  "changed_variables": [
+    "Archivolt radial thickness multiplied by 1.75, with the outer contour fixed",
+    "Real arch openings and return geometry follow the inward stone growth",
+    "Cornice blocks calibrated toward 20% higher displayed brightness",
+    "Matching tower shafts repeat the selected smaller arched niche",
+    "Clean B10 wall topology before the continuous opening edit",
+    "Remove cornice blocks that overlap actual round-column capital footprints",
+    "Localized broad-fill and AO correction only on radial stone end faces"
+  ],
+  "review_criteria": [
+    "Meaningful visible improvement in native4K crops and full frame",
+    "No supportless fragments or new strict self-crossings",
+    "Expose thickness and distinct subordinate masonry courses",
+    "Localized connected surface variation with quiet intact walls",
+    "Preserve128 color hierarchy and all locked nonlandmark systems"
+  ],
+  "status": "User edits rendered; joint shading accepted as an improvement. Arch curve outlines continue in130; centerpiece not locked.",
+  "latest_user_priority": "Thicker arch masonry inward, brighter cornice blocks, matching smaller pillar insets, and no cornice blocks above round columns.",
+  "held_studies": [
+    "129connectedB7loss",
+    "129attached mineral/deposit material"
+  ],
+  "original_art_provenance": {
+    "id": "UCL-01",
+    "master": "art/original/coliseum/coliseum.png",
+    "creator": "Project creator (user)",
+    "tool": "ChatGPT Images 2.5"
+  }
+}

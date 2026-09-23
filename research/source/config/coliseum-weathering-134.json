@@ -1,0 +1,57 @@
+{
+  "references": [
+    "UCL-01",
+    "UCL-02",
+    "UCL-11",
+    "DP-03"
+  ],
+  "hypothesis": "Three finite collar-fed weathering groups create readable attached deposits and broken warm catches across real projecting belts and shaft faces, preserving quiet masonry.",
+  "fixed": [
+    "133 camera and geometry",
+    "128 dusty-red/violet palette and broad lighting",
+    "133 black crown joints",
+    "all nonlandmark systems"
+  ],
+  "changed": [
+    "three bounded collar/shaft weathering fields"
+  ],
+  "source_geometry": "111 tower collars have upper surface z+1.49; selected original z57.5 and39.1; native original-coordinate attributes preserve attachments through accepted facade deformation",
+  "sites": [
+    {
+      "name": "Tower7 upper left collar and shaft",
+      "tower": 7,
+      "u": -0.7,
+      "z": 58.99,
+      "length": 7.5,
+      "width": 1.8
+    },
+    {
+      "name": "Tower7 middle right collar and shaft",
+      "tower": 7,
+      "u": 0.8,
+      "z": 40.59,
+      "length": 5.4,
+      "width": 1.6
+    },
+    {
+      "name": "Tower10 upper left collar and shaft",
+      "tower": 10,
+      "u": -0.65,
+      "z": 58.99,
+      "length": 6.6,
+      "width": 1.8
+    }
+  ],
+  "review_criteria": [
+    "visible grouped deterioration at4K and camera size",
+    "no uniform belt stripe",
+    "actual collar source and connected downward path",
+    "local warm catches preserve lighting",
+    "quiet deep returns",
+    "no geometry or black-line change"
+  ],
+  "revision": 3,
+  "source_position_note": "Shift finite sources inward from shadowed rib corners onto their adjacent front-facing stone strips; source heights unchanged.",
+  "edge_sharpness_note": "Narrowed finite deposit lateral blend to preserve connected painted edges rather than airbrushed shadows; no additional source sites.",
+  "determinism": "Fixed native3D noise functions and authored-coordinate site parameters; no random sampling."
+}

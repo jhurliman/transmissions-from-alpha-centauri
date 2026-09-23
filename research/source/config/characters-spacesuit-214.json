@@ -1,0 +1,33 @@
+{
+  "study": 214,
+  "hypothesis": "Preserve the user-authored silver spacesuits and identity in the same three character treatments as206.",
+  "references": [
+    {
+      "id": "DP-05",
+      "property": "restrained stylized industrial scene palette"
+    },
+    {
+      "id": "HM-03",
+      "property": "readable character silhouette"
+    },
+    {
+      "id": "AF-06",
+      "property": "selective ink contours and restrained color grouping"
+    }
+  ],
+  "source_art": "User photographs altered by the user with ChatGPT Images2.5, intact private originals",
+  "changes": [
+    "separate generated pixel masters and anime illustrations",
+    "49/47 and98/94 body-height grid exports with16/24color budgets andbinaryalpha",
+    "separate native flatcardlightpass using206actual209lights"
+  ],
+  "fixed": [
+    "206assets",
+    "209cleanbackground",
+    "pairfootanchors",
+    "1.72/1.65m study height assumptions"
+  ],
+  "status": "Complete separate artwork study, native-light proof and three-treatment review published; user approval pending",
+  "user_approved": false,
+  "review": "art/studies/characters-spacesuit-214/review.json"
+}

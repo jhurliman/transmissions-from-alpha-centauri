@@ -1,0 +1,35 @@
+{
+  "references": [
+    "DP-01",
+    "DP-08",
+    "AF-06"
+  ],
+  "reference_properties": {
+    "DP-01": "monumental scale and concentrated large openings",
+    "DP-08": "layered infrastructure and legible silhouette across depth",
+    "AF-06": "repeated circular geometry and strong perspective rhythm"
+  },
+  "hypothesis": "Coliseum arcades, open-ring massing and radial structural tiers can replace the dome with an original spaceport landmark while retaining the accepted distance and envelope.",
+  "changed": [
+    "landmark massing only"
+  ],
+  "fixed": [
+    "075 environment",
+    "camera",
+    "nearest landmark edge y272",
+    "approximate 209m width and104m height"
+  ],
+  "options": {
+    "A": "continuous terraced arena",
+    "B": "open ring with chamfered hangar openings, deep backing walls and heavy inward docks",
+    "C": "interrupted lower arcades, upper industrial docking bays and asymmetric supported crown"
+  },
+  "review_criteria": [
+    "distinct silhouette",
+    "coliseum reading",
+    "docking opportunity",
+    "no generic pyramid shape",
+    "depth retained"
+  ],
+  "status": "three alternatives for explicit user direction; no selection assumed"
+}

@@ -1,0 +1,7 @@
+import bpy,time,json
+from pathlib import Path
+R=Path('/PATH/TO/transmissions-from-alpha-centauri');O=R/'art/studies/performance-089';t=time.perf_counter()
+bpy.ops.wm.open_mainfile(filepath=str(R/'art/studies/ground-089/scene.blend'));loaded=time.perf_counter();s=bpy.context.scene
+r={'load_s':loaded-t,'engine':s.render.engine,'resolution':[s.render.resolution_x,s.render.resolution_y,s.render.resolution_percentage],'threads':[s.render.threads_mode,s.render.threads],'objects':len(s.objects),'mesh_objects':sum(o.type=='MESH' for o in s.objects),'visible_mesh_objects':sum(o.type=='MESH' and not o.hide_render for o in s.objects),'materials':len(bpy.data.materials),'raw_mesh_vertices':sum(len(m.vertices) for m in bpy.data.meshes),'raw_mesh_polygons':sum(len(m.polygons) for m in bpy.data.meshes),'freestyle':s.render.use_freestyle,'line_sets':[]}
+for l in s.view_layers[0].freestyle_settings.linesets:r['line_sets'].append({'name':l.name,'enabled':l.show_render,'collection':l.collection.name if l.collection else None,'collection_filter':l.select_by_collection,'negation':l.collection_negation})
+s.render.use_freestyle=False;s.render.filepath=str(O/'no-freestyle.png');start=time.perf_counter();bpy.ops.render.render(write_still=True);r['no_freestyle_render_s']=time.perf_counter()-start;r['total_probe_s']=time.perf_counter()-t;(O/'probe.json').write_text(json.dumps(r,indent=2));print('PERF',json.dumps(r),flush=True)
