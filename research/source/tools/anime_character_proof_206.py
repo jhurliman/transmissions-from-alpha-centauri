@@ -23,7 +23,7 @@ for ob in [s.camera]+[q for q in s.objects if q.type=='LIGHT']:
  cp=ob.copy();cp.data=ob.data.copy();cs.collection.objects.link(cp)
  if ob==s.camera:cs.camera=cp
 assets=json.loads((O/'asset-audit.json').read_text());rows=[]
-for name,x,h in [('airam',-.30,1.72),('miranda',.55,1.65)]:
+for name,x,h in [('traveler-a',-.30,1.72),('traveler-b',.55,1.65)]:
  im=bpy.data.images.load(str(O/f'{name}-anime.png'));im.pack();iw,ih=assets[name]['size'];x0,y0,x1,y1=assets[name]['body_bounds_alpha_gt8'];w=h*(x1-x0)/(y1-y0)
  # Bounds use actual painted bodyalpha, not the larger transparent canvas.
  foot=Vector((x,-6.5,0.005));verts=[foot+Vector((-w/2,0,0)),foot+Vector((w/2,0,0)),foot+Vector((w/2,0,h)),foot+Vector((-w/2,0,h))]

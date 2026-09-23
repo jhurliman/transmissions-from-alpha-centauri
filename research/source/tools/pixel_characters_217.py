@@ -34,7 +34,7 @@ def overlay(scene):
         over=group.nodes.new('CompositorNodeAlphaOver');over.inputs['Factor'].default_value=1;over.label=row['name'].title()+' selected sprite';over.location=(index*220,0)
         group.links.new(last,over.inputs['Background']);group.links.new(move.outputs['Image'],over.inputs['Foreground']);last=over.outputs[0]
     group.links.new(last,gout.inputs['Image']);gout.location=(500,0)
-    node=tree.nodes.new('CompositorNodeGroup');node.node_tree=group;node.label='217 USER SELECTED: double-detail pixel Airam + Miranda';node.location=(output.location.x-220,output.location.y-220)
+    node=tree.nodes.new('CompositorNodeGroup');node.node_tree=group;node.label='217 USER SELECTED: double-detail pixel Traveler-A + Traveler-B';node.location=(output.location.x-220,output.location.y-220)
     tree.links.new(original,node.inputs['Background']);tree.links.new(node.outputs['Image'],socket)
     prior_dither=scene.render.dither_intensity;scene.render.dither_intensity=0
     scene.render.use_compositing=True;scene['217 selected pixel characters']=True

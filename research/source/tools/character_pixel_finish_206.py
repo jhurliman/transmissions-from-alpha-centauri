@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np,json
 R=Path(__file__).resolve().parents[1];O=R/'art/studies/characters-206/pixel'
 reports=[]
-for name,h in [('airam',49),('miranda',47)]:
+for name,h in [('traveler-a',49),('traveler-b',47)]:
  src=Image.open(O/f'{name}-generated.png').convert('RGBA')
  alpha=src.getchannel('A').point(lambda a:255 if a>=128 else 0)
  bounds=alpha.getbbox();src=src.crop(bounds)
@@ -15,7 +15,7 @@ for name,h in [('airam',49),('miranda',47)]:
   hsv=np.array(src.convert('RGB').convert('HSV'));sa=np.array(src.getchannel('A'))
   # Keep the pictured red printed motifs as authored accents at this very small grid.
   rgb=np.array(src)[:,:,:3].astype(float);yy=np.arange(src.height)[:,None]/src.height
-  shirt=(yy>0.25)&(yy<(0.62 if name=='airam' else 0.54))
+  shirt=(yy>0.25)&(yy<(0.62 if name=='traveler-a' else 0.54))
   red=((hsv[:,:,0]<9)|(hsv[:,:,0]>245))&(hsv[:,:,1]>105)&(hsv[:,:,2]>110)&(sa>128)&(rgb[:,:,1]<rgb[:,:,2]*1.15)&shirt
   coverage=np.array(Image.fromarray(red.astype('uint8')*255).resize((ww,hh),Image.Resampling.BOX))/255
   redcell=(coverage>=0.22)&mask

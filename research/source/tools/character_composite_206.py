@@ -7,7 +7,7 @@ placement=json.loads((A/'placement.json').read_text());base=Image.open(A/'clean-
 for mult,tag in [(1,'pixel-native'),(2,'pixel-double')]:
  canvas=base.copy()
  for row in placement:
-  n=row['name'];h=(49 if n=='airam' else 47)*mult
+  n=row['name'];h=(49 if n=='traveler-a' else 47)*mult
   im=Image.open(O/'pixel'/f'{n}-{h}h-24c.png').convert('RGBA');im=im.crop(im.getchannel('A').getbbox())
   im=im.resize((im.width*(10//mult),im.height*(12//mult)),Image.Resampling.NEAREST)
   fx,fy=row['foot_pixel_4k'];xy=(round(fx-im.width/2),round(fy-im.height));canvas.alpha_composite(im,xy)

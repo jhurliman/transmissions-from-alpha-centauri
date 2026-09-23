@@ -66,8 +66,8 @@
       "sha256": "b3ee3c6b6a7315f4bdaf803f6cb5a0b7d9b741df5124b7f8beb64d7893e400de"
     },
     "docs/release/PROVENANCE.md": {
-      "bytes": 2503,
-      "sha256": "7593eb60de1b95e90d7c19ba16e499f9c21935b9635a144754e62acc807336b8"
+      "bytes": 2511,
+      "sha256": "8dede9e06b089d57b14e745add643b3d3afb0cd949e6370235fa70573aa07c44"
     },
     "docs/release/REPRODUCING.md": {
       "bytes": 5278,
@@ -82,20 +82,20 @@
       "sha256": "bdb3de2ff033fbbbc3bc9536f7d3884ec2b4fb8dc08e1c0d3f4f4faf371be2c7"
     },
     "docs/release/packed-scene-audit.json": {
-      "bytes": 6362,
-      "sha256": "da5eb0a72a8374e071e8a0f8d7452ec84ad942725cd8b492251b1f25f9a7dc51"
+      "bytes": 6394,
+      "sha256": "099ce4870bb2ac493ba4706c386aa0e0d7d3989fce9e61542ccb2b8992b6f527"
     },
     "docs/release/scene-preview.jpg": {
       "bytes": 392710,
       "sha256": "5559db08d6f7cd28805cf57707b0a357b0a8836ef0ef7b139dc9a7b63661240d"
     },
     "docs/release/source-scene-audit.json": {
-      "bytes": 10268,
-      "sha256": "e0f46728a9fbd47280e25eae5cf3917eb71deb2c8d208b3e285a48386c7e37dd"
+      "bytes": 10316,
+      "sha256": "be7e88cc94af420812f111f457a455282b27ace705cf7d6a1a5aa1710c2d5135"
     },
     "docs/release/validation.json": {
-      "bytes": 2144,
-      "sha256": "392c1cdea3c45a672b75d287d03e48466dc2f197df65329acedf617ca98a7b28"
+      "bytes": 2152,
+      "sha256": "e15c25d0d4aebc323c3b815a5e85890da183de8470b2e151d04077b02c2aef62"
     },
     "docs/rights-and-provenance.md": {
       "bytes": 1035,
@@ -109,11 +109,11 @@
       "bytes": 41311,
       "sha256": "564bfc9932075b2c8c4b02910d5f6ca0e7532a413a17f3805dc0a7691e6a3a73"
     },
-    "releases/v1.0.0/evidence/airam-98h-24c.png": {
+    "releases/v1.0.0/evidence/traveler-a-98h-24c.png": {
       "bytes": 2781,
       "sha256": "01e049fdd5ed8b7a4a5f17bc2d4764cab80c3d022f374a4d2a9615acdea0bb3b"
     },
-    "releases/v1.0.0/evidence/airam-placed-4k.png": {
+    "releases/v1.0.0/evidence/traveler-a-placed-4k.png": {
       "bytes": 56760,
       "sha256": "644873f4fb9056d69cb3af92bc4c56b04b57975ec9d91563c4f9ccbeba5293e6"
     },
@@ -126,12 +126,12 @@
       "sha256": "d547c1e4662ae8376c31fb4604d18fb5a6c035450cef64d0d63cb99de3e827b4"
     },
     "releases/v1.0.0/evidence/character-provenance.json": {
-      "bytes": 1818,
-      "sha256": "a79b59a5de05ca3bb1e7ed7d71670db4000012dc1b4f36e44a1a9df4a092e0c0"
+      "bytes": 1850,
+      "sha256": "42b2afa3436101baf700d4f9145a63fd598920d23d52fa783576c890ef233b70"
     },
     "releases/v1.0.0/evidence/characters.json": {
-      "bytes": 1448,
-      "sha256": "8ba64c517e8ce1f81fc80ec38911fa9428ca120ac367d75726b33b7c903b9e27"
+      "bytes": 1472,
+      "sha256": "a1b5c056f19c893236ca63cf616137ba00bd00c081847024f4f23a7355a0e3b6"
     },
     "releases/v1.0.0/evidence/coliseum-provenance.json": {
       "bytes": 696,
@@ -145,11 +145,11 @@
       "bytes": 60314,
       "sha256": "7b282977f7d9a5f4d2f3c62ded5e2d627e65a6ffa894e256cd1e8e57d1c6d7e8"
     },
-    "releases/v1.0.0/evidence/miranda-94h-24c.png": {
+    "releases/v1.0.0/evidence/traveler-b-94h-24c.png": {
       "bytes": 2289,
       "sha256": "309c9e48ea9fcd3f114de4ecd1de161e7a4c2c4ef39d5c16c9eb8a5c2f93ea43"
     },
-    "releases/v1.0.0/evidence/miranda-placed-4k.png": {
+    "releases/v1.0.0/evidence/traveler-b-placed-4k.png": {
       "bytes": 53506,
       "sha256": "4bd760b0ac06048a721884cd62ca8d51018e555604fe75ceedadf0d67907e791"
     },
@@ -158,8 +158,8 @@
       "sha256": "23687e6adc33c56fa51fbd90027a8ca056d9d280010d79d13caded01ecf3953c"
     },
     "releases/v1.0.0/index.html": {
-      "bytes": 1044,
-      "sha256": "dae756215f12fb6343e047bb1e10a989fda5a93a0017935664699c44363e8d50"
+      "bytes": 1052,
+      "sha256": "30b73cc682dc5c50c6574f9e5fe1f1089bb65361f933f716ab3d464b86916a83"
     },
     "releases/v1.0.0/main-4k.png": {
       "bytes": 15562512,
@@ -206,8 +206,8 @@
       "sha256": "2287f2b39cc52daed26a7de5e3ed4e470345b740ee2bc233dab2f2751a8e485c"
     },
     "releases/v1.0.0/scene.blend": {
-      "bytes": 249967215,
-      "sha256": "6a33ba4b34cfc68e7cb2f2c429ccff4bac2dee4f56079ae12374bd1d1c8e8a63"
+      "bytes": 249503236,
+      "sha256": "64ae5efba11e8bd3b5bdbeb59593934e2211bbbeb97a3dd9257a119544182107"
     },
     "tools/release/audit_scene.py": {
       "bytes": 2546,

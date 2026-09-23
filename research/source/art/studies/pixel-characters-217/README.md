@@ -1,10 +1,10 @@
 # Selected pixel characters217
 
-The user selected the double-detail spacesuit sprites from214 and requested that Airam and Miranda remain in the scene moving forward.
+The user selected the double-detail spacesuit sprites from214 and requested that Traveler-A and Traveler-B remain in the scene moving forward.
 
 `tools/pixel_characters_217.py::apply(scene)` appends a native Blender compositor group after the existing scene beauty/ink output. It does not replace the original compositor. Two packed transparent character-only canvases preserve the exact selected98/94-pixel bodies enlarged5×6 with nearest-neighbor sampling. This is the approved1.2-times-tall DOS pixel shape.
 
-Airam body bounds are[1698,1787,1933,2375]; Miranda[2013,1811,2208,2375] at3840×2885. Group controls expose integer X/Y offsets separately for each character. No scaling or rotation nodes are used. Applying the helper requires the recorded4Kresolution at100percent. A changed camera, crop or output format requires a new placement review.
+Traveler-A body bounds are[1698,1787,1933,2375]; Traveler-B[2013,1811,2208,2375] at3840×2885. Group controls expose integer X/Y offsets separately for each character. No scaling or rotation nodes are used. Applying the helper requires the recorded4Kresolution at100percent. A changed camera, crop or output format requires a new placement review.
 
 The helper removes only the prior15-object placeholder and its8verified character-local contact strokes through the206scoped helper. Unrelated road/contact ink is retained. The selected214source indexed assets are untouched; source attribution and generation prompts remain in214.
 

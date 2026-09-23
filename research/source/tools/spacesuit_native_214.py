@@ -12,7 +12,7 @@ for old in list(bpy.data.scenes):
     if old!=s:bpy.data.scenes.remove(old)
 s.render.use_freestyle=False;s.render.use_compositing=False;s.render.use_border=False
 assets=json.loads((O/'asset-audit.json').read_text());rows=[]
-for name,x,h in [('airam',-.30,1.72),('miranda',.55,1.65)]:
+for name,x,h in [('traveler-a',-.30,1.72),('traveler-b',.55,1.65)]:
     ob=next(o for o in s.objects if o.type=='MESH' and name in o.name)
     ob.name='214 '+name+' illustrated spacesuit card'
     iw,ih=assets[name]['size'];x0,y0,x1,y1=assets[name]['body_bounds_alpha_gt8'];w=h*(x1-x0)/(y1-y0)

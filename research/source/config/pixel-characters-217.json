@@ -1,9 +1,9 @@
 {
   "study": 217,
-  "user_direction": "Keep selected214double-detail pixel spacesuit Airam and Miranda in the scene moving forward",
+  "user_direction": "Keep selected214double-detail pixel spacesuit Traveler-A and Traveler-B in the scene moving forward",
   "source_assets": [
-    "airam-98h-24c.png",
-    "miranda-94h-24c.png"
+    "traveler-a-98h-24c.png",
+    "traveler-b-94h-24c.png"
   ],
   "hypothesis": "Packed character-only compositor overlays at exact integer coordinates preserve the selected sprite palette and hard pixel edges more reliably than camera-sampled cards.",
   "changes": [

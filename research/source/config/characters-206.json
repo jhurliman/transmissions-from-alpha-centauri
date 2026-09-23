@@ -67,8 +67,8 @@
     }
   ],
   "user_owned_sources": [
-    "private/character-sources/airam-photo-cutout.png",
-    "private/character-sources/miranda-photo-cutout.png"
+    "private/character-sources/traveler-a-photo-cutout.png",
+    "private/character-sources/traveler-b-photo-cutout.png"
   ],
   "fixed": [
     "205 scene art/camera/geometry/materials",

@@ -22,11 +22,11 @@
     "image_sha256": "5c3f964fe62956d4ee1eece3681d121c4ea8140d21f7c2adb6cc1df5fd7fdfeb"
   },
   "character_checks": {
-    "airam": {
+    "traveler-a": {
       "opaque_pixels": 89790,
       "exact_rgb": true
     },
-    "miranda": {
+    "traveler-b": {
       "opaque_pixels": 69450,
       "exact_rgb": true
     }

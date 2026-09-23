@@ -109,54 +109,54 @@
       "packed": true
     },
     {
-      "name": "217 airam selected214pixel art",
+      "name": "217 traveler-a selected214pixel art",
       "source": "FILE",
       "users": 1,
       "size": [
         3840,
         2885
       ],
-      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/pixel-characters-217/airam-placed-4k.png",
-      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/pixel-characters-217/airam-placed-4k.png",
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/pixel-characters-217/traveler-a-placed-4k.png",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/pixel-characters-217/traveler-a-placed-4k.png",
       "exists": true,
       "packed": true
     },
     {
-      "name": "217 miranda selected214pixel art",
+      "name": "217 traveler-b selected214pixel art",
       "source": "FILE",
       "users": 1,
       "size": [
         3840,
         2885
       ],
-      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/pixel-characters-217/miranda-placed-4k.png",
-      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/pixel-characters-217/miranda-placed-4k.png",
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/pixel-characters-217/traveler-b-placed-4k.png",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/pixel-characters-217/traveler-b-placed-4k.png",
       "exists": true,
       "packed": true
     },
     {
-      "name": "217 SOURCE airam-98h-24c.png",
+      "name": "217 SOURCE traveler-a-98h-24c.png",
       "source": "FILE",
       "users": 2,
       "size": [
         49,
         100
       ],
-      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/characters-spacesuit-214/pixel/airam-98h-24c.png",
-      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/characters-spacesuit-214/pixel/airam-98h-24c.png",
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/characters-spacesuit-214/pixel/traveler-a-98h-24c.png",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/characters-spacesuit-214/pixel/traveler-a-98h-24c.png",
       "exists": true,
       "packed": true
     },
     {
-      "name": "217 SOURCE miranda-94h-24c.png",
+      "name": "217 SOURCE traveler-b-94h-24c.png",
       "source": "FILE",
       "users": 2,
       "size": [
         41,
         96
       ],
-      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/characters-spacesuit-214/pixel/miranda-94h-24c.png",
-      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/characters-spacesuit-214/pixel/miranda-94h-24c.png",
+      "path": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/characters-spacesuit-214/pixel/traveler-b-94h-24c.png",
+      "absolute": "/Users/jhurliman/Documents/Code/jhurliman/transmissions-from-alpha-centauri/art/studies/characters-spacesuit-214/pixel/traveler-b-94h-24c.png",
       "exists": true,
       "packed": true
     },

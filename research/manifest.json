@@ -1699,15 +1699,15 @@
     {
       "path": "source/art/studies/characters-206/README.md",
       "original_path": "art/studies/characters-206/README.md",
-      "sha256": "1cb7ffa75195f3250e808c213b69c9c8f903fd738e1c940bdc76039b31c05d14",
-      "bytes": 2532,
+      "sha256": "70cd4c1e671bb02667d37157a1b2fc2ad980692bc7023a3103b721fc6a467bbd",
+      "bytes": 2564,
       "path_placeholders_applied": false
     },
     {
       "path": "source/art/studies/characters-206/anime/README.md",
       "original_path": "art/studies/characters-206/anime/README.md",
-      "sha256": "ca1e6398a9ce4ff43abbcea92b733c2411cdc9e3ddd881a095f7bdece18bbfb4",
-      "bytes": 2821,
+      "sha256": "bde4cf6fca9f503c269ca7fdd4b28673c911cc336f3d7d42b51a9e5c01c80508",
+      "bytes": 2853,
       "path_placeholders_applied": false
     },
     {
@@ -1720,15 +1720,15 @@
     {
       "path": "source/art/studies/characters-spacesuit-214/README.md",
       "original_path": "art/studies/characters-spacesuit-214/README.md",
-      "sha256": "66dfcbfc9a203cddc059db51f234f3adaf721615b3f4b3f17a84a0378e971a3f",
-      "bytes": 2177,
+      "sha256": "41d4922cd11f35ae9fc66ea211fff44389e96589a3b10bb2d3798409ca48e641",
+      "bytes": 2193,
       "path_placeholders_applied": false
     },
     {
       "path": "source/art/studies/characters-spacesuit-214/anime/README.md",
       "original_path": "art/studies/characters-spacesuit-214/anime/README.md",
-      "sha256": "cf579234b0a64d0b763c72a25da43aaf3689e059625facc5e581a0ebd279e833",
-      "bytes": 921,
+      "sha256": "eeef042e15e1255647b364d09d8bbd7661f1547788b9de18adb890ea4070c90a",
+      "bytes": 929,
       "path_placeholders_applied": false
     },
     {
@@ -5761,8 +5761,8 @@
     {
       "path": "source/art/studies/hybrid-atmosphere-240/review.md",
       "original_path": "art/studies/hybrid-atmosphere-240/review.md",
-      "sha256": "94c3fd9b82b83879319a8c8c434d60db38effb248a2915f7e8d2c66d24c28204",
-      "bytes": 475,
+      "sha256": "8f97ee5086adfd597b333a652a664369b4ec575e392cf1c12bd2df21499fe9a5",
+      "bytes": 483,
       "path_placeholders_applied": false
     },
     {
@@ -5998,8 +5998,8 @@
     {
       "path": "source/art/studies/pixel-characters-217/README.md",
       "original_path": "art/studies/pixel-characters-217/README.md",
-      "sha256": "716ea43ede0e1b7f595bcbcb3000d37e98153272e85864273a572b18af0f225f",
-      "bytes": 1897,
+      "sha256": "8c337d18b4b2e848389cc3f7c12f204f1f685e6929b43ab5f735645674cc77d1",
+      "bytes": 1913,
       "path_placeholders_applied": false
     },
     {
@@ -6513,8 +6513,8 @@
     {
       "path": "source/config/characters-206.json",
       "original_path": "config/characters-206.json",
-      "sha256": "54db092acfbb34b4c422572f205f4a0782bf4c2c4ae7c4eef44482d4ba5ac051",
-      "bytes": 4872,
+      "sha256": "d04135ee61e408d300948e26b1d69082c9c948607adb96ec04aec3de3f1196cf",
+      "bytes": 4880,
       "path_placeholders_applied": false
     },
     {
@@ -7710,8 +7710,8 @@
     {
       "path": "source/config/pixel-characters-217.json",
       "original_path": "config/pixel-characters-217.json",
-      "sha256": "f5890eeda759b29e8aa7fc5a3927fbf1f67036164a2f52196af082180a35047b",
-      "bytes": 1405,
+      "sha256": "73f8b1a23dccbdf1c601bbaf8cd7c2c6cc9438b1f7de1b199799b8dfb2671d37",
+      "bytes": 1421,
       "path_placeholders_applied": false
     },
     {
@@ -7829,8 +7829,8 @@
     {
       "path": "source/config/ruin-integration-235.json",
       "original_path": "config/ruin-integration-235.json",
-      "sha256": "d29e3e44273879c9590a0a64aab8a9e093f302997790a5b7e0f4bf5398d75e45",
-      "bytes": 841,
+      "sha256": "6ba06dbc4a64a5ea044dcd540df740e3bae1d3f4bf743905c512e4db1c7eea6b",
+      "bytes": 849,
       "path_placeholders_applied": false
     },
     {
@@ -9791,8 +9791,8 @@
     {
       "path": "source/tools/anime_character_proof_206.py",
       "original_path": "tools/anime_character_proof_206.py",
-      "sha256": "de11b2b146ce0977c66f3f45f504db91f3ba27352d9f423d8063bdd7cc01bb01",
-      "bytes": 7843,
+      "sha256": "9d3473c2f667bffe6948f3c1c244f89d9ea63cdc9f997040ef72eb7a911cab59",
+      "bytes": 7851,
       "path_placeholders_applied": false,
       "imports": [
         "anime_proxy_hide_206",
@@ -11940,8 +11940,8 @@
     {
       "path": "source/tools/character_composite_206.py",
       "original_path": "tools/character_composite_206.py",
-      "sha256": "7588a67877a54b5a9a8b167513f3d659509630d2988bc9fedc774fab240a833e",
-      "bytes": 1285,
+      "sha256": "8328b7113ca6276a23f8a5d1fa7e9e3778953f7fdd4bd173c76f2b91d0d873be",
+      "bytes": 1290,
       "path_placeholders_applied": false,
       "imports": [
         "PIL",
@@ -11954,8 +11954,8 @@
     {
       "path": "source/tools/character_pixel_finish_206.py",
       "original_path": "tools/character_pixel_finish_206.py",
-      "sha256": "ed3eb6abb21cdade31a736d7eac10daf3759894e3b2e8af5910e60ab642b8272",
-      "bytes": 3002,
+      "sha256": "ffc683074161f75af7c9782fe7cfd01ff6488c8bbe921d38335ac1f91976b041",
+      "bytes": 3015,
       "path_placeholders_applied": false,
       "imports": [
         "PIL",
@@ -23147,8 +23147,8 @@
     {
       "path": "source/tools/package_spacesuit_study_214.py",
       "original_path": "tools/package_spacesuit_study_214.py",
-      "sha256": "0ddc743fe39a35ce40a801e4e7d6ad28f0f25edf128496e75f768c0ca018eb7f",
-      "bytes": 3160,
+      "sha256": "25bc335134ee6c669e449fcc9182f7900e4df2d865868eda790e42de8c23f582",
+      "bytes": 3176,
       "path_placeholders_applied": false,
       "imports": [
         "PIL",
@@ -23199,8 +23199,8 @@
     {
       "path": "source/tools/pixel_character_assets_217.py",
       "original_path": "tools/pixel_character_assets_217.py",
-      "sha256": "125548cbe2901db7a4f4e32165c45e9047ce1ea35bdadab27310ebca69470e50",
-      "bytes": 1408,
+      "sha256": "19ef9f66cc188b561d304bc3669edae04832eb02fbedf6631f9b78f077a5e752",
+      "bytes": 1426,
       "path_placeholders_applied": false,
       "imports": [
         "PIL",
@@ -23214,8 +23214,8 @@
     {
       "path": "source/tools/pixel_characters_217.py",
       "original_path": "tools/pixel_characters_217.py",
-      "sha256": "fb56d002ef21580ebc1c05d88d1c82ee81c8308cb773ebe138d5c64c44c8804c",
-      "bytes": 4446,
+      "sha256": "ad793ea73f210384105af7504e13380e9edd4da90357e37f5801a6ff2e678f7a",
+      "bytes": 4454,
       "path_placeholders_applied": false,
       "imports": [
         "anime_proxy_hide_206",
@@ -23245,8 +23245,8 @@
     {
       "path": "source/tools/pixel_characters_proof_217.py",
       "original_path": "tools/pixel_characters_proof_217.py",
-      "sha256": "8d0574daa9a795f125cb6ad49a03ff5304a6897eada147ff273088c7f0354e7f",
-      "bytes": 2037,
+      "sha256": "8a8e0976905e470f9019eceafb2cc429f1de0529bc22bbdb38d3b5172a4433af",
+      "bytes": 2053,
       "path_placeholders_applied": false,
       "imports": [
         "bpy",
@@ -23514,8 +23514,8 @@
     {
       "path": "source/tools/publish_character_study_206.py",
       "original_path": "tools/publish_character_study_206.py",
-      "sha256": "bec53269fdab044e944b8559b3dd46718c43e084d0cd3b388cafd6677736b193",
-      "bytes": 9050,
+      "sha256": "98aadc5410b05a36d4287d2d89e7fecfaef416fb2be5b514f0dd5999bf13bf49",
+      "bytes": 9106,
       "path_placeholders_applied": false,
       "imports": [
         "json",
@@ -25166,8 +25166,8 @@
     {
       "path": "source/tools/publish_spacesuit_study_214.py",
       "original_path": "tools/publish_spacesuit_study_214.py",
-      "sha256": "e5c79249f44cccaa3fc36882c4ae279c6ac25f49d12065e9159865bddc11de09",
-      "bytes": 8021,
+      "sha256": "da4b9d3d494606d08cc348a85ae98b1343393f0c0746ee89bed83cf7b0593a03",
+      "bytes": 8069,
       "path_placeholders_applied": false,
       "imports": [
         "json",
@@ -25656,8 +25656,8 @@
     {
       "path": "source/tools/road_characters_publish_239.py",
       "original_path": "tools/road_characters_publish_239.py",
-      "sha256": "da34cba4aaf8e6a78a89ad5bae755fc7d9a90c55d1b98e8ddb9cb245831a8842",
-      "bytes": 3126,
+      "sha256": "ef654d7e55c838227a4844a64f8a94c3befd743c0d7e1ddb7ea90e5d4826fd00",
+      "bytes": 3134,
       "path_placeholders_applied": false,
       "imports": [
         "PIL",
@@ -26598,8 +26598,8 @@
     {
       "path": "source/tools/scene_direction_publish_218.py",
       "original_path": "tools/scene_direction_publish_218.py",
-      "sha256": "a2efaeb89f73bda4ab49f8fd886ad399ffeb3e120d7bddc835a665d63a5be49e",
-      "bytes": 3570,
+      "sha256": "00ad6edb04bfd30339f32eee053f557ac6009f0ff1a2ee92a51a5a01606146a9",
+      "bytes": 3578,
       "path_placeholders_applied": false,
       "imports": [
         "PIL",
@@ -27787,8 +27787,8 @@
     {
       "path": "source/tools/spacesuit_composite_214.py",
       "original_path": "tools/spacesuit_composite_214.py",
-      "sha256": "8bfb35c172c7ba772349b57631c64a829efddf5ff63b50051a45a6051c13c959",
-      "bytes": 2160,
+      "sha256": "bc73c18e1343b6864b57b6cfb20998e2c3525acea8e4145c788a572be748dcf1",
+      "bytes": 2165,
       "path_placeholders_applied": false,
       "imports": [
         "PIL",
@@ -27802,8 +27802,8 @@
     {
       "path": "source/tools/spacesuit_native_214.py",
       "original_path": "tools/spacesuit_native_214.py",
-      "sha256": "09f545240ad6d4890e695534dd2e55a2403f4bdf73edbba67f3607481694a1bd",
-      "bytes": 3406,
+      "sha256": "5d27d68897516dccefad9ccd987ebd4047667aa11453f65bd2c0fc50fcb2ab01",
+      "bytes": 3414,
       "path_placeholders_applied": false,
       "imports": [
         "bpy",
@@ -27822,8 +27822,8 @@
     {
       "path": "source/tools/spacesuit_pixel_finish_214.py",
       "original_path": "tools/spacesuit_pixel_finish_214.py",
-      "sha256": "5e56b198fd2176fbe388deaf9eb6195fe9308751b2e9a8cf49f6e8d93fac48c1",
-      "bytes": 3411,
+      "sha256": "ef639c5f3f7d369c379cc417e7c42b6a4152d1c8a271e0887e9a2ca6fcbbda23",
+      "bytes": 3430,
       "path_placeholders_applied": false,
       "imports": [
         "PIL",

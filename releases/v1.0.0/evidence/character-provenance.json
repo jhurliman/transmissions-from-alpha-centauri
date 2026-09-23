@@ -4,32 +4,32 @@
   "source_process": "User altered their photographs using ChatGPT Images2.5",
   "sources": [
     {
-      "name": "airam",
-      "private_original": "private/character-sources/airam-spacesuit.png",
+      "name": "traveler-a",
+      "private_original": "private/character-sources/traveler-a-spacesuit.png",
       "sha256": "fd903b38db32a23ce1e094f122b0f15444e79e6256eab7752be37bc369c85818"
     },
     {
-      "name": "miranda",
-      "private_original": "private/character-sources/miranda-spacesuit.png",
+      "name": "traveler-b",
+      "private_original": "private/character-sources/traveler-b-spacesuit.png",
       "sha256": "176a942d49e4cf74b47b1287e14829438fae3e8755660dbb8f1cda37a1aab676"
     }
   ],
   "new_art_generation": "Built-in image_gen tool, separate pixel master and anime illustration per person",
   "generated_files": [
     {
-      "path": "pixel/miranda-generated.png",
+      "path": "pixel/traveler-b-generated.png",
       "sha256": "722006f3c2528b41ef36897092cd9d0c621f180513eead77e1ed35e611d2589c"
     },
     {
-      "path": "pixel/airam-generated.png",
+      "path": "pixel/traveler-a-generated.png",
       "sha256": "a5383403802e085033e7921b819177b7681c8c9888556e2cea70fd0b7bc125fe"
     },
     {
-      "path": "anime/airam-anime-raw.png",
+      "path": "anime/traveler-a-anime-raw.png",
       "sha256": "2115db46f142cd83a202b2db3700d69c20134f580c9b171061648e3aa9f6ffcd"
     },
     {
-      "path": "anime/miranda-anime-raw.png",
+      "path": "anime/traveler-b-anime-raw.png",
       "sha256": "1ee5e27015b551284eb77a239ad3f52e694a96e868a8b4236e1de47b24551485"
     }
   ],

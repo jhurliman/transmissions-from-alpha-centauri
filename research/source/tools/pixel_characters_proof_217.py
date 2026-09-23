@@ -14,6 +14,6 @@ report=overlay(s);s.render.filepath=str(O/'native-composite.png');s.render.image
 bpy.ops.wm.open_mainfile(filepath=str(O/'proof.blend'));s=bpy.context.scene
 assert s.get('217 selected pixel characters');g=next(n for n in s.compositing_node_group.nodes if n.type=='GROUP');assert g.node_tree.name.startswith('217 Selected')
 assert all(n.image.packed_file for n in g.node_tree.nodes if n.type=='IMAGE')
-assert all(g.inputs[x].default_value==0 for x in ['Airam X','Airam Y','Miranda X','Miranda Y'])
+assert all(g.inputs[x].default_value==0 for x in ['Traveler-A X','Traveler-A Y','Traveler-B X','Traveler-B Y'])
 report['fresh_reload_nodes_images_offsets_pass']=True;report['background']='Reused verified native209cleanplate; no environment render';(O/'proof-audit.json').write_text(json.dumps(report,indent=2))
 bpy.ops.render.render(write_still=True);print('217_PROOF_DONE',flush=True)

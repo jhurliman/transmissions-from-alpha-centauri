@@ -1,6 +1,6 @@
 # Native scene-lighting feasibility
 
-`airam-anime.png` and `miranda-anime.png` preserve the generated transparent alpha. Their ink and fixed cel shading were generated from the user's spacesuit artwork with209 scene style guidance.
+`traveler-a-anime.png` and `traveler-b-anime.png` preserve the generated transparent alpha. Their ink and fixed cel shading were generated from the user's spacesuit artwork with209 scene style guidance.
 
 `proof.blend` contains only the separate native light/card scene copied from206, which preserves the209 camera, world and lights. New art and body-fit UV coordinates are substituted; the environment is not rerendered. Materials use65% authored color plus35% native diffuse response. A second actual render reduces light energy to15% for the measured comparison. Both passes are retained.
 

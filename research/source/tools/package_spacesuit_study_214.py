@@ -9,9 +9,9 @@ for row in rows:
  assert im.mode=='P' and alpha=={0,255} and used<=int(row['file'].split('-')[-1][:-5])
  assert bbox[3]-bbox[1]==row['logical_silhouette_height']
  checks.append({'file':row['file'],'indexed':True,'binary_alpha':True,'actual_body_height':bbox[3]-bbox[1],'opaque_colors':used})
-for n in ['airam','miranda']:
+for n in ['traveler-a','traveler-b']:
  assert (O/f'anime/{n}-anime.png').read_bytes()==(O/f'anime/{n}-anime-raw.png').read_bytes()
-report={'study':214,'verdict':'Ready for user comparison; not user-approved','actual_review':['All four generated masters preserve silver suit, dark straps/cuffs and boots, rear-view identity and hair.','Both pixel detail composites inspected after two-tone sage correction; Airam yellow badge remains a readable accent, Miranda brown/green hair remains distinct.','Actual scene-lit anime detail inspected: restrained native light response, both figures stand in clear road, no old proxy or ghost contact ink.','Native47/49pixel grids simplify fine suit bands; double detail preserves more structure.','No claim of volumetric self-shadow, contact shadows, or3Dgeometry acceptance.'],'technical_checks':checks,'light_test':json.loads((O/'anime/lighting-response-audit.json').read_text()),'user_approved':False}
+report={'study':214,'verdict':'Ready for user comparison; not user-approved','actual_review':['All four generated masters preserve silver suit, dark straps/cuffs and boots, rear-view identity and hair.','Both pixel detail composites inspected after two-tone sage correction; Traveler-A yellow badge remains a readable accent, Traveler-B brown/green hair remains distinct.','Actual scene-lit anime detail inspected: restrained native light response, both figures stand in clear road, no old proxy or ghost contact ink.','Native47/49pixel grids simplify fine suit bands; double detail preserves more structure.','No claim of volumetric self-shadow, contact shadows, or3Dgeometry acceptance.'],'technical_checks':checks,'light_test':json.loads((O/'anime/lighting-response-audit.json').read_text()),'user_approved':False}
 (O/'review.json').write_text(json.dumps(report,indent=2))
 p=O/'composite-audit.json';data=json.loads(p.read_text())
 for row in data:row.pop('palette_colors',None);row['palette_budget']=24

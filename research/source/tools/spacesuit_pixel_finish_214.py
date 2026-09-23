@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np,json
 R=Path(__file__).resolve().parents[1];O=R/'art/studies/characters-spacesuit-214/pixel'
 reports=[]
-for name,h in [('airam',49),('miranda',47)]:
+for name,h in [('traveler-a',49),('traveler-b',47)]:
  src=Image.open(O/f'{name}-generated.png').convert('RGBA')
  alpha=src.getchannel('A').point(lambda a:255 if a>=128 else 0)
  bounds=alpha.getbbox();src=src.crop(bounds)
@@ -14,15 +14,15 @@ for name,h in [('airam',49),('miranda',47)]:
   small=src.resize((ww,hh),Image.Resampling.BOX);a=np.array(small);mask=a[:,:,3]>=128
   # Preserve the pictured yellow shoulder insignia / sage hair accent; no red-heart fallback from206.
   rgb=np.array(src)[:,:,:3].astype(float);sa=np.array(src.getchannel('A'))
-  yellow=(rgb[:,:,0]>140)&(rgb[:,:,1]>105)&(rgb[:,:,2]<rgb[:,:,1]*.65)&(sa>128) if name=='airam' else np.zeros(sa.shape,dtype=bool)
-  if name=='miranda':
+  yellow=(rgb[:,:,0]>140)&(rgb[:,:,1]>105)&(rgb[:,:,2]<rgb[:,:,1]*.65)&(sa>128) if name=='traveler-a' else np.zeros(sa.shape,dtype=bool)
+  if name=='traveler-b':
    hsv=np.array(src.convert('RGB').convert('HSV'));yy=np.arange(src.height)[:,None]/src.height
    yellow=(hsv[:,:,0]>38)&(hsv[:,:,0]<115)&(hsv[:,:,1]>25)&(sa>128)&(yy<.38)
   coverage=np.array(Image.fromarray(yellow.astype('uint8')*255).resize((ww,hh),Image.Resampling.BOX))/255
   accentcell=(coverage>=.18)&mask
   accent=np.median(rgb[yellow],axis=0).astype('uint8') if yellow.any() else None
   accents=accent[None,:]
-  if name=='miranda':
+  if name=='traveler-b':
    samples=rgb[yellow];lum=samples.mean(1);split=np.median(lum)
    accents=np.array([np.median(samples[lum<=split],axis=0),np.median(samples[lum>split],axis=0)],dtype='uint8')
   visible=a[:,:,:3][mask]
